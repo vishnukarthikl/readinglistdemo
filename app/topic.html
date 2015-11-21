@@ -1,0 +1,13 @@
+<div class="topic container">
+    <div class="row">
+        <ul ng-repeat="document in data['documents']">
+            <document info="document"></document>
+        </ul>
+    </div>
+
+    <div class="row pull-right">
+    <span ng-repeat="word in data['words'] | limitTo: tags" class="word" ng-click="filterBy(word)">
+        {{word.word}}
+    </span>
+    </div>
+</div>

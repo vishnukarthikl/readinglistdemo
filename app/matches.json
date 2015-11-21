@@ -1,0 +1,718 @@
+{
+  "dependent-topics": [
+    {
+      "documents": [
+        {
+          "author": "Och, Franz Josef; Tillmann, Christoph; Ney, Hermann", 
+          "title": "Improved Alignment Models For Statistical Machine Translation"
+        }, 
+        {
+          "author": "Och, Franz Josef; Ney, Hermann", 
+          "title": "Discriminative Training And Maximum Entropy Models For Statistical Machine Translation"
+        }, 
+        {
+          "author": "Och, Franz Josef; Ueffing, Nicola; Ney, Hermann", 
+          "title": "An Efficient A* Search Algorithm For Statistical Machine Translation"
+        }
+      ], 
+      "words": [
+        {
+          "value": 0.12262215465307236, 
+          "word": "machine_translation"
+        }, 
+        {
+          "value": 0.08933234214782715, 
+          "word": "translation_model"
+        }, 
+        {
+          "value": 0.08168593794107437, 
+          "word": "phrase_based"
+        }, 
+        {
+          "value": 0.07860872894525528, 
+          "word": "statistical_machine"
+        }, 
+        {
+          "value": 0.06378217041492462, 
+          "word": "language_model"
+        }, 
+        {
+          "value": 0.059585973620414734, 
+          "word": "target_language"
+        }, 
+        {
+          "value": 0.04998135194182396, 
+          "word": "source_target"
+        }, 
+        {
+          "value": 0.04625139757990837, 
+          "word": "source_sentence"
+        }, 
+        {
+          "value": 0.044852666556835175, 
+          "word": "bleu_score"
+        }, 
+        {
+          "value": 0.0365535244345665, 
+          "word": "translation_quality"
+        }, 
+        {
+          "value": 0.0364602766931057, 
+          "word": "translation_system"
+        }, 
+        {
+          "value": 0.0357142873108387, 
+          "word": "source_language"
+        }, 
+        {
+          "value": 0.033942557871341705, 
+          "word": "translation_models"
+        }, 
+        {
+          "value": 0.030678851529955864, 
+          "word": "based_translation"
+        }, 
+        {
+          "value": 0.030399104580283165, 
+          "word": "brown_al"
+        }, 
+        {
+          "value": 0.02816113457083702, 
+          "word": "och_ney"
+        }, 
+        {
+          "value": 0.027135396376252174, 
+          "word": "ibm_model"
+        }, 
+        {
+          "value": 0.026948899030685425, 
+          "word": "target_sentence"
+        }, 
+        {
+          "value": 0.026669153943657875, 
+          "word": "word_alignment"
+        }, 
+        {
+          "value": 0.026389406993985176, 
+          "word": "training_corpus"
+        }, 
+        {
+          "value": 0.024244684725999832, 
+          "word": "target_word"
+        }
+      ]
+    }, 
+    {
+      "documents": [
+        {
+          "author": "Papineni, Kishore; Roukos, Salim; Ward, Todd; Zhu, Wei-Jing", 
+          "title": "Bleu: A Method For Automatic Evaluation Of Machine Translation"
+        }, 
+        {
+          "author": "Lin, Chin-Yew", 
+          "title": "ROUGE: A Package For Automatic Evaluation Of Summaries"
+        }, 
+        {
+          "author": "Banerjee, Satanjeev; Lavie, Alon", 
+          "title": "METEOR: An Automatic Metric For MT Evaluation With Improved Correlation With Human Judgments"
+        }
+      ], 
+      "words": [
+        {
+          "value": 0.12428008764982224, 
+          "word": "automatic_evaluation"
+        }, 
+        {
+          "value": 0.1012428030371666, 
+          "word": "machine_translation"
+        }, 
+        {
+          "value": 0.06698999553918839, 
+          "word": "mt_systems"
+        }, 
+        {
+          "value": 0.06426189839839935, 
+          "word": "mt_evaluation"
+        }, 
+        {
+          "value": 0.05880570039153099, 
+          "word": "reference_translations"
+        }, 
+        {
+          "value": 0.0575932115316391, 
+          "word": "human_judgments"
+        }, 
+        {
+          "value": 0.05031827837228775, 
+          "word": "human_evaluation"
+        }, 
+        {
+          "value": 0.04334646835923195, 
+          "word": "papineni_al"
+        }, 
+        {
+          "value": 0.04213397949934006, 
+          "word": "translation_quality"
+        }, 
+        {
+          "value": 0.04061836749315262, 
+          "word": "evaluation_metrics"
+        }, 
+        {
+          "value": 0.03849651291966438, 
+          "word": "reference_translation"
+        }, 
+        {
+          "value": 0.0360715351998806, 
+          "word": "sentence_level"
+        }, 
+        {
+          "value": 0.03576841577887535, 
+          "word": "bleu_score"
+        }, 
+        {
+          "value": 0.0354652926325798, 
+          "word": "mt_output"
+        }, 
+        {
+          "value": 0.032434072345495224, 
+          "word": "translation_evaluation"
+        }, 
+        {
+          "value": 0.030918460339307785, 
+          "word": "correlation_human"
+        }, 
+        {
+          "value": 0.030615337193012238, 
+          "word": "mt_system"
+        }, 
+        {
+          "value": 0.028493482619524002, 
+          "word": "rouge_rouge"
+        }, 
+        {
+          "value": 0.027887238189578056, 
+          "word": "edit_distance"
+        }, 
+        {
+          "value": 0.02728099375963211, 
+          "word": "evaluation_methods"
+        }, 
+        {
+          "value": 0.026977872475981712, 
+          "word": "reference_sentence"
+        }
+      ]
+    }, 
+    {
+      "documents": [
+        {
+          "author": "Walker, Marilyn A.; Litman, Diane J.; Kamm, Candace A.; Abella, Alicia", 
+          "title": "PARADISE: A Framework For Evaluating Spoken Dialogue Agents"
+        }, 
+        {
+          "author": "Walker, Marilyn A.", 
+          "title": "Learning Optimal Dialogue Strategies: A Case Study of a Spoken Dialogue Agent for Email"
+        }, 
+        {
+          "author": "Candito, Marielu\u00edsio, Sandra", 
+          "title": "A Principle-Based Hierarchical Representation Of LTAGs"
+        }
+      ], 
+      "words": [
+        {
+          "value": 0.09806295484304428, 
+          "word": "ne_translation"
+        }, 
+        {
+          "value": 0.08595641702413559, 
+          "word": "ne_pairs"
+        }, 
+        {
+          "value": 0.06174334138631821, 
+          "word": "performance_function"
+        }, 
+        {
+          "value": 0.05932203307747841, 
+          "word": "chinese_ne"
+        }, 
+        {
+          "value": 0.05690072476863861, 
+          "word": "detailed_information"
+        }, 
+        {
+          "value": 0.050847455859184265, 
+          "word": "indexing_engine"
+        }, 
+        {
+          "value": 0.050847455859184265, 
+          "word": "english_ne"
+        }, 
+        {
+          "value": 0.048426151275634766, 
+          "word": "asr_confidence"
+        }, 
+        {
+          "value": 0.04600484296679497, 
+          "word": "answer_candidates"
+        }, 
+        {
+          "value": 0.04479419067502022, 
+          "word": "susanne_corpus"
+        }, 
+        {
+          "value": 0.04358353465795517, 
+          "word": "mixed_order"
+        }, 
+        {
+          "value": 0.04358353465795517, 
+          "word": "hybrid_model"
+        }, 
+        {
+          "value": 0.03995157405734062, 
+          "word": "ner_model"
+        }, 
+        {
+          "value": 0.03874092176556587, 
+          "word": "human_knowledge"
+        }, 
+        {
+          "value": 0.037530265748500824, 
+          "word": "finitely_enumerable"
+        }, 
+        {
+          "value": 0.033898305147886276, 
+          "word": "pos_model"
+        }, 
+        {
+          "value": 0.033898305147886276, 
+          "word": "ne_context"
+        }, 
+        {
+          "value": 0.032687652856111526, 
+          "word": "ne_recognizer"
+        }, 
+        {
+          "value": 0.03147699683904648, 
+          "word": "ne_identification"
+        }, 
+        {
+          "value": 0.03147699683904648, 
+          "word": "ne_type"
+        }, 
+        {
+          "value": 0.03026634454727173, 
+          "word": "task_success"
+        }
+      ]
+    }, 
+    {
+      "documents": [
+        {
+          "author": "Munteanu, Dragos Stefan; Marcu, Daniel", 
+          "title": "Improving Machine Translation Performance By Exploiting Non-Parallel Corpora"
+        }, 
+        {
+          "author": "Fung, Pascale; McKeown, Kathleen R.", 
+          "title": "Finding Terminology Translations From Non-Parallel Corpora"
+        }, 
+        {
+          "author": "Fung, Pascale", 
+          "title": "A Pattern Matching Method For Finding Noun And Proper Noun Translations From Noisy Parallel Corpora"
+        }
+      ], 
+      "words": [
+        {
+          "value": 0.08300907909870148, 
+          "word": "target_language"
+        }, 
+        {
+          "value": 0.06900129467248917, 
+          "word": "parallel_corpora"
+        }, 
+        {
+          "value": 0.06597492098808289, 
+          "word": "parallel_corpus"
+        }, 
+        {
+          "value": 0.063640296459198, 
+          "word": "bilingual_dictionary"
+        }, 
+        {
+          "value": 0.06052745506167412, 
+          "word": "machine_translation"
+        }, 
+        {
+          "value": 0.059403371065855026, 
+          "word": "english_chinese"
+        }, 
+        {
+          "value": 0.05931690335273743, 
+          "word": "source_language"
+        }, 
+        {
+          "value": 0.05041072145104408, 
+          "word": "english_word"
+        }, 
+        {
+          "value": 0.048162560909986496, 
+          "word": "cross_language"
+        }, 
+        {
+          "value": 0.04141807183623314, 
+          "word": "bilingual_corpus"
+        }, 
+        {
+          "value": 0.04098573327064514, 
+          "word": "chinese_english"
+        }, 
+        {
+          "value": 0.03925637528300285, 
+          "word": "translation_pairs"
+        }, 
+        {
+          "value": 0.039169907569885254, 
+          "word": "english_french"
+        }, 
+        {
+          "value": 0.03847816586494446, 
+          "word": "translation_model"
+        }, 
+        {
+          "value": 0.03657587617635727, 
+          "word": "language_pairs"
+        }, 
+        {
+          "value": 0.03648940846323967, 
+          "word": "word_translation"
+        }, 
+        {
+          "value": 0.03597060218453407, 
+          "word": "english_words"
+        }, 
+        {
+          "value": 0.035624731332063675, 
+          "word": "sentence_pairs"
+        }, 
+        {
+          "value": 0.035451795905828476, 
+          "word": "bilingual_lexicon"
+        }, 
+        {
+          "value": 0.0320795513689518, 
+          "word": "french_english"
+        }, 
+        {
+          "value": 0.029053177684545517, 
+          "word": "translation_equivalents"
+        }
+      ]
+    }, 
+    {
+      "documents": [
+        {
+          "author": "Sumita, Eiichiro", 
+          "title": "Example-Based Machine Translation Using DP-Matching Between Work Sequences"
+        }, 
+        {
+          "author": "Sekine, Satoshi; Uchimoto, Kiyotaka; Isahara, Hitoshi", 
+          "title": "Backward Beam Search Algorithm For Dependency Analysis Of Japanese"
+        }, 
+        {
+          "author": "Uchimoto, Kiyotaka; Zhang, Yujie; Sudo, Kiyoshi; Murata, Masaki; Sekine, Satoshi; Isahara, Hitoshi", 
+          "title": "Multilingual Aligned Parallel Treebank Corpus Reflecting Contextual Information And Its Applications"
+        }
+      ], 
+      "words": [
+        {
+          "value": 0.12550662457942963, 
+          "word": "japanese_english"
+        }, 
+        {
+          "value": 0.11740070581436157, 
+          "word": "proposed_method"
+        }, 
+        {
+          "value": 0.0794379860162735, 
+          "word": "english_japanese"
+        }, 
+        {
+          "value": 0.0562010258436203, 
+          "word": "machine_translation"
+        }, 
+        {
+          "value": 0.04904079809784889, 
+          "word": "input_sentence"
+        }, 
+        {
+          "value": 0.04863550513982773, 
+          "word": "japanese_sentence"
+        }, 
+        {
+          "value": 0.04850040376186371, 
+          "word": "figure_shows"
+        }, 
+        {
+          "value": 0.04687922075390816, 
+          "word": "japanese_sentences"
+        }, 
+        {
+          "value": 0.04566333442926407, 
+          "word": "table_shows"
+        }, 
+        {
+          "value": 0.042150769382715225, 
+          "word": "morphological_analysis"
+        }, 
+        {
+          "value": 0.04147527739405632, 
+          "word": "shown_figure"
+        }, 
+        {
+          "value": 0.04025939106941223, 
+          "word": "shown_table"
+        }, 
+        {
+          "value": 0.03566603735089302, 
+          "word": "shown_fig"
+        }, 
+        {
+          "value": 0.034720346331596375, 
+          "word": "newspaper_articles"
+        }, 
+        {
+          "value": 0.033369358628988266, 
+          "word": "japanese_word"
+        }, 
+        {
+          "value": 0.029181301593780518, 
+          "word": "japanese_language"
+        }, 
+        {
+          "value": 0.027695218101143837, 
+          "word": "paper_proposes"
+        }, 
+        {
+          "value": 0.026209132745862007, 
+          "word": "translation_system"
+        }, 
+        {
+          "value": 0.02499324455857277, 
+          "word": "content_words"
+        }, 
+        {
+          "value": 0.024182653054594994, 
+          "word": "japanese_text"
+        }, 
+        {
+          "value": 0.022831667214632034, 
+          "word": "based_method"
+        }
+      ]
+    }, 
+    {
+      "documents": [
+        {
+          "author": "Sripada, Somayajulu G.; Reiter, Ehud; Hunter, Jim; Yu, Jin", 
+          "title": "A Two-Staged Model For Content Determination"
+        }, 
+        {
+          "author": "Karlgren, Hans", 
+          "title": "Computational Linguistics In 1990"
+        }, 
+        {
+          "author": "Belz, Anja; Kilgarriff, Adam", 
+          "title": "Shared-Task Evaluations In HLT: Lessons For NLG"
+        }
+      ], 
+      "words": [
+        {
+          "value": 0.27241674065589905, 
+          "word": "computational_linguistics"
+        }, 
+        {
+          "value": 0.1063193827867508, 
+          "word": "natural_language"
+        }, 
+        {
+          "value": 0.07771135866641998, 
+          "word": "language_processing"
+        }, 
+        {
+          "value": 0.07045260816812515, 
+          "word": "association_computational"
+        }, 
+        {
+          "value": 0.04654141888022423, 
+          "word": "annual_meeting"
+        }, 
+        {
+          "value": 0.04611443355679512, 
+          "word": "human_language"
+        }, 
+        {
+          "value": 0.034585822373628616, 
+          "word": "machine_translation"
+        }, 
+        {
+          "value": 0.03245089575648308, 
+          "word": "language_technology"
+        }, 
+        {
+          "value": 0.03031596913933754, 
+          "word": "program_committee"
+        }, 
+        {
+          "value": 0.029461998492479324, 
+          "word": "artificial_intelligence"
+        }, 
+        {
+          "value": 0.027754057198762894, 
+          "word": "information_retrieval"
+        }, 
+        {
+          "value": 0.02647309936583042, 
+          "word": "computational_linguists"
+        }, 
+        {
+          "value": 0.0251921433955431, 
+          "word": "international_conference"
+        }, 
+        {
+          "value": 0.02476515807211399, 
+          "word": "cognitive_science"
+        }, 
+        {
+          "value": 0.02476515807211399, 
+          "word": "proceedings_annual"
+        }, 
+        {
+          "value": 0.02305721677839756, 
+          "word": "special_issue"
+        }, 
+        {
+          "value": 0.022630231454968452, 
+          "word": "meeting_association"
+        }, 
+        {
+          "value": 0.020922288298606873, 
+          "word": "information_science"
+        }, 
+        {
+          "value": 0.020495302975177765, 
+          "word": "computer_science"
+        }, 
+        {
+          "value": 0.019214347004890442, 
+          "word": "years_ago"
+        }, 
+        {
+          "value": 0.018360376358032227, 
+          "word": "proceedings_international"
+        }
+      ]
+    }
+  ], 
+  "matched-topic": {
+    "documents": [
+      {
+        "author": "Isabelle, Pierre; Bourbeau, Laurent", 
+        "title": "TAUM-Aviation: Its Technical Features And Some Experimental Results"
+      }, 
+      {
+        "author": "Sato, Satoshi; Nagao, Makoto", 
+        "title": "Toward Memory-Based Translation"
+      }, 
+      {
+        "author": "Kaplan, Ronald M.; Netter, Klaus; Wedekind, Jurgen; Zaenen, Annie", 
+        "title": "Translation By Structural Correspondences"
+      }
+    ], 
+    "words": [
+      {
+        "value": 0.20970149338245392, 
+        "word": "machine_translation"
+      }, 
+      {
+        "value": 0.1296849101781845, 
+        "word": "target_language"
+      }, 
+      {
+        "value": 0.09726367890834808, 
+        "word": "translation_system"
+      }, 
+      {
+        "value": 0.08374792337417603, 
+        "word": "mt_system"
+      }, 
+      {
+        "value": 0.08341625332832336, 
+        "word": "source_language"
+      }, 
+      {
+        "value": 0.05290215462446213, 
+        "word": "mt_systems"
+      }, 
+      {
+        "value": 0.04444444552063942, 
+        "word": "source_target"
+      }, 
+      {
+        "value": 0.040381427854299545, 
+        "word": "transfer_rules"
+      }, 
+      {
+        "value": 0.037562187761068344, 
+        "word": "translation_systems"
+      }, 
+      {
+        "value": 0.028689883649349213, 
+        "word": "translation_process"
+      }, 
+      {
+        "value": 0.023714760318398476, 
+        "word": "source_text"
+      }, 
+      {
+        "value": 0.018988391384482384, 
+        "word": "lexical_transfer"
+      }, 
+      {
+        "value": 0.01857379823923111, 
+        "word": "translation_mt"
+      }, 
+      {
+        "value": 0.01840795949101448, 
+        "word": "translation_quality"
+      }, 
+      {
+        "value": 0.017993366345763206, 
+        "word": "post_editing"
+      }, 
+      {
+        "value": 0.01699834130704403, 
+        "word": "based_machine"
+      }, 
+      {
+        "value": 0.01699834130704403, 
+        "word": "high_quality"
+      }, 
+      {
+        "value": 0.016417911276221275, 
+        "word": "quality_translation"
+      }, 
+      {
+        "value": 0.015422885306179523, 
+        "word": "target_languages"
+      }, 
+      {
+        "value": 0.01451077964156866, 
+        "word": "based_mt"
+      }, 
+      {
+        "value": 0.014179104939103127, 
+        "word": "language_translation"
+      }
+    ]
+  }
+}
