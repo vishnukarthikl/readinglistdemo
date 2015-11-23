@@ -16,11 +16,50 @@
 
 <div ng-controller="ReadingListCtrl" class="container">
     <h1>Matched Topic</h1>
-    <topic data="result['matched-topic']" ft="all" tags="5"></topic>
-    <h1>Dependent Topics</h1>
-    <div ng-repeat="dependentTopic in result['dependent-topics']">
-        <topic data="dependentTopic" ft="all" tags="3"></topic>
+    <div class="topic container">
+        <div class="row">
+            <ul ng-repeat="document in matchedTopic['documents'] ">
+                <document info="document"></document>
+            </ul>
+        </div>
+        <div class="word-container row pull-right">
+            <span class="word btn btn-primary">
+                <span ng-click="changeFilterTag('All')">All</span>
+            </span>
+            <button ng-repeat="word in matchedTopic['words'] | limitTo: numTags" class="word btn btn-default"
+                    ng-class="{'btn-success':word.word == filterTag}"
+                    ng-click=" changeFilterTag(word.word)">
+                {{word.word}}
+            </button>
+            <div class="tolerance">
+                Filter Tolerance:
+                <input class="tolerance-input" type="text" ng-model="filterTolerance"/>
+            </div>
+        </div>
+
     </div>
+
+    <h1>Dependent Topics</h1>
+    <div>
+        <h4>Filtering by: {{filterTag}}</h4>
+    </div>
+    <div ng-repeat="dependentTopic in dependentTopics | filter:filterBySelectedTag">
+        <div class="topic container">
+            <div class="row">
+                <ul ng-repeat="document in dependentTopic['documents']">
+                    <document info="document"></document>
+                </ul>
+            </div>
+            <div class="word-container row pull-right">
+                <span ng-repeat="word in dependentTopic['words'] | limitTo: filterTolerance"
+                      class="word btn btn-default"
+                      ng-class="{'btn-success':word.word == filterTag}">
+                    {{word.word}}
+                </span>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 
