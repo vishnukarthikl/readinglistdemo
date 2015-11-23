@@ -39,11 +39,11 @@
 
     </div>
 
-    <h1>Dependent Topics</h1>
+    <h1>Dependent Topics ({{result.length}})</h1>
     <div>
         <h4>Filtering by: {{filterTag}}</h4>
     </div>
-    <div ng-repeat="dependentTopic in dependentTopics | filter:filterBySelectedTag">
+    <div ng-repeat="dependentTopic in dependentTopics | filter:filterBySelectedTag as result">
         <div class="topic container">
             <div class="row">
                 <ul ng-repeat="document in dependentTopic['documents']">
