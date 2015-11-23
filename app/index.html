@@ -16,10 +16,10 @@
 
 <div ng-controller="ReadingListCtrl" class="container">
     <h1>Matched Topic</h1>
-    <topic data="result['matched-topic']" tags="5"></topic>
+    <topic data="result['matched-topic']" ft="all" tags="5"></topic>
     <h1>Dependent Topics</h1>
     <div ng-repeat="dependentTopic in result['dependent-topics']">
-        <topic data="dependentTopic" tags="3"></topic>
+        <topic data="dependentTopic" ft="all" tags="3"></topic>
     </div>
 </div>
 

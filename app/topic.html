@@ -6,8 +6,9 @@
     </div>
 
     <div class="row pull-right">
-    <span ng-repeat="word in data['words'] | limitTo: tags" class="word" ng-click="filterBy(word)">
-        {{word.word}}
+        {{ft}}
+    <span ng-repeat="word in data['words'] | limitTo: tags" class="word btn btn-success">
+        <span ng-click="ft=word.word"> {{word.word}}</span>
     </span>
     </div>
 </div>

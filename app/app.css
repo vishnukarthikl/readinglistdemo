@@ -30,11 +30,8 @@
 }
 
 .word {
-    border-radius: 5px;
-    background: #3bb028;
     padding: 5px;
     margin-right: 10px;
-    color: white;
 }
 
 .document-title {
