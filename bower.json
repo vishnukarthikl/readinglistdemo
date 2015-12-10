@@ -12,6 +12,7 @@
     "angular-mocks": "~1.4.0",
     "html5-boilerplate": "~5.2.0",
     "angularjs-nvd3-directives": "~0.0.7",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "ramda": "0.18.0"
   }
 }

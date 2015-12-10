@@ -1,14 +1,25 @@
 angular.module('app', ['treeControl'])
     .controller('ReadingListCtrl', ['$scope', '$http', function ReadingListCtrl($scope, $http) {
-
+        $scope.selectedTopics = [];
         $scope.treeOptions = {
             nodeChildren: "dependentTopics",
             dirSelectable: true,
             multiSelection: true
         };
-
         $scope.topicSelected = function (node, selected) {
-            console.log(node);
+            if (selected) {
+                $scope.selectedTopics.push(node);
+            } else {
+                $scope.selectedTopics = R.filter(function (topic) {
+                    return topic != node
+                }, $scope.selectedTopics);
+            }
+        };
+
+        $scope.filteredDocuments = function () {
+            return R.chain(function (topic) {
+                return topic.documents
+            }, $scope.selectedTopics);
         };
 
         $http.get('matches.json').success(function (data) {
@@ -29,6 +40,7 @@ angular.module('app', ['treeControl'])
     .directive('topic', function () {
         return {
             restrict: 'E',
+            controller: TopicController,
             scope: {
                 data: '=data'
             },
