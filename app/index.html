@@ -9,55 +9,33 @@
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control-attribute.css">
+
     <link rel="stylesheet" href="app.css">
     <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
 
-<div ng-controller="ReadingListCtrl" class="container">
-    <h1>Matched Topic</h1>
-    <div class="topic container">
-        <div class="row">
-            <ul ng-repeat="document in matchedTopic['documents'] ">
-                <document info="document"></document>
-            </ul>
-        </div>
-        <div class="word-container row pull-right">
-            <span class="word btn btn-primary">
-                <span ng-click="changeFilterTag('All')">All</span>
-            </span>
-            <button ng-repeat="word in matchedTopic['words'] | limitTo: numTags" class="word btn btn-default"
-                    ng-class="{'btn-success':word.word == filterTag}"
-                    ng-click=" changeFilterTag(word.word)">
-                {{word.word}}
-            </button>
-            <div class="tolerance">
-                Filter Tolerance:
-                <input class="tolerance-input" type="text" ng-model="filterTolerance"/>
-            </div>
-        </div>
+<div ng-controller="ReadingListCtrl" class="container-fluid">
+    <h3>Query Result for : {{keyword}}</h3>
+    <div class="col-md-6">
+        <h3>Topics</h3>
+        <treecontrol class="tree-light"
+                     tree-model="matchedTopics"
+                     options="treeOptions"
+                     on-selection="topicSelected(node)">
+            <topic data="node"></topic>
+
+        </treecontrol>
+
 
     </div>
-
-    <h1>Dependent Topics ({{result.length}})</h1>
-    <div>
-        <h4>Filtering by: {{filterTag}}</h4>
-    </div>
-    <div ng-repeat="dependentTopic in dependentTopics | filter:filterBySelectedTag as result">
-        <div class="topic container">
-            <div class="row">
-                <ul ng-repeat="document in dependentTopic['documents']">
-                    <document info="document"></document>
-                </ul>
-            </div>
-            <div class="word-container row pull-right">
-                <span ng-repeat="word in dependentTopic['words'] | limitTo: filterTolerance"
-                      class="word btn btn-default"
-                      ng-class="{'btn-success':word.word == filterTag}">
-                    {{word.word}}
-                </span>
-            </div>
-        </div>
+    <div class="col-md-6">
+        <h3>Documents</h3>
+        <!--<ul ng-repeat="document in filteredDocuments() ">-->
+        <!--<document info="document"></document>-->
+        <!--</ul>-->
     </div>
 
 </div>
@@ -67,6 +45,7 @@
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
 -->
 <script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-tree-control/angular-tree-control.js"></script>
 <script src="app.js"></script>
 <script src="components/version/version.js"></script>
 <script src="components/version/version-directive.js"></script>
