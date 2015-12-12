@@ -46,11 +46,6 @@ treecontrol.tree-light li .tree-selected {
     padding: 15px;
 }
 
-.topic-label {
-    line-height: normal;
-    font-weight: normal;
-}
-
 .dependent-topic-count {
     min-width: 3rem;
     padding: 0 6px;
@@ -67,4 +62,10 @@ treecontrol.tree-light li .tree-selected {
     color: #fff;
     background-color: #26a69a;
     border-radius: 2px;
+}
+
+[type="checkbox"] + label {
+    font-weight: normal;
+    line-height: normal;
+    font-size: 1rem;
 }

@@ -1,9 +1,10 @@
-<span class="topic-container">
+<input type="checkbox" id="{{data.$$hashKey}}" ng-click="$event.stopPropagation();" />
+<label for="{{data.$$hashKey}}" class="topic-container">
             <span ng-repeat="topic in data.topic"
                   ng-style="topicStrengthStyle(data.topic,topic)">
         {{topic.word}}
     </span>
-</span>
+</label>
 
 <span ng-if="data.dependentTopics" class="dependent-topic-count">{{data.dependentTopics.length}}</span>
 
