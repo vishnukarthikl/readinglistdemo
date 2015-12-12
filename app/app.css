@@ -35,3 +35,18 @@ treecontrol.tree-light li .tree-selected {
 .query-container {
     margin-top: 10px;
 }
+
+.topic-li {
+    position: relative;
+    margin: 0.5rem .2rem 1rem .2rem;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 15px;
+}
+
+.topic-label {
+    line-height: normal;
+    font-weight: normal;
+}

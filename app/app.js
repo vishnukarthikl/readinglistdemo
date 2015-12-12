@@ -4,7 +4,10 @@ angular.module('app', ['treeControl'])
         $scope.treeOptions = {
             nodeChildren: "dependentTopics",
             dirSelectable: true,
-            multiSelection: true
+            multiSelection: true,
+            injectClasses: {
+                "li": "topic-li"
+            }
         };
         $scope.topicSelected = function (node, selected) {
             if (selected) {

@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control.css">
     <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control-attribute.css">
+    <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"
+          media="screen,projection"/>
+
 
     <link rel="stylesheet" href="app.css">
     <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -21,7 +24,8 @@
     <div class="row query-container">
         <div id="custom-search-input">
             <div class="input-group col-md-6 col-md-offset-3">
-                <input type="text" class="form-control input-lg" placeholder="Query" ng-model="query">
+                <input type="text" class="form-control input-lg" placeholder="Query (e.g, machine_learning)"
+                       ng-model="query">
                     <span class="input-group-btn">
                         <button class="btn btn-info btn-lg" type="button" ng-click="fetchResult()">
                             <i class="glyphicon glyphicon-search"></i>
@@ -30,10 +34,10 @@
             </div>
         </div>
     </div>
-
-    <h3>Result for : {{keyword}}</h3>
+    <hr/>
+    <h4 class="center-align">Result for : <span class="text-black">'{{keyword}}'</span></h4>
     <div class="col-md-6">
-        <h3>Topics</h3>
+        <h5>Topics</h5>
         <treecontrol class="tree-light"
                      tree-model="matchedTopics"
                      options="treeOptions"
@@ -45,7 +49,7 @@
 
     </div>
     <div class="col-md-6">
-        <h3>Documents</h3>
+        <h5>Documents</h5>
         <ul ng-repeat="document in filteredDocuments() ">
             <document info="document"></document>
         </ul>
@@ -57,6 +61,8 @@
 <!-- In production use:
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/materialize/dist/js/materialize.min.js"></script>
 <script src="bower_components/ramda/dist/ramda.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/angular-tree-control/angular-tree-control.js"></script>
