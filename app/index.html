@@ -38,11 +38,18 @@
     <h4 class="center-align">Result for : <span class="text-info">{{keyword}}</span></h4>
     <div class="col-md-6">
         <h5>Topics <span class="chip">{{selectedTopics.length}} / {{allTopicsLength}}</span></h5>
+        <div class="switch">
+            <label>
+                De-select All
+                <input type="checkbox" ng-model="isSelectAll">
+                <span class="lever"></span>
+                Select All
+            </label>
+        </div>
         <treecontrol class="tree-light"
                      tree-model="matchedTopics"
-                     options="treeOptions"
-                     on-selection="topicSelected(node,selected)">
-            <topic data="node" selected="selectedTopics"></topic>
+                     options="treeOptions">
+            <topic data="node" selected="selectedTopics" onselection="topicSelected"></topic>
 
         </treecontrol>
 

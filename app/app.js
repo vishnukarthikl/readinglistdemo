@@ -9,14 +9,54 @@ angular.module('app', ['treeControl'])
                 "li": "topic-li"
             }
         };
-        $scope.topicSelected = function (node, selected) {
-            if (selected) {
+
+        $scope.$watch('isSelectAll', function (newVal) {
+            if ($scope.matchedTopics) {
+                if (newVal) {
+                    $scope.selectAll();
+                } else {
+                    $scope.deSelectAll();
+                }
+            }
+        });
+
+        $scope.topicSelected = function (node) {
+            if (!node.isSelected) {
+                node.isSelected = true;
                 $scope.selectedTopics.push(node);
             } else {
+                node.isSelected = false;
                 $scope.selectedTopics = R.filter(function (topic) {
                     return topic != node
                 }, $scope.selectedTopics);
             }
+        };
+
+        $scope.selectAll = function () {
+            $scope.selectedTopics = [];
+            $scope.forEachTopic($scope.matchedTopics, function (topic) {
+                topic.isSelected = true;
+                $scope.selectedTopics.push(topic);
+            });
+        };
+
+        $scope.deSelectAll = function () {
+            $scope.selectedTopics = [];
+            $scope.forEachTopic($scope.matchedTopics, function (topic) {
+                topic.isSelected = false;
+            });
+        };
+
+        $scope.forEachTopic = function recursiveApply(topics, f) {
+            return R.map(function (topic) {
+                f(topic);
+                var childNode = 'dependentTopics';
+                if (topic[childNode]) {
+                    topic[childNode] = recursiveApply(topic[childNode], f)
+                }
+                return topic
+            }, topics);
+
         };
 
         $scope.filteredDocuments = function () {
@@ -25,20 +65,26 @@ angular.module('app', ['treeControl'])
             }, $scope.selectedTopics);
         };
 
-        function countNodes(topics, childNode) {
+        function countNodes(topics) {
             if (topics == undefined) {
                 return 0;
             }
             return R.reduce(function (total, topic) {
-                return total + countNodes(topic[childNode], childNode)
+                return total + countNodes(topic['dependentTopics'])
             }, topics.length, topics);
+        }
+
+        function setSelection(topics, selection) {
+            return $scope.forEachTopic(topics, function (topic) {
+                topic.isSelected = selection;
+            });
         }
 
         $http.get('matches.json').success(function (data) {
             $scope.result = data;
             $scope.keyword = data['keyword'];
-            $scope.matchedTopics = data['matchTopics'];
-            $scope.allTopicsLength = countNodes($scope.matchedTopics, 'dependentTopics')
+            $scope.matchedTopics = setSelection(data['matchTopics'], false);
+            $scope.allTopicsLength = countNodes($scope.matchedTopics)
         });
     }])
     .directive('document', function () {
@@ -56,7 +102,8 @@ angular.module('app', ['treeControl'])
             controller: TopicController,
             scope: {
                 data: '=data',
-                selected: '=selected'
+                selected: '=selected',
+                onselection: '=onselection'
             },
             templateUrl: 'topic.html'
         };

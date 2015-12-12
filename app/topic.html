@@ -1,5 +1,6 @@
-<input type="checkbox" id="{{data.$$hashKey}}" ng-click="$event.stopPropagation();" />
-<label for="{{data.$$hashKey}}" class="topic-container">
+<input type="checkbox" id="{{getId(data)}}" ng-click="onselection(data);$event.stopPropagation();"
+       ng-checked="isSelected()"/>
+<label for="{{getId(data)}}" class="topic-container">
             <span ng-repeat="topic in data.topic"
                   ng-style="topicStrengthStyle(data.topic,topic)">
         {{topic.word}}

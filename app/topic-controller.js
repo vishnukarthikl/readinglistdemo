@@ -20,4 +20,8 @@ function TopicController($scope) {
     $scope.isSelected = function () {
         return R.contains($scope.data, $scope.selected)
     };
+
+    $scope.getId = function (node) {
+        return node.$$hashKey.split(':')[1];
+    }
 }
