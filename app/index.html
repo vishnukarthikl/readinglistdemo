@@ -35,9 +35,9 @@
         </div>
     </div>
     <hr/>
-    <h4 class="center-align">Result for : <span class="text-black">'{{keyword}}'</span></h4>
+    <h4 class="center-align">Result for : <span class="text-info">{{keyword}}</span></h4>
     <div class="col-md-6">
-        <h5>Topics</h5>
+        <h5>Topics <span class="chip">{{selectedTopics.length}} / {{allTopicsLength}}</span></h5>
         <treecontrol class="tree-light"
                      tree-model="matchedTopics"
                      options="treeOptions"
@@ -49,10 +49,16 @@
 
     </div>
     <div class="col-md-6">
-        <h5>Documents</h5>
-        <ul ng-repeat="document in filteredDocuments() ">
-            <document info="document"></document>
-        </ul>
+        <h5>Documents <span class="chip"> {{filteredDocuments().length}}</span></h5>
+        <div ng-if="filteredDocuments().length == 0" class="text-info">
+            Try selecting some topics to display documents
+        </div>
+
+        <div ng-show="filteredDocuments().length" class="card card-panel">
+            <ul ng-repeat="document in filteredDocuments() ">
+                <document info="document"></document>
+            </ul>
+        </div>
     </div>
 
 </div>

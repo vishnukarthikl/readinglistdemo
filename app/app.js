@@ -25,10 +25,20 @@ angular.module('app', ['treeControl'])
             }, $scope.selectedTopics);
         };
 
+        function countNodes(topics, childNode) {
+            if (topics == undefined) {
+                return 0;
+            }
+            return R.reduce(function (total, topic) {
+                return total + countNodes(topic[childNode], childNode)
+            }, topics.length, topics);
+        }
+
         $http.get('matches.json').success(function (data) {
             $scope.result = data;
             $scope.keyword = data['keyword'];
             $scope.matchedTopics = data['matchTopics'];
+            $scope.allTopicsLength = countNodes($scope.matchedTopics, 'dependentTopics')
         });
     }])
     .directive('document', function () {
