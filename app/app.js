@@ -42,7 +42,8 @@ angular.module('app', ['treeControl'])
             restrict: 'E',
             controller: TopicController,
             scope: {
-                data: '=data'
+                data: '=data',
+                selected: '=selected'
             },
             templateUrl: 'topic.html'
         };

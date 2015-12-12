@@ -18,13 +18,20 @@
 }
 
 .word-container {
-    margin:10px;
+    margin: 10px;
 }
 
 .topic {
-    border: solid;
     border-radius: 5px;
     padding: 10px;
-    border-color: #8c8c8c;
-    margin-bottom:1px;
+    border: solid #8c8c8c;
+    margin-bottom: 1px;
+}
+
+treecontrol.tree-light li .tree-selected {
+    font-weight: normal;
+}
+
+.query-container {
+    margin-top: 10px;
 }
