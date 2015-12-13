@@ -419,6 +419,323 @@
               "title": "Integrating Top-Down And Bottom-Up Strategies In A Text Processing System",
               "ID": "A88-1018"
             }
+          ],
+          "dependentTopics": [
+            {
+              "topic": [
+                {
+                  "word": "natural_language",
+                  "value": 0.20899774134159088
+                },
+                {
+                  "word": "point_view",
+                  "value": 0.0812462642788887
+                },
+                {
+                  "word": "computational_linguistics",
+                  "value": 0.07637516409158707
+                },
+                {
+                  "word": "syntactic_semantic",
+                  "value": 0.06833325326442719
+                },
+                {
+                  "word": "language_processing",
+                  "value": 0.06364597380161285
+                },
+                {
+                  "word": "semantic_representation",
+                  "value": 0.05077891796827316
+                },
+                {
+                  "word": "lexical_items",
+                  "value": 0.04641330987215042
+                },
+                {
+                  "word": "syntactic_structure",
+                  "value": 0.0393364280462265
+                },
+                {
+                  "word": "abstract_paper",
+                  "value": 0.03625752404332161
+                },
+                {
+                  "word": "syntax_semantics",
+                  "value": 0.03414365276694298
+                },
+                {
+                  "word": "semantic_structure",
+                  "value": 0.032489314675331116
+                },
+                {
+                  "word": "natural_languages",
+                  "value": 0.0294563677161932
+                },
+                {
+                  "word": "previous_section",
+                  "value": 0.02734249271452427
+                },
+                {
+                  "word": "semantic_analysis",
+                  "value": 0.026928909122943878
+                },
+                {
+                  "word": "semantic_information",
+                  "value": 0.02633151039481163
+                },
+                {
+                  "word": "figure_shows",
+                  "value": 0.02591792680323124
+                },
+                {
+                  "word": "linguistics_volume",
+                  "value": 0.025826018303632736
+                },
+                {
+                  "word": "linguistic_phenomena",
+                  "value": 0.02578006498515606
+                },
+                {
+                  "word": "takes_place",
+                  "value": 0.02522861957550049
+                },
+                {
+                  "word": "starting_point",
+                  "value": 0.024998851120471954
+                },
+                {
+                  "word": "discussed_section",
+                  "value": 0.024171683937311172
+                }
+              ],
+              "documents": [
+                {
+                  "author": "Calzolari, Nicoletta",
+                  "title": "Towards The Organization Of Lexical Definitions On A Database Structure",
+                  "ID": "C82-2013"
+                },
+                {
+                  "author": "Winograd, Terry",
+                  "title": "On Primitives, Prototypes, And Other Semantic Anomalies",
+                  "ID": "T78-1004"
+                },
+                {
+                  "author": "Kaplan, Ronald M.; Netter, Klaus; Wedekind, Jurgen; Zaenen, Annie",
+                  "title": "Translation By Structural Correspondences",
+                  "ID": "E89-1037"
+                }
+              ]
+            },
+            {
+              "topic": [
+                {
+                  "word": "information_extraction",
+                  "value": 0.08652849495410919
+                },
+                {
+                  "word": "language_processing",
+                  "value": 0.08134715259075165
+                },
+                {
+                  "word": "language_technology",
+                  "value": 0.078238345682621
+                },
+                {
+                  "word": "language_engineering",
+                  "value": 0.06683937460184097
+                },
+                {
+                  "word": "large_scale",
+                  "value": 0.060103628784418106
+                },
+                {
+                  "word": "open_source",
+                  "value": 0.04974093288183212
+                },
+                {
+                  "word": "state_art",
+                  "value": 0.048704661428928375
+                },
+                {
+                  "word": "human_language",
+                  "value": 0.04663212597370148
+                },
+                {
+                  "word": "research_development",
+                  "value": 0.045077718794345856
+                },
+                {
+                  "word": "development_environment",
+                  "value": 0.04300517961382866
+                },
+                {
+                  "word": "tipster_architecture",
+                  "value": 0.042487047612667084
+                },
+                {
+                  "word": "speech_technology",
+                  "value": 0.041450776159763336
+                },
+                {
+                  "word": "phase_ii",
+                  "value": 0.03989637270569801
+                },
+                {
+                  "word": "verification_method",
+                  "value": 0.03834196925163269
+                },
+                {
+                  "word": "data_structures",
+                  "value": 0.03575129434466362
+                },
+                {
+                  "word": "technology_transfer",
+                  "value": 0.03316062316298485
+                },
+                {
+                  "word": "cunningham_al",
+                  "value": 0.03316062316298485
+                },
+                {
+                  "word": "language_technologies",
+                  "value": 0.032642487436532974
+                },
+                {
+                  "word": "tipster_phase",
+                  "value": 0.032642487436532974
+                },
+                {
+                  "word": "tipster_text",
+                  "value": 0.032642487436532974
+                },
+                {
+                  "word": "tipster_program",
+                  "value": 0.03160621598362923
+                }
+              ],
+              "documents": [
+                {
+                  "author": "Cunningham, Hamish; Maynard, Diana; Bontcheva, Kalina; Tablan, Valentin",
+                  "title": "GATE: A Framework And Graphical Development Environment For Robust NLP Tools And Applications",
+                  "ID": "P02-1022"
+                },
+                {
+                  "author": "Loper, Edward; Bird, Steven",
+                  "title": "NLTK: The Natural Language Toolkit",
+                  "ID": "W02-0109"
+                },
+                {
+                  "author": "Bontcheva, Kalina; Cunningham, Hamish; Tablan, Valentin; Maynard, Diana; Hamza, Oana",
+                  "title": "Using GATE As An Environment For Teaching NLP",
+                  "ID": "W02-0108"
+                }
+              ]
+            },
+            {
+              "topic": [
+                {
+                  "word": "natural_language",
+                  "value": 0.21139150857925415
+                },
+                {
+                  "word": "knowledge_base",
+                  "value": 0.20002569258213043
+                },
+                {
+                  "word": "knowledge_representation",
+                  "value": 0.08232196420431137
+                },
+                {
+                  "word": "language_understanding",
+                  "value": 0.05779233202338219
+                },
+                {
+                  "word": "world_knowledge",
+                  "value": 0.04860977455973625
+                },
+                {
+                  "word": "domain_knowledge",
+                  "value": 0.03666602447628975
+                },
+                {
+                  "word": "artificial_intelligence",
+                  "value": 0.03133628889918327
+                },
+                {
+                  "word": "data_base",
+                  "value": 0.030180441215634346
+                },
+                {
+                  "word": "shown_figure",
+                  "value": 0.02979515865445137
+                },
+                {
+                  "word": "knowledge_sources",
+                  "value": 0.028318243101239204
+                },
+                {
+                  "word": "knowledge_based",
+                  "value": 0.026327617466449738
+                },
+                {
+                  "word": "linguistic_knowledge",
+                  "value": 0.024529634043574333
+                },
+                {
+                  "word": "understanding_system",
+                  "value": 0.024401206523180008
+                },
+                {
+                  "word": "semantic_network",
+                  "value": 0.023309573531150818
+                },
+                {
+                  "word": "real_world",
+                  "value": 0.023181146010756493
+                },
+                {
+                  "word": "language_processing",
+                  "value": 0.023181146010756493
+                },
+                {
+                  "word": "problem_solving",
+                  "value": 0.023052720353007317
+                },
+                {
+                  "word": "expert_system",
+                  "value": 0.019585179165005684
+                },
+                {
+                  "word": "common_sense",
+                  "value": 0.019520966336131096
+                },
+                {
+                  "word": "knowledge_bases",
+                  "value": 0.019520966336131096
+                },
+                {
+                  "word": "system_knowledge",
+                  "value": 0.01695241779088974
+                }
+              ],
+              "documents": [
+                {
+                  "author": "Woods, William A.",
+                  "title": "Taxonomic Lattice Structures For Situation Recognition",
+                  "ID": "T78-1005"
+                },
+                {
+                  "author": "Wilensky, Robert; Arens, Yigal",
+                  "title": "PHRAN - A Knowledge-Based Natural Language Understander",
+                  "ID": "P80-1030"
+                },
+                {
+                  "author": "Rau, Lisa F.; Jacobs, Paul S.",
+                  "title": "Integrating Top-Down And Bottom-Up Strategies In A Text Processing System",
+                  "ID": "A88-1018"
+                }
+              ]
+            }
           ]
         }
       ]

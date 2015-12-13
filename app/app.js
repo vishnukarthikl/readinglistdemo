@@ -65,14 +65,14 @@ angular.module('app', ['treeControl'])
             }, $scope.selectedTopics);
         };
 
-        function countNodes(topics) {
+        $scope.countNodes = function (topics) {
             if (topics == undefined) {
                 return 0;
             }
             return R.reduce(function (total, topic) {
-                return total + countNodes(topic['dependentTopics'])
+                return total + $scope.countNodes(topic['dependentTopics'])
             }, topics.length, topics);
-        }
+        };
 
         function setSelection(topics, selection) {
             return $scope.forEachTopic(topics, function (topic) {
@@ -84,7 +84,9 @@ angular.module('app', ['treeControl'])
             $scope.result = data;
             $scope.keyword = data['keyword'];
             $scope.matchedTopics = setSelection(data['matchTopics'], false);
-            $scope.allTopicsLength = countNodes($scope.matchedTopics)
+            $scope.allTopicsLength = $scope.countNodes($scope.matchedTopics);
+            $scope.isSelectAll = true;
+            $scope.selectAll();
         });
     }])
     .directive('document', function () {
@@ -103,7 +105,8 @@ angular.module('app', ['treeControl'])
             scope: {
                 data: '=data',
                 selected: '=selected',
-                onselection: '=onselection'
+                onselection: '=onselection',
+                countNodes: '=nodecounter'
             },
             templateUrl: 'topic.html'
         };
