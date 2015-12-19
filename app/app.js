@@ -92,6 +92,7 @@ angular.module('app', ['treeControl'])
     .directive('document', function () {
         return {
             restrict: 'E',
+            controller: DocumentController,
             scope: {
                 documentInfo: '=info'
             },

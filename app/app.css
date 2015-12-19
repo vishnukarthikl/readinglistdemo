@@ -69,3 +69,7 @@ treecontrol.tree-light li .tree-selected {
     line-height: normal;
     font-size: 1rem;
 }
+
+.document {
+    padding-bottom:5px;
+}
