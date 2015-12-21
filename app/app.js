@@ -1,6 +1,7 @@
 angular.module('app', ['treeControl'])
     .controller('ReadingListCtrl', ['$scope', '$http', function ReadingListCtrl($scope, $http) {
         $scope.selectedTopics = [];
+        $scope.expandedNodes = [];
         $scope.treeOptions = {
             nodeChildren: "dependentTopics",
             dirSelectable: true,
@@ -23,7 +24,7 @@ angular.module('app', ['treeControl'])
         $scope.topicSelected = function (node) {
             if (!node.isSelected) {
                 node.isSelected = true;
-                $scope.selectedTopics.push(node);
+                $scope.selectedTopics.unshift(node);
             } else {
                 node.isSelected = false;
                 $scope.selectedTopics = R.filter(function (topic) {
@@ -80,6 +81,19 @@ angular.module('app', ['treeControl'])
             });
         }
 
+        $scope.expandAll = function () {
+            $scope.expandedNodes = [];
+            $scope.forEachTopic($scope.matchedTopics, function (topic) {
+                if (topic.dependentTopics) {
+                    $scope.expandedNodes.push(topic);
+                }
+            });
+        };
+
+        $scope.toggleNode = function (topic, expanded) {
+            console.log($scope.expandedNodes);
+        };
+
         $http.get('matches.json').success(function (data) {
             $scope.result = data;
             $scope.keyword = data['keyword'];
@@ -87,6 +101,7 @@ angular.module('app', ['treeControl'])
             $scope.allTopicsLength = $scope.countNodes($scope.matchedTopics);
             $scope.isSelectAll = true;
             $scope.selectAll();
+            $scope.expandAll();
         });
     }])
     .directive('document', function () {

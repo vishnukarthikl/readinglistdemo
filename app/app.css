@@ -38,12 +38,12 @@ treecontrol.tree-light li .tree-selected {
 
 .topic-li {
     position: relative;
-    margin: 0.5rem .2rem 1rem .2rem;
+    margin: 0.5rem .2rem .2rem .2rem;
     background-color: #fff;
     transition: box-shadow .25s;
     border-radius: 2px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    padding: 15px;
+    padding: 10px;
 }
 
 .dependent-topic-count {
@@ -67,9 +67,18 @@ treecontrol.tree-light li .tree-selected {
 [type="checkbox"] + label {
     font-weight: normal;
     line-height: normal;
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 .document {
-    padding-bottom:5px;
+    padding-bottom: 5px;
+}
+
+.topic-container {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+#query_button {
+    margin-top:25px;
 }

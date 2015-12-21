@@ -22,28 +22,30 @@
 
 <div ng-controller="ReadingListCtrl" class="container-fluid">
     <div class="row query-container">
-        <div id="custom-search-input">
-            <div class="input-group col-md-6 col-md-offset-3">
-                <input type="text" class="form-control input-lg center-align"
-                       placeholder="Query (e.g, machine_learning)"
+        <div class="form-group">
+            <div class="input-field col s4 offset-l2">
+                <input type="text" id="query" class="form-control input-lg center-align"
+                       placeholder="machine_learning"
                        ng-model="query">
-                    <span class="input-group-btn">
-                        <button class="btn btn-info btn-lg" type="button" ng-click="fetchResult()">
-                            <i class="glyphicon glyphicon-search"></i>
-                        </button>
-                    </span>
+                <label for="query">Query</label>
+
             </div>
-            <div class="input-group col-md-2 col-md-offset-4">
-                <div class="input-field col s6">
+            <div class="input-group col-md-5">
+                <div class="input-field col s3">
                     <input placeholder="3" ng-init="topics=3" ng-model="topics" id="topics" type="number"
                            class="validate">
                     <label for="topics">Topics</label>
                 </div>
-                <div class="input-field col s6">
+                <div class="input-field col s3">
                     <input placeholder="3" ng-init="documents=3" ng-model="documents" id="documents" type="number"
                            class="validate">
                     <label for="documents">Documents</label>
                 </div>
+
+                <button class="btn btn-info btn-lg" id="query_button" type="button" ng-click="fetchResult()">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+
             </div>
         </div>
     </div>
@@ -61,7 +63,9 @@
         </div>
         <treecontrol class="tree-light"
                      tree-model="matchedTopics"
-                     options="treeOptions">
+                     options="treeOptions"
+                     expanded-nodes="expandedNodes"
+                     on-node-toggle="toggleNode(node,expanded)">
             <topic data="node" selected="selectedTopics" onselection="topicSelected" nodecounter="countNodes"></topic>
 
         </treecontrol>

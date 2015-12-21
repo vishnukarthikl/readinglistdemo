@@ -1,11 +1,14 @@
-<input type="checkbox" id="{{getId(data)}}" ng-click="onselection(data);$event.stopPropagation();"
-       ng-checked="isSelected()"/>
-<label for="{{getId(data)}}" class="topic-container">
+<div><input type="checkbox" id="checkbox-{{getId(data)}}"
+            ng-click="onselection(data);$event.stopPropagation();"
+            ng-checked="isSelected()"/>
+    <label class="topic-container" for="checkbox-{{getId(data)}}">
             <span ng-repeat="topic in data.topic"
                   ng-style="topicStrengthStyle(data.topic,topic)">
         {{topic.word}}
     </span>
-</label>
+    </label>
 
-<span ng-if="data.dependentTopics" class="dependent-topic-count">{{topicSelectedUnder(data)}}/{{countNodes([data])}}</span>
+    <span ng-if="data.dependentTopics.length > 0"
+          class="dependent-topic-count">{{topicSelectedUnder(data)}}/{{countNodes([data])}}</span>
+</div>
 
