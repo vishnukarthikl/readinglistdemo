@@ -9,14 +9,6 @@
     font-weight: bold;
 }
 
-.tolerance {
-    margin-top: 10px;
-}
-
-.tolerance-input {
-    width: 50px;
-}
-
 .word-container {
     margin: 10px;
 }
@@ -80,5 +72,23 @@ treecontrol.tree-light li .tree-selected {
 }
 
 #query_button {
-    margin-top:25px;
+    margin-top: 25px;
+}
+
+.modal {
+    top:15%;
+    max-height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.modal-header {
+    background-color: rgb(38, 166, 154);
+    border-radius: 5px;
+    color: white;
+}
+
+.document-separator {
+    margin-bottom: 0;
+    margin-top: 30px;
 }

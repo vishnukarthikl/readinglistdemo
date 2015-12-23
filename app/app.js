@@ -1,4 +1,4 @@
-angular.module('app', ['treeControl'])
+angular.module('app', ['treeControl', 'ui.bootstrap'])
     .controller('ReadingListCtrl', ['$scope', '$http', function ReadingListCtrl($scope, $http) {
         $scope.selectedTopics = [];
         $scope.expandedNodes = [];
