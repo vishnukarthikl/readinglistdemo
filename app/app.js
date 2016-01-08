@@ -1,7 +1,14 @@
-angular.module('app', ['treeControl', 'ui.bootstrap'])
+angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize'])
     .controller('ReadingListCtrl', ['$scope', '$http', function ReadingListCtrl($scope, $http) {
         $scope.selectedTopics = [];
         $scope.expandedNodes = [];
+
+        $scope.selectedOrder = 'pageRankScore';
+        $scope.documentOrderOptions = [{name: 'Pagerank score', field: 'pageRankScore'},
+            {name: 'Relevance', field: 'relevanceScore'},
+            {name: 'Time', field: 'year'},
+            {name: 'Author reputation', field: 'authorScore'}];
+
         $scope.treeOptions = {
             nodeChildren: "dependentTopics",
             dirSelectable: true,
@@ -90,10 +97,6 @@ angular.module('app', ['treeControl', 'ui.bootstrap'])
             });
         };
 
-        $scope.toggleNode = function (topic, expanded) {
-            console.log($scope.expandedNodes);
-        };
-
         $http.get('matches.json').success(function (data) {
             $scope.result = data;
             $scope.keyword = data['keyword'];
@@ -109,7 +112,8 @@ angular.module('app', ['treeControl', 'ui.bootstrap'])
             restrict: 'E',
             controller: DocumentController,
             scope: {
-                documentInfo: '=info'
+                documentInfo: '=info',
+                order:'=order'
             },
             templateUrl: 'document.html'
         };

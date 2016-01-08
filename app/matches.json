@@ -1,1164 +1,488 @@
 {
-  "keyword": "language_learning",
+  "keyword": "machine_learning",
   "matchTopics": [
     {
       "topic": [
         {
-          "word": "language_learning",
-          "value": 0.10653138905763626
+          "word": "training_data",
+          "value": 0.17359720170497894
         },
         {
-          "word": "computer_science",
-          "value": 0.08941027522087097
+          "word": "training_set",
+          "value": 0.10631725192070007
         },
         {
-          "word": "tutoring_system",
-          "value": 0.0824350044131279
+          "word": "machine_learning",
+          "value": 0.10132727026939392
         },
         {
-          "word": "intelligent_tutoring",
-          "value": 0.06721623241901398
+          "word": "decision_tree",
+          "value": 0.06690654903650284
         },
         {
-          "word": "foreign_language",
-          "value": 0.05770450085401535
+          "word": "feature_set",
+          "value": 0.048949386924505234
         },
         {
-          "word": "text_based",
-          "value": 0.05707038566470146
+          "word": "maximum_entropy",
+          "value": 0.04182083532214165
         },
         {
-          "word": "tutoring_systems",
-          "value": 0.05199746415019035
+          "word": "cross_validation",
+          "value": 0.04110798239707947
         },
         {
-          "word": "tutorial_dialogue",
-          "value": 0.04438807815313339
+          "word": "test_set",
+          "value": 0.035235412418842316
         },
         {
-          "word": "human_human",
-          "value": 0.03994927182793617
+          "word": "decision_trees",
+          "value": 0.03503173962235451
         },
         {
-          "word": "multiple_choice",
-          "value": 0.039315156638622284
-        },
-        {
-          "word": "student_learning",
-          "value": 0.03804692625999451
-        },
-        {
-          "word": "student_turns",
-          "value": 0.03677869215607643
-        },
-        {
-          "word": "acoustic_prosodic",
-          "value": 0.034876346588134766
-        },
-        {
-          "word": "human_tutoring",
-          "value": 0.034876346588134766
-        },
-        {
-          "word": "computer_assisted",
-          "value": 0.03424223139882088
-        },
-        {
-          "word": "student_state",
-          "value": 0.0329740010201931
-        },
-        {
-          "word": "language_technology",
-          "value": 0.0329740010201931
-        },
-        {
-          "word": "tutoring_dialogues",
-          "value": 0.03170577064156532
-        },
-        {
-          "word": "learning_environment",
-          "value": 0.02916930802166462
-        },
-        {
-          "word": "student_turn",
-          "value": 0.02916930802166462
-        },
-        {
-          "word": "student_model",
-          "value": 0.02916930802166462
-        }
-      ],
-      "documents": [
-        {
-          "author": "Litman, Diane J.; Silliman, Scott",
-          "title": "ITSPOKE: An Intelligent Tutoring Spoken Dialogue System",
-          "ID": "N04-3002"
-        },
-        {
-          "author": "Litman, Diane J.; Forbes-Riley, Kate",
-          "title": "Annotating Student Emotional States In Spoken Tutoring Dialogues",
-          "ID": "W04-2326"
-        },
-        {
-          "author": "Forbes-Riley, Kate; Litman, Diane J.",
-          "title": "Predicting Emotion In Spoken Dialogue From Multiple Knowledge Sources",
-          "ID": "N04-1026"
-        }
-      ],
-      "dependentTopics": [
-        {
-          "topic": [
-            {
-              "word": "natural_language",
-              "value": 0.20899774134159088
-            },
-            {
-              "word": "point_view",
-              "value": 0.0812462642788887
-            },
-            {
-              "word": "computational_linguistics",
-              "value": 0.07637516409158707
-            },
-            {
-              "word": "syntactic_semantic",
-              "value": 0.06833325326442719
-            },
-            {
-              "word": "language_processing",
-              "value": 0.06364597380161285
-            },
-            {
-              "word": "semantic_representation",
-              "value": 0.05077891796827316
-            },
-            {
-              "word": "lexical_items",
-              "value": 0.04641330987215042
-            },
-            {
-              "word": "syntactic_structure",
-              "value": 0.0393364280462265
-            },
-            {
-              "word": "abstract_paper",
-              "value": 0.03625752404332161
-            },
-            {
-              "word": "syntax_semantics",
-              "value": 0.03414365276694298
-            },
-            {
-              "word": "semantic_structure",
-              "value": 0.032489314675331116
-            },
-            {
-              "word": "natural_languages",
-              "value": 0.0294563677161932
-            },
-            {
-              "word": "previous_section",
-              "value": 0.02734249271452427
-            },
-            {
-              "word": "semantic_analysis",
-              "value": 0.026928909122943878
-            },
-            {
-              "word": "semantic_information",
-              "value": 0.02633151039481163
-            },
-            {
-              "word": "figure_shows",
-              "value": 0.02591792680323124
-            },
-            {
-              "word": "linguistics_volume",
-              "value": 0.025826018303632736
-            },
-            {
-              "word": "linguistic_phenomena",
-              "value": 0.02578006498515606
-            },
-            {
-              "word": "takes_place",
-              "value": 0.02522861957550049
-            },
-            {
-              "word": "starting_point",
-              "value": 0.024998851120471954
-            },
-            {
-              "word": "discussed_section",
-              "value": 0.024171683937311172
-            }
-          ],
-          "documents": [
-            {
-              "author": "Calzolari, Nicoletta",
-              "title": "Towards The Organization Of Lexical Definitions On A Database Structure",
-              "ID": "C82-2013"
-            },
-            {
-              "author": "Winograd, Terry",
-              "title": "On Primitives, Prototypes, And Other Semantic Anomalies",
-              "ID": "T78-1004"
-            },
-            {
-              "author": "Kaplan, Ronald M.; Netter, Klaus; Wedekind, Jurgen; Zaenen, Annie",
-              "title": "Translation By Structural Correspondences",
-              "ID": "E89-1037"
-            }
-          ]
-        },
-        {
-          "topic": [
-            {
-              "word": "information_extraction",
-              "value": 0.08652849495410919
-            },
-            {
-              "word": "language_processing",
-              "value": 0.08134715259075165
-            },
-            {
-              "word": "language_technology",
-              "value": 0.078238345682621
-            },
-            {
-              "word": "language_engineering",
-              "value": 0.06683937460184097
-            },
-            {
-              "word": "large_scale",
-              "value": 0.060103628784418106
-            },
-            {
-              "word": "open_source",
-              "value": 0.04974093288183212
-            },
-            {
-              "word": "state_art",
-              "value": 0.048704661428928375
-            },
-            {
-              "word": "human_language",
-              "value": 0.04663212597370148
-            },
-            {
-              "word": "research_development",
-              "value": 0.045077718794345856
-            },
-            {
-              "word": "development_environment",
-              "value": 0.04300517961382866
-            },
-            {
-              "word": "tipster_architecture",
-              "value": 0.042487047612667084
-            },
-            {
-              "word": "speech_technology",
-              "value": 0.041450776159763336
-            },
-            {
-              "word": "phase_ii",
-              "value": 0.03989637270569801
-            },
-            {
-              "word": "verification_method",
-              "value": 0.03834196925163269
-            },
-            {
-              "word": "data_structures",
-              "value": 0.03575129434466362
-            },
-            {
-              "word": "technology_transfer",
-              "value": 0.03316062316298485
-            },
-            {
-              "word": "cunningham_al",
-              "value": 0.03316062316298485
-            },
-            {
-              "word": "language_technologies",
-              "value": 0.032642487436532974
-            },
-            {
-              "word": "tipster_phase",
-              "value": 0.032642487436532974
-            },
-            {
-              "word": "tipster_text",
-              "value": 0.032642487436532974
-            },
-            {
-              "word": "tipster_program",
-              "value": 0.03160621598362923
-            }
-          ],
-          "documents": [
-            {
-              "author": "Cunningham, Hamish; Maynard, Diana; Bontcheva, Kalina; Tablan, Valentin",
-              "title": "GATE: A Framework And Graphical Development Environment For Robust NLP Tools And Applications",
-              "ID": "P02-1022"
-            },
-            {
-              "author": "Loper, Edward; Bird, Steven",
-              "title": "NLTK: The Natural Language Toolkit",
-              "ID": "W02-0109"
-            },
-            {
-              "author": "Bontcheva, Kalina; Cunningham, Hamish; Tablan, Valentin; Maynard, Diana; Hamza, Oana",
-              "title": "Using GATE As An Environment For Teaching NLP",
-              "ID": "W02-0108"
-            }
-          ]
-        },
-        {
-          "topic": [
-            {
-              "word": "natural_language",
-              "value": 0.21139150857925415
-            },
-            {
-              "word": "knowledge_base",
-              "value": 0.20002569258213043
-            },
-            {
-              "word": "knowledge_representation",
-              "value": 0.08232196420431137
-            },
-            {
-              "word": "language_understanding",
-              "value": 0.05779233202338219
-            },
-            {
-              "word": "world_knowledge",
-              "value": 0.04860977455973625
-            },
-            {
-              "word": "domain_knowledge",
-              "value": 0.03666602447628975
-            },
-            {
-              "word": "artificial_intelligence",
-              "value": 0.03133628889918327
-            },
-            {
-              "word": "data_base",
-              "value": 0.030180441215634346
-            },
-            {
-              "word": "shown_figure",
-              "value": 0.02979515865445137
-            },
-            {
-              "word": "knowledge_sources",
-              "value": 0.028318243101239204
-            },
-            {
-              "word": "knowledge_based",
-              "value": 0.026327617466449738
-            },
-            {
-              "word": "linguistic_knowledge",
-              "value": 0.024529634043574333
-            },
-            {
-              "word": "understanding_system",
-              "value": 0.024401206523180008
-            },
-            {
-              "word": "semantic_network",
-              "value": 0.023309573531150818
-            },
-            {
-              "word": "real_world",
-              "value": 0.023181146010756493
-            },
-            {
-              "word": "language_processing",
-              "value": 0.023181146010756493
-            },
-            {
-              "word": "problem_solving",
-              "value": 0.023052720353007317
-            },
-            {
-              "word": "expert_system",
-              "value": 0.019585179165005684
-            },
-            {
-              "word": "common_sense",
-              "value": 0.019520966336131096
-            },
-            {
-              "word": "knowledge_bases",
-              "value": 0.019520966336131096
-            },
-            {
-              "word": "system_knowledge",
-              "value": 0.01695241779088974
-            }
-          ],
-          "documents": [
-            {
-              "author": "Woods, William A.",
-              "title": "Taxonomic Lattice Structures For Situation Recognition",
-              "ID": "T78-1005"
-            },
-            {
-              "author": "Wilensky, Robert; Arens, Yigal",
-              "title": "PHRAN - A Knowledge-Based Natural Language Understander",
-              "ID": "P80-1030"
-            },
-            {
-              "author": "Rau, Lisa F.; Jacobs, Paul S.",
-              "title": "Integrating Top-Down And Bottom-Up Strategies In A Text Processing System",
-              "ID": "A88-1018"
-            }
-          ],
-          "dependentTopics": [
-            {
-              "topic": [
-                {
-                  "word": "natural_language",
-                  "value": 0.20899774134159088
-                },
-                {
-                  "word": "point_view",
-                  "value": 0.0812462642788887
-                },
-                {
-                  "word": "computational_linguistics",
-                  "value": 0.07637516409158707
-                },
-                {
-                  "word": "syntactic_semantic",
-                  "value": 0.06833325326442719
-                },
-                {
-                  "word": "language_processing",
-                  "value": 0.06364597380161285
-                },
-                {
-                  "word": "semantic_representation",
-                  "value": 0.05077891796827316
-                },
-                {
-                  "word": "lexical_items",
-                  "value": 0.04641330987215042
-                },
-                {
-                  "word": "syntactic_structure",
-                  "value": 0.0393364280462265
-                },
-                {
-                  "word": "abstract_paper",
-                  "value": 0.03625752404332161
-                },
-                {
-                  "word": "syntax_semantics",
-                  "value": 0.03414365276694298
-                },
-                {
-                  "word": "semantic_structure",
-                  "value": 0.032489314675331116
-                },
-                {
-                  "word": "natural_languages",
-                  "value": 0.0294563677161932
-                },
-                {
-                  "word": "previous_section",
-                  "value": 0.02734249271452427
-                },
-                {
-                  "word": "semantic_analysis",
-                  "value": 0.026928909122943878
-                },
-                {
-                  "word": "semantic_information",
-                  "value": 0.02633151039481163
-                },
-                {
-                  "word": "figure_shows",
-                  "value": 0.02591792680323124
-                },
-                {
-                  "word": "linguistics_volume",
-                  "value": 0.025826018303632736
-                },
-                {
-                  "word": "linguistic_phenomena",
-                  "value": 0.02578006498515606
-                },
-                {
-                  "word": "takes_place",
-                  "value": 0.02522861957550049
-                },
-                {
-                  "word": "starting_point",
-                  "value": 0.024998851120471954
-                },
-                {
-                  "word": "discussed_section",
-                  "value": 0.024171683937311172
-                }
-              ],
-              "documents": [
-                {
-                  "author": "Calzolari, Nicoletta",
-                  "title": "Towards The Organization Of Lexical Definitions On A Database Structure",
-                  "ID": "C82-2013"
-                },
-                {
-                  "author": "Winograd, Terry",
-                  "title": "On Primitives, Prototypes, And Other Semantic Anomalies",
-                  "ID": "T78-1004"
-                },
-                {
-                  "author": "Kaplan, Ronald M.; Netter, Klaus; Wedekind, Jurgen; Zaenen, Annie",
-                  "title": "Translation By Structural Correspondences",
-                  "ID": "E89-1037"
-                }
-              ]
-            },
-            {
-              "topic": [
-                {
-                  "word": "information_extraction",
-                  "value": 0.08652849495410919
-                },
-                {
-                  "word": "language_processing",
-                  "value": 0.08134715259075165
-                },
-                {
-                  "word": "language_technology",
-                  "value": 0.078238345682621
-                },
-                {
-                  "word": "language_engineering",
-                  "value": 0.06683937460184097
-                },
-                {
-                  "word": "large_scale",
-                  "value": 0.060103628784418106
-                },
-                {
-                  "word": "open_source",
-                  "value": 0.04974093288183212
-                },
-                {
-                  "word": "state_art",
-                  "value": 0.048704661428928375
-                },
-                {
-                  "word": "human_language",
-                  "value": 0.04663212597370148
-                },
-                {
-                  "word": "research_development",
-                  "value": 0.045077718794345856
-                },
-                {
-                  "word": "development_environment",
-                  "value": 0.04300517961382866
-                },
-                {
-                  "word": "tipster_architecture",
-                  "value": 0.042487047612667084
-                },
-                {
-                  "word": "speech_technology",
-                  "value": 0.041450776159763336
-                },
-                {
-                  "word": "phase_ii",
-                  "value": 0.03989637270569801
-                },
-                {
-                  "word": "verification_method",
-                  "value": 0.03834196925163269
-                },
-                {
-                  "word": "data_structures",
-                  "value": 0.03575129434466362
-                },
-                {
-                  "word": "technology_transfer",
-                  "value": 0.03316062316298485
-                },
-                {
-                  "word": "cunningham_al",
-                  "value": 0.03316062316298485
-                },
-                {
-                  "word": "language_technologies",
-                  "value": 0.032642487436532974
-                },
-                {
-                  "word": "tipster_phase",
-                  "value": 0.032642487436532974
-                },
-                {
-                  "word": "tipster_text",
-                  "value": 0.032642487436532974
-                },
-                {
-                  "word": "tipster_program",
-                  "value": 0.03160621598362923
-                }
-              ],
-              "documents": [
-                {
-                  "author": "Cunningham, Hamish; Maynard, Diana; Bontcheva, Kalina; Tablan, Valentin",
-                  "title": "GATE: A Framework And Graphical Development Environment For Robust NLP Tools And Applications",
-                  "ID": "P02-1022"
-                },
-                {
-                  "author": "Loper, Edward; Bird, Steven",
-                  "title": "NLTK: The Natural Language Toolkit",
-                  "ID": "W02-0109"
-                },
-                {
-                  "author": "Bontcheva, Kalina; Cunningham, Hamish; Tablan, Valentin; Maynard, Diana; Hamza, Oana",
-                  "title": "Using GATE As An Environment For Teaching NLP",
-                  "ID": "W02-0108"
-                }
-              ]
-            },
-            {
-              "topic": [
-                {
-                  "word": "natural_language",
-                  "value": 0.21139150857925415
-                },
-                {
-                  "word": "knowledge_base",
-                  "value": 0.20002569258213043
-                },
-                {
-                  "word": "knowledge_representation",
-                  "value": 0.08232196420431137
-                },
-                {
-                  "word": "language_understanding",
-                  "value": 0.05779233202338219
-                },
-                {
-                  "word": "world_knowledge",
-                  "value": 0.04860977455973625
-                },
-                {
-                  "word": "domain_knowledge",
-                  "value": 0.03666602447628975
-                },
-                {
-                  "word": "artificial_intelligence",
-                  "value": 0.03133628889918327
-                },
-                {
-                  "word": "data_base",
-                  "value": 0.030180441215634346
-                },
-                {
-                  "word": "shown_figure",
-                  "value": 0.02979515865445137
-                },
-                {
-                  "word": "knowledge_sources",
-                  "value": 0.028318243101239204
-                },
-                {
-                  "word": "knowledge_based",
-                  "value": 0.026327617466449738
-                },
-                {
-                  "word": "linguistic_knowledge",
-                  "value": 0.024529634043574333
-                },
-                {
-                  "word": "understanding_system",
-                  "value": 0.024401206523180008
-                },
-                {
-                  "word": "semantic_network",
-                  "value": 0.023309573531150818
-                },
-                {
-                  "word": "real_world",
-                  "value": 0.023181146010756493
-                },
-                {
-                  "word": "language_processing",
-                  "value": 0.023181146010756493
-                },
-                {
-                  "word": "problem_solving",
-                  "value": 0.023052720353007317
-                },
-                {
-                  "word": "expert_system",
-                  "value": 0.019585179165005684
-                },
-                {
-                  "word": "common_sense",
-                  "value": 0.019520966336131096
-                },
-                {
-                  "word": "knowledge_bases",
-                  "value": 0.019520966336131096
-                },
-                {
-                  "word": "system_knowledge",
-                  "value": 0.01695241779088974
-                }
-              ],
-              "documents": [
-                {
-                  "author": "Woods, William A.",
-                  "title": "Taxonomic Lattice Structures For Situation Recognition",
-                  "ID": "T78-1005"
-                },
-                {
-                  "author": "Wilensky, Robert; Arens, Yigal",
-                  "title": "PHRAN - A Knowledge-Based Natural Language Understander",
-                  "ID": "P80-1030"
-                },
-                {
-                  "author": "Rau, Lisa F.; Jacobs, Paul S.",
-                  "title": "Integrating Top-Down And Bottom-Up Strategies In A Text Processing System",
-                  "ID": "A88-1018"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "topic": [
-        {
-          "word": "language_acquisition",
-          "value": 0.19373367726802826
-        },
-        {
-          "word": "language_learning",
-          "value": 0.1060052216053009
+          "word": "training_examples",
+          "value": 0.03404732048511505
         },
         {
           "word": "learning_algorithm",
-          "value": 0.073107048869133
+          "value": 0.03397943079471588
         },
         {
-          "word": "construction_grammar",
-          "value": 0.05378590151667595
+          "word": "test_data",
+          "value": 0.03380970284342766
         },
         {
-          "word": "learning_process",
-          "value": 0.05117493495345116
+          "word": "data_set",
+          "value": 0.03316473588347435
         },
         {
-          "word": "negative_evidence",
-          "value": 0.04908616095781326
+          "word": "set_features",
+          "value": 0.03228215500712395
         },
         {
-          "word": "learning_system",
-          "value": 0.04699739068746567
+          "word": "feature_selection",
+          "value": 0.030041752383112907
         },
         {
-          "word": "child_language",
-          "value": 0.04595300182700157
+          "word": "training_test",
+          "value": 0.027699515223503113
         },
         {
-          "word": "item_based",
-          "value": 0.03968668356537819
+          "word": "learning_algorithms",
+          "value": 0.026986658573150635
         },
         {
-          "word": "form_meaning",
-          "value": 0.0355091392993927
+          "word": "feature_sets",
+          "value": 0.0257306769490242
         },
         {
-          "word": "learning_language",
-          "value": 0.033942557871341705
+          "word": "naive_bayes",
+          "value": 0.025493057444691658
         },
         {
-          "word": "parameter_setting",
-          "value": 0.03185378760099411
+          "word": "fold_cross",
+          "value": 0.023524221032857895
         },
         {
-          "word": "word_order",
-          "value": 0.03185378760099411
-        },
-        {
-          "word": "language_learner",
-          "value": 0.02924281917512417
-        },
-        {
-          "word": "grammar_learning",
-          "value": 0.02924281917512417
-        },
-        {
-          "word": "universal_grammar",
-          "value": 0.02819843403995037
-        },
-        {
-          "word": "parameter_values",
-          "value": 0.02558746747672558
-        },
-        {
-          "word": "target_grammar",
-          "value": 0.02506527490913868
-        },
-        {
-          "word": "mental_spaces",
-          "value": 0.02454308047890663
-        },
-        {
-          "word": "positive_evidence",
-          "value": 0.022976500913500786
-        },
-        {
-          "word": "target_language",
-          "value": 0.022454308345913887
+          "word": "data_sets",
+          "value": 0.022947147488594055
         }
       ],
       "documents": [
         {
-          "author": "Goodman, Joshua",
-          "title": "Semiring Parsing",
-          "ID": "J99-4004"
+          "author": "Banko, Michele; Brill, Eric",
+          "title": "Scaling To Very Very Large Corpora For Natural Language Disambiguation",
+          "id": "P01-1005",
+          "year": "2001",
+          "pedagogicalRole": null,
+          "pageRankScore": 2.6463633E-4,
+          "relevanceScore": 0.37832762560436545,
+          "authorScore": 8.0
         },
         {
-          "author": "Yang, Charles D.",
-          "title": "A Selectionist Theory Of Language Acquisition",
-          "ID": "P99-1055"
+          "author": "Mooney, Raymond J.",
+          "title": "Comparative Experiments On Disambiguating Word Senses: An Illustration Of The Role Of Bias In Machine Learning",
+          "id": "W96-0208",
+          "year": "1996",
+          "pedagogicalRole": null,
+          "pageRankScore": 2.318389E-4,
+          "relevanceScore": 0.33328283242986434,
+          "authorScore": 10.0
         },
         {
-          "author": "Sagae, Kenji; Lavie, Alon; MacWhinney, Brian",
-          "title": "Automatic Measurement Of Syntactic Development In Child Language",
-          "ID": "P05-1025"
+          "author": "Litman, Diane J.; Walker, Marilyn A.; Kearns, Michael S.",
+          "title": "Automatic Detection Of Poor Speech Recognition At The Dialogue Level",
+          "id": "P99-1040",
+          "year": "1999",
+          "pedagogicalRole": null,
+          "pageRankScore": 1.6494577E-4,
+          "relevanceScore": 0.31563146987160096,
+          "authorScore": 13.666666666666666
         }
       ],
       "dependentTopics": [
         {
           "topic": [
             {
-              "word": "hand_side",
-              "value": 0.11037323623895645
+              "word": "table_shows",
+              "value": 0.09514964371919632
             },
             {
-              "word": "grammar_rules",
-              "value": 0.09767989069223404
+              "word": "precision_recall",
+              "value": 0.08131016790866852
             },
             {
-              "word": "context_free",
-              "value": 0.07641223818063736
+              "word": "test_set",
+              "value": 0.0781969428062439
             },
             {
-              "word": "set_rules",
-              "value": 0.07262945175170898
+              "word": "figure_shows",
+              "value": 0.0729907900094986
             },
             {
-              "word": "phrase_structure",
-              "value": 0.06455951929092407
+              "word": "future_work",
+              "value": 0.06438363343477249
             },
             {
-              "word": "left_hand",
-              "value": 0.061617352068424225
+              "word": "shown_table",
+              "value": 0.05648283660411835
             },
             {
-              "word": "rules_applied",
-              "value": 0.0513618029654026
+              "word": "shown_figure",
+              "value": 0.04567810893058777
             },
             {
-              "word": "rule_set",
-              "value": 0.04757901653647423
+              "word": "natural_language",
+              "value": 0.04473629221320152
             },
             {
-              "word": "rule_rule",
-              "value": 0.04009751230478287
+              "word": "experimental_results",
+              "value": 0.04429154470562935
             },
             {
-              "word": "grammar_rule",
-              "value": 0.03984532505273819
+              "word": "data_set",
+              "value": 0.04201548919081688
             },
             {
-              "word": "rules_rules",
-              "value": 0.038836583495140076
+              "word": "previous_work",
+              "value": 0.04083821550011635
             },
             {
-              "word": "rule_applied",
-              "value": 0.038248151540756226
+              "word": "total_number",
+              "value": 0.039687108248472214
             },
             {
-              "word": "structure_rules",
-              "value": 0.03547411039471626
+              "word": "results_show",
+              "value": 0.03678317368030548
             },
             {
-              "word": "number_rules",
-              "value": 0.033708810806274414
+              "word": "related_work",
+              "value": 0.03628610447049141
             },
             {
-              "word": "rules_grammar",
-              "value": 0.029421653598546982
+              "word": "gold_standard",
+              "value": 0.03403620794415474
             },
             {
-              "word": "rule_application",
-              "value": 0.029253531247377396
+              "word": "test_data",
+              "value": 0.03283277526497841
             },
             {
-              "word": "rules_rule",
-              "value": 0.02816072665154934
+              "word": "state_art",
+              "value": 0.032231058925390244
             },
             {
-              "word": "side_rule",
-              "value": 0.026563551276922226
+              "word": "based_approach",
+              "value": 0.032178737223148346
             },
             {
-              "word": "structure_grammar",
-              "value": 0.02639542706310749
+              "word": "results_obtained",
+              "value": 0.031681664288043976
             },
             {
-              "word": "rule_based",
-              "value": 0.02639542706310749
+              "word": "section_describes",
+              "value": 0.02914399281144142
             },
             {
-              "word": "rules_apply",
-              "value": 0.025386685505509377
+              "word": "recall_precision",
+              "value": 0.029065508395433426
             }
           ],
           "documents": [
             {
-              "author": "Pereira, Fernando",
-              "title": "Extraposition Grammars",
-              "ID": "J81-4003"
+              "author": "Koehn, Philipp",
+              "title": "Statistical Significance Tests For Machine Translation Evaluation",
+              "id": "W04-3250",
+              "year": "2004",
+              "pedagogicalRole": null,
+              "pageRankScore": 3.7507055E-4,
+              "relevanceScore": 0.2751257321769039,
+              "authorScore": 12.0
             },
             {
-              "author": "Thompson, Henry S.",
-              "title": "Chart Parsing And Rule Schemata In PSG",
-              "ID": "P81-1036"
+              "author": "Bikel, Daniel M.",
+              "title": "Intricacies Of Collins Parsing Model",
+              "id": "J04-4004",
+              "year": "2004",
+              "pedagogicalRole": null,
+              "pageRankScore": 2.6883994E-4,
+              "relevanceScore": 0.23316031320320074,
+              "authorScore": 0.0
             },
             {
-              "author": "Chester, Daniel",
-              "title": "A Parsing Algorithm That Extends Phrases",
-              "ID": "J80-2002"
+              "author": "Ostendorf, Mari; Kannan, Ashvin; Austin, Steve; Kimball, Owen; Schwartz, Richard M.; Rohlicek, J. Robin",
+              "title": "Integration Of Diverse Recognition Methodologies Through Reevaluation Of N-Best Sentence Hypotheses",
+              "id": "H91-1013",
+              "year": "1991",
+              "pedagogicalRole": null,
+              "pageRankScore": 2.5409975E-4,
+              "relevanceScore": 0.25326939164583306,
+              "authorScore": 7.0
             }
-          ]
+          ],
+          "dependentTopics": []
         },
         {
           "topic": [
             {
-              "word": "grapheme_phoneme",
-              "value": 0.11710380762815475
+              "word": "word_sense",
+              "value": 0.22329583764076233
             },
             {
-              "word": "phonological_rules",
-              "value": 0.08053195476531982
+              "word": "sense_disambiguation",
+              "value": 0.151807963848114
             },
             {
-              "word": "letter_sound",
-              "value": 0.07277429103851318
+              "word": "word_senses",
+              "value": 0.09783346951007843
             },
             {
-              "word": "text_speech",
-              "value": 0.06944957375526428
+              "word": "target_word",
+              "value": 0.08598173409700394
             },
             {
-              "word": "phoneme_conversion",
-              "value": 0.06206132099032402
+              "word": "ambiguous_word",
+              "value": 0.042122744023799896
             },
             {
-              "word": "stress_assignment",
-              "value": 0.05688954517245293
+              "word": "sense_tagged",
+              "value": 0.03872574865818024
             },
             {
-              "word": "syllable_structure",
-              "value": 0.05615071952342987
+              "word": "lexical_sample",
+              "value": 0.03638559579849243
             },
             {
-              "word": "phonetic_transcription",
-              "value": 0.047654230147600174
+              "word": "sense_word",
+              "value": 0.0360836423933506
             },
             {
-              "word": "word_boundaries",
-              "value": 0.0421130396425724
+              "word": "senses_word",
+              "value": 0.035630710422992706
             },
             {
-              "word": "speech_synthesis",
-              "value": 0.039896562695503235
+              "word": "sense_distinctions",
+              "value": 0.028081830590963364
             },
             {
-              "word": "syllable_boundaries",
-              "value": 0.03841891512274742
+              "word": "ambiguous_words",
+              "value": 0.027175964787602425
             },
             {
-              "word": "sound_rules",
-              "value": 0.037680089473724365
+              "word": "correct_sense",
+              "value": 0.02581716701388359
             },
             {
-              "word": "word_pronunciation",
-              "value": 0.03694126382470131
+              "word": "number_senses",
+              "value": 0.024760322645306587
             },
             {
-              "word": "lexical_access",
-              "value": 0.033616550266742706
+              "word": "wordnet_senses",
+              "value": 0.019476108253002167
             },
             {
-              "word": "word_final",
-              "value": 0.031769488006830215
+              "word": "wsd_system",
+              "value": 0.019023174419999123
             },
             {
-              "word": "phoneme_string",
-              "value": 0.03103066049516201
+              "word": "fine_grained",
+              "value": 0.01864573173224926
             },
             {
-              "word": "word_accuracy",
-              "value": 0.03066124953329563
+              "word": "frequent_sense",
+              "value": 0.018494753167033195
             },
             {
-              "word": "phonotactic_constraints",
-              "value": 0.029922423884272575
+              "word": "disambiguation_wsd",
+              "value": 0.018117310479283333
             },
             {
-              "word": "vowels_consonants",
-              "value": 0.029553011059761047
+              "word": "sense_tagging",
+              "value": 0.01766437664628029
             },
             {
-              "word": "consonant_cluster",
-              "value": 0.028444772586226463
+              "word": "local_context",
+              "value": 0.017513399943709373
             },
             {
-              "word": "vowel_consonant",
-              "value": 0.02733653411269188
+              "word": "senses_words",
+              "value": 0.01736242137849331
             }
           ],
           "documents": [
             {
-              "author": "Divay, Michel; Vitale, Anthony J.",
-              "title": "Algorithms For Grapheme-Phoneme Translation For English And French: Applications For Database Searches And Speech Synthesis",
-              "ID": "J97-4001"
+              "author": "Leacock, Claudia; Towell, Geoffrey; Voorhees, Ellen M.",
+              "title": "Corpus-Based Statistical Sense Resolution",
+              "id": "H93-1051",
+              "year": "1993",
+              "pedagogicalRole": null,
+              "pageRankScore": 6.57069E-4,
+              "relevanceScore": 0.48495571878879634,
+              "authorScore": 2.0
             },
             {
-              "author": "Carson-Berndsen, Julie",
-              "title": "Unification And Transduction In Computational Phonology",
-              "ID": "C88-1023"
+              "author": "Ng, Hwee Tou; Lee, Hian Beng",
+              "title": "Integrating Multiple Knowledge Sources To Disambiguate Word Sense: An Exemplar-Based Approach",
+              "id": "P96-1006",
+              "year": "1996",
+              "pedagogicalRole": null,
+              "pageRankScore": 4.9501593E-4,
+              "relevanceScore": 0.5292197272828933,
+              "authorScore": 7.0
             },
             {
-              "author": "Byrd, Roy J.; Chodorow, Martin",
-              "title": "Using An On-Line Dictionary To Find Rhyming Words And Pronunciations For Unknown Words",
-              "ID": "P85-1034"
+              "author": "McCarthy, Diana; Koeling, Rob; Weeds, Julie; Carroll, John",
+              "title": "Finding Predominant Word Senses In Untagged Text",
+              "id": "P04-1036",
+              "year": "2004",
+              "pedagogicalRole": null,
+              "pageRankScore": 2.9695037E-4,
+              "relevanceScore": 0.68393208243958,
+              "authorScore": 6.5
             }
-          ]
+          ],
+          "dependentTopics": []
         },
         {
           "topic": [
             {
-              "word": "context_free",
-              "value": 0.28259485960006714
+              "word": "memory_based",
+              "value": 0.17889045178890228
             },
             {
-              "word": "free_grammars",
-              "value": 0.06783972680568695
+              "word": "based_learning",
+              "value": 0.10531264543533325
             },
             {
-              "word": "free_grammar",
-              "value": 0.06243374943733215
+              "word": "shared_task",
+              "value": 0.06464503705501556
             },
             {
-              "word": "input_string",
-              "value": 0.0466398149728775
+              "word": "daelemans_al",
+              "value": 0.04936530441045761
             },
             {
-              "word": "parsing_algorithm",
-              "value": 0.04314182698726654
+              "word": "shallow_parsing",
+              "value": 0.048425011336803436
             },
             {
-              "word": "terminal_symbols",
-              "value": 0.04197583347558975
+              "word": "ramshaw_marcus",
+              "value": 0.04677950218319893
             },
             {
-              "word": "polynomial_time",
-              "value": 0.04176383465528488
+              "word": "base_np",
+              "value": 0.0439586266875267
             },
             {
-              "word": "hand_side",
-              "value": 0.04112783446907997
+              "word": "van_den",
+              "value": 0.041607897728681564
             },
             {
-              "word": "worst_case",
-              "value": 0.04049183800816536
+              "word": "kim_sang",
+              "value": 0.04137282446026802
             },
             {
-              "word": "time_complexity",
-              "value": 0.03752385079860687
+              "word": "den_bosch",
+              "value": 0.04113775119185448
             },
             {
-              "word": "finite_set",
-              "value": 0.033283866941928864
+              "word": "tjong_kim",
+              "value": 0.04090268164873123
             },
             {
-              "word": "normal_form",
-              "value": 0.03137587383389473
+              "word": "conll_shared",
+              "value": 0.036671366542577744
             },
             {
-              "word": "lr_parsing",
-              "value": 0.030315877869725227
+              "word": "pos_tags",
+              "value": 0.035025857388973236
             },
             {
-              "word": "left_corner",
-              "value": 0.02936188317835331
+              "word": "base_noun",
+              "value": 0.03173483908176422
             },
             {
-              "word": "parsing_algorithms",
-              "value": 0.028831884264945984
+              "word": "ib_ig",
+              "value": 0.03173483908176422
             },
             {
-              "word": "start_symbol",
-              "value": 0.026605892926454544
+              "word": "np_chunking",
+              "value": 0.030089328065514565
             },
             {
-              "word": "context_sensitive",
-              "value": 0.02490990050137043
+              "word": "chunk_tags",
+              "value": 0.028443817049264908
             },
             {
-              "word": "parse_forest",
-              "value": 0.024803901091217995
+              "word": "base_nps",
+              "value": 0.02726845256984234
             },
             {
-              "word": "free_languages",
-              "value": 0.02310790680348873
+              "word": "noun_phrase",
+              "value": 0.02726845256984234
             },
             {
-              "word": "earley_algorithm",
-              "value": 0.02109391614794731
+              "word": "chunk_tag",
+              "value": 0.02562294341623783
             },
             {
-              "word": "natural_languages",
-              "value": 0.020775916054844856
+              "word": "noun_phrases",
+              "value": 0.02374236099421978
             }
           ],
           "documents": [
             {
-              "author": "Pereira, Fernando; Schabes, Yves",
-              "title": "Inside-Outside Reestimation From Partially Bracketed Corpora",
-              "ID": "P92-1017"
+              "author": "Tjong Kim Sang, Erik F.; Buchholz, Sabine",
+              "title": "Introduction To The CoNLL-2000 Shared Task: Chunking",
+              "id": "W00-0726",
+              "year": "2000",
+              "pedagogicalRole": null,
+              "pageRankScore": 4.9884105E-4,
+              "relevanceScore": 0.5512000041734701,
+              "authorScore": 1.0
             },
             {
-              "author": "Tomita, Masaru",
-              "title": "An Efficient Augmented-Context-Free Parsing Algorithm",
-              "ID": "J87-1004"
+              "author": "Tjong Kim Sang, Erik F.; Veenstra, Jorn",
+              "title": "Representing Text Chunks",
+              "id": "E99-1023",
+              "year": "1999",
+              "pedagogicalRole": null,
+              "pageRankScore": 2.432901E-4,
+              "relevanceScore": 0.5448614190674957,
+              "authorScore": 1.0
             },
             {
-              "author": "Eisner, Jason M.; Satta, Giorgio",
-              "title": "Efficient Parsing For Bilexical Context-Free Grammars And Head Automaton Grammars",
-              "ID": "P99-1059"
+              "author": "Cardie, Claire; Pierce, David R.",
+              "title": "Error-Driven Pruning of Treebank Grammars for Base Noun Phrase Identification",
+              "id": "P98-1034",
+              "year": "1998",
+              "pedagogicalRole": null,
+              "pageRankScore": 2.3006958E-4,
+              "relevanceScore": 0.4515991874674227,
+              "authorScore": 5.5
             }
-          ]
+          ],
+          "dependentTopics": []
         }
       ]
     }

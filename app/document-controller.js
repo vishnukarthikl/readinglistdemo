@@ -1,7 +1,7 @@
 function DocumentController($scope, $uibModal) {
     $scope.baseUrl = "http://www.aclweb.org/anthology/";
     $scope.getDocumentUrl = function () {
-        return $scope.baseUrl + $scope.documentInfo.ID;
+        return $scope.baseUrl + $scope.documentInfo.id;
     };
 
     $scope.showAbstract = function () {
