@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control.css">
     <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control-attribute.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/angucomplete-alt/angucomplete-alt.css">
     <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css"
           media="screen,projection"/>
 
@@ -23,11 +24,25 @@
     <div class="row query-container">
         <div class="form-group">
             <div class="input-field col s4 offset-l2">
-                <input type="text" id="query" class="form-control input-lg center-align"
-                       placeholder="machine_learning"
-                       ng-model="query">
+                <angucomplete-alt id="query"
+                                  pause="100"
+                                  selected-object="selectedTerm"
+                                  local-data="topicTerms"
+                                  search-fields="term"
+                                  title-field="term"
+                                  minlength="3"
+                                  match-class="highlight"
+                                  clear-selected="true"
+                                  input-class="form-control input-lg center-align"></angucomplete-alt>
                 <label for="query">Query</label>
 
+                <div class="search-term-container container-fluid">
+                    <span ng-repeat="term in selectedTerms" ng-click="removeTerm(term)" class="chip">
+                            {{term}}
+                            <i class="material-icons">close</i>
+
+                    </span>
+                </div>
             </div>
             <div class="input-group col-md-5">
                 <div class="input-field col s3">
@@ -107,6 +122,7 @@
 <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 <script src="bower_components/angular-materialize/src/angular-materialize.js"></script>
+<script src="bower_components/angucomplete-alt/angucomplete-alt.js"></script>
 <script src="app.js"></script>
 <script src="topic-controller.js"></script>
 <script src="document-controller.js"></script>

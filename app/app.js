@@ -1,7 +1,14 @@
-angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize'])
+angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucomplete-alt'])
     .controller('ReadingListCtrl', ['$scope', '$http', function ReadingListCtrl($scope, $http) {
         $scope.selectedTopics = [];
         $scope.expandedNodes = [];
+        $scope.selectedTerms = [];
+
+        $http.get('topic_terms.json').success(function (data) {
+            $scope.topicTerms = R.map(function (term) {
+                return {term: term}
+            }, data);
+        });
 
         $scope.selectedOrder = 'pageRankScore';
         $scope.documentOrderOptions = [{name: 'Pagerank score', field: 'pageRankScore'},
@@ -16,6 +23,19 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize'])
             injectClasses: {
                 "li": "topic-li"
             }
+        };
+
+        $scope.$watch('selectedTerm', function (term) {
+            if (term == undefined || $scope.selectedTerms.indexOf(term) > -1) {
+                return
+            }
+            $scope.selectedTerms.push(term.title);
+        }, true);
+
+        $scope.removeTerm = function (term) {
+            $scope.selectedTerms = R.filter(function (x) {
+                return x != term
+            }, $scope.selectedTerms)
         };
 
         $scope.$watch('isSelectAll', function (newVal) {
@@ -113,7 +133,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize'])
             controller: DocumentController,
             scope: {
                 documentInfo: '=info',
-                order:'=order'
+                order: '=order'
             },
             templateUrl: 'document.html'
         };

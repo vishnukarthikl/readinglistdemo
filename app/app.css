@@ -112,3 +112,16 @@ treecontrol.tree-light li .tree-selected {
     background-color: #26a69a;
     border-radius: 2px;
 }
+
+.highlight {
+    color: #26a69a
+}
+
+.search-term-container {
+    margin-top: 10px;
+}
+
+.search-term {
+    margin-top: 2px;
+    margin-left: 4px;
+}
