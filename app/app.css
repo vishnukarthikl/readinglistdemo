@@ -99,8 +99,8 @@ treecontrol.tree-light li .tree-selected {
 }
 
 .document-order-data {
-    left:0;
-    bottom:10px;
+    left: 0;
+    bottom: 10px;
     position: absolute;
     min-width: 3rem;
     padding: 2px 6px;
@@ -124,4 +124,13 @@ treecontrol.tree-light li .tree-selected {
 .search-term {
     margin-top: 2px;
     margin-left: 4px;
+}
+
+.modal-backdrop {
+    background: lightgrey;
+}
+
+.fade.modal-backdrop.in {
+    opacity: 1;
+    background: lightgrey;
 }
