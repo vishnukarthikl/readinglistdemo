@@ -102,8 +102,10 @@
 
         <div ng-show="filteredDocuments.length" class="card card-panel">
             <ol>
-                <li class="document" ng-repeat="document in filteredDocuments | orderBy: ['-'+selectedOrder]">
-                    <document info="document" order="selectedOrder"></document>
+                <li class="document"
+                    ng-repeat="document in filteredDocuments | orderBy: ['-'+'document.'+selectedOrder]">
+                    <document info="document" order="selectedOrderOption"
+                              stats="stats"></document>
                 </li>
             </ol>
         </div>

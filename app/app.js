@@ -3,6 +3,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.selectedTopics = [];
         $scope.expandedNodes = [];
         $scope.selectedTerms = [];
+        $scope.filteredDocuments = [];
 
         $http.get('topic_terms.json').success(function (data) {
             $scope.topicTerms = R.map(function (term) {
@@ -25,8 +26,14 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }
         };
 
+        $scope.$watch('selectedOrder', function () {
+            $scope.selectedOrderOption = $scope.getOrder();
+            $scope.stats = $scope.calculateStats();
+        });
+
         $scope.$watch('selectedTopics', function () {
             $scope.filteredDocuments = $scope.filterDocuments();
+            $scope.stats = $scope.calculateStats();
         }, true);
 
         $scope.$watch('selectedTerm', function (term) {
@@ -108,6 +115,12 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }, topics.length, topics);
         };
 
+        $scope.getOrder = function () {
+            return R.find(function (order) {
+                return order.field == $scope.selectedOrder;
+            }, $scope.documentOrderOptions)
+        };
+
         function setSelection(topics, selection) {
             return $scope.forEachTopic(topics, function (topic) {
                 topic.isSelected = selection;
@@ -121,6 +134,24 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
                     $scope.expandedNodes.push(topic);
                 }
             });
+        };
+
+        $scope.calculateStats = function () {
+            var max = R.reduce(function (max, current) {
+                var currentVal = current.document[$scope.selectedOrder];
+                if (currentVal > max) {
+                    return currentVal;
+                }
+                return max;
+            }, 0, $scope.filteredDocuments);
+            var min = R.reduce(function (max, current) {
+                var currentVal = current.document[$scope.selectedOrder];
+                if (currentVal < max) {
+                    return currentVal;
+                }
+                return max;
+            }, Infinity, $scope.filteredDocuments);
+            return {max: max, min: min}
         };
 
         $http.get('matches.json').success(function (data) {
@@ -139,7 +170,8 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             controller: DocumentController,
             scope: {
                 documentInfo: '=info',
-                order: '=order'
+                order: '=order',
+                stats: '=stats'
             },
             templateUrl: 'document.html'
         };
