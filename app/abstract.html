@@ -1,6 +1,6 @@
 <div class="modal-header">
     <h4>Abstract</h4>
-    <h5>{{document.title}}</h5>
+    <h5>{{documentInfo.document.title}}</h5>
 </div>
 <div class="modal-body">
     This is a placeholder text for actual abstract - NLTK, the Natural Language Toolkit,
@@ -15,4 +15,12 @@
     structured programming by example,
     and manipulate sophisticated models
     from the outset.
+    <hr/>
+    <div class="document-topic">
+        Topic :
+        <span ng-repeat="term in documentInfo.topic" class="chip search-term">
+                            {{term.word}}
+
+        </span>
+    </div>
 </div>

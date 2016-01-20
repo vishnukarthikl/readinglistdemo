@@ -1,11 +1,11 @@
 <div ng-mouseenter="hover=true" ng-mouseleave="hover=false">
         <span class="document-title">
             <a ng-click="showAbstract()" href="#">
-                {{documentInfo.title}}
+                {{documentInfo.document.title}}
             </a>
         </span>
     <br/>
-    <span class="document-author">{{documentInfo.author}}</span>
+    <span class="document-author">{{documentInfo.document.author}}</span>
 
 
     <span class="pull-right document-action" ng-if="hover">
@@ -13,7 +13,7 @@
                 class="glyphicon glyphicon-file"></i></a>
     </span>
     <span class="document-order-data">
-        {{documentInfo[order]}}
+        {{documentInfo.document[order]}}
     </span>
     <hr class="document-separator"/>
 </div>

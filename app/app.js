@@ -25,6 +25,10 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }
         };
 
+        $scope.$watch('selectedTopics', function () {
+            $scope.filteredDocuments = $scope.filterDocuments();
+        }, true);
+
         $scope.$watch('selectedTerm', function (term) {
             if (term == undefined || $scope.selectedTerms.indexOf(term) > -1) {
                 return
@@ -87,9 +91,11 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
 
         };
 
-        $scope.filteredDocuments = function () {
+        $scope.filterDocuments = function () {
             return R.chain(function (topic) {
-                return topic.documents
+                return R.map(function (document) {
+                    return {document: document, topic: topic.topic}
+                }, topic.documents)
             }, $scope.selectedTopics);
         };
 

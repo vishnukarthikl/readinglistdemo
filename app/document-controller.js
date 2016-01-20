@@ -8,11 +8,11 @@ function DocumentController($scope, $uibModal) {
         var modalInstance = $uibModal.open({
             size: 'lg',
             templateUrl: 'abstract.html',
-            controller: ["$scope", "$uibModalInstance", "document", function ($scope, $modalInstance, document) {
-                $scope.document = document
+            controller: ["$scope", "$uibModalInstance", "documentInfo", function ($scope, $modalInstance, documentInfo) {
+                $scope.documentInfo = documentInfo
             }],
             resolve: {
-                document: function () {
+                documentInfo: function () {
                     return $scope.documentInfo;
                 }
             }
