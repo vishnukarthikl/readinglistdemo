@@ -8,7 +8,7 @@ function DocumentController($scope, $uibModal) {
     };
 
     $scope.getSummary = function (document) {
-        return document.abstractText.split(/\s+/).slice(1, 40).join(" ");
+        return document.abstractText.split(/\s+/).slice(0, 40).join(" ");
     };
     $scope.getRatingBars = function () {
         var rating = new Array($scope.ratingBarsCount);
