@@ -168,3 +168,17 @@ treecontrol.tree-light li .tree-selected {
 .rating.rating-filled {
     background: #848487;
 }
+
+.document-author {
+    color: #006621
+}
+
+.modal {
+    top: 0;
+}
+
+.abstract {
+    overflow: scroll;
+    max-height: 300px;
+    padding: 5px;
+}

@@ -1,10 +1,5 @@
 function DocumentController($scope, $uibModal) {
-    $scope.baseUrl = "http://www.aclweb.org/anthology/";
     $scope.ratingBarsCount = 10;
-
-    $scope.getDocumentUrl = function () {
-        return $scope.baseUrl + $scope.documentInfo.id;
-    };
 
     $scope.calculatePercentage = function () {
         var field = $scope.order.field;
@@ -12,7 +7,9 @@ function DocumentController($scope, $uibModal) {
         return (value - $scope.stats.min) / ($scope.stats.max - $scope.stats.min) * 100
     };
 
-
+    $scope.getSummary = function (document) {
+        return document.abstractText.split(/\s+/).slice(1, 40).join(" ");
+    };
     $scope.getRatingBars = function () {
         var rating = new Array($scope.ratingBarsCount);
         var percentage = $scope.calculatePercentage();
@@ -39,7 +36,11 @@ function DocumentController($scope, $uibModal) {
             size: 'lg',
             templateUrl: 'abstract.html',
             controller: ["$scope", "$uibModalInstance", "documentInfo", function ($scope, $modalInstance, documentInfo) {
-                $scope.documentInfo = documentInfo
+                $scope.documentInfo = documentInfo;
+                $scope.getDocumentUrl = function () {
+                    var baseUrl = "http://www.aclweb.org/anthology/";
+                    return baseUrl + $scope.documentInfo.document.id;
+                };
             }],
             resolve: {
                 documentInfo: function () {

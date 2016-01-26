@@ -1,20 +1,12 @@
 <div class="modal-header">
-    <h4>Abstract</h4>
     <h5>{{documentInfo.document.title}}</h5>
 </div>
 <div class="modal-body">
-    This is a placeholder text for actual abstract - NLTK, the Natural Language Toolkit,
-    is a suite of open source program
-    modules, tutorials and problem sets,
-    providing ready-to-use computational
-    linguistics courseware. NLTK covers
-    symbolic and statistical natural language
-    processing, and is interfaced to
-    annotated corpora. Students augment
-    and replace existing components, learn
-    structured programming by example,
-    and manipulate sophisticated models
-    from the outset.
+    <div class="abstract">
+        <div ng-if="documentInfo.document.abstractText">{{documentInfo.document.abstractText}}</div>
+        <div ng-if="!documentInfo.document.abstractText">Abstract not available</div>
+    </div>
+    <p></p>
     <hr/>
     <div class="document-topic">
         Topic :
@@ -23,4 +15,6 @@
 
         </span>
     </div>
+    <br/>
+    <a class="btn" ng-href="{{getDocumentUrl()}}" target="_blank">Paper Link</a>
 </div>

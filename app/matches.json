@@ -1,123 +1,623 @@
 {
-  "keyword": "machine_learning",
+  "keyword": "language_learning",
   "matchTopics": [
     {
       "topic": [
         {
-          "word": "training_data",
-          "value": 0.17359720170497894
+          "word": "language_learning",
+          "value": 0.10653138905763626
         },
         {
-          "word": "training_set",
-          "value": 0.10631725192070007
+          "word": "computer_science",
+          "value": 0.08941027522087097
         },
         {
-          "word": "machine_learning",
-          "value": 0.10132727026939392
+          "word": "tutoring_system",
+          "value": 0.0824350044131279
         },
         {
-          "word": "decision_tree",
-          "value": 0.06690654903650284
+          "word": "intelligent_tutoring",
+          "value": 0.06721623241901398
         },
         {
-          "word": "feature_set",
-          "value": 0.048949386924505234
+          "word": "foreign_language",
+          "value": 0.05770450085401535
         },
         {
-          "word": "maximum_entropy",
-          "value": 0.04182083532214165
+          "word": "text_based",
+          "value": 0.05707038566470146
         },
         {
-          "word": "cross_validation",
-          "value": 0.04110798239707947
+          "word": "tutoring_systems",
+          "value": 0.05199746415019035
         },
         {
-          "word": "test_set",
-          "value": 0.035235412418842316
+          "word": "tutorial_dialogue",
+          "value": 0.04438807815313339
         },
         {
-          "word": "decision_trees",
-          "value": 0.03503173962235451
+          "word": "human_human",
+          "value": 0.03994927182793617
         },
         {
-          "word": "training_examples",
-          "value": 0.03404732048511505
+          "word": "multiple_choice",
+          "value": 0.039315156638622284
         },
         {
-          "word": "learning_algorithm",
-          "value": 0.03397943079471588
+          "word": "student_learning",
+          "value": 0.03804692625999451
         },
         {
-          "word": "test_data",
-          "value": 0.03380970284342766
+          "word": "student_turns",
+          "value": 0.03677869215607643
         },
         {
-          "word": "data_set",
-          "value": 0.03316473588347435
+          "word": "acoustic_prosodic",
+          "value": 0.034876346588134766
         },
         {
-          "word": "set_features",
-          "value": 0.03228215500712395
+          "word": "human_tutoring",
+          "value": 0.034876346588134766
         },
         {
-          "word": "feature_selection",
-          "value": 0.030041752383112907
+          "word": "computer_assisted",
+          "value": 0.03424223139882088
         },
         {
-          "word": "training_test",
-          "value": 0.027699515223503113
+          "word": "student_state",
+          "value": 0.0329740010201931
         },
         {
-          "word": "learning_algorithms",
-          "value": 0.026986658573150635
+          "word": "language_technology",
+          "value": 0.0329740010201931
         },
         {
-          "word": "feature_sets",
-          "value": 0.0257306769490242
+          "word": "tutoring_dialogues",
+          "value": 0.03170577064156532
         },
         {
-          "word": "naive_bayes",
-          "value": 0.025493057444691658
+          "word": "learning_environment",
+          "value": 0.02916930802166462
         },
         {
-          "word": "fold_cross",
-          "value": 0.023524221032857895
+          "word": "student_turn",
+          "value": 0.02916930802166462
         },
         {
-          "word": "data_sets",
-          "value": 0.022947147488594055
+          "word": "student_model",
+          "value": 0.02916930802166462
         }
       ],
       "documents": [
         {
-          "author": "Banko, Michele; Brill, Eric",
-          "title": "Scaling To Very Very Large Corpora For Natural Language Disambiguation",
-          "id": "P01-1005",
-          "year": "2001",
+          "author": "Litman, Diane J.; Silliman, Scott",
+          "title": "ITSPOKE: An Intelligent Tutoring Spoken Dialogue System",
+          "id": "N04-3002",
+          "abstractText": "ITSPOKE is a spoken dialogue system that uses the Why2-Atlas text-based tutoring system as its “back-end”.A student first types a natural language answer to a qualitative physics problem.ITSPOKE then engages the student in a spoken dialogue to provide feedback and correct misconceptions, and to elicit more complete explanations.We are using ITSPOKE to generate an empirically-based understanding of the ramifications of adding spoken language capabilities to text-based dialogue tutors.",
+          "year": "2004",
           "pedagogicalRole": null,
-          "pageRankScore": 2.6463633E-4,
-          "relevanceScore": 0.37832762560436545,
-          "authorScore": 8.0
+          "pageRankScore": 1.3335214E-4,
+          "relevanceScore": 0.6814072025394979,
+          "authorScore": 10.5
         },
         {
-          "author": "Mooney, Raymond J.",
-          "title": "Comparative Experiments On Disambiguating Word Senses: An Illustration Of The Role Of Bias In Machine Learning",
-          "id": "W96-0208",
-          "year": "1996",
+          "author": "Litman, Diane J.; Forbes-Riley, Kate",
+          "title": "Annotating Student Emotional States In Spoken Tutoring Dialogues",
+          "id": "W04-2326",
+          "abstractText": "We present an annotation scheme for student emotions in tutoring dialogues.Analyses of our scheme with respect to interannotator agreement and predictive accuracy indicate that our scheme is reliable in our domain, and that our emotion labels can be predicted with a high degree of accuracy.We discuss issues concerning the implementation of emotion prediction and adaptation in the computer tutoring dialogue system we are developing.",
+          "year": "2004",
           "pedagogicalRole": null,
-          "pageRankScore": 2.318389E-4,
-          "relevanceScore": 0.33328283242986434,
-          "authorScore": 10.0
+          "pageRankScore": 7.729904E-5,
+          "relevanceScore": 0.5446322119435356,
+          "authorScore": 10.5
         },
         {
-          "author": "Litman, Diane J.; Walker, Marilyn A.; Kearns, Michael S.",
-          "title": "Automatic Detection Of Poor Speech Recognition At The Dialogue Level",
-          "id": "P99-1040",
+          "author": "Forbes-Riley, Kate; Litman, Diane J.",
+          "title": "Predicting Emotion In Spoken Dialogue From Multiple Knowledge Sources",
+          "id": "N04-1026",
+          "abstractText": "We examine the utility of multiple types of turn-level and contextual linguistic features for automatically predicting student emotions in human-human spoken tutoring dialogues.We first annotate student turns in our corpus for negative, neutral and positive emotions.We then automatically extract features representing acoustic-prosodic and other linguistic information from the speech signal and associated transcriptions.We compare the results of machine learning experiments using different feature sets to predict the annotated emotions.Our best performing feature set contains both acoustic-prosodic and other types of linguistic features, extracted from both the current turn and a context of previous student turns, and yields a prediction accuracy of 84.75%, which is a 44% relative improvement in error reduction over a baseline.Our results suggest that the intelligent tutoring spoken dialogue system we are developing can be enhanced to automatically predict and adapt to student emotions.",
+          "year": "2004",
+          "pedagogicalRole": null,
+          "pageRankScore": 7.330861E-5,
+          "relevanceScore": 0.456329616344039,
+          "authorScore": 10.5
+        }
+      ],
+      "dependentTopics": [
+        {
+          "topic": [
+            {
+              "word": "natural_language",
+              "value": 0.20899774134159088
+            },
+            {
+              "word": "point_view",
+              "value": 0.0812462642788887
+            },
+            {
+              "word": "computational_linguistics",
+              "value": 0.07637516409158707
+            },
+            {
+              "word": "syntactic_semantic",
+              "value": 0.06833325326442719
+            },
+            {
+              "word": "language_processing",
+              "value": 0.06364597380161285
+            },
+            {
+              "word": "semantic_representation",
+              "value": 0.05077891796827316
+            },
+            {
+              "word": "lexical_items",
+              "value": 0.04641330987215042
+            },
+            {
+              "word": "syntactic_structure",
+              "value": 0.0393364280462265
+            },
+            {
+              "word": "abstract_paper",
+              "value": 0.03625752404332161
+            },
+            {
+              "word": "syntax_semantics",
+              "value": 0.03414365276694298
+            },
+            {
+              "word": "semantic_structure",
+              "value": 0.032489314675331116
+            },
+            {
+              "word": "natural_languages",
+              "value": 0.0294563677161932
+            },
+            {
+              "word": "previous_section",
+              "value": 0.02734249271452427
+            },
+            {
+              "word": "semantic_analysis",
+              "value": 0.026928909122943878
+            },
+            {
+              "word": "semantic_information",
+              "value": 0.02633151039481163
+            },
+            {
+              "word": "figure_shows",
+              "value": 0.02591792680323124
+            },
+            {
+              "word": "linguistics_volume",
+              "value": 0.025826018303632736
+            },
+            {
+              "word": "linguistic_phenomena",
+              "value": 0.02578006498515606
+            },
+            {
+              "word": "takes_place",
+              "value": 0.02522861957550049
+            },
+            {
+              "word": "starting_point",
+              "value": 0.024998851120471954
+            },
+            {
+              "word": "discussed_section",
+              "value": 0.024171683937311172
+            }
+          ],
+          "documents": [
+            {
+              "author": "Calzolari, Nicoletta",
+              "title": "Towards The Organization Of Lexical Definitions On A Database Structure",
+              "id": "C82-2013",
+              "abstractText": "Printed dictionaries are great repositories of information, and it is important that they can be exploited as fully as possible, with regard to all the different types of data they contain.This was one of the aims when organizing the Machine Dictionary of the Italian language on a database structure.The design and organization of the lexical database for the first two relations implemented, i.e. the set of Lemmas (106, 091) and the set of Word-forms (1,016,320), has been described in other papers (see for example Calzolari and Cec* cotti, 1980).These two very large archives are maintained continuously on-line and are interactively invoked through a query language which permits to the user to access, in transparent mode, the data, and to have his particular \"view\" of the data.The database concept and methodology give rise, in fact, to a radical change in perspective when confronted with sequential organization of data.We have a dynamic rather than a static object which is flexible and easy to query, update, extend.This lexical database is now being extended by the insertion of lexical definitions (185,899) and semantic data.The guiding principle behind this project is the conviction that the study of the defining vocabulary of an actual dictionary can provide a precious tool in the semantic analysis - 61 - of a language (see Noel, 1981).The logical organization of this definitional information is not a trivial task, and must be performed bearing in utnd the goals to be achieved.It must in fact be possible to have direct access to each and every piece of information contained in the definitions.The significance of \"piece of information\" in this context is in direct relationship to the eventual use to be made of it.By \"piece of information\" inside the definitions, we intend not only the single word-forms, as they are written in the definitions, but also the lemma, to which every word-form is connected; moreover, at a further stage of analysis, the specific sense of every polysemic lemma in the particular context (contextmdefinition) must be considered.The logical organization of the definitional part of the database must, therefore, be structured to provide, for each word in every definition, direct access to: a) the word-form itself, with the associated information (morphological, usage level, etc.); b) the lemma to which the word-form pertains, with the associated information (part-of speech, variants, usage level other word forms i.e. paradigm); c) the specific sense of the lemma.The implementation of a definitional archive thus requires an enormous task of disambiguation at all the three levels: word-forms, lemmas and senses, in order to produce material which can be used effectively to extract semantic information from the dictionary.' The first step in this direction is the lemmatization of the definitions themselves.For this task,the other two archives of the database (the word-form and lemmas archives) are being used, together with ad hoc procedures, to produce an automatic lemmatization of a large percentage of the words contained in the definitions.For the other words, those for which automatic lemmatization has not yet been achieved, a disambiguation strategy has been developed in which the human -62-operator works interactively with the computer, and the computer can memorize choices on homographic forms as they are made.After lemmatization, each word is associated in the computer memory to the addresses of its word-form and of its lemma.Therefore, the definitions are organized in the memory not as actual strings of words, but as lists of addresses of word-forms and lemmas.In this way, a number of important results are achieved: a) a great reduction in storage size; b) data types (addresses i.e. binary numbers) which are easily handled by the computer; c) data which are strictly associated to the first two archives, Aiming at the eventual construction of an integrated system; d) much more rapid data processing and direct accesses to each kind of data, in each position of the definition itself; e) the possibility of being able to immediately retranslate addresses into character strings, and list of addresses into phrases, i.e. definitions; f) the possibility of correcting, updating and inserting within the definitions.Only once this preliminary stage has been completed is it possible to extract many kinds of semantic information from the dictionary.The memorized definitions have an internal logical structure which permits the construction of semantic chains (to evidence taxonomic relationships) and also of other types of semantic links (to evidence other types of semantic relationships, such as 'part of', 'set of', 'in the form of', 'apt to', etc.)between words in the lexicon.These chains and links, which can be not only displayed, but also handled by computer procedures in many different ways, surely provide a good starting point for the study of the semantic structure of the lexicon.In fact, it is hoped that the computerized dictionary will offer a model of the Italian lexical system in the various aspects which can be associated with a lexicon (phonology, morphology, syntax i.e. verbal frames, -63-lexical semantics).This approach is included in the general theoretical view which considers the lexicon as a central reference point both for language analysis and for many linguistic applications.",
+              "year": "1982",
+              "pedagogicalRole": null,
+              "pageRankScore": 4.741768E-4,
+              "relevanceScore": 0.23150763717175304,
+              "authorScore": 3.0
+            },
+            {
+              "author": "Winograd, Terry",
+              "title": "On Primitives, Prototypes, And Other Semantic Anomalies",
+              "id": "T78-1004",
+              "abstractText": "Over the past few years, there have been a number of papers arguing the relative merits of primitives and prototypes as representations for the meaning of natural language.Much of the discussion has been both pugnacious and confused, with each author setting up one or another straw-man to knock down.Much of the confusion has resulted from a lack of agreement as to what it would mean for a system to use primitives or prototypes.There are several different dimensions along which semantic formalisms vary, and many of the arguments have blurred these into a single distinction.In this paper, I propose a framework within which to compare a variety of semantic formalisms which have been proposed in linguistics and artificial intelligence.The paper lays out three dimensions (called ontological, logical, and relational), describing the relevant options along each and the implications of making alternative choices in the design of a formalism.It does not attempt to demonstrate that one or another alternative is right, but instead tries to clearly state the advantages and disadvantages of each in a non-partisan way.It is more in the style of a textbook than of a research paper.Its contribution will, I hope, be in dissolving some non-issues which have occupied previous discussion, and in focussing attention on the real distinctions between alternative proposals.My own prejudices are set forth in Winograd (1976) and Bobrow and Winograd (1977).In addition to citing primary sources, I will make particular reference to the discussion by Wilks (1977) since it is recent and sets out a number of the same issues.",
+              "year": "1978",
+              "pedagogicalRole": null,
+              "pageRankScore": 3.6425097E-4,
+              "relevanceScore": 0.2800230555381128,
+              "authorScore": 0.0
+            },
+            {
+              "author": "Kaplan, Ronald M.; Netter, Klaus; Wedekind, Jurgen; Zaenen, Annie",
+              "title": "Translation By Structural Correspondences",
+              "id": "E89-1037",
+              "abstractText": "",
+              "year": "1989",
+              "pedagogicalRole": null,
+              "pageRankScore": 2.5290402E-4,
+              "relevanceScore": 0.24997576232776936,
+              "authorScore": 3.5
+            }
+          ],
+          "dependentTopics": []
+        },
+        {
+          "topic": [
+            {
+              "word": "information_extraction",
+              "value": 0.08652849495410919
+            },
+            {
+              "word": "language_processing",
+              "value": 0.08134715259075165
+            },
+            {
+              "word": "language_technology",
+              "value": 0.078238345682621
+            },
+            {
+              "word": "language_engineering",
+              "value": 0.06683937460184097
+            },
+            {
+              "word": "large_scale",
+              "value": 0.060103628784418106
+            },
+            {
+              "word": "open_source",
+              "value": 0.04974093288183212
+            },
+            {
+              "word": "state_art",
+              "value": 0.048704661428928375
+            },
+            {
+              "word": "human_language",
+              "value": 0.04663212597370148
+            },
+            {
+              "word": "research_development",
+              "value": 0.045077718794345856
+            },
+            {
+              "word": "development_environment",
+              "value": 0.04300517961382866
+            },
+            {
+              "word": "tipster_architecture",
+              "value": 0.042487047612667084
+            },
+            {
+              "word": "speech_technology",
+              "value": 0.041450776159763336
+            },
+            {
+              "word": "phase_ii",
+              "value": 0.03989637270569801
+            },
+            {
+              "word": "verification_method",
+              "value": 0.03834196925163269
+            },
+            {
+              "word": "data_structures",
+              "value": 0.03575129434466362
+            },
+            {
+              "word": "technology_transfer",
+              "value": 0.03316062316298485
+            },
+            {
+              "word": "cunningham_al",
+              "value": 0.03316062316298485
+            },
+            {
+              "word": "language_technologies",
+              "value": 0.032642487436532974
+            },
+            {
+              "word": "tipster_phase",
+              "value": 0.032642487436532974
+            },
+            {
+              "word": "tipster_text",
+              "value": 0.032642487436532974
+            },
+            {
+              "word": "tipster_program",
+              "value": 0.03160621598362923
+            }
+          ],
+          "documents": [
+            {
+              "author": "Cunningham, Hamish; Maynard, Diana; Bontcheva, Kalina; Tablan, Valentin",
+              "title": "GATE: A Framework And Graphical Development Environment For Robust NLP Tools And Applications",
+              "id": "P02-1022",
+              "abstractText": "In this paper we present GATE, a framework and graphical development environment which enables users to develop and deploy language engineering components and resources in a robust fashion.The GATE architecture has enabled us not only to develop a number of successful applications for various language processing tasks (such as Information Extraction), but also to build and annotate corpora and carry out evaluations on the applications generated.The framework can be used to develop applications and resources in multiple languages, based on its thorough Unicode support.",
+              "year": "2002",
+              "pedagogicalRole": null,
+              "pageRankScore": 6.822444E-4,
+              "relevanceScore": 0.4695247156156728,
+              "authorScore": 2.5
+            },
+            {
+              "author": "Loper, Edward; Bird, Steven",
+              "title": "NLTK: The Natural Language Toolkit",
+              "id": "W02-0109",
+              "abstractText": "NLTK, the Natural Language Toolkit, is a suite of open source program modules, tutorials and problem sets, providing ready-to-use computational linguistics courseware.NLTK covers symbolic and statistical natural language processing, and is interfaced to annotated corpora.Students augment and replace existing components, learn structured programming by example, and manipulate sophisticated models from the outset.",
+              "year": "2002",
+              "pedagogicalRole": null,
+              "pageRankScore": 3.466649E-4,
+              "relevanceScore": 0.406544186853387,
+              "authorScore": 2.5
+            },
+            {
+              "author": "Bontcheva, Kalina; Cunningham, Hamish; Tablan, Valentin; Maynard, Diana; Hamza, Oana",
+              "title": "Using GATE As An Environment For Teaching NLP",
+              "id": "W02-0108",
+              "abstractText": "In this paper we argue that the GATE architecture and visual development environment can be used as an effective tool for teaching language engineering and computational linguistics.Since GATE comes with a customisable and extendable set of components, it allows students to get hands-on experience with building NLP applications.GATE also has tools for corpus annotation and performance evaluation, so students can go through the entire application development process within its graphical development environment.Finally, it offers comprehensive Unicode-compliant multilingual support, thus allowing students to create components for languages other than English.Unlike other NLP teaching tools which were designed specifically and only for this purpose, GATE is a system developed for and used actively in language engineering research.This unique duality allows students to contribute to research projects and gain skills in embedding HLT in practical applications.",
+              "year": "2002",
+              "pedagogicalRole": null,
+              "pageRankScore": 3.118785E-4,
+              "relevanceScore": 0.521648507001222,
+              "authorScore": 2.0
+            }
+          ],
+          "dependentTopics": []
+        },
+        {
+          "topic": [
+            {
+              "word": "natural_language",
+              "value": 0.21139150857925415
+            },
+            {
+              "word": "knowledge_base",
+              "value": 0.20002569258213043
+            },
+            {
+              "word": "knowledge_representation",
+              "value": 0.08232196420431137
+            },
+            {
+              "word": "language_understanding",
+              "value": 0.05779233202338219
+            },
+            {
+              "word": "world_knowledge",
+              "value": 0.04860977455973625
+            },
+            {
+              "word": "domain_knowledge",
+              "value": 0.03666602447628975
+            },
+            {
+              "word": "artificial_intelligence",
+              "value": 0.03133628889918327
+            },
+            {
+              "word": "data_base",
+              "value": 0.030180441215634346
+            },
+            {
+              "word": "shown_figure",
+              "value": 0.02979515865445137
+            },
+            {
+              "word": "knowledge_sources",
+              "value": 0.028318243101239204
+            },
+            {
+              "word": "knowledge_based",
+              "value": 0.026327617466449738
+            },
+            {
+              "word": "linguistic_knowledge",
+              "value": 0.024529634043574333
+            },
+            {
+              "word": "understanding_system",
+              "value": 0.024401206523180008
+            },
+            {
+              "word": "semantic_network",
+              "value": 0.023309573531150818
+            },
+            {
+              "word": "real_world",
+              "value": 0.023181146010756493
+            },
+            {
+              "word": "language_processing",
+              "value": 0.023181146010756493
+            },
+            {
+              "word": "problem_solving",
+              "value": 0.023052720353007317
+            },
+            {
+              "word": "expert_system",
+              "value": 0.019585179165005684
+            },
+            {
+              "word": "common_sense",
+              "value": 0.019520966336131096
+            },
+            {
+              "word": "knowledge_bases",
+              "value": 0.019520966336131096
+            },
+            {
+              "word": "system_knowledge",
+              "value": 0.01695241779088974
+            }
+          ],
+          "documents": [
+            {
+              "author": "Woods, William A.",
+              "title": "Taxonomic Lattice Structures For Situation Recognition",
+              "id": "T78-1005",
+              "abstractText": "The kinds of intelligent computer assistants that we would like to be able to construct are very much like intelligent organisms in their own right.Imagine for a moment an intelligent organism trying to get along in the world (find enough food, stay out of trouble, satisfy basic needs, etc.).The most valuable service played by an internal knowledge base for such an organism is to repeatedly answer questions like \"what's going on out there?\", \"can it harm me?\", \"how can I avoid/placate it?\", \"Is it good to eat?\", \"Is there any special thing I should do about it?\", etc.To support this kind of activity, a substantial part of the knowledge base must be organized as a recognition device for classifying and identifying situations in the world.The major purpose of this situation recognition is to locate internal procedures which are applicable (appropriate, permitted, mandatory, etc.)to the current situation.In constructing an intelligent computer assistant, the roles of knowledge are very similar.The basic goals of food getting and danger avoidance are replaced by goals of doing what the user wants and avoiding things that the machine has been instructed to avoid.However, the fundamental problem of analyzing a situation (one established either linguistically or physically or by some combination of the two) in order to determine whether it is one for which there are procedures to be executed, or one which was to be avoided (or one which might lead to one that is to be avoided), etc.is basically the same.For example, one might want to instruct such a system to remind the user in advance of any upcoming scheduled meetings, to inform him if he tries to assign a resource that has already been committed, to always print out messages in reverse chronological order (when requested), to assume that \"the first\" refers to the first day of the upcoming month in a future scheduling context and the first day of the current month in a past context, etc.The principal role of the knowledge network for such a system is essentially to serve as a \"coat rack\" upon which to hang various pieces of advice for the system to execute.Thus the notion of procedural attachment becomes not just an efficiency technique, but the main purpose for the existence of the network.This does not necessarily imply, however, that the procedures involved consist of low-level machine code.They may instead, and probably usually will, be high level specifications of things to be done or goals to be achieved.The principal structure that organizes all of these procedures is a conceptual taxonomy of situations about which the machine knows something.To support the above uses of knowledge, an important characteristic required of an efficient knowledge representation seems to be a mechanism of inheritance that will permit information to be stored in its most general form and yet still be triggered by any more specific situation or instance to which it applies.Moreover, the nodes in the network (or at least a major class of nodes) should be interpretable as situation descriptions.One of the most fundamental kinds of information to be stored in the knowledge base will be rules of the form \"if <situation description> is satisfied then do <action description>\", or \"if <situation description> then expect <situation description>\".Situation descriptions are in general characterizations of classes of situations that the machine could be in.They are not complete descriptions of world states, but only partial descriptions that apply to classes of world states.(The machine should never be assumed or required to have a complete description of a world state if it is to deal with the real world.)A situation in this partial sense is defined by the results of certain measurements, computations, or recognition procedures applied to the system's input.Examples of situations might be \"You have a goal to achieve which is an example of situation Y\", \"You are perceiving an object of class Z\", \"The user has asked you to perform a task of type W\", etc.More specific situations might be: \"trying to schedule a meeting for three people, two of which have busy schedules\", \"about to print a message from a user to himself\", \"about to refer to a date in a recent previous year in a context where precision but conciseness is required\".The major references to this conceptual taxonomy by the intelligent machine will be attempts to identify and activate those situation descriptions that apply to its current situation or some hypothesized situation in order to consider any advice that may be stored there.Note that \"considering advice of type X\" is itself an example of a situation, so that this process can easily become recursive and potentially unmanageable without appropriate care.Conceptually, one might think of the process of activating all of the descriptions that are satisfied by the current situation as one of taking a description of the current situation and matching it against descriptions stored in the system.However, there are in general many different ways in which the current situation might be described, and it is not clear how one should construct such a description.Moreover, until it is so recognized, a situation consists of a collection of unrelated events and conditions.The process of recognizing the elements currently being perceived as an instance of a situation about which some information is known consists of discovering that those elements can be interpreted as filling roles in a situation description known to the system.In fact, the process of creating a description of the current situation is very much like the process of parsing a sentence, and inherently uses the knowledge structure of the system like a parser uses a grammar in order to construct the appropriate description.Consequently, by the time a description of the situation has been constructed, it has already been effectively matched against the descriptions in the knowledge base.",
+              "year": "1978",
+              "pedagogicalRole": null,
+              "pageRankScore": 1.7742722E-4,
+              "relevanceScore": 0.20782189971315804,
+              "authorScore": 0.0
+            },
+            {
+              "author": "Wilensky, Robert; Arens, Yigal",
+              "title": "PHRAN - A Knowledge-Based Natural Language Understander",
+              "id": "P80-1030",
+              "abstractText": "We have developed an approach to natural language processing in which the natural language processor is viewed as a knowledge-based system whose knowledge is about the meanings of the utterances of its language.The approach is oriented around the phrase rather than the word as the basic unit.We believe that this paradigm for language processing not only extends the capabilities of other natural language systems, but handles those tasks that previous systems could perform in a more systematic and extensible manner.We have constructed a natural language analysis program called PHRAN (PHRasal ANalyzer) based in this approach.This model has a number of advantages over existing systems, including the ability to understand a wider variety of language utterances, increased processing speed in some cases, a clear separation of control structure from data structure, a knowledge base that could be shared by a language production mechanism, greater ease of extensibility, and the ability to store some useful forms of knowledge that cannot readily be added to other systems.",
+              "year": "1980",
+              "pedagogicalRole": null,
+              "pageRankScore": 1.6612625E-4,
+              "relevanceScore": 0.20497167373692027,
+              "authorScore": 1.5
+            },
+            {
+              "author": "Rau, Lisa F.; Jacobs, Paul S.",
+              "title": "Integrating Top-Down And Bottom-Up Strategies In A Text Processing System",
+              "id": "A88-1018",
+              "abstractText": "The SCISOR system is a computer program designed to scan naturally occurring texts in constrained domains, extract information, and answer questions about that information.The system currently reads newspapers stories in the domain of corporate mergers and acquisitions.The language analysis strategy used by SCISOR combines full syntactic (bottom-up) parsing and conceptual expectation-driven (top-down) parsing.Four knowledge sources, including syntactic and semantic information and domain knowledge, interact in a flexible manner.This integration produces a more robust semantic analyzer designed to deal gracefully with gaps in lexical and syntactic knowledge, transports easily to new domains, and facilitates the extraction of information from texts.",
+              "year": "1988",
+              "pedagogicalRole": null,
+              "pageRankScore": 1.3227452E-4,
+              "relevanceScore": 0.26548333391646095,
+              "authorScore": 2.0
+            }
+          ],
+          "dependentTopics": []
+        }
+      ]
+    },
+    {
+      "topic": [
+        {
+          "word": "language_acquisition",
+          "value": 0.19373367726802826
+        },
+        {
+          "word": "language_learning",
+          "value": 0.1060052216053009
+        },
+        {
+          "word": "learning_algorithm",
+          "value": 0.073107048869133
+        },
+        {
+          "word": "construction_grammar",
+          "value": 0.05378590151667595
+        },
+        {
+          "word": "learning_process",
+          "value": 0.05117493495345116
+        },
+        {
+          "word": "negative_evidence",
+          "value": 0.04908616095781326
+        },
+        {
+          "word": "learning_system",
+          "value": 0.04699739068746567
+        },
+        {
+          "word": "child_language",
+          "value": 0.04595300182700157
+        },
+        {
+          "word": "item_based",
+          "value": 0.03968668356537819
+        },
+        {
+          "word": "form_meaning",
+          "value": 0.0355091392993927
+        },
+        {
+          "word": "learning_language",
+          "value": 0.033942557871341705
+        },
+        {
+          "word": "parameter_setting",
+          "value": 0.03185378760099411
+        },
+        {
+          "word": "word_order",
+          "value": 0.03185378760099411
+        },
+        {
+          "word": "language_learner",
+          "value": 0.02924281917512417
+        },
+        {
+          "word": "grammar_learning",
+          "value": 0.02924281917512417
+        },
+        {
+          "word": "universal_grammar",
+          "value": 0.02819843403995037
+        },
+        {
+          "word": "parameter_values",
+          "value": 0.02558746747672558
+        },
+        {
+          "word": "target_grammar",
+          "value": 0.02506527490913868
+        },
+        {
+          "word": "mental_spaces",
+          "value": 0.02454308047890663
+        },
+        {
+          "word": "positive_evidence",
+          "value": 0.022976500913500786
+        },
+        {
+          "word": "target_language",
+          "value": 0.022454308345913887
+        }
+      ],
+      "documents": [
+        {
+          "author": "Goodman, Joshua",
+          "title": "Semiring Parsing",
+          "id": "J99-4004",
+          "abstractText": "We synthesize work on parsing algorithms, deductive parsing, and the theory of algebra applied to formal languages into a general system for describing parsers.Each parser performs abstract computations using the operations of a semiring.The system allows a single, simple representation to be used for describing parsers that compute recognition, derivation forests, Viterbi, n-best, inside values, and other values, simply by substituting the operations of different semirings.We also show how to use the same representation, interpreted differently, to compute outside values.The system can be used to describe a wide variety of parsers, including Earley's algorithm, tree adjoining grammar parsing, Graham Harrison Ruzzo parsing, and prefix value computation.",
           "year": "1999",
           "pedagogicalRole": null,
-          "pageRankScore": 1.6494577E-4,
-          "relevanceScore": 0.31563146987160096,
-          "authorScore": 13.666666666666666
+          "pageRankScore": 1.08333734E-4,
+          "relevanceScore": 0.42917822035898623,
+          "authorScore": 7.0
+        },
+        {
+          "author": "Yang, Charles D.",
+          "title": "A Selectionist Theory Of Language Acquisition",
+          "id": "P99-1055",
+          "abstractText": "This paper argues that developmental patterns in child language be taken seriously in computational models of language acquisition, and proposes a formal theory that meets this criterion.We first present developmental facts that are problematic for statistical learning approaches which assume no prior knowledge of grammar, and for traditional learnabil-ity models which assume the learner moves from one UG-defined grammar to another.In contrast, we view language acquisition as a population of grammars associated with \"weights\", that compete in a Darwinian selectionist process.Selection is made possible by the variational properties of individual grammars; specifically, their differential compatibility with the primary linguistic data in the environment.In addition to a convergence proof, we present empirical evidence in child language development, that a learner is best modeled as multiple grammars in coexistence and competition.",
+          "year": "1999",
+          "pedagogicalRole": null,
+          "pageRankScore": 5.2213963E-5,
+          "relevanceScore": 0.6371234942061708,
+          "authorScore": 0.0
+        },
+        {
+          "author": "Sagae, Kenji; Lavie, Alon; MacWhinney, Brian",
+          "title": "Automatic Measurement Of Syntactic Development In Child Language",
+          "id": "P05-1025",
+          "abstractText": "To facilitate the use of syntactic information in the study of child language acquisition, a coding scheme for Grammatical Relations (GRs) in transcripts of parent-child dialogs has been proposed by Sagae, MacWhinney and Lavie (2004).We discuss the use of current NLP techniques to produce the GRs in this annotation scheme.By using a statistical parser (Charniak, 2000) and memory-based learning tools for classification (Daelemans et al., 2004), we obtain high precision and recall of several GRs.We demonstrate the usefulness of this approach by performing automatic measurements of syntactic development with the Index of Productive Syntax (Scarborough, 1990) at similar levels to what child language researchers compute manually.",
+          "year": "2005",
+          "pedagogicalRole": null,
+          "pageRankScore": 4.7951948E-5,
+          "relevanceScore": 0.28779741786224844,
+          "authorScore": 4.0
         }
       ],
       "dependentTopics": [
@@ -213,6 +713,7 @@
               "author": "Koehn, Philipp",
               "title": "Statistical Significance Tests For Machine Translation Evaluation",
               "id": "W04-3250",
+              "abstractText": "If two translation systems differ differ in performance on a test set, can we trust that this indicates a difference in true system quality?To answer this question, we describe bootstrap resampling methods to compute statistical significance of test results, and validate them on the concrete example of the BLEU score.Even for small test sizes of only 300 sentences, our methods may give us assurances that test result differences are real.",
               "year": "2004",
               "pedagogicalRole": null,
               "pageRankScore": 3.7507055E-4,
@@ -223,6 +724,7 @@
               "author": "Bikel, Daniel M.",
               "title": "Intricacies Of Collins Parsing Model",
               "id": "J04-4004",
+              "abstractText": "This article documents a large set of heretofore unpublished details Collins used in his parser, such that, along with Collins’ (1999) thesis, this article contains all information necessary to duplicate Collins’ benchmark results.Indeed, these as-yet-unpublished details account for an 11 % relative increase in error from an implementation including all details to a clean-room implementation of Collins’ model.We also show a cleaner and equally well-performing method for the handling of punctuation and conjunction and reveal certain other probabilistic oddities about Collins’ parser.We not only analyze the effect of the unpublished details, but also reanalyze the effect of certain well-known details, revealing that bilexical dependencies are barely used by the model and that head choice is not nearly as important to overall parsing performance as once thought.Finally, we perform experiments that show that the true discriminative power of lexicalization appears to lie in the fact that unlexicalized syntactic structures are generated conditioning on the headword and its part of speech.",
               "year": "2004",
               "pedagogicalRole": null,
               "pageRankScore": 2.6883994E-4,
@@ -233,6 +735,7 @@
               "author": "Ostendorf, Mari; Kannan, Ashvin; Austin, Steve; Kimball, Owen; Schwartz, Richard M.; Rohlicek, J. Robin",
               "title": "Integration Of Diverse Recognition Methodologies Through Reevaluation Of N-Best Sentence Hypotheses",
               "id": "H91-1013",
+              "abstractText": "This paper describes a general formalism for integrating two or more speech recognition technologies, which could be developed at different research sites using different recognition strategies.In this formalism, one system uses the N-best search strategy to generate a list of candidate sentences; the list is rescored by other systems; and the different scores are combined to optimize performance.Specifically, we report on combining the BU system based on stochastic segment models and the BBN system based on hidden Markov models.In addition to facilitating integration of different systems, the N-best approach results in a large reduction in computation for word recognition using the stochastic segment model.",
               "year": "1991",
               "pedagogicalRole": null,
               "pageRankScore": 2.5409975E-4,
@@ -245,120 +748,123 @@
         {
           "topic": [
             {
-              "word": "word_sense",
-              "value": 0.22329583764076233
+              "word": "hand_side",
+              "value": 0.11037323623895645
             },
             {
-              "word": "sense_disambiguation",
-              "value": 0.151807963848114
+              "word": "grammar_rules",
+              "value": 0.09767989069223404
             },
             {
-              "word": "word_senses",
-              "value": 0.09783346951007843
+              "word": "context_free",
+              "value": 0.07641223818063736
             },
             {
-              "word": "target_word",
-              "value": 0.08598173409700394
+              "word": "set_rules",
+              "value": 0.07262945175170898
             },
             {
-              "word": "ambiguous_word",
-              "value": 0.042122744023799896
+              "word": "phrase_structure",
+              "value": 0.06455951929092407
             },
             {
-              "word": "sense_tagged",
-              "value": 0.03872574865818024
+              "word": "left_hand",
+              "value": 0.061617352068424225
             },
             {
-              "word": "lexical_sample",
-              "value": 0.03638559579849243
+              "word": "rules_applied",
+              "value": 0.0513618029654026
             },
             {
-              "word": "sense_word",
-              "value": 0.0360836423933506
+              "word": "rule_set",
+              "value": 0.04757901653647423
             },
             {
-              "word": "senses_word",
-              "value": 0.035630710422992706
+              "word": "rule_rule",
+              "value": 0.04009751230478287
             },
             {
-              "word": "sense_distinctions",
-              "value": 0.028081830590963364
+              "word": "grammar_rule",
+              "value": 0.03984532505273819
             },
             {
-              "word": "ambiguous_words",
-              "value": 0.027175964787602425
+              "word": "rules_rules",
+              "value": 0.038836583495140076
             },
             {
-              "word": "correct_sense",
-              "value": 0.02581716701388359
+              "word": "rule_applied",
+              "value": 0.038248151540756226
             },
             {
-              "word": "number_senses",
-              "value": 0.024760322645306587
+              "word": "structure_rules",
+              "value": 0.03547411039471626
             },
             {
-              "word": "wordnet_senses",
-              "value": 0.019476108253002167
+              "word": "number_rules",
+              "value": 0.033708810806274414
             },
             {
-              "word": "wsd_system",
-              "value": 0.019023174419999123
+              "word": "rules_grammar",
+              "value": 0.029421653598546982
             },
             {
-              "word": "fine_grained",
-              "value": 0.01864573173224926
+              "word": "rule_application",
+              "value": 0.029253531247377396
             },
             {
-              "word": "frequent_sense",
-              "value": 0.018494753167033195
+              "word": "rules_rule",
+              "value": 0.02816072665154934
             },
             {
-              "word": "disambiguation_wsd",
-              "value": 0.018117310479283333
+              "word": "side_rule",
+              "value": 0.026563551276922226
             },
             {
-              "word": "sense_tagging",
-              "value": 0.01766437664628029
+              "word": "structure_grammar",
+              "value": 0.02639542706310749
             },
             {
-              "word": "local_context",
-              "value": 0.017513399943709373
+              "word": "rule_based",
+              "value": 0.02639542706310749
             },
             {
-              "word": "senses_words",
-              "value": 0.01736242137849331
+              "word": "rules_apply",
+              "value": 0.025386685505509377
             }
           ],
           "documents": [
             {
-              "author": "Leacock, Claudia; Towell, Geoffrey; Voorhees, Ellen M.",
-              "title": "Corpus-Based Statistical Sense Resolution",
-              "id": "H93-1051",
-              "year": "1993",
+              "author": "Pereira, Fernando",
+              "title": "Extraposition Grammars",
+              "id": "J81-4003",
+              "abstractText": "Edinburgh EH1 1JZ SCOTLAND Extraposition grammars are an extension of definite clause grammars, and are similarly defined in terms of logic clauses.The extended formalism makes it easy to describe left extraposition of constituents, an important feature of natural language syntax.",
+              "year": "1981",
               "pedagogicalRole": null,
-              "pageRankScore": 6.57069E-4,
-              "relevanceScore": 0.48495571878879634,
-              "authorScore": 2.0
+              "pageRankScore": 0.0017935759,
+              "relevanceScore": 0.3069505611745196,
+              "authorScore": 6.0
             },
             {
-              "author": "Ng, Hwee Tou; Lee, Hian Beng",
-              "title": "Integrating Multiple Knowledge Sources To Disambiguate Word Sense: An Exemplar-Based Approach",
-              "id": "P96-1006",
-              "year": "1996",
+              "author": "Thompson, Henry S.",
+              "title": "Chart Parsing And Rule Schemata In PSG",
+              "id": "P81-1036",
+              "abstractText": "The advantage of the WFST comes out if we suppose the grammar involved recognises the structural ambiguity of this sentence.If the parsing continued in order to produce the other structure, with the PP attached at the VP level, considerable effort would be saved by the WFST.The subject NP and the PP itself would not need to be reparsed, as they are already in the graph.MCHART is a flexible, modular chart parsing framework I have been developing (in Lisp) at Edinburgh, whose initial design characteristics were largely determined by pedagogical needs.PSG is a grammatical theory developed by Gerald Gazdar at Sussex, in collaboration with others in both the US and Britain, most notably Ivan Sag, Geoff Pullum, and Ewan Klein.It is a notationally rich context free phrase structure grammar, incorporating meta-rules and rule schemata to capture generalisations.(Gazdar 1980a, 1980b, 1981; Gazdar & Sag 1980; Gazdar, Sag, Pullum & Klein to appear) In this paper I want to describe how I have used MCHART in beginning to construct a parser for grammars expressed in PSG, and how aspects of the chart parsing approach in general and MCHART in particular have made it easy to accommodate two significant aspects of PSG: rule schemata involving variables over categories; and compound category symbols (\"slash\" categories).To do this I will briefly introduce the basic ideas of chart parsing; describe the salient aspects of MCHART; give an overview of PSG; and finally present the interesting aspects of the parser I am building for PSG using MCHART.Limitations of space, time, and will mean that all of these sections will be brief and sketchy - I hope to produce a much expanded version at a later date.I.Chart Parsing The chart parsing idea was originally conceived of by Martin Kay, and subsequently developed and refined by him and Ron Kaplan (Kay 1973, 1977, 1980; Kaplan 1972, 1973a, 1973b).The basic idea builds on the device known as a well formed substring table, and transforms it from a passive repository of achieved results into an active parsing agent.A well formed substring table can be considered as a directed graph, with each edge representing a node in the analysis of a string.Before any parsing has occurred, all the nodes are (pre)terminal, as in Figure 1.NVDNPDN Non-terminal nodes discovered in the course of parsing, by whatever method, are recorded in the WFST by the addition of edges to the graph.For example in Figure 2 we see the edges which might have been added in a parsing of the sentence given in Figure 1.What the chart adds to the WFST is the idea of active edges.Where the inactive edges of the WFST (and the chart) represent complete constituents, active edges represent incomplete constituents.Where inactive edges indicate the presence of such and such a constituent, with such and such sub-structure, extending from here to there, active edges indicate a stage in the search for a constituent.As such they record the category of the constituent under construction, its substructure as found so far, and some specification of how it may be extended and/ or completed.The fundamental principle of chart parsing, from which all else follows, is keyed by the meeting of active with inactive edges: ******************** The Fundamental Rule ******************** Whenever an active edge A and an inactive edge I meet for the first time, if I satisfies A's conditions for extension, then build a* new edge as follows: Its left end is the left end of A Its right end is the right end of I Its category is the category of A Its contents are a function (dependent on the grammatical formalism employed) of the contents of A and the category and contents of I It is inactive or active depending on whether this extension completes A or not ******************** Note that neither A nor I is modified by the abuve process - a completely new edge is constructed, independent of either of them.In the case of A, this may seem surprising and wasteful of space, but in fact it is crucial to properly dealing with structural ambiguity.It guarantees that all parses will be found, independent of the order in which operations are performed.Whenever further inactive edges are added at this point the continued presence of A, together with the fundamental rule, insures that alternative extensions of A will be pursued as appropriate.A short example should make the workings of this principle clear.For the sake of simplicity, the grammar I will use in this and subsequent examples is an unadorned set of context free phrase structure rules, and the structures produced are simple constituent structure trees.Nonetheless as should be clear from what follows, the chart is equally useful for a wide range of grammatical formalisms, including phrase structure rules with features and ATNs.*In fact depending on formalism more than one new edge may be built - see below.Figures 3a-3d show the parsing of \"the man\" by the rule \"NP -> D N\".In these figures, inactive edges are light lines below the row of verteces.Active edges are heavy lines above the row.Figure 3a simply shows the two inactive edges for the string with form-class information.the left hand end.We will discuss where it comes from in the next section.Its addition to the chart invokes the fundamental rule, with this edge being A and the edge for \"the\" being I.The notation here for the active edges is the category sought, in this case NP, followed by a colon, followed by a list of the categories needed for extension/ completion, in this case D followed by N, followed by a bracketed list of sub-constituents, in this case empty.Since the first symbol of the extension specification of A matches the category of I, an new edge is created by the fundamental rule, as shown in Figure 3c.This edge represents a partially completed NP, still needing an N to complete, with a partial structure.Its addition to the chart invokes the fundamental rule again, this time with it as A and the \"man\" edge as I.Once again the extension condition is meet, and a new edge is constructed.This one is inactive however, as nothing more is required to complete it.The fundamental rule is invoked for the last time, back at the left hand end, because the empty NP edge (active) now meets the complete NP edge (inactive) for the first time, but nothing comes of this as D does not match NP, and so the process comes to a halt with the chart as shown in Figure 3d.The question of where the active edges come from is separate from the basic bookkeeping of the fundamental principle.Different rule invocation strategies such as top-down, bottom-up, or left corner are reflected in different conditions for the introduction of empty active edges, different conditions for the introduction of empty active edges.For instance for a top-down invocation strategy, the following rule could be used: ********************** Top-down Strategy Rule ********************** Whenever an active edge is added to the chart, if the first symbol it needs to extend itself is a nonterminal, add an empty active edge at its right hand end for each rule in the grammar which expands the needed symbol.********************** With this rule and the fundamental rule in operation, simply adding empty active edges for all rules expanding the distinguished symbol to the left hand end of the chart will provoke the parse.Successful parses are reflected in inactive edges of the correct category spanning the entire chart, once there is no more activity provoked by one or the other of the rules.Bottom-up invocation is equally straight-forward:Whenever an inactive edge is added to the chart, for all the rules in the grammar whose expansion begins with the this edge's category, add an empty active edge at its left hand end.** ****** *************** Note that while this rule is keyed off inactive edges the top-down rule was triggered by active edges being added.Bottom-up says \"Who needs what just got built in order to get started\", while top-down says \"Who can help build what I need to carry on\".Bottom-up is slightly simpler, as no additional action is needed to commence the parse beyond simply constructing the initial chart - the lexically inspired inactive edges themselves get things moving./Lisp note that if the grammars to be parsed are left-recursive, then both of these rules need redundancy checks of the form \"and no such empty active edge is already in place\" added to them.The question of search strategy is independent of the choice of rule invocation strategy.Whether the parse proceeds depth-first, breadth-first, or in some other manner is determined by the order in which edges are added to the chart, and the order in which active-inactive pairs are considered under the fundamental rule.A single action, such as the adding of an edge to the chart, may provoke multiple operations: a number of edge pairs to be processed by the fundamental rule, and/ or a number of new edges to be added as a result of some rule invocation strategy.Last in first out processing of such Multiple operations will give approximately depth-first behaviour, while first in first out will give approximately breadth-first.More complex strategies, including semantically guided search, require more complicated queuing heuristics.The question of what grammatical formalism is employed is again largely independent of the questions of rule invocation and search strategy.It comes into play in two different ways.When the fundamental rule is invoked, it is the details of the particular grammatical formalism in use which determines the interpretation of the conditions for extension carried in the active edge.The result may be no new edges, if the conditions are not met; one new edge, if they are; or indeed more than one, if the inactive edge allows extension in more thanone way.This might be the case in an ATN style of grammar, where the active edge specifies its conditions for extension by way of reference to a particular state in the network, which may have more than one outgoing arc which can be satisfied by the inactive edge concerned.The other point at which grammatical formalism is involved is in rule invocation.Once a strategy is chosen, it still remains each time it is invoked to respond to the resulting queries, e.g. Who needs what just got built in order to get started\", in the case of a simple bottom-up strategy.Such a response clearly depends on the details of the grammatical formalism being employed.Underlying all this flexibility, and making it possible, is the fundamental rule, which ensures that no matter what formalism, search strategy, and rule invocation strategy* are used, every parse will eventually be found, and found only once.II.MCHART In the construction of MCHART, I was principly motivated by a desire to preserve what I see as the principal virtues of the chart parsing approach, namely the simplicity and power of its fundamental principle, and the clear separation it makes between issues of grammatical formalism, search strategy, and rule invocation strategy.This led to a carefully modularised program, whose structure reflects that separation.Where a choice has had to be made between clarity and efficiency, clarity has been preferred.This was done both in recognition of the system's expected role in teaching, and in the hopes that it can be easily adopted as the basis for many diverse investigations, with as few efficiency-motivated hidden biases as possible.The core of the system is quite small.It defines the data structures for edges and verteces, and organises the construction of the initial chart and the printing of results.Three distinct interfaces are provided which the user manipulates to create the particular parser he wants: A signal table for determining rule invocation strategy; a functional interface for determining grammatical formalism; and a multilevel agenda for determining search strategy.The core system raises a signal whenever something happens to which a rule invocation strategy might be sensitive, namely the beginning and end of parsing, and the adding of active or inactive edges to the chart.To implement a particular strategy, the user specifies response to some or all of these.For example a bottom-up strategy would respond to the signal Adding InactiveEdge, but ignore the others; while a top-down strategy would need to respond to both AddingActiveEdge and StartParse.There is also a signal for each new active-inactive pair, to which the user may specify a response.However the system provides a default, which involves the aforementioned functional interface.To take advantage of this, the user must define two functions.The first, called ToExtend, when given an active edge and an inactive edge, must return a set of 'rules' which might be used to extend the one over the other.Taken together, an active edge, an inactive edge, and such a rule are called a configuration.The other function the user must define, called RunConfig, takes a configuration as argument and is responsible for implementing the fundamental principle, by building a new edge if the rule applies.For use here and in responses to signals, the system provides the function NewEdge, by which new edges may be handed over for addition to the chart.*Defective invocation strategies, which never invoke a needed rule, or invoke it more than once at the same place, can of course vitiate this guarantee.The system is embedded within a multilevel agenda mechanism.The adding of edges to the chart, the running of configurations, the raising of signals are all controllable by this mechanism.The user may specify what priority level each such action is to be queued at, and may also specify what ordering regime is to be applied to each queue.LIFO and FIFO are provided as default options by the system.Anything more complicated must be functionally specified by the user.More detailed specifications would be out of place in this context, but I hope enough has been said to give a good idea of how I have gone about implementing the chart in a clean and modular way.Hardcopy and/or machine-readable versions of the source code and a few illustrative examples of use are available at cost from me to those who are interested.The system is written in ELISP, a local superset of Rutgers Lisp which is very close to Interlisp.A strenuous effort has been made to produce a relatively dialect neutral, transparent implementation, and as the core system is only a few pages long, translation to other versions of Lisp should not be difficult.",
+              "year": "1981",
               "pedagogicalRole": null,
-              "pageRankScore": 4.9501593E-4,
-              "relevanceScore": 0.5292197272828933,
-              "authorScore": 7.0
+              "pageRankScore": 6.671315E-4,
+              "relevanceScore": 0.2250240595689901,
+              "authorScore": 3.0
             },
             {
-              "author": "McCarthy, Diana; Koeling, Rob; Weeds, Julie; Carroll, John",
-              "title": "Finding Predominant Word Senses In Untagged Text",
-              "id": "P04-1036",
-              "year": "2004",
+              "author": "Chester, Daniel",
+              "title": "A Parsing Algorithm That Extends Phrases",
+              "id": "J80-2002",
+              "abstractText": "It is desirable for a parser to be able to extend a phrase even after it has been combined into a larger syntactic unit.This paper presents an algorithm that does this in two ways, one dealing with \"right extension\" and the other with \"left recursion\".A brief comparison with other parsing algorithms shows it to be related to the left-corner parsing algorithm, but it is more flexible in the order that it permits phrases to be combined.It has many of the properties of the sentence analyzers of Marcus and Riesbeck, but is independent of the language theories on which those programs are based.",
+              "year": "1980",
               "pedagogicalRole": null,
-              "pageRankScore": 2.9695037E-4,
-              "relevanceScore": 0.68393208243958,
-              "authorScore": 6.5
+              "pageRankScore": 4.4641405E-4,
+              "relevanceScore": 0.26005284443489873,
+              "authorScore": 0.0
             }
           ],
           "dependentTopics": []
@@ -366,120 +872,123 @@
         {
           "topic": [
             {
-              "word": "memory_based",
-              "value": 0.17889045178890228
+              "word": "context_free",
+              "value": 0.28259485960006714
             },
             {
-              "word": "based_learning",
-              "value": 0.10531264543533325
+              "word": "free_grammars",
+              "value": 0.06783972680568695
             },
             {
-              "word": "shared_task",
-              "value": 0.06464503705501556
+              "word": "free_grammar",
+              "value": 0.06243374943733215
             },
             {
-              "word": "daelemans_al",
-              "value": 0.04936530441045761
+              "word": "input_string",
+              "value": 0.0466398149728775
             },
             {
-              "word": "shallow_parsing",
-              "value": 0.048425011336803436
+              "word": "parsing_algorithm",
+              "value": 0.04314182698726654
             },
             {
-              "word": "ramshaw_marcus",
-              "value": 0.04677950218319893
+              "word": "terminal_symbols",
+              "value": 0.04197583347558975
             },
             {
-              "word": "base_np",
-              "value": 0.0439586266875267
+              "word": "polynomial_time",
+              "value": 0.04176383465528488
             },
             {
-              "word": "van_den",
-              "value": 0.041607897728681564
+              "word": "hand_side",
+              "value": 0.04112783446907997
             },
             {
-              "word": "kim_sang",
-              "value": 0.04137282446026802
+              "word": "worst_case",
+              "value": 0.04049183800816536
             },
             {
-              "word": "den_bosch",
-              "value": 0.04113775119185448
+              "word": "time_complexity",
+              "value": 0.03752385079860687
             },
             {
-              "word": "tjong_kim",
-              "value": 0.04090268164873123
+              "word": "finite_set",
+              "value": 0.033283866941928864
             },
             {
-              "word": "conll_shared",
-              "value": 0.036671366542577744
+              "word": "normal_form",
+              "value": 0.03137587383389473
             },
             {
-              "word": "pos_tags",
-              "value": 0.035025857388973236
+              "word": "lr_parsing",
+              "value": 0.030315877869725227
             },
             {
-              "word": "base_noun",
-              "value": 0.03173483908176422
+              "word": "left_corner",
+              "value": 0.02936188317835331
             },
             {
-              "word": "ib_ig",
-              "value": 0.03173483908176422
+              "word": "parsing_algorithms",
+              "value": 0.028831884264945984
             },
             {
-              "word": "np_chunking",
-              "value": 0.030089328065514565
+              "word": "start_symbol",
+              "value": 0.026605892926454544
             },
             {
-              "word": "chunk_tags",
-              "value": 0.028443817049264908
+              "word": "context_sensitive",
+              "value": 0.02490990050137043
             },
             {
-              "word": "base_nps",
-              "value": 0.02726845256984234
+              "word": "parse_forest",
+              "value": 0.024803901091217995
             },
             {
-              "word": "noun_phrase",
-              "value": 0.02726845256984234
+              "word": "free_languages",
+              "value": 0.02310790680348873
             },
             {
-              "word": "chunk_tag",
-              "value": 0.02562294341623783
+              "word": "earley_algorithm",
+              "value": 0.02109391614794731
             },
             {
-              "word": "noun_phrases",
-              "value": 0.02374236099421978
+              "word": "natural_languages",
+              "value": 0.020775916054844856
             }
           ],
           "documents": [
             {
-              "author": "Tjong Kim Sang, Erik F.; Buchholz, Sabine",
-              "title": "Introduction To The CoNLL-2000 Shared Task: Chunking",
-              "id": "W00-0726",
-              "year": "2000",
+              "author": "Pereira, Fernando; Schabes, Yves",
+              "title": "Inside-Outside Reestimation From Partially Bracketed Corpora",
+              "id": "P92-1017",
+              "abstractText": "",
+              "year": "1992",
               "pedagogicalRole": null,
-              "pageRankScore": 4.9884105E-4,
-              "relevanceScore": 0.5512000041734701,
-              "authorScore": 1.0
+              "pageRankScore": 0.0021685073,
+              "relevanceScore": 0.6736578604099989,
+              "authorScore": 9.5
             },
             {
-              "author": "Tjong Kim Sang, Erik F.; Veenstra, Jorn",
-              "title": "Representing Text Chunks",
-              "id": "E99-1023",
+              "author": "Tomita, Masaru",
+              "title": "An Efficient Augmented-Context-Free Parsing Algorithm",
+              "id": "J87-1004",
+              "abstractText": "An efficient parsing algorithm for augmented context-free grammars is introduced, and its application to on-line natural language interfaces discussed.The algorithm is a generalized LR parsing algorithm, which precomputes an LR shift-reduce parsing table (possibly with multiple entries) from a given augmented context-free grammar.Unlike the standard LR parsing algorithm, it can handle arbitrary context-free grammars, including ambiguous grammars, while most of the LR efficiency is preserved by introducing the concept of a \"graph-structured stack\".The graph-structured stack allows an LR shift-reduce parser to maintain multiple parses without parsing any part of the input twice in the same way.We can also view our parsing algorithm as an extended chart parsing algorithm efficiently guided by LR parsing tables.The algorithm is fast, due to the LR table precomputation.In several experiments with different English grammars and sentences, timings indicate a five to tenfold speed advantage over Earley's context-free parsing algorithm.The algorithm parses a sentence strictly from left to right on-line, that is, it starts parsing as soon as the user types in the first word of a sentence, without waiting for completion of the sentence.A practical on-line parser based on the algorithm has been implemented in Common Lisp, and running on Symbolics and HP AI workstations.The parser is used in the multilingual machine translation project at CMU.Also, a commercial on-line parser for Japanese language is being built by Intelligent Technology Incorporation, based on the technique developed at CMU.",
+              "year": "1987",
+              "pedagogicalRole": null,
+              "pageRankScore": 4.926704E-4,
+              "relevanceScore": 0.45513797096758407,
+              "authorScore": 2.0
+            },
+            {
+              "author": "Eisner, Jason M.; Satta, Giorgio",
+              "title": "Efficient Parsing For Bilexical Context-Free Grammars And Head Automaton Grammars",
+              "id": "P99-1059",
+              "abstractText": "Several recent stochastic parsers use bilexical grammars, where each word type idiosyncratically prefers particular complements with particular head words.We present 0(n4) parsing algorithms for two bilexical formalisms, improving the prior upper bounds of 0(n5).For a common special case that was known to allow 0(n3) parsing (Eisner, 1997), we present an 0(n3) algorithm with an improved grammar constant.",
               "year": "1999",
               "pedagogicalRole": null,
-              "pageRankScore": 2.432901E-4,
-              "relevanceScore": 0.5448614190674957,
-              "authorScore": 1.0
-            },
-            {
-              "author": "Cardie, Claire; Pierce, David R.",
-              "title": "Error-Driven Pruning of Treebank Grammars for Base Noun Phrase Identification",
-              "id": "P98-1034",
-              "year": "1998",
-              "pedagogicalRole": null,
-              "pageRankScore": 2.3006958E-4,
-              "relevanceScore": 0.4515991874674227,
-              "authorScore": 5.5
+              "pageRankScore": 2.979491E-4,
+              "relevanceScore": 0.558038938760888,
+              "authorScore": 11.0
             }
           ],
           "dependentTopics": []

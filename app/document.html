@@ -8,10 +8,9 @@
     <span class="document-author">{{documentInfo.document.author}}</span>
 
 
-    <span class="pull-right document-action" ng-if="hover">
-        <a class="btn-floating blue" alt="open document in new window" ng-href="{{getDocumentUrl()}}" target="_blank"><i
-                class="glyphicon glyphicon-file"></i></a>
-    </span>
+    <div ng-if="getSummary(documentInfo.document)">
+        {{getSummary(documentInfo.document)}} ... <a href="#" ng-click="showAbstract()">more</a>
+    </div>
     <div class="rating-container" title="{{order.name}} : {{documentInfo.document[order.field]}}">
         <div ng-repeat="bar in ratingBars" class="rating" ng-class="{'rating-filled':bar.filled }"></div>
     </div>
