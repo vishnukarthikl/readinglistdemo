@@ -8,8 +8,10 @@
     <span class="document-author">{{documentInfo.document.author}}</span>
 
 
-    <div ng-if="getSummary(documentInfo.document)">
-        {{getSummary(documentInfo.document)}} ... <a href="#" ng-click="showAbstract()">more</a>
+    <div ng-if="abstract">
+        {{abstract}}
+        <span class="abstract-action" ng-if="!showMore" ng-click="setSummary(true)">... more</span>
+        <span class="abstract-action" ng-if="showMore" ng-click="setSummary(false)">less</span>
     </div>
     <div class="rating-container" title="{{order.name}} : {{documentInfo.document[order.field]}}">
         <div ng-repeat="bar in ratingBars" class="rating" ng-class="{'rating-filled':bar.filled }"></div>

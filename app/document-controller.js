@@ -1,5 +1,17 @@
 function DocumentController($scope, $uibModal) {
+    $scope.setSummary = function (showMore) {
+        $scope.showMore = showMore;
+        var abstractText = $scope.documentInfo.document.abstractText;
+        if (showMore) {
+            $scope.abstract = abstractText;
+        } else {
+            $scope.abstract = abstractText.split(/\s+/).slice(0, 40).join(" ");
+        }
+    };
+
     $scope.ratingBarsCount = 10;
+    $scope.showMore = false;
+    $scope.setSummary();
 
     $scope.calculatePercentage = function () {
         var field = $scope.order.field;
@@ -7,15 +19,12 @@ function DocumentController($scope, $uibModal) {
         return (value - $scope.stats.min) / ($scope.stats.max - $scope.stats.min) * 100
     };
 
-    $scope.getSummary = function (document) {
-        return document.abstractText.split(/\s+/).slice(0, 40).join(" ");
-    };
     $scope.getRatingBars = function () {
         var rating = new Array($scope.ratingBarsCount);
         var percentage = $scope.calculatePercentage();
         for (var i = 0; i < rating.length; i++) {
             var filled = false;
-            if (percentage > i * 10) {
+            if (percentage >= i * 10) {
                 filled = true;
             }
             rating[i] = {

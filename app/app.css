@@ -182,3 +182,8 @@ treecontrol.tree-light li .tree-selected {
     max-height: 300px;
     padding: 5px;
 }
+
+.abstract-action {
+    color: #039be5;
+    cursor: pointer;
+}
