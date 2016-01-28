@@ -187,3 +187,16 @@ treecontrol.tree-light li .tree-selected {
     color: #039be5;
     cursor: pointer;
 }
+
+.pagination li {
+    padding: 0
+}
+
+.pagination li.active {
+    background-color: #26a69a;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #26a69a;
+    border-color: #26a69a;
+}

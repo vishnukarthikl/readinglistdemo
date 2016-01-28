@@ -101,13 +101,22 @@
         </div>
 
         <div ng-show="filteredDocuments.length" class="card card-panel">
+
+            <div class="center">
+                <dir-pagination-controls>
+                </dir-pagination-controls>
+            </div>
             <ol>
                 <li class="document"
-                    ng-repeat="document in filteredDocuments | orderBy: ['-'+'document.'+selectedOrder]">
+                    dir-paginate="document in filteredDocuments | orderBy: ['-'+'document.'+selectedOrder] | itemsPerPage:10">
                     <document info="document" order="selectedOrderOption"
                               stats="stats"></document>
                 </li>
             </ol>
+            <div class="center">
+                <dir-pagination-controls class="center">
+                </dir-pagination-controls>
+            </div>
         </div>
     </div>
 
@@ -126,6 +135,7 @@
 <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
 <script src="bower_components/angular-materialize/src/angular-materialize.js"></script>
 <script src="bower_components/angucomplete-alt/angucomplete-alt.js"></script>
+<script src="bower_components/angular-utils-pagination/dirPagination.js"></script>
 <script src="app.js"></script>
 <script src="topic-controller.js"></script>
 <script src="document-controller.js"></script>

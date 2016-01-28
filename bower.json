@@ -17,6 +17,7 @@
     "jquery": "~2.1.4",
     "angular-bootstrap": "~0.14.3",
     "angular-materialize": "0.1.2",
-    "angucomplete-alt": "~2.1.0"
+    "angucomplete-alt": "~2.1.0",
+    "angular-utils-pagination": "~0.10.0"
   }
 }

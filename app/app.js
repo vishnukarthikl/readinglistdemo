@@ -1,5 +1,5 @@
-angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucomplete-alt'])
-    .controller('ReadingListCtrl', ['$scope', '$http', function ReadingListCtrl($scope, $http) {
+angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucomplete-alt', 'angularUtils.directives.dirPagination'])
+    .controller('ReadingListCtrl', ['$scope', '$http', 'paginationService', function ReadingListCtrl($scope, $http, paginationService) {
         $scope.selectedTopics = [];
         $scope.expandedNodes = [];
         $scope.selectedTerms = [];
@@ -29,11 +29,13 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.$watch('selectedOrder', function () {
             $scope.selectedOrderOption = $scope.getOrder();
             $scope.stats = $scope.calculateStats();
+            paginationService.setCurrentPage('__default', 1);
         });
 
         $scope.$watch('selectedTopics', function () {
             $scope.filteredDocuments = $scope.filterDocuments();
             $scope.stats = $scope.calculateStats();
+            paginationService.setCurrentPage('__default', 1);
         }, true);
 
         $scope.$watch('selectedTerm', function (term) {
