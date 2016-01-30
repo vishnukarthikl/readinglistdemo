@@ -11,11 +11,12 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }, data);
         });
 
-        $scope.selectedOrder = 'pageRankScore';
-        $scope.documentOrderOptions = [{name: 'Pagerank score', field: 'pageRankScore'},
+        $scope.selectedOrder = 'relevanceScore';
+        $scope.documentOrderOptions = [{name: 'Author reputation', field: 'authorScore'},
             {name: 'Relevance', field: 'relevanceScore'},
-            {name: 'Time', field: 'year'},
-            {name: 'Author reputation', field: 'authorScore'}];
+            {name: 'Pagerank score', field: 'pageRankScore'},
+            {name: 'Time', field: 'year'}
+        ];
 
         $scope.treeOptions = {
             nodeChildren: "dependentTopics",
