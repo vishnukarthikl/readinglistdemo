@@ -66,7 +66,7 @@
     </div>
     <hr/>
     <h4 class="center-align">Result for : <span class="text-info">{{keyword}}</span></h4>
-    <div class="col-md-6">
+    <div class="col-md-4">
         <h5>Topics <span class="chip">{{selectedTopics.length}} / {{allTopicsLength}}</span></h5>
         <div class="switch">
             <label>
@@ -76,6 +76,7 @@
                 Select All
             </label>
         </div>
+        <div class="card">
         <treecontrol class="tree-light"
                      tree-model="matchedTopics"
                      options="treeOptions"
@@ -83,10 +84,11 @@
             <topic data="node" selected="selectedTopics" onselection="topicSelected" nodecounter="countNodes"></topic>
 
         </treecontrol>
+        </div>
 
 
     </div>
-    <div class="col-md-6">
+    <div class="col-md-8">
         <h5>Documents <span class="chip"> {{filteredDocuments.length}}</span></h5>
         <div class="row">
             <div class="input-field col s6">

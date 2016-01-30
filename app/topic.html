@@ -1,12 +1,7 @@
 <div><input type="checkbox" id="checkbox-{{getId(data)}}"
             ng-click="onselection(data);$event.stopPropagation();"
             ng-checked="isSelected()"/>
-    <label class="topic-container" for="checkbox-{{getId(data)}}">
-            <span ng-repeat="topic in data.topic"
-                  ng-style="topicStrengthStyle(data.topic,topic)">
-        {{topic.word}}
-    </span>
-    </label>
+    <label class="topic-container" ng-class="{'highlight':isSelected()}" for="checkbox-{{getId(data)}}">{{data.topicName}}</label>
 
 </div>
 

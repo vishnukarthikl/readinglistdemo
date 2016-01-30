@@ -9,12 +9,11 @@
     <p></p>
     <hr/>
     <div class="document-topic">
-        Topic :
-        <span ng-repeat="term in documentInfo.topic" class="chip search-term">
-                            {{term.word}}
-
-        </span>
+    <span class="topic-label" ng-repeat="topic in documentInfo.topic"
+          ng-style="topicStrengthStyle(documentInfo.topic,topic)">
+        {{topic.word}}
+    </span>
     </div>
     <br/>
-    <a class="btn" ng-href="{{getDocumentUrl()}}" target="_blank">Paper Link</a>
+    <a class="btn blue" ng-href="{{getDocumentUrl()}}" target="_blank">Paper Link</a>
 </div>

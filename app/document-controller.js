@@ -50,6 +50,24 @@ function DocumentController($scope, $uibModal) {
                     var baseUrl = "http://www.aclweb.org/anthology/";
                     return baseUrl + $scope.documentInfo.document.id;
                 };
+                $scope.topicStrengthStyle = function (allTopics, topic) {
+                    var strength = (255 - topic.value / allTopics[0].value * 255).toFixed(0);
+                    var redStrength = 38;
+                    var greenStrength = 166;
+                    var blueStrength = 154;
+
+                    if (greenStrength <= strength) {
+                        greenStrength = strength
+                    }
+                    if (redStrength <= strength) {
+                        redStrength = strength
+                    }
+                    if (blueStrength <= strength) {
+                        blueStrength = strength
+                    }
+                    var topicColor = 'rgb(' + redStrength + ',' + greenStrength + ',' + blueStrength + ')';
+                    return {color: topicColor}
+                };
             }],
             resolve: {
                 documentInfo: function () {

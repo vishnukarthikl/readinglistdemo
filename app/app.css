@@ -32,10 +32,6 @@ treecontrol.tree-light li .tree-selected {
     position: relative;
     margin: 0.5rem .2rem .2rem .2rem;
     background-color: #fff;
-    transition: box-shadow .25s;
-    border-radius: 2px;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    padding: 10px;
 }
 
 .dependent-topic-count {
@@ -70,6 +66,7 @@ treecontrol.tree-light li .tree-selected {
 .topic-container {
     margin-top: -20px;
     margin-left: 20px;
+    color: black;
 }
 
 #query_button {
@@ -84,7 +81,7 @@ treecontrol.tree-light li .tree-selected {
 }
 
 .modal-header {
-    background-color: rgb(38, 166, 154);
+    background-color:  #039be5;
     border-radius: 5px;
     color: white;
 }
@@ -199,4 +196,8 @@ treecontrol.tree-light li .tree-selected {
 .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
     background-color: #26a69a;
     border-color: #26a69a;
+}
+
+.topic-label {
+    margin-right: 5px;
 }
