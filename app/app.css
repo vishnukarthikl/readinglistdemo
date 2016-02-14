@@ -81,7 +81,7 @@ treecontrol.tree-light li .tree-selected {
 }
 
 .modal-header {
-    background-color:  #039be5;
+    background-color: #039be5;
     border-radius: 5px;
     color: white;
 }
@@ -200,4 +200,16 @@ treecontrol.tree-light li .tree-selected {
 
 .topic-label {
     margin-right: 5px;
+}
+
+.hide-button {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.float-button {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    margin-left: -10px;
 }

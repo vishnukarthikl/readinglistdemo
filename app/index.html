@@ -65,9 +65,12 @@
         </div>
     </div>
     <hr/>
-    <h4 class="center-align">Result for : <span class="text-info">{{keyword}}</span></h4>
-    <div class="col-md-4">
-        <h5>Topics <span class="chip">{{selectedTopics.length}} / {{allTopicsLength}}</span></h5>
+    <div ng-show="hideTopics" class="btn white-text orange darken-1 pull-left float-button" ng-click="hideTopics=false">
+        <i>Topics</i>
+        <i class="material-icons">swap_horiz</i>
+    </div>
+    <div ng-class="{'col-md-4':!hideTopics}" ng-hide="hideTopics" class="topic-pane">
+        <h5>Topics</h5>
         <div class="switch">
             <label>
                 De-select All
@@ -77,19 +80,23 @@
             </label>
         </div>
         <div class="card">
-        <treecontrol class="tree-light"
-                     tree-model="matchedTopics"
-                     options="treeOptions"
-                     expanded-nodes="expandedNodes">
-            <topic data="node" selected="selectedTopics" onselection="topicSelected" nodecounter="countNodes"></topic>
+            <a class="btn-floating orange darken-1 pull-right hide-button" ng-click="hideTopics=true"><i
+                    class="material-icons">swap_horiz</i></a>
 
-        </treecontrol>
+            <treecontrol class="tree-light"
+                         tree-model="matchedTopics"
+                         options="treeOptions"
+                         expanded-nodes="expandedNodes">
+                <topic data="node" selected="selectedTopics" onselection="topicSelected"
+                       nodecounter="countNodes"></topic>
+
+            </treecontrol>
         </div>
 
 
     </div>
-    <div class="col-md-8">
-        <h5>Documents <span class="chip"> {{filteredDocuments.length}}</span></h5>
+    <div ng-class="hideTopics?'col-md-11 col-md-offset-1':'col-md-8'">
+        <h5>Reading List <span class="chip"> {{filteredDocuments.length}}</span></h5>
         <div class="row">
             <div class="input-field col s6">
                 <select id="documentOrder" name="documentOrder" material-select ng-model="selectedOrder">

@@ -9,7 +9,6 @@ function DocumentController($scope, $uibModal) {
         }
     };
 
-    $scope.ratingBarsCount = 10;
     $scope.showMore = false;
     $scope.setSummary();
 
@@ -18,27 +17,6 @@ function DocumentController($scope, $uibModal) {
         var value = $scope.documentInfo.document[field];
         return (value - $scope.stats.min) / ($scope.stats.max - $scope.stats.min) * 100
     };
-
-    $scope.getRatingBars = function () {
-        var rating = new Array($scope.ratingBarsCount);
-        var percentage = $scope.calculatePercentage();
-        for (var i = 0; i < rating.length; i++) {
-            var filled = false;
-            if (percentage >= i * 10) {
-                filled = true;
-            }
-            rating[i] = {
-                filled: filled
-            }
-        }
-
-        return rating;
-    };
-
-    $scope.$watch('stats', function () {
-        $scope.ratingBars = $scope.getRatingBars();
-    }, true);
-
 
     $scope.showAbstract = function () {
         var modalInstance = $uibModal.open({

@@ -14,9 +14,6 @@
                 <span class="abstract-action" ng-if="!showMore" ng-click="setSummary(true)">... more</span>
                 <span class="abstract-action" ng-if="showMore" ng-click="setSummary(false)">less</span>
             </div>
-            <div class="rating-container" title="{{order.name}} : {{documentInfo.document[order.field]}}">
-                <div ng-repeat="bar in ratingBars" class="rating" ng-class="{'rating-filled':bar.filled }"></div>
-            </div>
         </div>
         <div class="col-md-3">
             <table class="table">

@@ -4,6 +4,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.expandedNodes = [];
         $scope.selectedTerms = [];
         $scope.filteredDocuments = [];
+        $scope.hideTopics = false;
 
         $http.get('topic_terms.json').success(function (data) {
             $scope.topicTerms = R.map(function (term) {
