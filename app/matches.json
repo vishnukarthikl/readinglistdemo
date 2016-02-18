@@ -1,1508 +1,768 @@
 {
-  "keyword": "coreference_resolution",
-  "matchTopics": [
-    {
-      "topic": [
-        {
-          "word": "coreference_resolution",
-          "value": 0.36332768201828003
-        },
-        {
-          "word": "mention_detection",
-          "value": 0.07421780377626419
-        },
-        {
-          "word": "noun_phrases",
-          "value": 0.05432937294244766
-        },
-        {
-          "word": "coreference_chains",
-          "value": 0.05105505883693695
-        },
-        {
-          "word": "noun_phrase",
-          "value": 0.04814455658197403
-        },
-        {
-          "word": "coreference_system",
-          "value": 0.04098957031965256
-        },
-        {
-          "word": "ng_cardie",
-          "value": 0.03929177671670914
-        },
-        {
-          "word": "shared_task",
-          "value": 0.035653650760650635
-        },
-        {
-          "word": "resolution_system",
-          "value": 0.034926023334264755
-        },
-        {
-          "word": "coreference_chain",
-          "value": 0.03213679417967796
-        },
-        {
-          "word": "mi_mj",
-          "value": 0.02449672482907772
-        },
-        {
-          "word": "haghighi_klein",
-          "value": 0.02364782989025116
-        },
-        {
-          "word": "anaphoricity_determination",
-          "value": 0.02207130752503872
-        },
-        {
-          "word": "mention_pairs",
-          "value": 0.02122241072356701
-        },
-        {
-          "word": "coreference_information",
-          "value": 0.02097986824810505
-        },
-        {
-          "word": "semantic_class",
-          "value": 0.01976715959608555
-        },
-        {
-          "word": "rahman_ng",
-          "value": 0.01964588835835457
-        },
-        {
-          "word": "cross-document_coreference",
-          "value": 0.01879699155688286
-        },
-        {
-          "word": "number_mentions",
-          "value": 0.018675722181797028
-        },
-        {
-          "word": "system_mentions",
-          "value": 0.018554450944066048
-        },
-        {
-          "word": "data_sets",
-          "value": 0.018069367855787277
-        }
-      ],
-      "documents": [
-        {
-          "author": "Bagga, Amit; Baldwin, Breck",
-          "title": "Entity-Based Cross-Document Core f erencing Using the Vector Space Model",
-          "id": "P98-1012",
-          "abstractText": "Cross-document coreference occurs when the same person, place, event, or concept is discussed in more than one text source. Computer recognition of this phenomenon is important because it helps break \"the document boundary\" by allowing a user to examine information about a particular entity from multiple text sources at the same time. In this paper we describe a cross-document coreference resolution algorithm which uses the Vector Space Model to resolve ambiguities between people having the same name. In addition, we also describe a scoring algorithm for evaluating the cross-document coreference chains produced by our system and we compare our algorithm to the scoring algorithm used in the MUC6 (within document) coreference task. ",
-          "year": "1998",
-          "pedagogicalRole": null,
-          "pageRankScore": 4.4491337E-4,
-          "relevanceScore": 0.6098982184612347,
-          "authorScore": 1.5
-        },
-        {
-          "author": "Soon, Wee Meng; Lim, Daniel Chung Yong; Ng, Hwee Tou",
-          "title": "A Machine Learning Approach To Coreference Resolution Of Noun Phrases",
-          "id": "J01-4004",
-          "abstractText": "In this paper, we present a learning approach to coreference resolution of noun phrases in unrestricted text. The approach learns from a small, annotated corpus and the task includes resolving not just a certain type of noun phrase (e.g., pronouns) but rather general noun phrases. It also does not restrict the entity types of the noun phrases; that is, coreference is assigned whether they are of \"organization,\" \"person,\" or other types. We evaluate our approach on common data sets (namely, the MUC-6 and MUC-7 coreference corpora) and obtain encouraging results, indicating that on the general noun phrase coreference task, the learning approach holds promise and achieves accuracy comparable to that of nonlearning approaches. Our system is the first learning-based system that offers performance comparable to that of state-of-the-art nonlearning systems on these data sets. ",
-          "year": "2001",
-          "pedagogicalRole": null,
-          "pageRankScore": 4.298722E-4,
-          "relevanceScore": 0.5446593229662418,
-          "authorScore": 4.67
-        },
-        {
-          "author": "Pradhan, Sameer S.; Ramshaw, Lance A.; Marcus, Mitchell P.; Palmer, Martha; Weischedel, Ralph M.; Xue, Nianwen",
-          "title": "CoNLL-2011 Shared Task: Modeling Unrestricted Coreference in OntoNotes",
-          "id": "W11-1901",
-          "abstractText": "CoNLL-2011 Shared Task: Modeling Unrestricted Coreference in OntoNotes Sameer Pradhan BBN Technologies, Cambridge, MA 02138 pradhan@bbn.com Lance Ramshaw BBN Technologies, Cambridge, MA 02138 lramshaw@bbn.com Mitchell Marcus University of Pennsylvania, Philadelphia, 19104 ",
-          "year": "2011",
-          "pedagogicalRole": null,
-          "pageRankScore": 1.0417747E-4,
-          "relevanceScore": 0.6835409287685289,
-          "authorScore": 6.83
-        }
-      ],
-      "dependentTopics": [
-        {
-          "topic": [
-            {
-              "word": "training_data",
-              "value": 0.25370168685913086
-            },
-            {
-              "word": "test_set",
-              "value": 0.12399014830589294
-            },
-            {
-              "word": "training_set",
-              "value": 0.10813269019126892
-            },
-            {
-              "word": "data_set",
-              "value": 0.09065946191549301
-            },
-            {
-              "word": "test_data",
-              "value": 0.07254169881343842
-            },
-            {
-              "word": "data_sets",
-              "value": 0.05167801305651665
-            },
-            {
-              "word": "previous_work",
-              "value": 0.03266848623752594
-            },
-            {
-              "word": "development_set",
-              "value": 0.03118515945971012
-            },
-            {
-              "word": "test_sets",
-              "value": 0.03108803741633892
-            },
-            {
-              "word": "training_test",
-              "value": 0.0257462989538908
-            },
-            {
-              "word": "statistically_significant",
-              "value": 0.0222763754427433
-            },
-            {
-              "word": "improve_performance",
-              "value": 0.0204398762434721
-            },
-            {
-              "word": "future_work",
-              "value": 0.02028977870941162
-            },
-            {
-              "word": "results_show",
-              "value": 0.017420249059796333
-            },
-            {
-              "word": "data_training",
-              "value": 0.016687415540218353
-            },
-            {
-              "word": "baseline_system",
-              "value": 0.016290096566081047
-            },
-            {
-              "word": "development_data",
-              "value": 0.014012131839990616
-            },
-            {
-              "word": "training_corpus",
-              "value": 0.013014418072998524
-            },
-            {
-              "word": "training_sets",
-              "value": 0.012740708887577057
-            },
-            {
-              "word": "report_results",
-              "value": 0.012740708887577057
-            },
-            {
-              "word": "system_performance",
-              "value": 0.012696562334895134
-            }
-          ],
-          "documents": [
-            {
-              "author": "Banko, Michele; Brill, Eric",
-              "title": "Scaling To Very Very Large Corpora For Natural Language Disambiguation",
-              "id": "P01-1005",
-              "abstractText": "The amount of readily available on-line text has reached hundreds of billions of words and continues to grow. Yet for most core natural language tasks, algorithms continue to be optimized, tested and compared after training on corpora consisting of only one million words or less. In this paper, we evaluate the performance of different learning methods on a prototypical natural language disambiguation task, confusion set disambiguation, when trained on orders of magnitude more labeled data than has previously been used. We are fortunate that for this particular application, correctly labeled training data is free. Since this will often not be the case, we examine methods for effectively exploiting very large corpora when labeled data comes at a cost. ",
-              "year": "2001",
-              "pedagogicalRole": null,
-              "pageRankScore": 2.6463633E-4,
-              "relevanceScore": 0.24330864321440387,
-              "authorScore": 8.0
-            },
-            {
-              "author": "Tjong Kim Sang, Erik F.",
-              "title": "Introduction To The CoNLL-2002 Shared Task: Language-Independent Named Entity Recognition",
-              "id": "W02-2024",
-              "abstractText": "Named entities are phrases that contain the names of persons, organizations, locations, times and quantities. Example: [PER Wolff ] , currently a journalist in [LOC Argentina ] , played with [PER Del Bosque ] in the final years of the seventies in [ORG Real Madrid ] . This sentence contains four named entities: Wollff and Del Bosque are persons, Argentina is a location and Real Madrid is a organization. The shared task of CoNLL-2002 concerns language-independent named entity recognition. We will concentrate on four types of named entities: persons, locations, organizations and names of miscellaneous entities that do not belong to the previous three groups. The participants of the shared task have been offered training and test data for two European languages: Spanish and Dutch. They have used the data for developing a named-entity recognition system that includes a machine learning component. The organizers of the shared task were especially interested in approaches that make use of additional nonannotated data for improving their performance. 2 Data and Evaluation The CoNLL-2002 named entity data consists of six files covering two languages: Spanish and Dutch'. Each of the languages has a training file, a development file and a test file. ",
-              "year": "2002",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.420627E-4,
-              "relevanceScore": 0.22196361713833251,
-              "authorScore": 2.0
-            },
-            {
-              "author": "Vlachos, Andreas; Gasperin, Caroline",
-              "title": "Bootstrapping And Evaluating Named Entity Recognition In The Biomedical Domain",
-              "id": "W06-3328",
-              "abstractText": "We demonstrate that bootstrapping a gene name recognizer for FlyBase curation from automatically annotated noisy text is more effective than fully supervised training of the recognizer on more general manually annotated biomedical text. We present a new test set for this task based on an annotation scheme which distinguishes gene names from gene mentions, enabling a more consistent annotation. Evaluating our recognizer using this test set indicates that performance on unseen genes is its main weakness. We evaluate extensions to the technique used to generate training data designed to ameliorate this problem. ",
-              "year": "2006",
-              "pedagogicalRole": null,
-              "pageRankScore": 5.572885E-5,
-              "relevanceScore": 0.2032713061934506,
-              "authorScore": 0.0
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Training and testing data sets"
-        },
-        {
-          "topic": [
-            {
-              "word": "relation_extraction",
-              "value": 0.11596736311912537
-            },
-            {
-              "word": "entity_type",
-              "value": 0.10606060922145844
-            },
-            {
-              "word": "entity_mentions",
-              "value": 0.08857809007167816
-            },
-            {
-              "word": "entity_types",
-              "value": 0.08814102411270142
-            },
-            {
-              "word": "entity_mention",
-              "value": 0.06002331152558327
-            },
-            {
-              "word": "entities_relations",
-              "value": 0.049096737056970596
-            },
-            {
-              "word": "entity_linking",
-              "value": 0.04589160904288292
-            },
-            {
-              "word": "information_extraction",
-              "value": 0.043851982802152634
-            },
-            {
-              "word": "knowledge_base",
-              "value": 0.03875291347503662
-            },
-            {
-              "word": "number_entities",
-              "value": 0.03496503457427025
-            },
-            {
-              "word": "distant_supervision",
-              "value": 0.03336247056722641
-            },
-            {
-              "word": "entity_pairs",
-              "value": 0.032634031027555466
-            },
-            {
-              "word": "types_entities",
-              "value": 0.03219696879386902
-            },
-            {
-              "word": "type_entity",
-              "value": 0.031322844326496124
-            },
-            {
-              "word": "entity_entity",
-              "value": 0.03059440478682518
-            },
-            {
-              "word": "set_entities",
-              "value": 0.03030303120613098
-            },
-            {
-              "word": "entity_relation",
-              "value": 0.029428904876112938
-            },
-            {
-              "word": "entity_pair",
-              "value": 0.02913752943277359
-            },
-            {
-              "word": "relation_types",
-              "value": 0.027389276772737503
-            },
-            {
-              "word": "entity_extraction",
-              "value": 0.02651515230536461
-            },
-            {
-              "word": "relation_detection",
-              "value": 0.025786712765693665
-            }
-          ],
-          "documents": [
-            {
-              "author": "Kambhatla, Nanda",
-              "title": "Combining Lexical, Syntactic, And Semantic Features With Maximum Entropy Models For Information Extraction",
-              "id": "P04-3022",
-              "abstractText": "Extracting semantic relationships between entities is challenging because of a paucity of annotated data and the errors induced by entity detection modules. We employ Maximum Entropy models to combine diverse lexical, syntactic and semantic features derived from the text. Our system obtained competitive results in the Automatic Content Extraction (ACE) evaluation. Here we present our general approach and describe our ACE results. ",
-              "year": "2004",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.5907334E-4,
-              "relevanceScore": 0.47082074028163046,
-              "authorScore": 7.0
-            },
-            {
-              "author": "Zhou, Guodong; Su, Jian; Zhang, Jie; Zhang, Min",
-              "title": "Exploring Various Knowledge In Relation Extraction",
-              "id": "P05-1053",
-              "abstractText": "Extracting semantic relationships between entities is challenging. This paper investigates the incorporation of diverse lexical, syntactic and semantic knowledge in feature-based relation extraction using SVM. Our study illustrates that the base phrase chunking information is very effective for relation extraction and contributes to most of the performance improvement from syntactic aspect while additional information from full parsing gives limited further enhancement. This suggests that most of useful information in full parse trees for relation extraction is shallow and can be captured by chunking. We also demonstrate how semantic information such as WordNet and Name List, can be used in feature-based relation extraction to further improve the performance. Evaluation on the ACE corpus shows that effective incorporation of diverse features enables our system outperform previously best-reported systems on the 24 ACE relation subtypes and significantly outperforms tree kernel-based systems by over 20 in F-measure on the 5 ACE relation types. ",
-              "year": "2005",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.10963054E-4,
-              "relevanceScore": 0.5608005653050675,
-              "authorScore": 9.25
-            },
-            {
-              "author": "Bies, Ann; Kulick, Seth; Mandel, Mark",
-              "title": "Parallel Entity And Treebank Annotation",
-              "id": "W05-0304",
-              "abstractText": "We describe a parallel annotation approach for PubMed abstracts. It includes both entity/relation annotation and a tree-bank containing syntactic structure, with a goal of mapping entities to constituents in the treebank. Crucial to this approach is a modification of the Penn Treebank guidelines and the characterization of entities as relation components, which allows the integration of the entity annotation with the syntactic structure while retaining the capacity to annotate and extract more complex events. ",
-              "year": "2005",
-              "pedagogicalRole": null,
-              "pageRankScore": 3.7384532E-5,
-              "relevanceScore": 0.3497947167280564,
-              "authorScore": 1.0
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Relation extraction"
-        },
-        {
-          "topic": [
-            {
-              "word": "genetic_algorithm",
-              "value": 0.09792284667491913
-            },
-            {
-              "word": "fitness_function",
-              "value": 0.0830860510468483
-            },
-            {
-              "word": "genetic_algorithms",
-              "value": 0.07937685400247574
-            },
-            {
-              "word": "personal_data",
-              "value": 0.06750741600990295
-            },
-            {
-              "word": "zero-anaphora_resolution",
-              "value": 0.06454005837440491
-            },
-            {
-              "word": "anaphor_resolution",
-              "value": 0.059347182512283325
-            },
-            {
-              "word": "cangjie_codes",
-              "value": 0.0511869452893734
-            },
-            {
-              "word": "subject_ellipsis",
-              "value": 0.0511869452893734
-            },
-            {
-              "word": "genetic_programming",
-              "value": 0.048961423337459564
-            },
-            {
-              "word": "incorrect_characters",
-              "value": 0.045252226293087006
-            },
-            {
-              "word": "similar_characters",
-              "value": 0.04228486493229866
-            },
-            {
-              "word": "vowel_systems",
-              "value": 0.04154302552342415
-            },
-            {
-              "word": "bit_material",
-              "value": 0.035608310252428055
-            },
-            {
-              "word": "knowledge_base",
-              "value": 0.03412462770938873
-            },
-            {
-              "word": "rigid_order",
-              "value": 0.03264094889163971
-            },
-            {
-              "word": "binding_principle",
-              "value": 0.030415430665016174
-            },
-            {
-              "word": "semantic_interpretation",
-              "value": 0.02818991057574749
-            },
-            {
-              "word": "relaxation_labeling",
-              "value": 0.026706231757998466
-            },
-            {
-              "word": "crossover_mutation",
-              "value": 0.026706231757998466
-            },
-            {
-              "word": "tone_systems",
-              "value": 0.026706231757998466
-            },
-            {
-              "word": "incorrect_character",
-              "value": 0.026706231757998466
-            }
-          ],
-          "documents": [
-            {
-              "author": "Hobbs, Jerry R.; Croft, W. Bruce; Davies, Todd; Edwards, Douglas; Laws, Kenneth",
-              "title": "Commonsense Metaphysics And Lexical Semantics",
-              "id": "P86-1035",
-              "abstractText": "In the TACITUS project for using commonsense knowledge in the understanding of texts about mechanical devices and their failures, we have been developing various commonsense theories that are needed to mediate between the way we talk about the behavior of such devices and causal models of their operation. Of central importance in this effort is the axiomatization of what might be called \"commonsense metaphysics\". This includes a number of areas that figure in virtually every domain of discourse, such as scalar notions, granularity, time, space, material, physical objects, causality, functionality, force, and shape. Our approach to lexical semantics is then to construct core theories of each of these areas, and then to define, or at least characterize, a large number of lexical items in terms provided by the core theories. In the TACITUS system, processes for solving pragmatics problems posed by a text will use the knowledge base consisting of these theories in conjunction with the logical forms of the sentences in the text to produce an interpretation. In this paper we do not stress these interpretation processes; this is another, important aspect of the TACITUS project, and it will be described in subsequent papers. This work represents a convergence of research in lexical semantics in linguistics and efforts in AI to encode commonsense knowledge. Lexical semanticists over the years have developed formalisms of increasing adequacy for encoding word meaning, progressing from simple sets of features (Katz and Fodor, 1963) to notations for predicate-argument structure (Lakoff, 1972; Miller and Johnson-Laird, 1976), but the early attempts still limited access to world knowledge and assumed only very restricted sorts of processing. Workers in computational linguistics introduced inference (Rieger, 1974; Schank, 1975) and other complex cognitive processes (Herskovits, 1982) into our understanding of the role of word meaning. Recently, linguists have given greater attention to the cognitive processes that would operate on their representations (e.g., Talmy, 1983; Croft, 1986). ",
-              "year": "1986",
-              "pedagogicalRole": null,
-              "pageRankScore": 6.724253E-4,
-              "relevanceScore": 0.9952125629782738,
-              "authorScore": 2.6
-            },
-            {
-              "author": "Daude, J.; Padr&oacute;, Llu&iacute;s; Rigau, German",
-              "title": "Mapping WordNets Using Structural Information",
-              "id": "P00-1064",
-              "abstractText": "We present a robust approach for linking already existing lexical/semantic hierarchies. We used a constraint satisfaction algorithm (relaxation labeling) to select — among a set of candidates— the node in a target taxonomy that bests matches each node in a source taxonomy. In particular, we use it to map the nominal part of WordNet 1.5 onto WordNet 1.6, with a very high precision and a very low remaining ambiguity. ",
-              "year": "2000",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.242238E-4,
-              "relevanceScore": 0.6071124828785395,
-              "authorScore": 0.8
-            },
-            {
-              "author": "Hobbs, Jerry R.",
-              "title": "World Knowledge And Word Meaning",
-              "id": "T87-1006",
-              "abstractText": "We use words to talk about the world. Therefore, to understand what words mean, we must have a prior explication of how we view the world. In a sense, efforts in the past to decompose words into semantic primitives were attempts to link word meaning to a theory of the world, where the set of semantic primitives constituted the theory of the world. With the advent of naive physics and research programs to formalize commonsense knowledge in a number of areas in predicate calculus or some other formal language, we now have at our disposal means for building much richer theories of various aspects of the world, and consequently, we are in a much better position to address the problems of lexical semantics. In the TACITUS project for using commonsense.knowledge in the understanding of texts about mechanical devices and their failures, we have been developing various commonsense theories that are needed to mediate between the way we talk about the behavior of such devices and causal models of their operation (Hobbs et al., 1986). The theories cover a number of areas that figure in virtually every domain of discourse, such as scalar notions, granularity, structured systems, time, space, material, physical objects, causality, functionality, force, and shape. Our approach has been to construct core theories of each of these areas. These core theories may use English words as their predicates, but the principal criterion for adequacy of the core theory is elegance, whatever that is, and this can usually be achieved better using predicates that are not lexically realized. It is easier to achieve elegance if one does not have to be held responsible to linguistic evidence. Predicates that are lexically realized are then pushed to the periphery of the theory. ",
-              "year": "1987",
-              "pedagogicalRole": null,
-              "pageRankScore": 9.0543355E-5,
-              "relevanceScore": 0.4581699066331799,
-              "authorScore": 11.0
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Genetic algorithms & anaphora resolution"
-        }
-      ],
-      "topicName": "Coreference resolution"
-    },
-    {
-      "topic": [
-        {
-          "word": "word_order",
-          "value": 0.17306245863437653
-        },
-        {
-          "word": "reference_resolution",
-          "value": 0.11512415111064911
-        },
-        {
-          "word": "lp_constraints",
-          "value": 0.07223476469516754
-        },
-        {
-          "word": "disk_drive",
-          "value": 0.07148231565952301
-        },
-        {
-          "word": "order_domains",
-          "value": 0.07072987407445908
-        },
-        {
-          "word": "order_domain",
-          "value": 0.061700526624917984
-        },
-        {
-          "word": "order_constraints",
-          "value": 0.04966139793395996
-        },
-        {
-          "word": "beam_thresholding",
-          "value": 0.036869827657938004
-        },
-        {
-          "word": "linear_precedence",
-          "value": 0.034612491726875305
-        },
-        {
-          "word": "spatial_information",
-          "value": 0.030850263312458992
-        },
-        {
-          "word": "global_thresholding",
-          "value": 0.03009781800210476
-        },
-        {
-          "word": "spindle_motor",
-          "value": 0.028592927381396294
-        },
-        {
-          "word": "referential_grounding",
-          "value": 0.028592927381396294
-        },
-        {
-          "word": "left_left",
-          "value": 0.02784048207104206
-        },
-        {
-          "word": "linear_order",
-          "value": 0.02784048207104206
-        },
-        {
-          "word": "emotion_keyword",
-          "value": 0.02483069896697998
-        },
-        {
-          "word": "dependency_edges",
-          "value": 0.024078253656625748
-        },
-        {
-          "word": "vision_graph",
-          "value": 0.023325808346271515
-        },
-        {
-          "word": "perceptual_basis",
-          "value": 0.023325808346271515
-        },
-        {
-          "word": "constraint_satisfaction",
-          "value": 0.022573363035917282
-        },
-        {
-          "word": "verbal_complex",
-          "value": 0.022573363035917282
-        }
-      ],
-      "documents": [
-        {
-          "author": "Palmer, Martha; Dahl, Deborah A.; Schiffman, Rebecca J.; Hirschman, Lynette; Linebarger, Marcia C.; Dowding, John",
-          "title": "Recovering Implicit Information",
-          "id": "P86-1004",
-          "abstractText": "This paper describes the SDC PUNDIT, (Prolog UNDerstands Integrated Text), system for processing natural language messages.1 PUNDIT, written in Prolog, is a highly modular system consisting of distinct syntactic, semantic and pragmatics components. Each component draws on one or more sets of data, including a lexicon, a broad-coverage grammar of English, semantic verb decompositions, rules mapping between syntactic and semantic constituents, and a domain model. This paper discusses the communication between the syntactic, semantic and pragmatic modules that is necessary for making implicit linguistic information explicit. The key is letting syntax and semantics recognize missing linguistic entities as implicit entities, so that they can be labelled as such, and reference resolution can be directed to find specific referents for the entities. In this way the task of making implicit linguistic information explicit becomes a subset of the tasks performed by reference resolution. The success of this approach is dependent on marking missing syntactic constituents as elided and missing semantic roles as ESSENTIAL so that reference resolution can know when to look for referents. ",
-          "year": "1986",
-          "pedagogicalRole": null,
-          "pageRankScore": 9.3623786E-4,
-          "relevanceScore": 0.7093819653338214,
-          "authorScore": 6.67
-        },
-        {
-          "author": "Dahl, Deborah A.; Palmer, Martha; Passonneau, Rebecca J.",
-          "title": "Nominalizations In PUNDIT",
-          "id": "P87-1019",
-          "abstractText": "This paper describes the treatment of nomi-nalizations in the PUNDIT text processing system. A single semantic definition is used for both nomi-nalizations and the verbs to which they are related, with the same semantic roles, decompositions, and selectional restrictions on the semantic roles. However, because syntactically nominaliza-tions are noun phrases, the processing which produces the semantic representation is different in several respects from that used for clauses. (1) The rules relating the syntactic positions of the constituents to the roles that they can fill are different. (2) The fact that nominalizations are untensed while clauses normally are tensed means that an alternative treatment of time is required for nominalizations. (3) Because none of the arguments of a nominalization is syntactically obligatory, some differences in the control of the filling of roles are required, in particular, roles can be filled as part of reference resolution for the nomi-nalization. The differences in processing are captured by allowing the semantic interpreter to operate in two different modes, one for clauses, and one for nominalizations. Because many nominalizations are noun-noun compounds, this approach also addresses this problem, by suggesting a way of dealing with one relatively tractable subset of noun-noun compounds. ",
-          "year": "1987",
-          "pedagogicalRole": null,
-          "pageRankScore": 1.2059617E-4,
-          "relevanceScore": 0.4232628444751602,
-          "authorScore": 8.33
-        },
-        {
-          "author": "Neuhaus, Peter; Broker, Norbert",
-          "title": "The Complexity Of Recognition Of Linguistically Adequate Dependency Grammars",
-          "id": "P97-1043",
-          "abstractText": "Results of computational complexity exist for a wide range of phrase structure-based grammar formalisms, while there is an apparent lack of such results for dependency-based formalisms. We here adapt a result on the complexity of ID/LP-grammars to the dependency framework. Contrary to previous studies on heavily restricted dependency grammars, we prove that recognition (and thus, parsing) of linguistically adequate dependency grammars is,ArP-complete. ",
-          "year": "1997",
-          "pedagogicalRole": null,
-          "pageRankScore": 1.07095795E-4,
-          "relevanceScore": 0.4510516037740859,
-          "authorScore": 0.0
-        }
-      ],
-      "dependentTopics": [
-        {
-          "topic": [
-            {
-              "word": "lexical_choice",
-              "value": 0.11552346497774124
-            },
-            {
-              "word": "lube_oil",
-              "value": 0.09747292101383209
-            },
-            {
-              "word": "knowledge_base",
-              "value": 0.09265944361686707
-            },
-            {
-              "word": "probabilistic_prediction",
-              "value": 0.05896510183811188
-            },
-            {
-              "word": "logical_form",
-              "value": 0.05415162444114685
-            },
-            {
-              "word": "starting_air",
-              "value": 0.05415162444114685
-            },
-            {
-              "word": "lexical_knowledge",
-              "value": 0.049338147044181824
-            },
-            {
-              "word": "peripheral_concepts",
-              "value": 0.04813477769494057
-            },
-            {
-              "word": "verbal_intelligence",
-              "value": 0.04332130029797554
-            },
-            {
-              "word": "abductive_inference",
-              "value": 0.036101084202528
-            },
-            {
-              "word": "differences_near-synonyms",
-              "value": 0.036101084202528
-            },
-            {
-              "word": "bidirectional_parsing",
-              "value": 0.033694345504045486
-            },
-            {
-              "word": "walk-through_article",
-              "value": 0.033694345504045486
-            },
-            {
-              "word": "near-synonyms_cluster",
-              "value": 0.03249097615480423
-            },
-            {
-              "word": "equipment_model",
-              "value": 0.03128760680556297
-            },
-            {
-              "word": "near-synonym_choice",
-              "value": 0.03128760680556297
-            },
-            {
-              "word": "preference_semantics",
-              "value": 0.03128760680556297
-            },
-            {
-              "word": "core_meaning",
-              "value": 0.03128760680556297
-            },
-            {
-              "word": "lolita_system",
-              "value": 0.030084235593676567
-            },
-            {
-              "word": "preferred_collocations",
-              "value": 0.030084235593676567
-            },
-            {
-              "word": "vocabulary_selection",
-              "value": 0.02888086624443531
-            }
-          ],
-          "documents": [
-            {
-              "author": "Magerman, David M.; Weir, Carl",
-              "title": "Efficiency, Robustness And Accuracy In Picky Chart Parsing",
-              "id": "P92-1006",
-              "abstractText": "This paper describes Picky, a probabilistic agenda-based chart parsing algorithm which uses a technique called probabilistic prediction to predict which grammar rules are likely to lead to an acceptable parse of the input. Using a suboptimal search method, Picky significantly reduces the number of edges produced by CKY-like chart parsing algorithms, while maintaining the robustness of pure bottom-up parsers and the accuracy of existing probabilistic parsers. Experiments using Picky demonstrate how probabilistic modelling can impact upon the efficiency, robustness and accuracy of a parser. ",
-              "year": "1992",
-              "pedagogicalRole": null,
-              "pageRankScore": 3.9053097E-4,
-              "relevanceScore": 0.47883082014966316,
-              "authorScore": 4.0
-            },
-            {
-              "author": "Hobbs, Jerry R.; Stickel, Mark; Martin, Paul; Edwards, Douglas",
-              "title": "Interpretation As Abduction",
-              "id": "P88-1012",
-              "abstractText": "To interpret a sentence: An approach to abductive inference developed in the TACITUS project has resulted in a dramatic simplification of how the problem of interpreting texts is conceptualized. Its use in solving the local pragmatics problems of reference, compound nominals, syntactic ambiguity, and metonymy is described and illustrated. It also suggests an elegant and thorough integration of syntax, semantics, and pragmatics. ",
-              "year": "1988",
-              "pedagogicalRole": null,
-              "pageRankScore": 3.4899235E-4,
-              "relevanceScore": 0.5100578559692174,
-              "authorScore": 3.25
-            },
-            {
-              "author": "Grishman, Ralph; Sterling, John",
-              "title": "Analyzing Telegraphic Messages",
-              "id": "H89-1034",
-              "abstractText": "Most people have little difficulty reading telegraphic-style messages such as SHIPMENT GOLD BULLION ARRIVING STAGECOACH JAN. 7 3 PM even though lots of material has been omitted which would be required in \"standard English\", such as articles, prepositions, and verbs. Our concern in this paper is how to process such messages by computer. Even though people don't send many telegrams anymore, this problem is still of importance because many military messages are written in this telegraphic style: 2 FLARES SIGHTED 230704Z6 SOUTH APPROX 5 MI SPA ESTABLISHED (here 290704Z6 is the time, and SPA is the Submarine Probability Area). Alternative Strategies The particular class of messages which we have studied are a set of Navy tactical messages called RAINFORM (ship) sighting messages [8]. Several other researchers have previously constructed systems to analyze these messages. In the NOMAD system [1] the knowledge was principally realized as procedures associated with individual words. This made it difficult to extend the system, as Granger has noted [1]. Some of the shortcomings of the internal knowledge representation were remedied in a later system named VOX [5] which used a conceptual grammar, mixing syntactic and semantic constraints. However, the power of the grammar was still quite limited when compared to grammars traditionally used in computational linguistics applications. In the development of our system, in contrast, we have taken as our starting point a relatively broad coverage grammar of standard English. ",
-              "year": "1989",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.2910423E-4,
-              "relevanceScore": 0.2733579951004814,
-              "authorScore": 8.0
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Lexical knowledge base"
-        },
-        {
-          "topic": [
-            {
-              "word": "feature_structures",
-              "value": 0.24510222673416138
-            },
-            {
-              "word": "feature_structure",
-              "value": 0.1901787966489792
-            },
-            {
-              "word": "lexical_entries",
-              "value": 0.06826931238174438
-            },
-            {
-              "word": "typed_feature",
-              "value": 0.055094532668590546
-            },
-            {
-              "word": "lexical_entry",
-              "value": 0.05210026353597641
-            },
-            {
-              "word": "phrase_structure",
-              "value": 0.04696723446249962
-            },
-            {
-              "word": "pollard_sag",
-              "value": 0.041064247488975525
-            },
-            {
-              "word": "unification_grammar",
-              "value": 0.04089314863085747
-            },
-            {
-              "word": "feature_values",
-              "value": 0.03464796021580696
-            },
-            {
-              "word": "unification_grammars",
-              "value": 0.024125246331095695
-            },
-            {
-              "word": "grammar_formalisms",
-              "value": 0.023783043026924133
-            },
-            {
-              "word": "parsing_generation",
-              "value": 0.02344084158539772
-            },
-            {
-              "word": "type_hierarchy",
-              "value": 0.021216528490185738
-            },
-            {
-              "word": "grammar_formalism",
-              "value": 0.02010437101125717
-            },
-            {
-              "word": "set_constraints",
-              "value": 0.019419968128204346
-            },
-            {
-              "word": "structure_grammar",
-              "value": 0.018906664103269577
-            },
-            {
-              "word": "feature_descriptions",
-              "value": 0.01693900302052498
-            },
-            {
-              "word": "structure_rules",
-              "value": 0.015399092808365822
-            },
-            {
-              "word": "unification_algorithm",
-              "value": 0.014629138633608818
-            },
-            {
-              "word": "semantic_head",
-              "value": 0.01403028517961502
-            },
-            {
-              "word": "unification-based_grammar",
-              "value": 0.013688082806766033
-            }
-          ],
-          "documents": [
-            {
-              "author": "Kasper, Robert T.",
-              "title": "A Logical Semantics For Feature Structures",
-              "id": "P86-1038",
-              "abstractText": "Unification-based grammar formalisms use structures containing sets of features to describe linguistic objects. Although computational algorithms for unification of feature structures have been worked out in experimental research, these algorithms become quite complicated, and a more precise description of feature structures is desirable. We have developed a model in which descriptions of feature structures can be regarded as logical formulas, and interpreted by sets of directed graphs which satisfy them. These graphs are, in fact, transition graphs for a special type of deterministic finite automaton. This semantics for feature structures extends the ideas of Pereira and Shieber [111, by providing an interpretation for values which are specified by disjunctions and path values, embedded within disjunctions. Our interpretation differs from that of Pereira and Shieber by using a logical model in place of a denotational semantics. This logical model yields a calculus of equivalences, which can be used to simplify formulas. Unification is attractive, because of its generality, but it is often computationally inefficient. Our model allows a careful examination of the computational complexity of unification. We have shown that the consistency problem for formulas with disjunctive values is NP-complete. ",
-              "year": "1986",
-              "pedagogicalRole": null,
-              "pageRankScore": 9.082754E-4,
-              "relevanceScore": 0.524735146562874,
-              "authorScore": 4.0
-            },
-            {
-              "author": "Emele, Martin C.; Zajac, Remi",
-              "title": "Typed Unification Grammars",
-              "id": "C90-3052",
-              "abstractText": "We introduce TI'S, a computer formalism in the class of logic formalisms which integrates a powerful type system. Its basic data structures are typed feature structures. The type system encourages an object-oriented approach to linguistic description by providing a multiple inheritance mechanism and an inference mechanism winch allows the specification of relations between levels of linguistic description defined as classes of objects. We illustrate this approach starting from a very simple DCG, and show how to make use of the typing system to enforce general constraints and modularize linguistic descriptions, and how further abstraction leads to a HPSG-like gram ",
-              "year": "1990",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.9510233E-4,
-              "relevanceScore": 0.47249059439398744,
-              "authorScore": 1.5
-            },
-            {
-              "author": "Eisele, Andreas; Dorre, Jochen",
-              "title": "Unification Of Disjunctive Feature Descriptions",
-              "id": "P88-1035",
-              "abstractText": "The paper describes a new implementation of feature structures containing disjunctive values, which can be characterized by the following main points: Local representation of embedded disjunctions, avoidance of expansion to disjunctive normal form and of repeated test-unifications for checking consistence. The method is based on a modification of Kasper and Rounds' calculus of feature descriptions and its correctness therefore is easy to see. It can handle cyclic structures and has been incorporated successfully into an environment for grammar development. ",
-              "year": "1988",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.8073284E-4,
-              "relevanceScore": 0.3634130315450554,
-              "authorScore": 0.0
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Feature structures"
-        },
-        {
-          "topic": [
-            {
-              "word": "dependency_treebank",
-              "value": 0.08342644572257996
-            },
-            {
-              "word": "prague_dependency",
-              "value": 0.07523277401924133
-            },
-            {
-              "word": "emotion_classification",
-              "value": 0.07262569665908813
-            },
-            {
-              "word": "emotion_words",
-              "value": 0.07039105892181396
-            },
-            {
-              "word": "topic_focus",
-              "value": 0.05921787768602371
-            },
-            {
-              "word": "emotion_classes",
-              "value": 0.051396649330854416
-            },
-            {
-              "word": "emotion_recognition",
-              "value": 0.051396649330854416
-            },
-            {
-              "word": "czech_republic",
-              "value": 0.049534451216459274
-            },
-            {
-              "word": "emotion_detection",
-              "value": 0.04655493423342705
-            },
-            {
-              "word": "charles_university",
-              "value": 0.044692736119031906
-            },
-            {
-              "word": "english_czech",
-              "value": 0.04320298135280609
-            },
-            {
-              "word": "emotional_state",
-              "value": 0.04059590399265289
-            },
-            {
-              "word": "emotion_categories",
-              "value": 0.040223464369773865
-            },
-            {
-              "word": "czech_english",
-              "value": 0.03724394738674164
-            },
-            {
-              "word": "anger_disgust",
-              "value": 0.03649906814098358
-            },
-            {
-              "word": "joy_sadness",
-              "value": 0.03612662851810455
-            },
-            {
-              "word": "disgust_fear",
-              "value": 0.03351955488324165
-            },
-            {
-              "word": "emotion_lexicon",
-              "value": 0.033147115260362625
-            },
-            {
-              "word": "wordnet_affect",
-              "value": 0.03202979639172554
-            },
-            {
-              "word": "emotion_class",
-              "value": 0.03165735676884651
-            },
-            {
-              "word": "emotion_analysis",
-              "value": 0.031284917145967484
-            }
-          ],
-          "documents": [
-            {
-              "author": "Hajicov&aacute;, Eva; Sgall, Petr",
-              "title": "Towards An Automatic Identification Of Topic And Focus",
-              "id": "E85-1039",
-              "abstractText": "The purpose of the paper is (i) to substantiate the claim that the output of an automatic analysis should represent among other things also the hierarchy of topic-focus articulation, and (ii) to present a general procedure for determining the topic-focus articulation in Czech and English. (i) The following requirements on the output of an automatic analysis are significant: (a) in the output of the analysis it should be marked which elements of the analyzed sentence belong to its topic and which to the focus; (b) the scale of communicative dynamism (CD) should also be identified for every representation of a meaning of the analyzed sentence, since the degrees of CD correspond to the unmarked distribution of quantifier scopes in the semantic interpretation of the sentence; (c) the analysis should also distinguish topicless sentences from those having a topic, which is relevant for the scope of negation. (ii) For an automatic recognition of topic, focus and the degrees of CD, two points are crucial: (a) either the input language has (a considerable degree of) the so-called free word order (as in Czech, Russian), or its word order is determined mainly by the grammatical relations (as in English, French); (b) either the input is spoken discourse (and the recognition procedure includes an acoustic analysis), or written (printed) texts are analyzed. In accordance with these points, a general procedure for determining topic, focus and the degrees of CD is formulated for Czech and English, with some hints how the preceding context can be taken into account. 1. We distinguish between the level of linguistic,meaning (de Saussure s and Hje],mslev s \"form of content\", Cosieru s \"Bedeutung\", others \"literal meaning\") and its interpretation in the sense of truth-conditional, intensional logic (see Materna and Sgall, 1980; Sgall, 1983). For some purposes of automatic treatment of natural language (including machine translation) it is sufficient if the output of the procedure of analysis is more or less identical with the representation of the (linguistic) meaning of the sentence. For other purposes, such as that of full natural language comprehension, it is necessary to go as far as the semantic (truth-conditional) interpretation, using a notation that includes variables, operators, parentheses and similar means. ",
-              "year": "1985",
-              "pedagogicalRole": null,
-              "pageRankScore": 8.513037E-5,
-              "relevanceScore": 0.546838416219645,
-              "authorScore": 2.0
-            },
-            {
-              "author": "Mohammad, Saif; Turney, Peter D.",
-              "title": "Emotions Evoked by Common Words and Phrases: Using Mechanical Turk to Create an Emotion Lexicon",
-              "id": "W10-0204",
-              "abstractText": "Emotions Evoked by Common Words and Phrases: Using Mechanical Turk to Create an Emotion Lexicon Saif M. Mohammad and Peter D. Turney Institute for Information Technology, National Research Council Canada. Ottawa, Ontario, Canada, K1A 0R6 {saif.mohammad,peter.turney}@nrc-cnrc.gc.ca Even though considerable attention has been given to semantic orientation of words and the creation of large polarity lexicons, research in emotion analysis has had to rely on limited and small emotion lexicons. In this paper, we show how we create a high-quality, moderate-sized emotion lexicon using Mechanical Turk. In addition to questions about emotions evoked by terms, we show how the inclusion of a word choice question can discourage malicious data entry, help identify instances where the annotator may not be familiar with the target term (allowing us to reject such annotations), and help obtain annotations at sense level (rather than at word level). We perform an extensive analysis of the annotations to better understand the distribution of emotions evoked by terms of different parts of speech. We identify which emotions tend to be evoked simultaneously by the same term and show that certain emotions indeed go hand in hand. ",
-              "year": "2010",
-              "pedagogicalRole": null,
-              "pageRankScore": 5.0383584E-5,
-              "relevanceScore": 0.5480782881645626,
-              "authorScore": 2.5
-            },
-            {
-              "author": "Sgall, Petr; Panevova, Jarmila; Hajicov&aacute;, Eva",
-              "title": "Deep Syntactic Annotation: Tectogrammatical Representation And Beyond",
-              "id": "W04-2706",
-              "abstractText": "The requirements of the depth and precision of annotation vary for different intended uses of the corpus but it has been commonly accepted nowadays that the standard annotations of surface structure are only the first steps in a more ambitious research program, aiming at a creation of advanced resources for most different systems of natural language processing and for testing and further enrichment of linguistic and computational theories. Among the several possible directions in which we believe the standard annotation systems should go (and in some cases already attempt to go) beyond the POS tagging or shallow syntactic annotations, the following four are characterized in the present contribution: (i) predicate-argument representation of the underlying syntactic relations as basically corresponding to a rooted tree that can be univocally linearized, (ii) the inclusion of the information structure using very simple means (the left-to-right order of the nodes and three attribute values), (iii) relating this underlying structure (rendering the ”linguistic meaning,” i.e. the semantically relevant counterparts of the grammatical means of expression) to certain central aspects of referential semantics (reference assignment and coreferential relations), and (iv) handling of word sense disambiguation. The first three issues are documented in the present paper on the basis of our experience with the development of the structure and scenario of the Prague Dependency Treebank which provides for syntactico-semantic annotation of large text segments from the Czech National Corpus and which is based on a solid theoretical framework. ",
-              "year": "2004",
-              "pedagogicalRole": null,
-              "pageRankScore": 4.8451773E-5,
-              "relevanceScore": 0.42348385900794916,
-              "authorScore": 1.5
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Dependency treebank for emotion classification"
-        }
-      ],
-      "topicName": "Word order"
-    },
-    {
-      "topic": [
-        {
-          "word": "anaphora_resolution",
-          "value": 0.18748892843723297
-        },
-        {
-          "word": "pronoun_resolution",
-          "value": 0.09533935785293579
-        },
-        {
-          "word": "noun_phrases",
-          "value": 0.08665603399276733
-        },
-        {
-          "word": "definite_descriptions",
-          "value": 0.062289562076330185
-        },
-        {
-          "word": "reference_resolution",
-          "value": 0.06158072128891945
-        },
-        {
-          "word": "noun_phrase",
-          "value": 0.05865674465894699
-        },
-        {
-          "word": "definite_noun",
-          "value": 0.03916356712579727
-        },
-        {
-          "word": "definite_description",
-          "value": 0.03579656034708023
-        },
-        {
-          "word": "discourse_entities",
-          "value": 0.033935848623514175
-        },
-        {
-          "word": "referring_expressions",
-          "value": 0.03384724259376526
-        },
-        {
-          "word": "anaphor_antecedent",
-          "value": 0.033670034259557724
-        },
-        {
-          "word": "definite_nps",
-          "value": 0.031100478023290634
-        },
-        {
-          "word": "personal_pronouns",
-          "value": 0.029682792723178864
-        },
-        {
-          "word": "anaphoric_expressions",
-          "value": 0.029328372329473495
-        },
-        {
-          "word": "discourse_entity",
-          "value": 0.02861952781677246
-        },
-        {
-          "word": "pronominal_anaphora",
-          "value": 0.027644868940114975
-        },
-        {
-          "word": "definite_np",
-          "value": 0.025872763246297836
-        },
-        {
-          "word": "antecedent_candidates",
-          "value": 0.025695551186800003
-        },
-        {
-          "word": "resolution_algorithm",
-          "value": 0.024986708536744118
-        },
-        {
-          "word": "proper_names",
-          "value": 0.02436647191643715
-        },
-        {
-          "word": "resolution_system",
-          "value": 0.024277865886688232
-        }
-      ],
-      "documents": [
-        {
-          "author": "Kennedy, Christopher; Boguraev, Branimir K.",
-          "title": "Anaphora For Everyone: Pronominal Anaphora Resolution Without A Parser",
-          "id": "C96-1021",
-          "abstractText": "We present an algorithm for anaphora resolution which is a modified and extended version of that developed by (Lappin and Leass, 1994). In contrast to that work, our algorithm does not require in-depth, full, syn.. tactic parsing of text. Instead, with minimal compromise in output quality, the modifications enable the resolution process to work from the output of a part of speech tagger, enriched only with annotations of grammatical function of lexical items in the input text stream. Evaluation of the results of our implementation demonstrates that accurate anaphora resolution can be realized within natural language processing frameworks which do mit--or cannot employ robust and reliable parsing components. ",
-          "year": "1996",
-          "pedagogicalRole": null,
-          "pageRankScore": 2.7787496E-4,
-          "relevanceScore": 0.42410944078066115,
-          "authorScore": 0.0
-        },
-        {
-          "author": "Mitkov, Ruslan",
-          "title": "Robust Pronoun Resolution with Limited Knowledge",
-          "id": "P98-2143",
-          "abstractText": "Most traditional approaches to anaphora resolution rely heavily on linguistic and domain knowledge. One of the disadvantages of developing a knowledge-based system, however, is that it is a very labour-intensive and time-consuming task. This paper presents a robust, knowledge-poor approach to resolving pronouns in technical manuals, which operates on texts preprocessed by a part-of-speech tagger. Input is checked against agreement and for a number of antecedent indicators. Candidates are assigned scores by each indicator and the candidate with the highest score is returned as the antecedent. Evaluation reports a success rate of 89.7% which is better than the success rates of the approaches selected for comparison and tested on the same data. In addition, preliminary experiments show that the approach can be successfully adapted for other languages with minimum modifications. ",
-          "year": "1998",
-          "pedagogicalRole": null,
-          "pageRankScore": 1.3861993E-4,
-          "relevanceScore": 0.5682862528879619,
-          "authorScore": 5.0
-        },
-        {
-          "author": "Poesio, Massimo; Vieira, Renata",
-          "title": "A Corpus-Based Investigation Of Definite Description Use",
-          "id": "J98-2001",
-          "abstractText": "We present the results of a study of the use of definite descriptions in written texts aimed at assessing the feasibility of annotating corpora with information about definite description interpretation. We ran two experiments, in which subjects were asked to classify the uses of definite descriptions in a corpus of 33 newspaper articles, containing a total of 1,412 definite descriptions. We measured the agreement among annotators about the classes assigned to definite descriptions, as well as the agreement about the antecedent assigned to those definites that the annotators classified as being related to an antecedent in the text. The most interesting result of this study from a corpus annotation perspective was the rather low agreement (K = 0.63) that we obtained using versions of Hawkins's and Prince's classification schemes; better results (K = 0.76) were obtained using the simplified scheme proposed by Fraurud that includes only two classes, first-mention and subsequent-mention. The agreement about antecedents was also not complete. These findings raise questions concerning the strategy of evaluating systems for definite description interpretation by comparing their results with a standardized annotation. From a linguistic point of view, the most interesting observations were the great number of discourse-new definites in our corpus (in one of our experiments, about 50% of the definites in the collection were classified as discourse-new, 30% as anaphoric, and 18% as associative/bridging) and the presence of definites that did not seem to require a complete disambiguation. ",
-          "year": "1998",
-          "pedagogicalRole": null,
-          "pageRankScore": 1.3092566E-4,
-          "relevanceScore": 0.42748514690287714,
-          "authorScore": 8.0
-        }
-      ],
-      "dependentTopics": [
-        {
-          "topic": [
-            {
-              "word": "tree_kernel",
-              "value": 0.1762068122625351
-            },
-            {
-              "word": "tree_kernels",
-              "value": 0.10036929696798325
-            },
-            {
-              "word": "parse_tree",
-              "value": 0.07728831470012665
-            },
-            {
-              "word": "kernel_function",
-              "value": 0.0733315721154213
-            },
-            {
-              "word": "parse_trees",
-              "value": 0.05499868094921112
-            },
-            {
-              "word": "collins_duffy",
-              "value": 0.053020309656858444
-            },
-            {
-              "word": "kernel_methods",
-              "value": 0.04827222228050232
-            },
-            {
-              "word": "relation_extraction",
-              "value": 0.0473489835858345
-            },
-            {
-              "word": "feature_space",
-              "value": 0.0447111576795578
-            },
-            {
-              "word": "n1_n2",
-              "value": 0.04260089620947838
-            },
-            {
-              "word": "kernel_functions",
-              "value": 0.03442363440990448
-            },
-            {
-              "word": "convolution_tree",
-              "value": 0.03310472145676613
-            },
-            {
-              "word": "polynomial_kernel",
-              "value": 0.030994459986686707
-            },
-            {
-              "word": "convolution_kernels",
-              "value": 0.02796095982193947
-            },
-            {
-              "word": "linear_kernel",
-              "value": 0.02624637261033058
-            },
-            {
-              "word": "number_common",
-              "value": 0.022949090227484703
-            },
-            {
-              "word": "composite_kernel",
-              "value": 0.022949090227484703
-            },
-            {
-              "word": "t1_t2",
-              "value": 0.022685308009386063
-            },
-            {
-              "word": "syntactic_parse",
-              "value": 0.020311264321208
-            },
-            {
-              "word": "syntactic_tree",
-              "value": 0.020179372280836105
-            },
-            {
-              "word": "vector_machines",
-              "value": 0.02004748024046421
-            }
-          ],
-          "documents": [
-            {
-              "author": "Moschitti, Alessandro",
-              "title": "A Study On Convolution Kernels For Shallow Statistic Parsing",
-              "id": "P04-1043",
-              "abstractText": "In this paper we have designed and experimented novel convolution kernels for automatic classification of predicate arguments. Their main property is the ability to process structured representations. Support Vector Machines (SVMs), using a combination of such kernels and the flat feature kernel, classify Prop-Bank predicate arguments with accuracy higher than the current argument classification state-of-the-art. Additionally, experiments on FrameNet data have shown that SVMs are appealing for the classification of semantic roles even if the proposed kernels do not produce any improvement. ",
-              "year": "2004",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.527273E-4,
-              "relevanceScore": 0.5935507776635585,
-              "authorScore": 9.0
-            },
-            {
-              "author": "Zhang, Min; Zhang, Jie; Su, Jian; Zhou, Guodong",
-              "title": "A Composite Kernel To Extract Relations Between Entities With Both Flat And Structured Features",
-              "id": "P06-1104",
-              "abstractText": "This paper proposes a novel composite kernel for relation extraction. The composite kernel consists of two individual kernels: an entity kernel that allows for entity-related features and a convolution parse tree kernel that models syntactic information of relation examples. The motivation of our method is to fully utilize the nice properties of kernel methods to explore diverse knowledge for relation extraction. Our study illustrates that the composite kernel can effectively capture both flat and structured features without the need for extensive feature engineering, and can also easily scale to include more features. Evaluation on the ACE corpus shows that our method outperforms the previous best-reported methods and significantly outperforms previous two dependency tree kernels for relation extraction. ",
-              "year": "2006",
-              "pedagogicalRole": null,
-              "pageRankScore": 7.141265E-5,
-              "relevanceScore": 0.65251837232127,
-              "authorScore": 9.25
-            },
-            {
-              "author": "Zhou, Guodong; Zhang, Min; Donghong, Ji; Zhu, Qiao-ming",
-              "title": "Tree Kernel-Based Relation Extraction with Context-Sensitive Structured Parse Tree Information",
-              "id": "D07-1076",
-              "abstractText": "Tree Kernel-based Relation Extraction with Context-Sensitive Structured Parse Tree Information GuoDong ZHOU Min ZHANG Dong Hong JI QiaoMing ZHU School of Computer Science & Technology Institute for Infocomm Research Soochow Univ. Heng Mui Keng Terrace Suzhou, China 215006 Singapore 119613 Email: {gdzhou,qmzhu}@suda.edu.cn Email: {zhougd, mzhang, dhji}@i2r.a-star.edu.sg This paper proposes a tree kernel with context-sensitive structured parse tree information for relation extraction. It resolves two critical problems in previous tree kernels for relation extraction in two ways. First, it automatically determines a dynamic context-sensitive tree span for relation extraction by extending the widely-used Shortest Path-enclosed Tree (SPT) to include necessary context information outside SPT. Second, it proposes a context-sensitive convolution tree kernel, which enumerates both context-free and context-sensitive sub-trees by considering their ancestor node paths as their contexts. ",
-              "year": "2007",
-              "pedagogicalRole": null,
-              "pageRankScore": 5.392502E-5,
-              "relevanceScore": 0.7036207329266282,
-              "authorScore": 4.75
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Tree kernel"
-        },
-        {
-          "topic": [
-            {
-              "word": "proposed_method",
-              "value": 0.12545862793922424
-            },
-            {
-              "word": "japanese_english",
-              "value": 0.09223400056362152
-            },
-            {
-              "word": "case_frame",
-              "value": 0.08938035368919373
-            },
-            {
-              "word": "case_frames",
-              "value": 0.08020790666341782
-            },
-            {
-              "word": "english_japanese",
-              "value": 0.0637994259595871
-            },
-            {
-              "word": "japanese_sentences",
-              "value": 0.05075417831540108
-            },
-            {
-              "word": "japanese_sentence",
-              "value": 0.04993885010480881
-            },
-            {
-              "word": "ac_jp",
-              "value": 0.044843047857284546
-            },
-            {
-              "word": "newspaper_articles",
-              "value": 0.03974724933505058
-            },
-            {
-              "word": "japanese_word",
-              "value": 0.03893192112445831
-            },
-            {
-              "word": "morphological_analysis",
-              "value": 0.03832042217254639
-            },
-            {
-              "word": "japanese_language",
-              "value": 0.034957196563482285
-            },
-            {
-              "word": "input_sentence",
-              "value": 0.0331227071583271
-            },
-            {
-              "word": "japanese_text",
-              "value": 0.03139013424515724
-            },
-            {
-              "word": "structure_analysis",
-              "value": 0.031084386631846428
-            },
-            {
-              "word": "case_structure",
-              "value": 0.030880553647875786
-            },
-            {
-              "word": "japanese_words",
-              "value": 0.026905829086899757
-            },
-            {
-              "word": "case_marker",
-              "value": 0.024867508560419083
-            },
-            {
-              "word": "machine_translation",
-              "value": 0.024867508560419083
-            },
-            {
-              "word": "case_markers",
-              "value": 0.024357929825782776
-            },
-            {
-              "word": "case_slot",
-              "value": 0.02395026572048664
-            }
-          ],
-          "documents": [
-            {
-              "author": "Nakaiwa, Hiromi; Ikehara, Satoru",
-              "title": "Zero Pronoun Resolution In A Machine Translation System By Using Japanese To English Verbal Semantic Attributes",
-              "id": "A92-1028",
-              "abstractText": "A method of anaphoral resolution of zero pronouns in Japanese language texts using the verbal semantic attributes is suggested. This method focuses attention on the semantic attributes of verbs and examines the context from the relationship between the semantic attributes of verbs governing zero pronouns and the semantic attributes of verbs governing their referents. The semantic attributes of verbs are created using 2 different viewpoints: dynamic characteristics of verbs and the relationship of verbs to cases. By using this method, it is shown that, in the case of translating newspaper articles, the major portion (93%) of anaphoral resolution of zero pronouns necessary for machine translation can be achieved by using only linguistic knowledge. Factors to be given special attention when incorporating this method into a machine translation system are examined, together with suggested conditions for the detection of zero pronouns and methods for their conversion. This study considers four factors that are important when implementing this method in a Japanese to English machine translation system: the difference in conception between Japanese and English expressions, the difference in case frame patterns between Japanese and English, restrictions by voice and restriction by translation structure. Implementation of the proposed method with due consideration of these points leads to a viable method for anaphoral resolution of zero pronouns in a practical machine translation system. ",
-              "year": "1992",
-              "pedagogicalRole": null,
-              "pageRankScore": 7.115474E-5,
-              "relevanceScore": 0.7229144603584923,
-              "authorScore": 0.0
-            },
-            {
-              "author": "Kawahara, Daisuke; Kurohashi, Sadao",
-              "title": "Japanese Case Frame Construction By Coupling The Verb And Its Closest Case Component",
-              "id": "H01-1043",
-              "abstractText": "This paper describes a method to construct a case frame dictionary automatically from a raw corpus. The main problem is how to handle the diversity of verb usages. We collect predicate-argument examples, which are distinguished by the verb and its closest case component in order to deal with verb usages, from parsed results of a corpus. Since these couples multiply to millions of combinations, it is difficult to make a wide-coverage case frame dictionary from a small corpus like an analyzed corpus. We, however, use a raw corpus, so that this problem can be addressed. Furthermore, we cluster and merge predicate-argument examples which does not have different usages but belong to different case frames because of different closest case components. We also report on an experimental result of case structure analysis using the constructed case frame dictionary. ",
-              "year": "2001",
-              "pedagogicalRole": null,
-              "pageRankScore": 6.384547E-5,
-              "relevanceScore": 0.6903646028255587,
-              "authorScore": 7.0
-            },
-            {
-              "author": "Makino, Hiroshi; Kizawa, Makoto",
-              "title": "An Automatic Translation System Of Non-Segmented Kana Sentences Into Kanji-Kana Sentences",
-              "id": "C80-1045",
-              "abstractText": "In the computer processing of the Japanese language informations, the input method is much more difficult than in other Indo-European languages because thousands of kinds of characters in mainly two classes, Kanji(ideograms) and Kana(phonograms), are used together in writing regular sentences. Conventional Japanese typewriters are equipped with least 2000 Kanji(Chinese characters) which are frequently used in daily use. A typewrite of this sort is difficult for us to handle and its typing speed is much lower than that of alphabetic typewriters because operators must look for characters one by one. One of the most promising input methods to overcome this intrinsic input difficulty is Kana-Kanji translation system, in which all the sentences are input with Kana only using a regular 44-Key keyboard and then translated into regular Kanji-Kana sentences automatically in the computer. The automatic translation system consists of two processes; the segmentation and the word identification processes. The problems in Kana-Kanji translation The problems in Kana-Kanji translation are: (a) segmentation of input sentences. (b) word identification from homonyms. These problems are basic in the processing of Japanese sentences as language informations. Japanese sentences in Kanji and Kana have no spaces between words as English ones do. ",
-              "year": "1980",
-              "pedagogicalRole": null,
-              "pageRankScore": 4.470884E-5,
-              "relevanceScore": 0.46789965532546096,
-              "authorScore": 0.0
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Japanese"
-        },
-        {
-          "topic": [
-            {
-              "word": "conversationally_relevant",
-              "value": 0.07672633975744247
-            },
-            {
-              "word": "generation_enablement",
-              "value": 0.07033248245716095
-            },
-            {
-              "word": "individuating_set",
-              "value": 0.06905370950698853
-            },
-            {
-              "word": "rationale_clauses",
-              "value": 0.0677749365568161
-            },
-            {
-              "word": "purpose_clauses",
-              "value": 0.06521739065647125
-            },
-            {
-              "word": "transfer_mappings",
-              "value": 0.05626598373055458
-            },
-            {
-              "word": "task_structure",
-              "value": 0.05115089565515518
-            },
-            {
-              "word": "generation_relation",
-              "value": 0.04731457680463791
-            },
-            {
-              "word": "processing_strategy",
-              "value": 0.046035803854465485
-            },
-            {
-              "word": "logical_forms",
-              "value": 0.04475703462958336
-            },
-            {
-              "word": "means_clauses",
-              "value": 0.04475703462958336
-            },
-            {
-              "word": "plan_graph",
-              "value": 0.043478261679410934
-            },
-            {
-              "word": "hypertext_anchors",
-              "value": 0.040920715779066086
-            },
-            {
-              "word": "referential_attributive",
-              "value": 0.03964194282889366
-            },
-            {
-              "word": "place_deictics",
-              "value": 0.03964194282889366
-            },
-            {
-              "word": "relevant_description",
-              "value": 0.03964194282889366
-            },
-            {
-              "word": "logical_form",
-              "value": 0.03708440065383911
-            },
-            {
-              "word": "smith_murderer",
-              "value": 0.031969308853149414
-            },
-            {
-              "word": "definite_descriptions",
-              "value": 0.03069053776562214
-            },
-            {
-              "word": "target_lf",
-              "value": 0.029411764815449715
-            },
-            {
-              "word": "individuating_sets",
-              "value": 0.02813299186527729
-            }
-          ],
-          "documents": [
-            {
-              "author": "Guindon, Raymonde; Conner, Joyce",
-              "title": "The Structure Of User-Adviser Dialogues: Is There Method In Their Madness?",
-              "id": "P86-1034",
-              "abstractText": "Novice users engaged in task-oriented dialogues with an adviser to learn how to use an unfamiliar statistical package. The users' task was analyzed and a task structure was derived. The task structure was used to segment the dialogue into subdialogues associated with the subtasks of the overall task. The representation of the dialogue structure into a hierarchy of subdialogues, partly corresponding to the task structure, was validated by three converging analyses. First, the distribution of non-pronominal noun phrases and the distribution of pronominal noun phrases exhibited a pattern consistent with the derived dialogue structure. Non-pronominal noun phrases occurred more frequently at the beginning of subdialogues than later, as can be expected since one of their functions is to indicate topic shifts. On the other hand, pronominal noun phrases occurred less frequently in the first sentence of the subdialogues than in the following sentences of the subdialogues, as can be expected since they are used to indicate topic continuity. Second, the distributions of the antecedents of pronominal noun phrases and of non-pronominal noun phrases showed a pattern consistent with the derived dialogue structure. Finally, distinctive clue words and phrases were found reliably at the boundaries of subdialogues with different functions. ",
-              "year": "1986",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.4705234E-4,
-              "relevanceScore": 0.31993793901918754,
-              "authorScore": 0.0
-            },
-            {
-              "author": "Stone, Matthew; Doran, Christine",
-              "title": "Sentence Planning As Description Using Tree Adjoining Grammar",
-              "id": "P97-1026",
-              "abstractText": "Philadelphia, PA 19014 Philadelphia, PA 19014 mat thew@linc . cis . upenn • edu cdoran@linc . cis .upenn. edu ",
-              "year": "1997",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.3828128E-4,
-              "relevanceScore": 0.3296183164666417,
-              "authorScore": 3.5
-            },
-            {
-              "author": "Eugenio, Barbara Di",
-              "title": "Understanding Natural Language Instructions: The Case Of Purpose Clauses",
-              "id": "P92-1016",
-              "abstractText": "A speaker (S) gives instructions to a hearer (H) in order to affect H's behavior. Researchers including (Winograd, 1972), (Chapman, 1991), (Vere and Bick-more, 1990), (Cohen and Levesque, 1990), (Alterman et al., 1991) have been and are addressing many complex facets of the problem of mapping Natural Language instructions onto an agent's behavior. However, an aspect that no one has really considered is computing the objects of the intentions H's adopts, namely, the actions to be performed. In general, researchers have equated such objects with logical forms extracted from the NL input. This is perhaps sufficient for simple positive imperatives, but more complex imperatives require that action descriptions be computed, not simply extracted, from the input instruction. To clarify my point, consider: Ex. 1 a) Place a plank between two ladders. b) Place a plank between two ladders to create a simple scaffold. In both a) and b), the action to be executed is place a plank between two ladders. However, Ex. ",
-              "year": "1992",
-              "pedagogicalRole": null,
-              "pageRankScore": 1.094946E-4,
-              "relevanceScore": 0.5180610340202317,
-              "authorScore": 12.0
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Miscellany 3"
-        }
-      ],
-      "topicName": "Anaphora resolution"
-    }
-  ]
+  "keyword": "language_learning",
+  "matchTopics": [{
+    "topic": [{
+      "word": "language_acquisition",
+      "value": 0.20751342177391052
+    }, {
+      "word": "language_learning",
+      "value": 0.1520572453737259
+    }, {
+      "word": "child_language",
+      "value": 0.06746741384267807
+    }, {
+      "word": "learning_algorithm",
+      "value": 0.05954510718584061
+    }, {
+      "word": "learning_process",
+      "value": 0.050345003604888916
+    }, {
+      "word": "word_learning",
+      "value": 0.045489393174648285
+    }, {
+      "word": "negative_evidence",
+      "value": 0.03526705875992775
+    }, {
+      "word": "child-directed_speech",
+      "value": 0.035011500120162964
+    }, {
+      "word": "language_learner",
+      "value": 0.035011500120162964
+    }, {
+      "word": "language_learners",
+      "value": 0.03475594148039818
+    }, {
+      "word": "learning_theory",
+      "value": 0.031178124248981476
+    }, {
+      "word": "computational_models",
+      "value": 0.02913365699350834
+    }, {
+      "word": "learning_system",
+      "value": 0.027344748377799988
+    }, {
+      "word": "learning_language",
+      "value": 0.027089189738035202
+    }, {
+      "word": "learning_model",
+      "value": 0.026833631098270416
+    }, {
+      "word": "children_learn",
+      "value": 0.023766931146383286
+    }, {
+      "word": "computational_model",
+      "value": 0.023766931146383286
+    }, {
+      "word": "learning_task",
+      "value": 0.022744696587324142
+    }, {
+      "word": "childes_database",
+      "value": 0.022489137947559357
+    }, {
+      "word": "language_development",
+      "value": 0.02172246389091015
+    }, {
+      "word": "young_children",
+      "value": 0.021466905251145363
+    }],
+    "documents": [{
+      "author": "Yang, Charles D.",
+      "title": "A Selectionist Theory Of Language Acquisition",
+      "id": "P99-1055",
+      "abstractText": "This paper argues that developmental patterns in child language be taken seriously in computational models of language acquisition, and proposes a formal theory that meets this criterion. We first present developmental facts that are problematic for statistical learning approaches which assume no prior knowledge of grammar, and for traditional learnabil-ity models which assume the learner moves from one UG-defined grammar to another. In contrast, we view language acquisition as a population of grammars associated with \"weights\", that compete in a Darwinian selectionist process. Selection is made possible by the variational properties of individual grammars; specifically, their differential compatibility with the primary linguistic data in the environment. In addition to a convergence proof, we present empirical evidence in child language development, that a learner is best modeled as multiple grammars in coexistence and competition. ",
+      "year": "1999",
+      "pedagogicalRole": null,
+      "pageRankScore": 5.2213963E-5,
+      "relevanceScore": 0.5861056845876617,
+      "authorScore": 0.0,
+      "relevantTopics": [{
+        "topicName": "Language acquisition",
+        "strength": 0.5861056845876617
+      }, {
+        "topicName": "Rule-based parsing",
+        "strength": 0.06359550263544957
+      }, {
+        "topicName": "Natural language & lexical semantics",
+        "strength": 0.04608735816925561
+      }, {
+        "topicName": "Computational linguistics",
+        "strength": 0.044094375696947075
+      }, {
+        "topicName": "Noun phrases",
+        "strength": 0.039931142214077744
+      }, {
+        "topicName": "Genetic algorithms & anaphora resolution",
+        "strength": 0.024717169525345285
+      }, {
+        "topicName": "Natural languages & computational linguistics",
+        "strength": 0.022254646025394828
+      }, {
+        "topicName": "Confusion sets",
+        "strength": 0.019674379611831997
+      }, {
+        "topicName": "Parallel corpora for machine translation",
+        "strength": 0.017701452999750643
+      }, {
+        "topicName": "Generative models & model selection",
+        "strength": 0.01722359623561319
+      }]
+    }, {
+      "author": "Buttery, Paula",
+      "title": "A Quantitative Evaluation Of Naturalistic Models Of Language Acquisition; The Efficiency Of The Triggering Learning Algorithm Compared To A Categorial Grammar Learner",
+      "id": "W04-1301",
+      "abstractText": "Naturalistic theories of language acquisition assume learners to be endowed with some innate language knowledge. The purpose of this innate knowledge is to facilitate language acquisition by constraining a learner’s hypothesis space. This paper discusses a naturalistic learning system (a Categorial Grammar Learner (CGL)) that differs from previous learners (such as the Triggering Learning Algorithm (TLA) (Gibson and Wexler, 1994)) by employing a dynamic definition of the hypothesis-space which is driven by the Bayesian Incremental Parameter Setting algorithm (Briscoe, 1999). We compare the efficiency of the TLA with the CGL when acquiring an independently and identically distributed English-like language in noiseless conditions. We show that when convergence to the target grammar occurs (which is not guaranteed), the expected number of steps to convergence for the TLA is shorter than that for the CGL initialized with uniform priors. However, the CGL converges more reliably than the TLA. We discuss the trade-off of efficiency against more reliable convergence to the target grammar. ",
+      "year": "2004",
+      "pedagogicalRole": null,
+      "pageRankScore": 3.229716E-5,
+      "relevanceScore": 0.5381193166905334,
+      "authorScore": 0.0,
+      "relevantTopics": [{
+        "topicName": "Language acquisition",
+        "strength": 0.5381193166905334
+      }, {
+        "topicName": "Combinatory categorial grammar",
+        "strength": 0.11142964393084803
+      }, {
+        "topicName": "Noun phrases",
+        "strength": 0.07037692594176884
+      }, {
+        "topicName": "Rule-based parsing",
+        "strength": 0.03867087710760122
+      }, {
+        "topicName": "Natural language & lexical semantics",
+        "strength": 0.03758725090347298
+      }, {
+        "topicName": "Identifying unknown words",
+        "strength": 0.02799594790725481
+      }, {
+        "topicName": "Experimental results",
+        "strength": 0.023118635891592815
+      }, {
+        "topicName": "Language model",
+        "strength": 0.01968678859578733
+      }, {
+        "topicName": "Natural languages & computational linguistics",
+        "strength": 0.019069429387717357
+      }, {
+        "topicName": "Hidden Markov models",
+        "strength": 0.016475161263826473
+      }]
+    }, {
+      "author": "Clark, Alexander",
+      "title": "Grammatical Inference And First Language Acquisition",
+      "id": "W04-1304",
+      "abstractText": "One argument for parametric models of language has been learnability in the context of first language acquisition. The claim is made that “logical” arguments from learnability theory require non-trivial constraints on the class of languages. Initial formalisations of the problem (Gold, 1967) are however inapplicable to this particular situation. In this paper we construct an appropriate formalisation of the problem using a modern vocabulary drawn from statistical learning theory and grammatical inference and looking in detail at the relevant empirical facts. We claim that a variant of the Probably Approximately Correct (PAC) learning framework (Valiant, 1984) with positive samples only, modified so it is not completely distribution free is the appropriate choice. Some negative results derived from cryptographic problems (Kearns et al., 1994) appear to apply in this situation but the existence of algorithms with provably good performance (Ron et al., 1995) and subsequent work, shows how these negative results are not as strong as they initially appear, and that recent algorithms for learning regular languages partially satisfy our criteria. We then discuss the applicability of these results to parametric and nonparametric models. ",
+      "year": "2004",
+      "pedagogicalRole": null,
+      "pageRankScore": 2.6263626E-5,
+      "relevanceScore": 0.3835134493230021,
+      "authorScore": 3.0,
+      "relevantTopics": [{
+        "topicName": "Language acquisition",
+        "strength": 0.3835134493230021
+      }, {
+        "topicName": "Finite-state automata",
+        "strength": 0.10918833974337672
+      }, {
+        "topicName": "Computational linguistics",
+        "strength": 0.08894720314063038
+      }, {
+        "topicName": "Natural language & lexical semantics",
+        "strength": 0.06933245114596524
+      }, {
+        "topicName": "Natural languages & computational linguistics",
+        "strength": 0.05483562526536579
+      }, {
+        "topicName": "Context-free grammars",
+        "strength": 0.04599520919617747
+      }, {
+        "topicName": "Gibbs sampling",
+        "strength": 0.022399774181110377
+      }, {
+        "topicName": "User interfaces",
+        "strength": 0.019224746707174507
+      }, {
+        "topicName": "Objective functions",
+        "strength": 0.018424420646063346
+      }, {
+        "topicName": "Parallel corpora for machine translation",
+        "strength": 0.017633728272515553
+      }]
+    }],
+    "dependentTopics": [{
+      "topic": [{
+        "word": "phonological_rules",
+        "value": 0.09284116327762604
+      }, {
+        "word": "syllable_structure",
+        "value": 0.08612975478172302
+      }, {
+        "word": "word_boundaries",
+        "value": 0.07186800986528397
+      }, {
+        "word": "phonetic_transcription",
+        "value": 0.0542505607008934
+      }, {
+        "word": "syllable_boundaries",
+        "value": 0.05257270857691765
+      }, {
+        "word": "word_accuracy",
+        "value": 0.052013423293828964
+      }, {
+        "word": "pronunciation_dictionary",
+        "value": 0.045861296355724335
+      }, {
+        "word": "vowels_consonants",
+        "value": 0.045861296355724335
+      }, {
+        "word": "phoneme_sequence",
+        "value": 0.04194631054997444
+      }, {
+        "word": "speech_synthesis",
+        "value": 0.04082773998379707
+      }, {
+        "word": "primary_stress",
+        "value": 0.04026845470070839
+      }, {
+        "word": "stress_assignment",
+        "value": 0.039988815784454346
+      }, {
+        "word": "consonants_vowels",
+        "value": 0.03942953050136566
+      }, {
+        "word": "writing_system",
+        "value": 0.03942953050136566
+      }, {
+        "word": "phonological_features",
+        "value": 0.038590602576732635
+      }, {
+        "word": "stress_pattern",
+        "value": 0.03831096366047859
+      }, {
+        "word": "grapheme-to-phoneme_conversion",
+        "value": 0.03691275045275688
+      }, {
+        "word": "consonant_vowel",
+        "value": 0.03691275045275688
+      }, {
+        "word": "word_boundary",
+        "value": 0.03579418361186981
+      }, {
+        "word": "syllable_boundary",
+        "value": 0.03551454097032547
+      }, {
+        "word": "decision_tree",
+        "value": 0.03467561677098274
+      }],
+      "documents": [{
+        "author": "Divay, Michel; Vitale, Anthony J.",
+        "title": "Algorithms For Grapheme-Phoneme Translation For English And French: Applications For Database Searches And Speech Synthesis",
+        "id": "J97-4001",
+        "abstractText": "Letter-to-sound rules, also known as grapheme-to-phoneme rules, are important computational tools and have been used for a variety of purposes including word or name lookups for database searches and speech synthesis. These rules are especially useful when integrated into database searches on names and addresses, since they can complement orthographic search algorithms that make use of permutation, deletion, and insertion by allowing for a comparison with the phonetic equivalent. In databases, phonetics can help retrieve a word or a proper name without the user needing to know the correct spelling. A phonetic index is built with the vocabulary of the application. This could be an entire dictionary, or a list of proper names. The searched word is then converted into phonetics and retrieved with its information, ff the word is in the phonetic index. This phonetic lookup can be used to retrieve a misspelled word in a dictionary or a database, or in a text editor to suggest corrections. Such rules are also necessary to formalize grapheme-phoneme correspondences in speech synthesis architecture. In text-to-speech systems, these rules are typically used to create phonemes from computer text. These phonemic symbols, in turn, are used to feed lower-level phonetic modules (such as timing, intonation, vowel formant trajectories, etc.) ",
+        "year": "1997",
+        "pedagogicalRole": null,
+        "pageRankScore": 1.8283338E-4,
+        "relevanceScore": 0.36045981635495583,
+        "authorScore": 0.0,
+        "relevantTopics": [{
+          "topicName": "Phonology & syllabification",
+          "strength": 0.36045981635495583
+        }, {
+          "topicName": "Rule-based techniques",
+          "strength": 0.11322963439156189
+        }, {
+          "topicName": "Identifying unknown words",
+          "strength": 0.07974903754404604
+        }, {
+          "topicName": "Morphological analysis",
+          "strength": 0.04719883530183425
+        }, {
+          "topicName": "Knowledge-based natural language processing",
+          "strength": 0.028801758856851083
+        }, {
+          "topicName": "Probabilistic grammar & historical texts",
+          "strength": 0.028551788886069886
+        }, {
+          "topicName": "Compound functional expressions",
+          "strength": 0.02478488530697343
+        }, {
+          "topicName": "Computational linguistics",
+          "strength": 0.023281301255346255
+        }, {
+          "topicName": "Finite-state automata",
+          "strength": 0.022808434186104183
+        }, {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.022676831185659583
+        }]
+      }, {
+        "author": "Carson-Berndsen, Julie",
+        "title": "Unification And Transduction In Computational Phonology",
+        "id": "C88-1023",
+        "abstractText": "In this paper unification and. transduction mechanisms are applied in a new approach to phonological parsing. It is shown that unification in the sense of Kay as used in unification grammars, and Liansdnetion, a process deriving from automata theory, aft, bath valuable tools for use in computational pho.:elogy. By way of illustration, a brief outline of the allophonic parser described by Church is given. Then a linear unification parser for English syllables is introduced. This parser takes phonetic input in the form of feature bundles and uses phonological rules represented by networks of transduction relations together with unification, and an iterative finite-state process to produce phonemic output with marked syllable boundaries. A fundamental distinction is made between two domains: the. representations at the phonetic and phonological levels, and the processing of these representations. On. this basis, a distinction is made between networks of transduction relations (e.g. between allophones and phonemes), and a set of possible processors (i.e. parsers and transducers) for the interpretation of such networks. ",
+        "year": "1988",
+        "pedagogicalRole": null,
+        "pageRankScore": 1.090198E-4,
+        "relevanceScore": 0.38416319632216134,
+        "authorScore": 0.0,
+        "relevantTopics": [{
+          "topicName": "Phonology & syllabification",
+          "strength": 0.38416319632216134
+        }, {
+          "topicName": "Miscellany 23",
+          "strength": 0.09114482968847844
+        }, {
+          "topicName": "Finite-state automata",
+          "strength": 0.09041610278818478
+        }, {
+          "topicName": "Feature structures",
+          "strength": 0.08664521858373556
+        }, {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.06882549626377824
+        }, {
+          "topicName": "Neural networks",
+          "strength": 0.04143839273041736
+        }, {
+          "topicName": "Rule-based parsing",
+          "strength": 0.03471266136157835
+        }, {
+          "topicName": "Augmented transition network",
+          "strength": 0.030135244372124875
+        }, {
+          "topicName": "Two-level morphological rules",
+          "strength": 0.02109420598606587
+        }, {
+          "topicName": "Knowledge-based natural language processing",
+          "strength": 0.016017316136842177
+        }]
+      }, {
+        "author": "Jiampojamarn, Sittichai; Kondrak, Grzegorz; Sherif, Tarek",
+        "title": "Applying Many-to-Many Alignments and Hidden Markov Models to Letter-to-Phoneme Conversion",
+        "id": "N07-1047",
+        "abstractText": "Applying Many-to-Many Alignments and Hidden Markov Models to Letter-to-Phoneme Conversion Sittichai Jiampojamarn, Grzegorz Kondrak and Tarek Sherif Department of Computing Science, University of Alberta, Edmonton, AB, T6G 2E8, Canada {sj,kondrak,tarek}@cs.ualberta.ca Letter-to-phoneme conversion generally requires aligned training data of letters and phonemes. Typically, the alignments are limited to one-to-one alignments. We present a novel technique of training with many-to-many alignments. A letter chunking bigram prediction manages double letters and double phonemes automatically as opposed to preprocessing with fixed lists. We also apply an HMM method in conjunction with a local classification model to predict a global phoneme sequence given a word. ",
+        "year": "2007",
+        "pedagogicalRole": null,
+        "pageRankScore": 8.2581886E-5,
+        "relevanceScore": 0.5092235178431094,
+        "authorScore": 3.67,
+        "relevantTopics": [{
+          "topicName": "Phonology & syllabification",
+          "strength": 0.5092235178431094
+        }, {
+          "topicName": "Word alignment",
+          "strength": 0.08332388838776748
+        }, {
+          "topicName": "Training and testing data sets",
+          "strength": 0.08035552239999502
+        }, {
+          "topicName": "Experimental results",
+          "strength": 0.06743625208741234
+        }, {
+          "topicName": "Hidden Markov models",
+          "strength": 0.05988963652857628
+        }, {
+          "topicName": "Generative models & model selection",
+          "strength": 0.0406890723066022
+        }, {
+          "topicName": "Language model",
+          "strength": 0.027125496821011376
+        }, {
+          "topicName": "Feature selection and classifiers in machine learning",
+          "strength": 0.020902852949071345
+        }, {
+          "topicName": "Machine transliteration",
+          "strength": 0.01874741035484977
+        }, {
+          "topicName": "Objective functions",
+          "strength": 0.015657666602526134
+        }]
+      }],
+      "dependentTopics": [],
+      "topicName": "Phonology & syllabification"
+    }, {
+      "topic": [{
+        "word": "reading_level",
+        "value": 0.10367892682552338
+      }, {
+        "word": "grade_level",
+        "value": 0.09949832409620285
+      }, {
+        "word": "readability_assessment",
+        "value": 0.08988294005393982
+      }, {
+        "word": "reading_comprehension",
+        "value": 0.0852842777967453
+      }, {
+        "word": "reading_difficulty",
+        "value": 0.05978260934352875
+      }, {
+        "word": "sentence_length",
+        "value": 0.054765887558460236
+      }, {
+        "word": "grade_levels",
+        "value": 0.05267558619379997
+      }, {
+        "word": "average_number",
+        "value": 0.0510033443570137
+      }, {
+        "word": "number_words",
+        "value": 0.04473244026303291
+      }, {
+        "word": "reading_levels",
+        "value": 0.041806019842624664
+      }, {
+        "word": "syntactic_complexity",
+        "value": 0.040133778005838394
+      }, {
+        "word": "collins-thompson_callan",
+        "value": 0.035535115748643875
+      }, {
+        "word": "text_simplification",
+        "value": 0.03344481438398361
+      }, {
+        "word": "language_learners",
+        "value": 0.03302675485610962
+      }, {
+        "word": "text_readability",
+        "value": 0.02842809446156025
+      }, {
+        "word": "english_language",
+        "value": 0.024665551260113716
+      }, {
+        "word": "lexical_tightness",
+        "value": 0.024665551260113716
+      }, {
+        "word": "grammatical_features",
+        "value": 0.024247491732239723
+      }, {
+        "word": "language_models",
+        "value": 0.024247491732239723
+      }, {
+        "word": "word_maturity",
+        "value": 0.024247491732239723
+      }, {
+        "word": "number_syllables",
+        "value": 0.024247491732239723
+      }],
+      "documents": [{
+        "author": "Collins-Thompson, Kevyn; Callan, James, P.",
+        "title": "A Language Modeling Approach To Predicting Reading Difficulty",
+        "id": "N04-1025",
+        "abstractText": "We demonstrate a new research approach to the problem of predicting the reading difficulty of a text passage, by recasting readability in terms of statistical language modeling. We derive a measure based on an extension of multinomial naïve Bayes classification that combines multiple language models to estimate the most likely grade level for a given passage. The resulting classifier is not specific to any particular subject and can be trained with relatively little labeled data. We perform predictions for individual Web pages in English and compare our performance to widely-used semantic variables from traditional readability measures. We show that with minimal changes, the classifier may be retrained for use with French Web documents. For both English and French, the classifier maintains consistently good correlation with labeled grade level (0.63 to 0.79) across all test sets. Some traditional semantic variables such as type-token ratio gave the best performance on commercial calibrated test passages, while our language modeling approach gave better accuracy for Web documents and very short passages (less than 10 words). ",
+        "year": "2004",
+        "pedagogicalRole": null,
+        "pageRankScore": 1.7574191E-4,
+        "relevanceScore": 0.4046125042554952,
+        "authorScore": 1.5,
+        "relevantTopics": [{
+          "topicName": "Readability / reading level",
+          "strength": 0.4046125042554952
+        }, {
+          "topicName": "Training and testing data sets",
+          "strength": 0.11243721447320687
+        }, {
+          "topicName": "Computational linguistics",
+          "strength": 0.10911058056295685
+        }, {
+          "topicName": "Language model",
+          "strength": 0.07112091969008322
+        }, {
+          "topicName": "Generative models & model selection",
+          "strength": 0.056000751531212985
+        }, {
+          "topicName": "Web pages",
+          "strength": 0.054688452063473704
+        }, {
+          "topicName": "Feature selection and classifiers in machine learning",
+          "strength": 0.04590593253157804
+        }, {
+          "topicName": "Experimental results",
+          "strength": 0.03596827015817291
+        }, {
+          "topicName": "Identifying unknown words",
+          "strength": 0.025329074372143694
+        }, {
+          "topicName": "\"Document classification, clustering, and categorization\"",
+          "strength": 0.018952902453527324
+        }]
+      }, {
+        "author": "Heilman, Michael; Collins-Thompson, Kevyn; Callan, James, P.; Eskenazi, Maxine",
+        "title": "Combining Lexical and Grammatical Features to Improve Readability Measures for First and Second Language Texts",
+        "id": "N07-1058",
+        "abstractText": "Combining Lexical and Grammatical Features to Improve Readability Measures for First and Second Language Texts Michael J. Heilman Kevyn Collins- Jamie Callan Maxine Eskenazi Thompson Language Technologies Institute School of Computer Science Carnegie Mellon University 4502 Newell Simon Hall Pittsburgh, PA 15213-8213 {mheilman,kct,callan,max}@cs.cmu.edu This work evaluates a system that uses interpolated predictions of reading difficulty that are based on both vocabulary and grammatical features. The combined approach is compared to individual grammar and language modeling-based approaches. While the vocabulary-based language modeling approach outperformed the grammar-based approach, grammar-based predictions can be combined using confidence scores with the vocabulary-based predictions to produce more accurate predictions of reading difficulty for both first and second language texts. The results also indicate that grammatical features may play a more important role in second language readability than in first language readability. ",
+        "year": "2007",
+        "pedagogicalRole": null,
+        "pageRankScore": 7.1899354E-5,
+        "relevanceScore": 0.4026567289785623,
+        "authorScore": 1.5,
+        "relevantTopics": [{
+          "topicName": "Readability / reading level",
+          "strength": 0.4026567289785623
+        }, {
+          "topicName": "Feature selection and classifiers in machine learning",
+          "strength": 0.07654374563774764
+        }, {
+          "topicName": "Computational linguistics",
+          "strength": 0.07298508409418387
+        }, {
+          "topicName": "Language model",
+          "strength": 0.0668465453504487
+        }, {
+          "topicName": "Experimental results",
+          "strength": 0.06243346567903139
+        }, {
+          "topicName": "Training and testing data sets",
+          "strength": 0.06096511280517984
+        }, {
+          "topicName": "Text analysis",
+          "strength": 0.034609884561410606
+        }, {
+          "topicName": "Noun phrases",
+          "strength": 0.030944213221618097
+        }, {
+          "topicName": "Generative models & model selection",
+          "strength": 0.02955287262249981
+        }, {
+          "topicName": "Morphological analysis",
+          "strength": 0.021677011634759442
+        }]
+      }, {
+        "author": "Heilman, Michael; Collins-Thompson, Kevyn; Eskenazi, Maxine",
+        "title": "An Analysis of Statistical Models and Features for Reading Difficulty Prediction",
+        "id": "W08-0909",
+        "abstractText": "An Analysis of Statistical Models and Features for Reading Difficulty Prediction Michael Heilman, Kevyn Collins-Thompson and Maxine Eskenazi Language Technologies Institute Carnegie Mellon University Pittsburgh, PA 15213, USA {mheilman,kct,max}@cs.cmu.edu A reading difficulty measure can be described as a function or model that maps a text to a numerical value corresponding to a difficulty or grade level. We describe a measure of readability that uses a combination of lexical features and grammatical features that are derived from subtrees of syntactic parses. We also tested statistical models for nominal, ordinal, and interval scales of measurement. The results indicate that a model for ordinal regression, such as the proportional odds model, using a combination of grammatical and lexical features is most effective at predicting reading difficulty. ",
+        "year": "2008",
+        "pedagogicalRole": null,
+        "pageRankScore": 4.2211104E-5,
+        "relevanceScore": 0.4116914227938045,
+        "authorScore": 2.0,
+        "relevantTopics": [{
+          "topicName": "Readability / reading level",
+          "strength": 0.4116914227938045
+        }, {
+          "topicName": "Feature selection and classifiers in machine learning",
+          "strength": 0.09167977452818084
+        }, {
+          "topicName": "Training and testing data sets",
+          "strength": 0.08570019392282775
+        }, {
+          "topicName": "Computational linguistics",
+          "strength": 0.06474872779020703
+        }, {
+          "topicName": "Generative models & model selection",
+          "strength": 0.061005558601386456
+        }, {
+          "topicName": "Language model",
+          "strength": 0.04645510649069326
+        }, {
+          "topicName": "Text analysis",
+          "strength": 0.04364069609040192
+        }, {
+          "topicName": "Experimental results",
+          "strength": 0.03411291759489363
+        }, {
+          "topicName": "Identifying unknown words",
+          "strength": 0.02551760036641562
+        }, {
+          "topicName": "Noun phrases",
+          "strength": 0.025495449380824205
+        }]
+      }],
+      "dependentTopics": [],
+      "topicName": "Readability / reading level"
+    }, {
+      "topic": [{
+        "word": "description_length",
+        "value": 0.3104838728904724
+      }, {
+        "word": "minimum_description",
+        "value": 0.10201612859964371
+      }, {
+        "word": "mdl_principle",
+        "value": 0.056854840368032455
+      }, {
+        "word": "key_terms",
+        "value": 0.05645161122083664
+      }, {
+        "word": "length_mdl",
+        "value": 0.045967742800712585
+      }, {
+        "word": "tree_cut",
+        "value": 0.04516129195690155
+      }, {
+        "word": "li_abe",
+        "value": 0.03387096896767616
+      }, {
+        "word": "number_bits",
+        "value": 0.03306451439857483
+      }, {
+        "word": "case_frame",
+        "value": 0.031854838132858276
+      }, {
+        "word": "unsupervised_learning",
+        "value": 0.030241934582591057
+      }, {
+        "word": "stems_suffixes",
+        "value": 0.027016129344701767
+      }, {
+        "word": "information_theory",
+        "value": 0.025806451216340065
+      }, {
+        "word": "case_slots",
+        "value": 0.025806451216340065
+      }, {
+        "word": "data_description",
+        "value": 0.02500000037252903
+      }, {
+        "word": "global_key",
+        "value": 0.024596774950623512
+      }, {
+        "word": "model_description",
+        "value": 0.024596774950623512
+      }, {
+        "word": "cut_model",
+        "value": 0.02177419327199459
+      }, {
+        "word": "length_principle",
+        "value": 0.020967742428183556
+      }, {
+        "word": "local_key",
+        "value": 0.019758064299821854
+      }, {
+        "word": "thesaurus_tree",
+        "value": 0.019758064299821854
+      }, {
+        "word": "de_marcken",
+        "value": 0.01895161345601082
+      }],
+      "documents": [{
+        "author": "Goldsmith, John",
+        "title": "Unsupervised Learning Of The Morphology Of A Natural Language",
+        "id": "J01-2001",
+        "abstractText": "This study reports the results of using minimum description length (MDL) analysis to model unsupervised learning of the morphological segmentation of European languages, using corpora ranging in size from 5,000 words to 500,000 words. We develop a set of heuristics that rapidly develop a probabilistic morphological grammar, and use MDL as our primary tool to determine whether the modifications proposed by the heuristics will be adopted or not. The resulting grammar matches well the analysis that would be developed by a human morphologist. In the final section, we discuss the relationship of this style of MDL grammatical analysis to the notion of evaluation metric in early generative grammar. ",
+        "year": "2001",
+        "pedagogicalRole": null,
+        "pageRankScore": 3.122403E-4,
+        "relevanceScore": 0.38582696493651625,
+        "authorScore": 0.0,
+        "relevantTopics": [{
+          "topicName": "Minimum description length",
+          "strength": 0.38582696493651625
+        }, {
+          "topicName": "Morphological analysis",
+          "strength": 0.13752827746519938
+        }, {
+          "topicName": "Computational linguistics",
+          "strength": 0.08015435397666494
+        }, {
+          "topicName": "Identifying unknown words",
+          "strength": 0.06485105109174248
+        }, {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.05190340784959399
+        }, {
+          "topicName": "Experimental results",
+          "strength": 0.04115460187294831
+        }, {
+          "topicName": "Language model",
+          "strength": 0.02154252376076377
+        }, {
+          "topicName": "Morphological segmentation",
+          "strength": 0.018985184275964344
+        }, {
+          "topicName": "Rule-based parsing",
+          "strength": 0.01748947518425815
+        }, {
+          "topicName": "Language acquisition",
+          "strength": 0.01597652650890855
+        }]
+      }, {
+        "author": "Li, Hang; Abe, Naoki",
+        "title": "Generalizing Case Frames Using A Thesaurus And The MDL Principle",
+        "id": "J98-2002",
+        "abstractText": "A new method for automatically acquiring case frame patterns from large corpora is proposed. In particular, the problem of generalizing values of a case frame slot for a verb is viewed as that of estimating a conditional probability distribution over a partition of words, and a new generalization method based on the Minimum Description Length (MDL) principle is proposed. In order to assist with efficiency, the proposed method makes use of an existing thesaurus and restricts its attention to those partitions that are present as \"cuts\" in the thesaurus tree, thus reducing the generalization problem to that of estimating a \"tree cut model\" of the thesaurus tree. An efficient algorithm is given, which provably obtains the optimal tree cut model for the given frequency data of a case slot, in the sense of MDL. Case frame patterns obtained by the method were used to resolve PP-attachment ambiguity. Experimental results indicate that the proposed method improves upon or is at least comparable with existing methods. ",
+        "year": "1998",
+        "pedagogicalRole": null,
+        "pageRankScore": 1.8889048E-4,
+        "relevanceScore": 0.5187811828403327,
+        "authorScore": 7.0,
+        "relevantTopics": [{
+          "topicName": "Minimum description length",
+          "strength": 0.5187811828403327
+        }, {
+          "topicName": "Experimental results",
+          "strength": 0.09462081446558407
+        }, {
+          "topicName": "Language model",
+          "strength": 0.06946430190677
+        }, {
+          "topicName": "Prepositional phrase attachment",
+          "strength": 0.04725342470638673
+        }, {
+          "topicName": "Tree-adjoining grammar",
+          "strength": 0.04702618726905159
+        }, {
+          "topicName": "Training and testing data sets",
+          "strength": 0.0435095035669473
+        }, {
+          "topicName": "Generative models & model selection",
+          "strength": 0.03654546951906376
+        }, {
+          "topicName": "Verb classes",
+          "strength": 0.02482877472622946
+        }, {
+          "topicName": "Computational linguistics",
+          "strength": 0.01990683458785872
+        }, {
+          "topicName": "Semantic relations & knowledge",
+          "strength": 0.0143332724228002
+        }]
+      }, {
+        "author": "Snover, Matthew; Brent, Michael R.",
+        "title": "A Bayesian Model For Morpheme And Paradigm Identification",
+        "id": "P01-1063",
+        "abstractText": "This paper describes a system for unsupervised learning of morphological affixes from texts or word lists. The system is composed of a generative probability model and a search algorithm. Experiments on the Wall Street Journal and the Hansard Corpus (French and English) demonstrate the effectiveness of this approach. The results suggest that more integrated systems for learning both affixes and morphographemic adjustment rules may be feasible. In addition, several definitions and a theorem are developed so that our search algorithm can be formalized in terms of the lattice formed by subsets of suffixes under inclusion. This formalism is expected to be useful for investigating alternative search strategies over the same morphological hypothesis space. ",
+        "year": "2001",
+        "pedagogicalRole": null,
+        "pageRankScore": 5.4952958E-5,
+        "relevanceScore": 0.4047843184844305,
+        "authorScore": 3.5,
+        "relevantTopics": [{
+          "topicName": "Minimum description length",
+          "strength": 0.4047843184844305
+        }, {
+          "topicName": "Morphological analysis",
+          "strength": 0.17511610005819384
+        }, {
+          "topicName": "Identifying unknown words",
+          "strength": 0.052349772688413884
+        }, {
+          "topicName": "Language model",
+          "strength": 0.049466799823643944
+        }, {
+          "topicName": "Beam search & other search algorithms",
+          "strength": 0.04426256207876938
+        }, {
+          "topicName": "Knowledge-based natural language processing",
+          "strength": 0.04389744242673866
+        }, {
+          "topicName": "Experimental results",
+          "strength": 0.04166343887314108
+        }, {
+          "topicName": "Tree-adjoining grammar",
+          "strength": 0.031096671201320772
+        }, {
+          "topicName": "WMT system combination task",
+          "strength": 0.027777723511432064
+        }, {
+          "topicName": "Computational linguistics",
+          "strength": 0.024673617095128053
+        }]
+      }],
+      "dependentTopics": [],
+      "topicName": "Minimum description length"
+    }],
+    "topicName": "Language acquisition"
+  }]
 }

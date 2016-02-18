@@ -24,7 +24,7 @@
 <div ng-controller="ReadingListCtrl" class="container-fluid">
     <div class="row query-container">
         <div class="form-group">
-            <div class="input-field col s4 offset-l2">
+            <div class="input-field col s4 offset-l3">
                 <angucomplete-alt id="query"
                                   pause="100"
                                   selected-object="selectedTerm"
@@ -46,18 +46,7 @@
                 </div>
             </div>
             <div class="input-group col-md-5">
-                <div class="input-field col s3">
-                    <input placeholder="3" ng-init="topics=3" ng-model="topics" id="topics" type="number"
-                           class="validate">
-                    <label for="topics">Topics</label>
-                </div>
-                <div class="input-field col s3">
-                    <input placeholder="3" ng-init="documents=3" ng-model="documents" id="documents" type="number"
-                           class="validate">
-                    <label for="documents">Documents</label>
-                </div>
-
-                <button class="btn btn-info btn-lg" id="query_button" type="button" ng-click="fetchResult()">
+                <button class="btn btn-lg" id="query_button" type="button" ng-click="fetchResult()">
                     <i class="material-icons">search</i>
                 </button>
 
@@ -65,7 +54,7 @@
         </div>
     </div>
     <hr/>
-    <div ng-show="hideTopics" class="btn white-text orange darken-1 pull-left float-button" ng-click="hideTopics=false">
+    <div ng-show="hideTopics" class="btn white-text pull-left float-button" ng-click="hideTopics=false">
         <i>Topics</i>
         <i class="material-icons">swap_horiz</i>
     </div>
@@ -80,8 +69,9 @@
             </label>
         </div>
         <div class="card">
-            <a class="btn-floating orange darken-1 pull-right hide-button" ng-click="hideTopics=true"><i
-                    class="material-icons">swap_horiz</i></a>
+            <a class="btn-floating pull-right hide-button" ng-click="hideTopics=true"><i
+                    class="material-icons">swap_horiz
+            </i></a>
 
             <treecontrol class="tree-light"
                          tree-model="matchedTopics"

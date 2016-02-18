@@ -1,19 +1,22 @@
 <div class="modal-header">
-    <h5>{{documentInfo.document.title}}</h5>
+    <h5 class="heading">{{documentInfo.document.title}}</h5>
+    <h6 class="document-author">{{documentInfo.document.author}}</h6>
 </div>
 <div class="modal-body">
     <div class="abstract">
+        <div class="heading">Abstract</div>
         <div ng-if="documentInfo.document.abstractText">{{documentInfo.document.abstractText}}</div>
         <div ng-if="!documentInfo.document.abstractText">Abstract not available</div>
     </div>
     <p></p>
-    <hr/>
-    <div class="document-topic">
-    <span class="topic-label" ng-repeat="topic in documentInfo.topic"
-          ng-style="topicStrengthStyle(documentInfo.topic,topic)">
-        {{topic.word}}
-    </span>
-    </div>
+
     <br/>
+    <div>
+        <div class="heading">Relevant Topics</div>
+        <span ng-repeat="topic in documentInfo.document.relevantTopics | limitTo:4" class="chip word">
+            {{topic.topicName}}
+        </span>
+    </div>
+    <hr/>
     <a class="btn blue" ng-href="{{getDocumentUrl()}}" target="_blank">Paper Link</a>
 </div>
