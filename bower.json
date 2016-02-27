@@ -18,6 +18,10 @@
     "angular-bootstrap": "~0.14.3",
     "angular-materialize": "0.1.2",
     "angucomplete-alt": "~2.1.0",
-    "angular-utils-pagination": "~0.10.0"
+    "angular-utils-pagination": "~0.10.0",
+    "vis": "^4.15.0"
+  },
+  "resolutions": {
+    "vis": "^4.15.0"
   }
 }

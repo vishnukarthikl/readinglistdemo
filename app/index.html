@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control.css">
     <link rel="stylesheet" type="text/css" href="bower_components/angular-tree-control/css/tree-control-attribute.css">
     <link rel="stylesheet" type="text/css" href="bower_components/angucomplete-alt/angucomplete-alt.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/vis/dist/vis.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css"
           media="screen,projection"/>
@@ -59,36 +60,46 @@
         <i class="material-icons">swap_horiz</i>
     </div>
     <div ng-class="{'col-md-4':!hideTopics}" ng-hide="hideTopics" class="topic-pane">
-        <h5>Topics</h5>
-        <div class="switch">
-            <label>
-                De-select All
-                <input type="checkbox" ng-model="isSelectAll">
-                <span class="lever"></span>
-                Select All
-            </label>
+        <div class="row">
+            <h5>Topics</h5>
+            <div class="switch">
+                <label>
+                    De-select All
+                    <input type="checkbox" ng-model="isSelectAll">
+                    <span class="lever"></span>
+                    Select All
+                </label>
+            </div>
+            <div class="card">
+                <a class="btn-floating pull-right hide-button" ng-click="hideTopics=true"><i
+                        class="material-icons">swap_horiz
+                </i></a>
+
+                <treecontrol class="tree-light"
+                             tree-model="matchedTopics"
+                             options="treeOptions"
+                             expanded-nodes="expandedNodes">
+                    <topic data="node" selected="selectedTopics" onselection="topicSelected"
+                           nodecounter="countNodes"></topic>
+
+                </treecontrol>
+            </div>
         </div>
-        <div class="card">
-            <a class="btn-floating pull-right hide-button" ng-click="hideTopics=true"><i
-                    class="material-icons">swap_horiz
-            </i></a>
+        <div class="card row">
+            <div class="card-content">
+                <span class="card-title">Topic Graph</span>
+                <p id="mynetwork">
 
-            <treecontrol class="tree-light"
-                         tree-model="matchedTopics"
-                         options="treeOptions"
-                         expanded-nodes="expandedNodes">
-                <topic data="node" selected="selectedTopics" onselection="topicSelected"
-                       nodecounter="countNodes"></topic>
+                </p>
+            </div>
 
-            </treecontrol>
         </div>
-
 
     </div>
     <div ng-class="hideTopics?'col-md-11 col-md-offset-1':'col-md-8'">
         <h5>Reading List <span class="chip"> {{filteredDocuments.length}}</span></h5>
         <div class="row">
-            <div class="input-field col s6">
+            <div class="input-field col s6 m3">
                 <select id="documentOrder" name="documentOrder" material-select ng-model="selectedOrder">
                     <option ng-repeat="option in documentOrderOptions" value="{{option.field}}">{{option.name}}</option>
                 </select>
@@ -107,7 +118,7 @@
             </div>
             <ol>
                 <li class="document"
-                    dir-paginate="document in filteredDocuments | orderBy: ['-'+'document.'+selectedOrder] | itemsPerPage:10">
+                    dir-paginate="document in filteredDocuments | orderBy: ['-'+'document.'+selectedOrder]:selectedOrderOption.reverse | itemsPerPage:10">
                     <document info="document" order="selectedOrderOption"
                               stats="stats"></document>
                 </li>
@@ -118,6 +129,9 @@
             </div>
         </div>
     </div>
+    <div id="cy" class="row">
+
+    </div>
 
 </div>
 
@@ -125,6 +139,7 @@
 <!-- In production use:
 <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.js"></script>
 -->
+<script src="bower_components/vis/dist/vis.js"></script>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/materialize/dist/js/materialize.js"></script>
 <script src="bower_components/ramda/dist/ramda.js"></script>

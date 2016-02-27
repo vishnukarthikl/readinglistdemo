@@ -12,11 +12,9 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }, data);
         });
 
-        $scope.selectedOrder = 'relevanceScore';
-        $scope.documentOrderOptions = [{name: 'Author reputation', field: 'authorScore'},
-            {name: 'Relevance', field: 'relevanceScore'},
-            {name: 'Pagerank score', field: 'pageRankScore'},
-            {name: 'Time', field: 'year'}
+        $scope.selectedOrder = 'index';
+        $scope.documentOrderOptions = [{name: 'Concept Graph Traversal', field: 'index', reverse: true},
+            {name: 'Pagerank', field: 'pageRankScore', reverse: false}
         ];
 
         $scope.treeOptions = {
@@ -63,15 +61,31 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }
         });
 
+        function selectAllSimilarNodes(node) {
+            $scope.forEachTopic($scope.matchedTopics, function (topic) {
+                if (topic.topicName == node.topicName) {
+                    topic.isSelected = true;
+                    $scope.selectedTopics.unshift(topic);
+                }
+            });
+        }
+
+        function deSelectAllSimilarNodes(node) {
+            $scope.forEachTopic($scope.matchedTopics, function (topic) {
+                if (topic.topicName == node.topicName) {
+                    topic.isSelected = false;
+                }
+            });
+            $scope.selectedTopics = R.filter(function (topic) {
+                return topic.topicName != node.topicName
+            }, $scope.selectedTopics);
+        }
+
         $scope.topicSelected = function (node) {
             if (!node.isSelected) {
-                node.isSelected = true;
-                $scope.selectedTopics.unshift(node);
+                selectAllSimilarNodes(node);
             } else {
-                node.isSelected = false;
-                $scope.selectedTopics = R.filter(function (topic) {
-                    return topic != node
-                }, $scope.selectedTopics);
+                deSelectAllSimilarNodes(node);
             }
         };
 
@@ -157,15 +171,64 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }, Infinity, $scope.filteredDocuments);
             return {max: max, min: min}
         };
+        function addColor(nodes) {
+            return R.map(function (node) {
+                if (node.matched) {
+                    node.color = '#26a69a';
+                }
+                return node;
+            }, nodes)
+        }
+
+        function addArrow(edges) {
+            return R.map(function (edge) {
+                edge.arrows = {middle: {scaleFactor: 1.2}};
+                edge.value = undefined;
+                return edge;
+            }, edges)
+        }
 
         $http.get('matches.json').success(function (data) {
             $scope.result = data;
             $scope.keyword = data['keyword'];
+            $scope.graphResponse = data['graphResponse'];
             $scope.matchedTopics = setSelection(data['matchTopics'], false);
             $scope.allTopicsLength = $scope.countNodes($scope.matchedTopics);
             $scope.isSelectAll = true;
             $scope.selectAll();
             $scope.expandAll();
+            (function initgraph() {
+
+                var container = document.getElementById('mynetwork');
+                var data = {
+                    nodes: addColor($scope.graphResponse.nodes),
+                    edges: addArrow($scope.graphResponse.edges),
+                };
+                var options = {
+                    nodes: {
+                        shape: 'dot',
+                        size: 10,
+                        font: {
+                            size: 15,
+                            background: 'white'
+                        }
+                    },
+                    autoResize: true,
+                    "physics": {
+                        "repulsion": {
+                            "centralGravity": 0,
+                            "springLength": 45
+
+                        },
+                        "maxVelocity": 38,
+                        "minVelocity": 0.75,
+                        "solver": "repulsion"
+                    }
+                };
+                var network = new vis.Network(container, data, options);
+
+            })();
+
         });
     }])
     .directive('document', function () {

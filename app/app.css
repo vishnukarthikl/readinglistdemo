@@ -220,3 +220,7 @@ treecontrol.tree-light li .tree-selected {
 .document-container {
     margin-top: -20px;
 }
+
+#mynetwork {
+    height: 350px;
+}
