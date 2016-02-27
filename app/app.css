@@ -205,11 +205,23 @@ treecontrol.tree-light li .tree-selected {
     margin-top: 10px;
 }
 
-.float-button {
+.rotate {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.topic-float-button {
     position: fixed;
-    left: 10px;
     top: 50%;
-    margin-left: -10px;
+    margin-left: -50px;
+}
+.graph-float-button {
+    position: fixed;
+    top: 25%;
+    margin-left: -50px;
 }
 
 .heading {
@@ -222,5 +234,5 @@ treecontrol.tree-light li .tree-selected {
 }
 
 #mynetwork {
-    height: 350px;
+    height: 300px;
 }

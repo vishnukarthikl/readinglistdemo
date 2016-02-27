@@ -55,82 +55,97 @@
         </div>
     </div>
     <hr/>
-    <div ng-show="hideTopics" class="btn white-text pull-left float-button" ng-click="hideTopics=false">
-        <i>Topics</i>
-        <i class="material-icons">swap_horiz</i>
+    <div class="row">
+        <div ng-show="hideGraph" class="btn white-text pull-right" ng-click="hideGraph=false">
+            <i>Graph</i>
+            <i class="material-icons">swap_horiz</i>
+        </div>
+        <div ng-show="hideTopics" class="btn white-text pull-left"
+             ng-click="hideTopics=false">
+            <i>Topics</i>
+            <i class="material-icons">swap_horiz</i>
+        </div>
     </div>
-    <div ng-class="{'col-md-4':!hideTopics}" ng-hide="hideTopics" class="topic-pane">
-        <div class="row">
-            <h5>Topics</h5>
-            <div class="switch">
-                <label>
-                    De-select All
-                    <input type="checkbox" ng-model="isSelectAll">
-                    <span class="lever"></span>
-                    Select All
-                </label>
+    <div class="row">
+        <div ng-class="{'col-md-4':!hideTopics}" ng-hide="hideTopics" class="topic-pane">
+            <div class="row">
+                <h5>Topics</h5>
+                <div class="switch">
+                    <label>
+                        De-select All
+                        <input type="checkbox" ng-model="isSelectAll">
+                        <span class="lever"></span>
+                        Select All
+                    </label>
+                </div>
+                <div class="card">
+                    <a class="btn-floating pull-right hide-button" ng-click="hideTopics=true"><i
+                            class="material-icons">swap_horiz
+                    </i></a>
+
+                    <treecontrol class="tree-light"
+                                 tree-model="matchedTopics"
+                                 options="treeOptions"
+                                 expanded-nodes="expandedNodes">
+                        <topic data="node" selected="selectedTopics" onselection="topicSelected"
+                               nodecounter="countNodes"></topic>
+
+                    </treecontrol>
+                </div>
             </div>
-            <div class="card">
-                <a class="btn-floating pull-right hide-button" ng-click="hideTopics=true"><i
+
+        </div>
+        <div ng-class="hideTopics?'col-md-12':'col-md-8'">
+            <div class="card row" ng-hide="hideGraph">
+                <div class="card-content">
+                <span class="card-title">Topic Graph <a class="btn-floating pull-right hide-button"
+                                                        ng-click="hideGraph=true"><i
                         class="material-icons">swap_horiz
-                </i></a>
+                </i></a></span>
+                    <p id="mynetwork">
 
-                <treecontrol class="tree-light"
-                             tree-model="matchedTopics"
-                             options="treeOptions"
-                             expanded-nodes="expandedNodes">
-                    <topic data="node" selected="selectedTopics" onselection="topicSelected"
-                           nodecounter="countNodes"></topic>
+                    </p>
+                </div>
 
-                </treecontrol>
+            </div>
+            <div class="card row">
+                <div class="card-content">
+                    <h5 class="card-title">Reading List <span class="chip"> {{filteredDocuments.length}}</span></h5>
+                    <div class="row">
+                        <div class="input-field col s4">
+                            <select id="documentOrder" name="documentOrder" material-select ng-model="selectedOrder">
+                                <option ng-repeat="option in documentOrderOptions" value="{{option.field}}">
+                                    {{option.name}}
+                                </option>
+                            </select>
+                            <label>Sort documents by </label>
+                        </div>
+                    </div>
+                    <div ng-if="filteredDocuments.length == 0" class="text-info">
+                        Try selecting some topics to display documents
+                    </div>
+
+                    <div ng-show="filteredDocuments.length">
+
+                        <div class="center">
+                            <dir-pagination-controls>
+                            </dir-pagination-controls>
+                        </div>
+                        <ol>
+                            <li class="document"
+                                dir-paginate="document in filteredDocuments | orderBy: ['-'+'document.'+selectedOrder]:selectedOrderOption.reverse | itemsPerPage:10">
+                                <document info="document" order="selectedOrderOption"
+                                          stats="stats"></document>
+                            </li>
+                        </ol>
+                        <div class="center">
+                            <dir-pagination-controls class="center">
+                            </dir-pagination-controls>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card row">
-            <div class="card-content">
-                <span class="card-title">Topic Graph</span>
-                <p id="mynetwork">
-
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-    <div ng-class="hideTopics?'col-md-11 col-md-offset-1':'col-md-8'">
-        <h5>Reading List <span class="chip"> {{filteredDocuments.length}}</span></h5>
-        <div class="row">
-            <div class="input-field col s6 m3">
-                <select id="documentOrder" name="documentOrder" material-select ng-model="selectedOrder">
-                    <option ng-repeat="option in documentOrderOptions" value="{{option.field}}">{{option.name}}</option>
-                </select>
-                <label>Sort documents by </label>
-            </div>
-        </div>
-        <div ng-if="filteredDocuments.length == 0" class="text-info">
-            Try selecting some topics to display documents
-        </div>
-
-        <div ng-show="filteredDocuments.length" class="card card-panel">
-
-            <div class="center">
-                <dir-pagination-controls>
-                </dir-pagination-controls>
-            </div>
-            <ol>
-                <li class="document"
-                    dir-paginate="document in filteredDocuments | orderBy: ['-'+'document.'+selectedOrder]:selectedOrderOption.reverse | itemsPerPage:10">
-                    <document info="document" order="selectedOrderOption"
-                              stats="stats"></document>
-                </li>
-            </ol>
-            <div class="center">
-                <dir-pagination-controls class="center">
-                </dir-pagination-controls>
-            </div>
-        </div>
-    </div>
-    <div id="cy" class="row">
-
     </div>
 
 </div>
