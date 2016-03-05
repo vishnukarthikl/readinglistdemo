@@ -1,12 +1,12 @@
 <div class="container-fluid document-container">
     <div class="row">
-        <div class="col-md-9"><span class="document-title">
+        <div class="col-md-12"><span class="document-title">
             <a ng-click="showAbstract()" href="#">
                 {{documentInfo.document.title}}
             </a>
         </span>
             <br/>
-            <span class="document-author">{{documentInfo.document.author}}</span>
+            <span class="document-author">{{documentInfo.document.author}} ({{documentInfo.document.year}})</span>
 
 
             <div ng-if="abstract">
@@ -14,26 +14,6 @@
                 <span class="abstract-action" ng-if="!showMore" ng-click="setSummary(true)">... more</span>
                 <span class="abstract-action" ng-if="showMore" ng-click="setSummary(false)">less</span>
             </div>
-        </div>
-        <div class="col-md-3">
-            <table class="table">
-                <tr ng-class="{'highlight':order.field =='authorScore'}">
-                    <th>Author</th>
-                    <td>{{documentInfo.document.authorScore}}</td>
-                </tr>
-                <tr ng-class="{'highlight':order.field =='relevanceScore'}">
-                    <th>Relevance</th>
-                    <td>{{(""+documentInfo.document.relevanceScore).substring(0, 6)}}</td>
-                </tr>
-                <tr ng-class="{'highlight':order.field =='pageRankScore'}">
-                    <th>Pagerank</th>
-                    <td>{{(""+documentInfo.document.pageRankScore*100).substring(0, 6)}}</td>
-                </tr>
-                <tr ng-class="{'highlight':order.field =='year'}">
-                    <th>Year</th>
-                    <td>{{documentInfo.document.year}}</td>
-                </tr>
-            </table>
         </div>
     </div>
 </div>
