@@ -37,6 +37,17 @@
                                   clear-selected="true"
                                   input-class="form-control input-lg center-align"></angucomplete-alt>
                 <label for="query">Query</label>
+                <div>
+                    <input type="radio" ng-model="topics" value="3"
+                           id="beginner">
+                    <label for="beginner">Beginner</label>
+                    <input type="radio" ng-model="topics" value="4" id="intermediate">
+                    <label for="intermediate">Intermediate</label>
+                    <input type="radio" ng-model="topics" value="5" id="advanced">
+                    <label for="advanced">Advanced</label>
+                </div>
+                <br/>
+
 
                 <div class="search-term-container container-fluid">
                     <span ng-repeat="term in selectedTerms" ng-click="removeTerm(term)" class="chip">

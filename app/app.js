@@ -6,6 +6,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.filteredDocuments = [];
         $scope.hideTopics = true;
         $scope.hideTGraph = false;
+        $scope.topics = 3;
 
         $http.get('topic_terms.json').success(function (data) {
             $scope.topicTerms = R.map(function (term) {
