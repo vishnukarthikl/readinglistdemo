@@ -122,12 +122,12 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.filterDocuments = function () {
             if ($scope.selectedOrder == 'pageRankScore') {
                 return R.map(function (document) {
-                    return {document: document, topic: []}
+                    return {document: document, topic: {}}
                 }, $scope.baselineDocuments)
             }
             return R.chain(function (topic) {
                 return R.map(function (document) {
-                    return {document: document, topic: topic.topic}
+                    return {document: document, topic: topic}
                 }, topic.documents)
             }, $scope.selectedTopics);
         };
@@ -209,9 +209,11 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             (function initgraph() {
 
                 var container = document.getElementById('mynetwork');
+                $scope.nodes = new vis.DataSet(addColor($scope.graphResponse.nodes));
+                $scope.edges = new vis.DataSet(addArrow($scope.graphResponse.edges));
                 var data = {
-                    nodes: addColor($scope.graphResponse.nodes),
-                    edges: addArrow($scope.graphResponse.edges),
+                    nodes: $scope.nodes,
+                    edges: $scope.edges
                 };
                 var options = {
                     nodes: {
@@ -235,6 +237,14 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
                     }
                 };
                 var network = new vis.Network(container, data, options);
+                network.on('click', function (properties) {
+                    var topicData = $scope.nodes.get(properties.nodes[0]);
+                    R.forEach(function (document) {
+                        document.highlight = document.topic.topicName == topicData.label;
+                    }, $scope.filteredDocuments);
+                    console.log($scope.filteredDocuments);
+                    $scope.$apply();
+                });
 
             })();
 

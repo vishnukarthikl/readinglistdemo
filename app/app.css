@@ -3,6 +3,10 @@
     margin-top: 5px;
 }
 
+a {
+    color: #0275d8;
+}
+
 .document-title {
     font-size: 14px;
     font-weight: bold;
@@ -179,7 +183,6 @@ treecontrol.tree-light li .tree-selected {
 }
 
 .abstract-action {
-    color: #039be5;
     cursor: pointer;
 }
 
@@ -218,6 +221,7 @@ treecontrol.tree-light li .tree-selected {
     top: 50%;
     margin-left: -50px;
 }
+
 .graph-float-button {
     position: fixed;
     top: 25%;
@@ -231,8 +235,14 @@ treecontrol.tree-light li .tree-selected {
 
 .document-container {
     margin-top: -20px;
+    padding-top:5px;
 }
 
 #mynetwork {
     height: 300px;
+}
+
+.document-highlight {
+    background-color: #dddddd;
+    height: 100%;
 }

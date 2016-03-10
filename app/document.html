@@ -1,7 +1,7 @@
-<div class="container-fluid document-container">
+<div class="container-fluid document-container" ng-class="{'document-highlight':documentInfo.highlight}">
     <div class="row">
-        <div class="col-md-12"><span class="document-title">
-            <a ng-click="showAbstract()" href="#">
+        <div class="col-md-12">
+            <a ng-click="showAbstract()" href="#" class="document-title">
                 {{documentInfo.document.title}}
             </a>
         </span>
@@ -11,8 +11,8 @@
 
             <div ng-if="abstract">
                 {{abstract}}
-                <span class="abstract-action" ng-if="!showMore" ng-click="setSummary(true)">... more</span>
-                <span class="abstract-action" ng-if="showMore" ng-click="setSummary(false)">less</span>
+                <a class="abstract-action" ng-if="!showMore" ng-click="setSummary(true)">... more</a>
+                <a class="abstract-action" ng-if="showMore" ng-click="setSummary(false)">less</a>
             </div>
         </div>
     </div>
