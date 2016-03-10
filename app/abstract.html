@@ -19,17 +19,20 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="heading">Scores</div>
-            <div>
+            <div class="heading"
+                 ng-if="documentInfo.document.authorScore || documentInfo.document.relevanceScore || documentInfo.document.pageRankScore">
+                Scores
+            </div>
+            <div ng-show="documentInfo.document.authorScore">
                 <span>
                     Author: <span class="document-author">{{documentInfo.document.authorScore==0?'-':documentInfo.document.authorScore}}</span>
                 </span>
             </div>
-            <div>
+            <div ng-show="documentInfo.document.relevanceScore">
                 <span>Relevance: <span class="document-author">{{(""+documentInfo.document.relevanceScore).substring(0, 6)}}</span>
                     </span>
             </div>
-            <div>
+            <div ng-show="documentInfo.document.pageRankScore">
                 <span>Pagerank: <span class="document-author">{{(""+documentInfo.document.pageRankScore*100).substring(0, 6)}}</span></span>
             </div>
 

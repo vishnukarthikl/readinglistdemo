@@ -1,252 +1,252 @@
 {
-  "keyword": "machine_learning",
+  "keyword": "language_learning",
   "matchTopics": [
     {
       "topic": [
         {
-          "word": "machine_learning",
-          "value": 0.13638228178024292
+          "word": "language_acquisition",
+          "value": 0.20751342177391052
         },
         {
-          "word": "feature_set",
-          "value": 0.10586672276258469
+          "word": "language_learning",
+          "value": 0.1520572453737259
         },
         {
-          "word": "feature_selection",
-          "value": 0.06552445143461227
-        },
-        {
-          "word": "maximum_entropy",
-          "value": 0.06275030970573425
-        },
-        {
-          "word": "set_features",
-          "value": 0.059390079230070114
-        },
-        {
-          "word": "support_vector",
-          "value": 0.05317756533622742
-        },
-        {
-          "word": "feature_sets",
-          "value": 0.0516732782125473
-        },
-        {
-          "word": "decision_tree",
-          "value": 0.04391740262508392
-        },
-        {
-          "word": "lexical_features",
-          "value": 0.04284290969371796
-        },
-        {
-          "word": "feature_vector",
-          "value": 0.03963897004723549
-        },
-        {
-          "word": "classification_task",
-          "value": 0.03788071125745773
-        },
-        {
-          "word": "syntactic_features",
-          "value": 0.0356731191277504
-        },
-        {
-          "word": "number_features",
-          "value": 0.032547324895858765
-        },
-        {
-          "word": "features_extracted",
-          "value": 0.03129700943827629
-        },
-        {
-          "word": "feature_space",
-          "value": 0.030808603391051292
-        },
-        {
-          "word": "features_features",
-          "value": 0.029988082125782967
-        },
-        {
-          "word": "training_examples",
-          "value": 0.029890401288866997
+          "word": "child_language",
+          "value": 0.06746741384267807
         },
         {
           "word": "learning_algorithm",
-          "value": 0.028503330424427986
+          "value": 0.05954510718584061
         },
         {
-          "word": "naive_bayes",
-          "value": 0.027956316247582436
+          "word": "learning_process",
+          "value": 0.050345003604888916
         },
         {
-          "word": "classification_accuracy",
-          "value": 0.027467912063002586
+          "word": "word_learning",
+          "value": 0.045489393174648285
         },
         {
-          "word": "vector_machines",
-          "value": 0.026823217049241066
+          "word": "negative_evidence",
+          "value": 0.03526705875992775
+        },
+        {
+          "word": "child-directed_speech",
+          "value": 0.035011500120162964
+        },
+        {
+          "word": "language_learner",
+          "value": 0.035011500120162964
+        },
+        {
+          "word": "language_learners",
+          "value": 0.03475594148039818
+        },
+        {
+          "word": "learning_theory",
+          "value": 0.031178124248981476
+        },
+        {
+          "word": "computational_models",
+          "value": 0.02913365699350834
+        },
+        {
+          "word": "learning_system",
+          "value": 0.027344748377799988
+        },
+        {
+          "word": "learning_language",
+          "value": 0.027089189738035202
+        },
+        {
+          "word": "learning_model",
+          "value": 0.026833631098270416
+        },
+        {
+          "word": "children_learn",
+          "value": 0.023766931146383286
+        },
+        {
+          "word": "computational_model",
+          "value": 0.023766931146383286
+        },
+        {
+          "word": "learning_task",
+          "value": 0.022744696587324142
+        },
+        {
+          "word": "childes_database",
+          "value": 0.022489137947559357
+        },
+        {
+          "word": "language_development",
+          "value": 0.02172246389091015
+        },
+        {
+          "word": "young_children",
+          "value": 0.021466905251145363
         }
       ],
       "documents": [
         {
-          "author": "Kudo, Taku; Matsumoto, Yuji, ",
-          "title": "Use Of Support Vector Learning For Chunk Identification",
-          "id": "W00-0730",
-          "abstractText": "In this paper, we explore the use of Support Vector Machines (SVMs) for CoNLL-2000 shared task, chunk identification. SVMs are so-called large margin classifiers and are well-known as their good generalization performance. We investigate how SVMs with a very large number of features perform with the classification task of chunk labelling. ",
-          "year": "2000",
+          "author": "Yang, Charles D., ",
+          "title": "A Selectionist Theory Of Language Acquisition",
+          "id": "P99-1055",
+          "abstractText": "This paper argues that developmental patterns in child language be taken seriously in computational models of language acquisition, and proposes a formal theory that meets this criterion. We first present developmental facts that are problematic for statistical learning approaches which assume no prior knowledge of grammar, and for traditional learnabil-ity models which assume the learner moves from one UG-defined grammar to another. In contrast, we view language acquisition as a population of grammars associated with \"weights\", that compete in a Darwinian selectionist process. Selection is made possible by the variational properties of individual grammars; specifically, their differential compatibility with the primary linguistic data in the environment. In addition to a convergence proof, we present empirical evidence in child language development, that a learner is best modeled as multiple grammars in coexistence and competition. ",
+          "year": "1999",
           "pedagogicalRole": null,
-          "pageRankScore": 2.8554947E-4,
-          "relevanceScore": 0.29580685353580577,
-          "authorScore": 10.5,
+          "pageRankScore": 5.2213963E-5,
+          "relevanceScore": 0.5861056845876617,
+          "authorScore": 0.0,
           "relevantTopics": [
             {
-              "topicName": "Feature selection and classifiers in machine learning",
-              "strength": 0.29580685353580577
+              "topicName": "Language acquisition",
+              "strength": 0.5861056845876617
             },
             {
-              "topicName": "Japanese dependency analysis",
-              "strength": 0.2113477294194877
+              "topicName": "Rule-based parsing",
+              "strength": 0.06359550263544957
             },
             {
-              "topicName": "Conditional random fields",
-              "strength": 0.12576631326773166
+              "topicName": "Natural language & lexical semantics",
+              "strength": 0.04608735816925561
             },
             {
-              "topicName": "Training and testing data sets",
-              "strength": 0.10210105912254476
+              "topicName": "Computational linguistics",
+              "strength": 0.044094375696947075
             },
             {
-              "topicName": "Experimental results",
-              "strength": 0.0662360477798599
+              "topicName": "Noun phrases",
+              "strength": 0.039931142214077744
             },
             {
-              "topicName": "Objective functions",
-              "strength": 0.04691281666575662
+              "topicName": "Genetic algorithms & anaphora resolution",
+              "strength": 0.024717169525345285
             },
             {
-              "topicName": "Part-of-speech tagging",
-              "strength": 0.041558895022929476
+              "topicName": "Natural languages & computational linguistics",
+              "strength": 0.022254646025394828
             },
             {
-              "topicName": "Tree kernel",
-              "strength": 0.04147656272807326
+              "topicName": "Confusion sets",
+              "strength": 0.019674379611831997
             },
             {
-              "topicName": "Memory-based learning",
-              "strength": 0.0174034961643804
+              "topicName": "Parallel corpora for machine translation",
+              "strength": 0.017701452999750643
             },
             {
-              "topicName": "Identifying unknown words",
-              "strength": 0.015011286572001141
+              "topicName": "Generative models & model selection",
+              "strength": 0.01722359623561319
             }
           ],
           "index": 0
         },
         {
-          "author": "Lee, Yoong Keok; Ng, Hwee Tou, ",
-          "title": "An Empirical Evaluation Of Knowledge Sources And Learning Algorithms For Word Sense Disambiguation",
-          "id": "W02-1006",
-          "abstractText": "In this paper, we evaluate a variety of knowledge sources and supervised learning algorithms for word sense disambiguation on SENSEVAL-2 and SENSEVAL-1 data. Our knowledge sources include the part-of-speech of neighboring words, single words in the surrounding context, local collocations, and syntactic relations. The learning algorithms evaluated include Support Vector Machines (SVM), Naive Bayes, Ad-aBoost, and decision tree algorithms. We present empirical results showing the relative contribution of the component knowledge sources and the different learning algorithms. In particular, using all of these knowledge sources and SVM (i.e., a single learning algorithm) achieves accuracy higher than the best official scores on both SENSEVAL-2 and SENSEVAL-1 test data. ",
-          "year": "2002",
+          "author": "Buttery, Paula, ",
+          "title": "A Quantitative Evaluation Of Naturalistic Models Of Language Acquisition; The Efficiency Of The Triggering Learning Algorithm Compared To A Categorial Grammar Learner",
+          "id": "W04-1301",
+          "abstractText": "Naturalistic theories of language acquisition assume learners to be endowed with some innate language knowledge. The purpose of this innate knowledge is to facilitate language acquisition by constraining a learner’s hypothesis space. This paper discusses a naturalistic learning system (a Categorial Grammar Learner (CGL)) that differs from previous learners (such as the Triggering Learning Algorithm (TLA) (Gibson and Wexler, 1994)) by employing a dynamic definition of the hypothesis-space which is driven by the Bayesian Incremental Parameter Setting algorithm (Briscoe, 1999). We compare the efficiency of the TLA with the CGL when acquiring an independently and identically distributed English-like language in noiseless conditions. We show that when convergence to the target grammar occurs (which is not guaranteed), the expected number of steps to convergence for the TLA is shorter than that for the CGL initialized with uniform priors. However, the CGL converges more reliably than the TLA. We discuss the trade-off of efficiency against more reliable convergence to the target grammar. ",
+          "year": "2004",
           "pedagogicalRole": null,
-          "pageRankScore": 1.5671055E-4,
-          "relevanceScore": 0.2800333900064048,
-          "authorScore": 7.0,
+          "pageRankScore": 3.229716E-5,
+          "relevanceScore": 0.5381193166905334,
+          "authorScore": 0.0,
           "relevantTopics": [
             {
-              "topicName": "Word sense disambiguation",
-              "strength": 0.3919475592057073
+              "topicName": "Language acquisition",
+              "strength": 0.5381193166905334
             },
             {
-              "topicName": "Feature selection and classifiers in machine learning",
-              "strength": 0.2800333900064048
+              "topicName": "Combinatory categorial grammar",
+              "strength": 0.11142964393084803
             },
             {
-              "topicName": "Training and testing data sets",
-              "strength": 0.10925622919038397
+              "topicName": "Noun phrases",
+              "strength": 0.07037692594176884
             },
             {
-              "topicName": "Experimental results",
-              "strength": 0.06737318671772197
+              "topicName": "Rule-based parsing",
+              "strength": 0.03867087710760122
             },
             {
-              "topicName": "Boosting algorithm",
-              "strength": 0.03616230158450175
+              "topicName": "Natural language & lexical semantics",
+              "strength": 0.03758725090347298
             },
             {
               "topicName": "Identifying unknown words",
-              "strength": 0.022292322546126137
+              "strength": 0.02799594790725481
             },
             {
-              "topicName": "Part-of-speech tagging",
-              "strength": 0.019287003384061235
+              "topicName": "Experimental results",
+              "strength": 0.023118635891592815
             },
             {
-              "topicName": "Computational linguistics",
-              "strength": 0.008411066798726836
+              "topicName": "Language model",
+              "strength": 0.01968678859578733
             },
             {
-              "topicName": "Knowledge-based natural language processing",
-              "strength": 0.0071530474772766766
+              "topicName": "Natural languages & computational linguistics",
+              "strength": 0.019069429387717357
             },
             {
-              "topicName": "Penn Treebank data for parsing",
-              "strength": 0.0070336726455161825
+              "topicName": "Hidden Markov models",
+              "strength": 0.016475161263826473
             }
           ],
           "index": 1
         },
         {
-          "author": "Kazama, Jun'ichi; Makino, Takaki; Ohta, Yoshihiro; Tsujii, Jun'ichi, ",
-          "title": "Tuning Support Vector Machines For Biomedical Named Entity Recognition",
-          "id": "W02-0301",
-          "abstractText": "We explore the use of Support Vector Machines (SVMs) for biomedical named entity recognition. To make the SVM training with the available largest corpus – the GENIA corpus – tractable, we propose to split the nonentity class into sub-classes, using part-of-speech information. In addition, we explore new features such as word cache and the states of an HMM trained by unsupervised learning. Experiments on the GENIA corpus show that our class splitting technique not only enables the training with the GENIA corpus but also improves the accuracy. The proposed new features also contribute to improve the accuracy. We compare our SVM-based recognition system with a system using Maximum Entropy tagging method. ",
-          "year": "2002",
+          "author": "Clark, Alexander, ",
+          "title": "Grammatical Inference And First Language Acquisition",
+          "id": "W04-1304",
+          "abstractText": "One argument for parametric models of language has been learnability in the context of first language acquisition. The claim is made that “logical” arguments from learnability theory require non-trivial constraints on the class of languages. Initial formalisations of the problem (Gold, 1967) are however inapplicable to this particular situation. In this paper we construct an appropriate formalisation of the problem using a modern vocabulary drawn from statistical learning theory and grammatical inference and looking in detail at the relevant empirical facts. We claim that a variant of the Probably Approximately Correct (PAC) learning framework (Valiant, 1984) with positive samples only, modified so it is not completely distribution free is the appropriate choice. Some negative results derived from cryptographic problems (Kearns et al., 1994) appear to apply in this situation but the existence of algorithms with provably good performance (Ron et al., 1995) and subsequent work, shows how these negative results are not as strong as they initially appear, and that recent algorithms for learning regular languages partially satisfy our criteria. We then discuss the applicability of these results to parametric and nonparametric models. ",
+          "year": "2004",
           "pedagogicalRole": null,
-          "pageRankScore": 1.2694293E-4,
-          "relevanceScore": 0.24298185519000243,
-          "authorScore": 1.0,
+          "pageRankScore": 2.6263626E-5,
+          "relevanceScore": 0.3835134493230021,
+          "authorScore": 3.0,
           "relevantTopics": [
             {
-              "topicName": "Feature selection and classifiers in machine learning",
-              "strength": 0.24298185519000243
+              "topicName": "Language acquisition",
+              "strength": 0.3835134493230021
             },
             {
-              "topicName": "Biomedical text mining",
-              "strength": 0.20841441629343016
+              "topicName": "Finite-state automata",
+              "strength": 0.10918833974337672
             },
             {
-              "topicName": "Named entity recognition",
-              "strength": 0.11549564686327911
+              "topicName": "Computational linguistics",
+              "strength": 0.08894720314063038
             },
             {
-              "topicName": "Experimental results",
-              "strength": 0.09087136373965413
+              "topicName": "Natural language & lexical semantics",
+              "strength": 0.06933245114596524
             },
             {
-              "topicName": "Training and testing data sets",
-              "strength": 0.06916215013498606
+              "topicName": "Natural languages & computational linguistics",
+              "strength": 0.05483562526536579
             },
             {
-              "topicName": "Hidden Markov models",
-              "strength": 0.0635001956219428
+              "topicName": "Context-free grammars",
+              "strength": 0.04599520919617747
             },
             {
-              "topicName": "Tree kernel",
-              "strength": 0.0630326712992942
+              "topicName": "Gibbs sampling",
+              "strength": 0.022399774181110377
             },
             {
-              "topicName": "Part-of-speech tagging",
-              "strength": 0.05385967676728018
+              "topicName": "User interfaces",
+              "strength": 0.019224746707174507
             },
             {
               "topicName": "Objective functions",
-              "strength": 0.028097201678014962
+              "strength": 0.018424420646063346
             },
             {
-              "topicName": "Identifying unknown words",
-              "strength": 0.022185506327992002
+              "topicName": "Parallel corpora for machine translation",
+              "strength": 0.017633728272515553
             }
           ],
           "index": 2
@@ -256,1957 +256,1728 @@
         {
           "topic": [
             {
-              "word": "tree_kernel",
-              "value": 0.1762068122625351
+              "word": "reading_level",
+              "value": 0.10367892682552338
             },
             {
-              "word": "tree_kernels",
-              "value": 0.10036929696798325
+              "word": "grade_level",
+              "value": 0.09949832409620285
             },
             {
-              "word": "parse_tree",
-              "value": 0.07728831470012665
+              "word": "readability_assessment",
+              "value": 0.08988294005393982
             },
             {
-              "word": "kernel_function",
-              "value": 0.0733315721154213
+              "word": "reading_comprehension",
+              "value": 0.0852842777967453
             },
             {
-              "word": "parse_trees",
-              "value": 0.05499868094921112
+              "word": "reading_difficulty",
+              "value": 0.05978260934352875
             },
             {
-              "word": "collins_duffy",
-              "value": 0.053020309656858444
+              "word": "sentence_length",
+              "value": 0.054765887558460236
             },
             {
-              "word": "kernel_methods",
-              "value": 0.04827222228050232
+              "word": "grade_levels",
+              "value": 0.05267558619379997
             },
             {
-              "word": "relation_extraction",
-              "value": 0.0473489835858345
+              "word": "average_number",
+              "value": 0.0510033443570137
             },
             {
-              "word": "feature_space",
-              "value": 0.0447111576795578
+              "word": "number_words",
+              "value": 0.04473244026303291
             },
             {
-              "word": "n1_n2",
-              "value": 0.04260089620947838
+              "word": "reading_levels",
+              "value": 0.041806019842624664
             },
             {
-              "word": "kernel_functions",
-              "value": 0.03442363440990448
+              "word": "syntactic_complexity",
+              "value": 0.040133778005838394
             },
             {
-              "word": "convolution_tree",
-              "value": 0.03310472145676613
+              "word": "collins-thompson_callan",
+              "value": 0.035535115748643875
             },
             {
-              "word": "polynomial_kernel",
-              "value": 0.030994459986686707
+              "word": "text_simplification",
+              "value": 0.03344481438398361
             },
             {
-              "word": "convolution_kernels",
-              "value": 0.02796095982193947
+              "word": "language_learners",
+              "value": 0.03302675485610962
             },
             {
-              "word": "linear_kernel",
-              "value": 0.02624637261033058
+              "word": "text_readability",
+              "value": 0.02842809446156025
             },
             {
-              "word": "number_common",
-              "value": 0.022949090227484703
+              "word": "english_language",
+              "value": 0.024665551260113716
             },
             {
-              "word": "composite_kernel",
-              "value": 0.022949090227484703
+              "word": "lexical_tightness",
+              "value": 0.024665551260113716
             },
             {
-              "word": "t1_t2",
-              "value": 0.022685308009386063
+              "word": "grammatical_features",
+              "value": 0.024247491732239723
             },
             {
-              "word": "syntactic_parse",
-              "value": 0.020311264321208
+              "word": "language_models",
+              "value": 0.024247491732239723
             },
             {
-              "word": "syntactic_tree",
-              "value": 0.020179372280836105
+              "word": "word_maturity",
+              "value": 0.024247491732239723
             },
             {
-              "word": "vector_machines",
-              "value": 0.02004748024046421
+              "word": "number_syllables",
+              "value": 0.024247491732239723
             }
           ],
           "documents": [
             {
-              "author": "Moschitti, Alessandro, ",
-              "title": "A Study On Convolution Kernels For Shallow Statistic Parsing",
-              "id": "P04-1043",
-              "abstractText": "In this paper we have designed and experimented novel convolution kernels for automatic classification of predicate arguments. Their main property is the ability to process structured representations. Support Vector Machines (SVMs), using a combination of such kernels and the flat feature kernel, classify Prop-Bank predicate arguments with accuracy higher than the current argument classification state-of-the-art. Additionally, experiments on FrameNet data have shown that SVMs are appealing for the classification of semantic roles even if the proposed kernels do not produce any improvement. ",
+              "author": "Collins-Thompson, Kevyn; Callan, James, P., ",
+              "title": "A Language Modeling Approach To Predicting Reading Difficulty",
+              "id": "N04-1025",
+              "abstractText": "We demonstrate a new research approach to the problem of predicting the reading difficulty of a text passage, by recasting readability in terms of statistical language modeling. We derive a measure based on an extension of multinomial naïve Bayes classification that combines multiple language models to estimate the most likely grade level for a given passage. The resulting classifier is not specific to any particular subject and can be trained with relatively little labeled data. We perform predictions for individual Web pages in English and compare our performance to widely-used semantic variables from traditional readability measures. We show that with minimal changes, the classifier may be retrained for use with French Web documents. For both English and French, the classifier maintains consistently good correlation with labeled grade level (0.63 to 0.79) across all test sets. Some traditional semantic variables such as type-token ratio gave the best performance on commercial calibrated test passages, while our language modeling approach gave better accuracy for Web documents and very short passages (less than 10 words). ",
               "year": "2004",
               "pedagogicalRole": null,
-              "pageRankScore": 1.527273E-4,
-              "relevanceScore": 0.5935507776635585,
-              "authorScore": 9.0,
+              "pageRankScore": 1.7574191E-4,
+              "relevanceScore": 0.4046125042554952,
+              "authorScore": 1.5,
               "relevantTopics": [
                 {
-                  "topicName": "Tree kernel",
-                  "strength": 0.5935507776635585
-                },
-                {
-                  "topicName": "Semantic role labeling",
-                  "strength": 0.22603623327701544
-                },
-                {
-                  "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.037257785592142274
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.03550572805007513
-                },
-                {
-                  "topicName": "Natural language & lexical semantics",
-                  "strength": 0.028674223883446478
-                },
-                {
-                  "topicName": "Noun phrases",
-                  "strength": 0.024228498572932206
+                  "topicName": "Readability / reading level",
+                  "strength": 0.4046125042554952
                 },
                 {
                   "topicName": "Training and testing data sets",
-                  "strength": 0.013199563209021312
-                },
-                {
-                  "topicName": "Verb classes",
-                  "strength": 0.009681980252078644
+                  "strength": 0.11243721447320687
                 },
                 {
                   "topicName": "Computational linguistics",
-                  "strength": 0.007447898189377464
+                  "strength": 0.10911058056295685
                 },
                 {
-                  "topicName": "Gold standard",
-                  "strength": 0.0038657307027876106
+                  "topicName": "Language model",
+                  "strength": 0.07112091969008322
+                },
+                {
+                  "topicName": "Generative models & model selection",
+                  "strength": 0.056000751531212985
+                },
+                {
+                  "topicName": "Web pages",
+                  "strength": 0.054688452063473704
+                },
+                {
+                  "topicName": "Feature selection and classifiers in machine learning",
+                  "strength": 0.04590593253157804
+                },
+                {
+                  "topicName": "Experimental results",
+                  "strength": 0.03596827015817291
+                },
+                {
+                  "topicName": "Identifying unknown words",
+                  "strength": 0.025329074372143694
+                },
+                {
+                  "topicName": "\"Document classification, clustering, and categorization\"",
+                  "strength": 0.018952902453527324
                 }
               ],
               "index": 3
             },
             {
-              "author": "Zhang, Min; Zhang, Jie; Su, Jian; Zhou, Guodong, ",
-              "title": "A Composite Kernel To Extract Relations Between Entities With Both Flat And Structured Features",
-              "id": "P06-1104",
-              "abstractText": "This paper proposes a novel composite kernel for relation extraction. The composite kernel consists of two individual kernels: an entity kernel that allows for entity-related features and a convolution parse tree kernel that models syntactic information of relation examples. The motivation of our method is to fully utilize the nice properties of kernel methods to explore diverse knowledge for relation extraction. Our study illustrates that the composite kernel can effectively capture both flat and structured features without the need for extensive feature engineering, and can also easily scale to include more features. Evaluation on the ACE corpus shows that our method outperforms the previous best-reported methods and significantly outperforms previous two dependency tree kernels for relation extraction. ",
-              "year": "2006",
+              "author": "Heilman, Michael; Collins-Thompson, Kevyn; Callan, James, P.; Eskenazi, Maxine, ",
+              "title": "Combining Lexical and Grammatical Features to Improve Readability Measures for First and Second Language Texts",
+              "id": "N07-1058",
+              "abstractText": "Combining Lexical and Grammatical Features to Improve Readability Measures for First and Second Language Texts Michael J. Heilman Kevyn Collins- Jamie Callan Maxine Eskenazi Thompson Language Technologies Institute School of Computer Science Carnegie Mellon University 4502 Newell Simon Hall Pittsburgh, PA 15213-8213 {mheilman,kct,callan,max}@cs.cmu.edu This work evaluates a system that uses interpolated predictions of reading difficulty that are based on both vocabulary and grammatical features. The combined approach is compared to individual grammar and language modeling-based approaches. While the vocabulary-based language modeling approach outperformed the grammar-based approach, grammar-based predictions can be combined using confidence scores with the vocabulary-based predictions to produce more accurate predictions of reading difficulty for both first and second language texts. The results also indicate that grammatical features may play a more important role in second language readability than in first language readability. ",
+              "year": "2007",
               "pedagogicalRole": null,
-              "pageRankScore": 7.141265E-5,
-              "relevanceScore": 0.65251837232127,
-              "authorScore": 9.25,
+              "pageRankScore": 7.1899354E-5,
+              "relevanceScore": 0.4026567289785623,
+              "authorScore": 1.5,
               "relevantTopics": [
                 {
-                  "topicName": "Tree kernel",
-                  "strength": 0.65251837232127
-                },
-                {
-                  "topicName": "Relation extraction",
-                  "strength": 0.10483324476234272
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.07840584958554916
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.042946771190312136
+                  "topicName": "Readability / reading level",
+                  "strength": 0.4026567289785623
                 },
                 {
                   "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.041992468902323554
-                },
-                {
-                  "topicName": "Tree-adjoining grammar",
-                  "strength": 0.02623515114386556
-                },
-                {
-                  "topicName": "Semantic relation extraction",
-                  "strength": 0.019240230663802683
+                  "strength": 0.07654374563774764
                 },
                 {
                   "topicName": "Computational linguistics",
-                  "strength": 0.0067355084314571515
+                  "strength": 0.07298508409418387
                 },
                 {
-                  "topicName": "Rule-based parsing",
-                  "strength": 0.0035310192797943477
+                  "topicName": "Language model",
+                  "strength": 0.0668465453504487
+                },
+                {
+                  "topicName": "Experimental results",
+                  "strength": 0.06243346567903139
+                },
+                {
+                  "topicName": "Training and testing data sets",
+                  "strength": 0.06096511280517984
+                },
+                {
+                  "topicName": "Text analysis",
+                  "strength": 0.034609884561410606
                 },
                 {
                   "topicName": "Noun phrases",
-                  "strength": 0.003130499539314019
+                  "strength": 0.030944213221618097
+                },
+                {
+                  "topicName": "Generative models & model selection",
+                  "strength": 0.02955287262249981
+                },
+                {
+                  "topicName": "Morphological analysis",
+                  "strength": 0.021677011634759442
                 }
               ],
               "index": 4
             },
             {
-              "author": "Zhou, Guodong; Zhang, Min; Donghong, Ji; Zhu, Qiao-ming, ",
-              "title": "Tree Kernel-Based Relation Extraction with Context-Sensitive Structured Parse Tree Information",
-              "id": "D07-1076",
-              "abstractText": "Tree Kernel-based Relation Extraction with Context-Sensitive Structured Parse Tree Information GuoDong ZHOU Min ZHANG Dong Hong JI QiaoMing ZHU School of Computer Science & Technology Institute for Infocomm Research Soochow Univ. Heng Mui Keng Terrace Suzhou, China 215006 Singapore 119613 Email: {gdzhou,qmzhu}@suda.edu.cn Email: {zhougd, mzhang, dhji}@i2r.a-star.edu.sg This paper proposes a tree kernel with context-sensitive structured parse tree information for relation extraction. It resolves two critical problems in previous tree kernels for relation extraction in two ways. First, it automatically determines a dynamic context-sensitive tree span for relation extraction by extending the widely-used Shortest Path-enclosed Tree (SPT) to include necessary context information outside SPT. Second, it proposes a context-sensitive convolution tree kernel, which enumerates both context-free and context-sensitive sub-trees by considering their ancestor node paths as their contexts. ",
-              "year": "2007",
+              "author": "Heilman, Michael; Collins-Thompson, Kevyn; Eskenazi, Maxine, ",
+              "title": "An Analysis of Statistical Models and Features for Reading Difficulty Prediction",
+              "id": "W08-0909",
+              "abstractText": "An Analysis of Statistical Models and Features for Reading Difficulty Prediction Michael Heilman, Kevyn Collins-Thompson and Maxine Eskenazi Language Technologies Institute Carnegie Mellon University Pittsburgh, PA 15213, USA {mheilman,kct,max}@cs.cmu.edu A reading difficulty measure can be described as a function or model that maps a text to a numerical value corresponding to a difficulty or grade level. We describe a measure of readability that uses a combination of lexical features and grammatical features that are derived from subtrees of syntactic parses. We also tested statistical models for nominal, ordinal, and interval scales of measurement. The results indicate that a model for ordinal regression, such as the proportional odds model, using a combination of grammatical and lexical features is most effective at predicting reading difficulty. ",
+              "year": "2008",
               "pedagogicalRole": null,
-              "pageRankScore": 5.392502E-5,
-              "relevanceScore": 0.7036207329266282,
-              "authorScore": 4.75,
+              "pageRankScore": 4.2211104E-5,
+              "relevanceScore": 0.4116914227938045,
+              "authorScore": 2.0,
               "relevantTopics": [
                 {
-                  "topicName": "Tree kernel",
-                  "strength": 0.7036207329266282
-                },
-                {
-                  "topicName": "Relation extraction",
-                  "strength": 0.1173988224886556
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.04936750408208672
-                },
-                {
-                  "topicName": "Tree-adjoining grammar",
-                  "strength": 0.044898027959567766
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.030991873488241048
-                },
-                {
-                  "topicName": "Semantic relation extraction",
-                  "strength": 0.014378391209598931
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.01415192349918845
+                  "topicName": "Readability / reading level",
+                  "strength": 0.4116914227938045
                 },
                 {
                   "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.01154008010998365
+                  "strength": 0.09167977452818084
                 },
                 {
-                  "topicName": "Natural language & lexical semantics",
-                  "strength": 0.002287810979492361
+                  "topicName": "Training and testing data sets",
+                  "strength": 0.08570019392282775
                 },
                 {
-                  "topicName": "Part-of-speech tagging",
-                  "strength": 0.0021789010496646717
+                  "topicName": "Computational linguistics",
+                  "strength": 0.06474872779020703
+                },
+                {
+                  "topicName": "Generative models & model selection",
+                  "strength": 0.061005558601386456
+                },
+                {
+                  "topicName": "Language model",
+                  "strength": 0.04645510649069326
+                },
+                {
+                  "topicName": "Text analysis",
+                  "strength": 0.04364069609040192
+                },
+                {
+                  "topicName": "Experimental results",
+                  "strength": 0.03411291759489363
+                },
+                {
+                  "topicName": "Identifying unknown words",
+                  "strength": 0.02551760036641562
+                },
+                {
+                  "topicName": "Noun phrases",
+                  "strength": 0.025495449380824205
                 }
               ],
               "index": 5
             }
           ],
           "dependentTopics": [],
-          "topicName": "Tree kernel"
+          "topicName": "Readability / reading level"
         },
         {
           "topic": [
             {
-              "word": "training_data",
-              "value": 0.25370168685913086
+              "word": "description_length",
+              "value": 0.3104838728904724
             },
             {
-              "word": "test_set",
-              "value": 0.12399014830589294
+              "word": "minimum_description",
+              "value": 0.10201612859964371
             },
             {
-              "word": "training_set",
-              "value": 0.10813269019126892
+              "word": "mdl_principle",
+              "value": 0.056854840368032455
             },
             {
-              "word": "data_set",
-              "value": 0.09065946191549301
+              "word": "key_terms",
+              "value": 0.05645161122083664
             },
             {
-              "word": "test_data",
-              "value": 0.07254169881343842
+              "word": "length_mdl",
+              "value": 0.045967742800712585
             },
             {
-              "word": "data_sets",
-              "value": 0.05167801305651665
+              "word": "tree_cut",
+              "value": 0.04516129195690155
             },
             {
-              "word": "previous_work",
-              "value": 0.03266848623752594
+              "word": "li_abe",
+              "value": 0.03387096896767616
             },
             {
-              "word": "development_set",
-              "value": 0.03118515945971012
+              "word": "number_bits",
+              "value": 0.03306451439857483
             },
             {
-              "word": "test_sets",
-              "value": 0.03108803741633892
+              "word": "case_frame",
+              "value": 0.031854838132858276
             },
             {
-              "word": "training_test",
-              "value": 0.0257462989538908
+              "word": "unsupervised_learning",
+              "value": 0.030241934582591057
             },
             {
-              "word": "statistically_significant",
-              "value": 0.0222763754427433
+              "word": "stems_suffixes",
+              "value": 0.027016129344701767
             },
             {
-              "word": "improve_performance",
-              "value": 0.0204398762434721
+              "word": "information_theory",
+              "value": 0.025806451216340065
             },
             {
-              "word": "future_work",
-              "value": 0.02028977870941162
+              "word": "case_slots",
+              "value": 0.025806451216340065
             },
             {
-              "word": "results_show",
-              "value": 0.017420249059796333
+              "word": "data_description",
+              "value": 0.02500000037252903
             },
             {
-              "word": "data_training",
-              "value": 0.016687415540218353
+              "word": "global_key",
+              "value": 0.024596774950623512
             },
             {
-              "word": "baseline_system",
-              "value": 0.016290096566081047
+              "word": "model_description",
+              "value": 0.024596774950623512
             },
             {
-              "word": "development_data",
-              "value": 0.014012131839990616
+              "word": "cut_model",
+              "value": 0.02177419327199459
             },
             {
-              "word": "training_corpus",
-              "value": 0.013014418072998524
+              "word": "length_principle",
+              "value": 0.020967742428183556
             },
             {
-              "word": "training_sets",
-              "value": 0.012740708887577057
+              "word": "local_key",
+              "value": 0.019758064299821854
             },
             {
-              "word": "report_results",
-              "value": 0.012740708887577057
+              "word": "thesaurus_tree",
+              "value": 0.019758064299821854
             },
             {
-              "word": "system_performance",
-              "value": 0.012696562334895134
+              "word": "de_marcken",
+              "value": 0.01895161345601082
             }
           ],
           "documents": [
             {
-              "author": "Banko, Michele; Brill, Eric, ",
-              "title": "Scaling To Very Very Large Corpora For Natural Language Disambiguation",
-              "id": "P01-1005",
-              "abstractText": "The amount of readily available on-line text has reached hundreds of billions of words and continues to grow. Yet for most core natural language tasks, algorithms continue to be optimized, tested and compared after training on corpora consisting of only one million words or less. In this paper, we evaluate the performance of different learning methods on a prototypical natural language disambiguation task, confusion set disambiguation, when trained on orders of magnitude more labeled data than has previously been used. We are fortunate that for this particular application, correctly labeled training data is free. Since this will often not be the case, we examine methods for effectively exploiting very large corpora when labeled data comes at a cost. ",
+              "author": "Goldsmith, John, ",
+              "title": "Unsupervised Learning Of The Morphology Of A Natural Language",
+              "id": "J01-2001",
+              "abstractText": "This study reports the results of using minimum description length (MDL) analysis to model unsupervised learning of the morphological segmentation of European languages, using corpora ranging in size from 5,000 words to 500,000 words. We develop a set of heuristics that rapidly develop a probabilistic morphological grammar, and use MDL as our primary tool to determine whether the modifications proposed by the heuristics will be adopted or not. The resulting grammar matches well the analysis that would be developed by a human morphologist. In the final section, we discuss the relationship of this style of MDL grammatical analysis to the notion of evaluation metric in early generative grammar. ",
               "year": "2001",
               "pedagogicalRole": null,
-              "pageRankScore": 2.6463633E-4,
-              "relevanceScore": 0.24330864321440387,
-              "authorScore": 8.0,
+              "pageRankScore": 3.122403E-4,
+              "relevanceScore": 0.38582696493651625,
+              "authorScore": 0.0,
               "relevantTopics": [
                 {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.24330864321440387
+                  "topicName": "Minimum description length",
+                  "strength": 0.38582696493651625
                 },
                 {
-                  "topicName": "Confusion sets",
-                  "strength": 0.14940873644100536
-                },
-                {
-                  "topicName": "Active learning",
-                  "strength": 0.13674894668199042
-                },
-                {
-                  "topicName": "Supervised learning",
-                  "strength": 0.12726268698243337
+                  "topicName": "Morphological analysis",
+                  "strength": 0.13752827746519938
                 },
                 {
                   "topicName": "Computational linguistics",
-                  "strength": 0.08573144195681183
+                  "strength": 0.08015435397666494
                 },
                 {
-                  "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.051371188257192266
+                  "topicName": "Identifying unknown words",
+                  "strength": 0.06485105109174248
+                },
+                {
+                  "topicName": "Natural language & lexical semantics",
+                  "strength": 0.05190340784959399
                 },
                 {
                   "topicName": "Experimental results",
-                  "strength": 0.039578468230067346
+                  "strength": 0.04115460187294831
                 },
                 {
-                  "topicName": "Part-of-speech tagging",
-                  "strength": 0.023467639654279903
+                  "topicName": "Language model",
+                  "strength": 0.02154252376076377
                 },
                 {
-                  "topicName": "Annotation",
-                  "strength": 0.020929558759072785
+                  "topicName": "Morphological segmentation",
+                  "strength": 0.018985184275964344
                 },
                 {
-                  "topicName": "Penn Treebank data for parsing",
-                  "strength": 0.01903007060227943
+                  "topicName": "Rule-based parsing",
+                  "strength": 0.01748947518425815
+                },
+                {
+                  "topicName": "Language acquisition",
+                  "strength": 0.01597652650890855
                 }
               ],
               "index": 6
             },
             {
-              "author": "Tjong Kim Sang, Erik F., ",
-              "title": "Introduction To The CoNLL-2002 Shared Task: Language-Independent Named Entity Recognition",
-              "id": "W02-2024",
-              "abstractText": "Named entities are phrases that contain the names of persons, organizations, locations, times and quantities. Example: [PER Wolff ] , currently a journalist in [LOC Argentina ] , played with [PER Del Bosque ] in the final years of the seventies in [ORG Real Madrid ] . This sentence contains four named entities: Wollff and Del Bosque are persons, Argentina is a location and Real Madrid is a organization. The shared task of CoNLL-2002 concerns language-independent named entity recognition. We will concentrate on four types of named entities: persons, locations, organizations and names of miscellaneous entities that do not belong to the previous three groups. The participants of the shared task have been offered training and test data for two European languages: Spanish and Dutch. They have used the data for developing a named-entity recognition system that includes a machine learning component. The organizers of the shared task were especially interested in approaches that make use of additional nonannotated data for improving their performance. 2 Data and Evaluation The CoNLL-2002 named entity data consists of six files covering two languages: Spanish and Dutch'. Each of the languages has a training file, a development file and a test file. ",
-              "year": "2002",
+              "author": "Li, Hang; Abe, Naoki, ",
+              "title": "Generalizing Case Frames Using A Thesaurus And The MDL Principle",
+              "id": "J98-2002",
+              "abstractText": "A new method for automatically acquiring case frame patterns from large corpora is proposed. In particular, the problem of generalizing values of a case frame slot for a verb is viewed as that of estimating a conditional probability distribution over a partition of words, and a new generalization method based on the Minimum Description Length (MDL) principle is proposed. In order to assist with efficiency, the proposed method makes use of an existing thesaurus and restricts its attention to those partitions that are present as \"cuts\" in the thesaurus tree, thus reducing the generalization problem to that of estimating a \"tree cut model\" of the thesaurus tree. An efficient algorithm is given, which provably obtains the optimal tree cut model for the given frequency data of a case slot, in the sense of MDL. Case frame patterns obtained by the method were used to resolve PP-attachment ambiguity. Experimental results indicate that the proposed method improves upon or is at least comparable with existing methods. ",
+              "year": "1998",
               "pedagogicalRole": null,
-              "pageRankScore": 1.420627E-4,
-              "relevanceScore": 0.22196361713833251,
-              "authorScore": 2.0,
+              "pageRankScore": 1.8889048E-4,
+              "relevanceScore": 0.5187811828403327,
+              "authorScore": 7.0,
               "relevantTopics": [
                 {
-                  "topicName": "Named entity recognition",
-                  "strength": 0.3450142766201417
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.22196361713833251
-                },
-                {
-                  "topicName": "Memory-based learning",
-                  "strength": 0.16936065529873395
+                  "topicName": "Minimum description length",
+                  "strength": 0.5187811828403327
                 },
                 {
                   "topicName": "Experimental results",
-                  "strength": 0.04653787138500355
+                  "strength": 0.09462081446558407
                 },
                 {
-                  "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.043012705176255474
+                  "topicName": "Language model",
+                  "strength": 0.06946430190677
                 },
                 {
-                  "topicName": "Part-of-speech tagging",
-                  "strength": 0.039796607932305106
+                  "topicName": "Prepositional phrase attachment",
+                  "strength": 0.04725342470638673
                 },
                 {
-                  "topicName": "Spanish/Catalan",
-                  "strength": 0.03450407203045444
+                  "topicName": "Tree-adjoining grammar",
+                  "strength": 0.04702618726905159
                 },
                 {
-                  "topicName": "Relation extraction",
-                  "strength": 0.023025757829536517
+                  "topicName": "Training and testing data sets",
+                  "strength": 0.0435095035669473
                 },
                 {
-                  "topicName": "Knowledge-based natural language processing",
-                  "strength": 0.019093225775357606
+                  "topicName": "Generative models & model selection",
+                  "strength": 0.03654546951906376
                 },
                 {
-                  "topicName": "Identifying unknown words",
-                  "strength": 0.016958427831741868
+                  "topicName": "Verb classes",
+                  "strength": 0.02482877472622946
+                },
+                {
+                  "topicName": "Computational linguistics",
+                  "strength": 0.01990683458785872
+                },
+                {
+                  "topicName": "Semantic relations & knowledge",
+                  "strength": 0.0143332724228002
                 }
               ],
               "index": 7
             },
             {
-              "author": "Vlachos, Andreas; Gasperin, Caroline, ",
-              "title": "Bootstrapping And Evaluating Named Entity Recognition In The Biomedical Domain",
-              "id": "W06-3328",
-              "abstractText": "We demonstrate that bootstrapping a gene name recognizer for FlyBase curation from automatically annotated noisy text is more effective than fully supervised training of the recognizer on more general manually annotated biomedical text. We present a new test set for this task based on an annotation scheme which distinguishes gene names from gene mentions, enabling a more consistent annotation. Evaluating our recognizer using this test set indicates that performance on unseen genes is its main weakness. We evaluate extensions to the technique used to generate training data designed to ameliorate this problem. ",
-              "year": "2006",
+              "author": "Snover, Matthew; Brent, Michael R., ",
+              "title": "A Bayesian Model For Morpheme And Paradigm Identification",
+              "id": "P01-1063",
+              "abstractText": "This paper describes a system for unsupervised learning of morphological affixes from texts or word lists. The system is composed of a generative probability model and a search algorithm. Experiments on the Wall Street Journal and the Hansard Corpus (French and English) demonstrate the effectiveness of this approach. The results suggest that more integrated systems for learning both affixes and morphographemic adjustment rules may be feasible. In addition, several definitions and a theorem are developed so that our search algorithm can be formalized in terms of the lattice formed by subsets of suffixes under inclusion. This formalism is expected to be useful for investigating alternative search strategies over the same morphological hypothesis space. ",
+              "year": "2001",
               "pedagogicalRole": null,
-              "pageRankScore": 5.572885E-5,
-              "relevanceScore": 0.2032713061934506,
-              "authorScore": 0.0,
+              "pageRankScore": 5.4952958E-5,
+              "relevanceScore": 0.4047843184844305,
+              "authorScore": 3.5,
               "relevantTopics": [
                 {
-                  "topicName": "Biomedical text mining",
-                  "strength": 0.29853506218486514
+                  "topicName": "Minimum description length",
+                  "strength": 0.4047843184844305
                 },
                 {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.2032713061934506
+                  "topicName": "Morphological analysis",
+                  "strength": 0.17511610005819384
                 },
                 {
-                  "topicName": "Named entity recognition",
-                  "strength": 0.1337218227918661
+                  "topicName": "Identifying unknown words",
+                  "strength": 0.052349772688413884
+                },
+                {
+                  "topicName": "Language model",
+                  "strength": 0.049466799823643944
+                },
+                {
+                  "topicName": "Beam search & other search algorithms",
+                  "strength": 0.04426256207876938
+                },
+                {
+                  "topicName": "Knowledge-based natural language processing",
+                  "strength": 0.04389744242673866
                 },
                 {
                   "topicName": "Experimental results",
-                  "strength": 0.07425905568231793
+                  "strength": 0.04166343887314108
+                },
+                {
+                  "topicName": "Tree-adjoining grammar",
+                  "strength": 0.031096671201320772
+                },
+                {
+                  "topicName": "WMT system combination task",
+                  "strength": 0.027777723511432064
                 },
                 {
                   "topicName": "Computational linguistics",
-                  "strength": 0.05226652633654377
-                },
-                {
-                  "topicName": "Annotation",
-                  "strength": 0.045958489871514886
-                },
-                {
-                  "topicName": "Relation extraction",
-                  "strength": 0.029611359664995184
-                },
-                {
-                  "topicName": "Coreference resolution",
-                  "strength": 0.01888713456426803
-                },
-                {
-                  "topicName": "Part-of-speech tagging",
-                  "strength": 0.01738594694986548
-                },
-                {
-                  "topicName": "Hidden Markov models",
-                  "strength": 0.01736280980740394
+                  "strength": 0.024673617095128053
                 }
               ],
               "index": 8
             }
           ],
-          "dependentTopics": [
-            {
-              "topic": [
-                {
-                  "word": "lexical_substitution",
-                  "value": 0.14589372277259827
-                },
-                {
-                  "word": "target_word",
-                  "value": 0.13285024464130402
-                },
-                {
-                  "word": "shared_task",
-                  "value": 0.08115942031145096
-                },
-                {
-                  "word": "participating_systems",
-                  "value": 0.0748792290687561
-                },
-                {
-                  "word": "semeval-2_task",
-                  "value": 0.05797101557254791
-                },
-                {
-                  "word": "word_meaning",
-                  "value": 0.0572463758289814
-                },
-                {
-                  "word": "substitution_task",
-                  "value": 0.050724636763334274
-                },
-                {
-                  "word": "semeval_task",
-                  "value": 0.041545893996953964
-                },
-                {
-                  "word": "gold_standard",
-                  "value": 0.03719806671142578
-                },
-                {
-                  "word": "target_words",
-                  "value": 0.03357487916946411
-                },
-                {
-                  "word": "task_organizers",
-                  "value": 0.032125603407621384
-                },
-                {
-                  "word": "trial_data",
-                  "value": 0.030676327645778656
-                },
-                {
-                  "word": "meaning_context",
-                  "value": 0.02995169162750244
-                },
-                {
-                  "word": "submitted_systems",
-                  "value": 0.02801932394504547
-                },
-                {
-                  "word": "workshop_semantic",
-                  "value": 0.025362318381667137
-                },
-                {
-                  "word": "mccarthy_navigli",
-                  "value": 0.025120772421360016
-                },
-                {
-                  "word": "word_context",
-                  "value": 0.02391304261982441
-                },
-                {
-                  "word": "international_workshop",
-                  "value": 0.023671496659517288
-                },
-                {
-                  "word": "task_semeval-2",
-                  "value": 0.023188406601548195
-                },
-                {
-                  "word": "semantic_evaluations",
-                  "value": 0.02246376872062683
-                },
-                {
-                  "word": "june_association",
-                  "value": 0.02246376872062683
-                }
-              ],
-              "documents": [
-                {
-                  "author": "Mihalcea, Rada; Pedersen, Ted, ",
-                  "title": "An Evaluation Exercise For Word Alignment",
-                  "id": "W03-0301",
-                  "abstractText": "The task of word alignment consists of finding correspondences between words and phrases in parallel texts. Assuming a sentence aligned bilingual corpus in languages L1 and L2, the task of a word alignment system is to indicate which word token in the corpus of language L1 corresponds to which word token in the corpus of language L2. As part of the HLT/NAACL 2003 workshop on ”Building and Using Parallel Texts: Data Driven Machine Translation and Beyond”, we organized a shared task on word alignment, where participating teams were provided with training and test data, consisting of sentence aligned parallel texts, and were asked to provide automatically derived word alignments for all the words in the test set. Data for two language pairs were provided: (1) English-French, representing languages with rich resources (20 million word parallel texts), and (2) Romanian-English, representing languages with scarce resources (1 million word parallel texts). Similar with the Machine Translation evaluation exercise organized by NIST1, two subtasks were defined, with teams being encouraged to participate in both subtasks. 1. Limited resources, where systems are allowed to use only the resources provided. 2. Unlimited resources, where systems are allowed to use any resources in addition to those provided. ",
-                  "year": "2003",
-                  "pedagogicalRole": null,
-                  "pageRankScore": 1.8163993E-4,
-                  "relevanceScore": 0.3596842644235925,
-                  "authorScore": 10.0,
-                  "relevantTopics": [
-                    {
-                      "topicName": "Lexical substitution",
-                      "strength": 0.3596842644235925
-                    },
-                    {
-                      "topicName": "Word alignment",
-                      "strength": 0.3455101320246323
-                    },
-                    {
-                      "topicName": "Training and testing data sets",
-                      "strength": 0.08678405026055354
-                    },
-                    {
-                      "topicName": "Parallel corpora for machine translation",
-                      "strength": 0.04830789578930187
-                    },
-                    {
-                      "topicName": "Computational linguistics",
-                      "strength": 0.04286429689738032
-                    },
-                    {
-                      "topicName": "Annotation",
-                      "strength": 0.026291369967894183
-                    },
-                    {
-                      "topicName": "Experimental results",
-                      "strength": 0.0259067742491804
-                    },
-                    {
-                      "topicName": "Identifying unknown words",
-                      "strength": 0.02214984155813333
-                    },
-                    {
-                      "topicName": "Text analysis",
-                      "strength": 0.014986005714543093
-                    },
-                    {
-                      "topicName": "Human assessment",
-                      "strength": 0.012107941898513979
-                    }
-                  ],
-                  "index": 9
-                },
-                {
-                  "author": "McCarthy, Diana; Navigli, Roberto, ",
-                  "title": "SemEval-2007 Task 10: English Lexical Substitution Task",
-                  "id": "W07-2009",
-                  "abstractText": "In this paper we describe the English Lexical Substitution task for SemEval. In the task, annotators and systems find an alternative substitute word or phrase for a target word in context. The task involves both finding the synonyms and disambiguating the context. Participating systems are free to use any lexical  resource. There is a subtask which requires  identifying cases where the word is functioning as part of a multiword in the sentence  and detecting what that multiword is. ",
-                  "year": "2007",
-                  "pedagogicalRole": null,
-                  "pageRankScore": 1.4977629E-4,
-                  "relevanceScore": 0.5027543879775164,
-                  "authorScore": 7.0,
-                  "relevantTopics": [
-                    {
-                      "topicName": "Lexical substitution",
-                      "strength": 0.5027543879775164
-                    },
-                    {
-                      "topicName": "Word sense disambiguation",
-                      "strength": 0.07981658471283343
-                    },
-                    {
-                      "topicName": "Computational linguistics",
-                      "strength": 0.05183723943276678
-                    },
-                    {
-                      "topicName": "Training and testing data sets",
-                      "strength": 0.04661197361211146
-                    },
-                    {
-                      "topicName": "Human assessment",
-                      "strength": 0.040380294280151295
-                    },
-                    {
-                      "topicName": "Annotation",
-                      "strength": 0.03865844064196566
-                    },
-                    {
-                      "topicName": "Identifying unknown words",
-                      "strength": 0.03364995070199654
-                    },
-                    {
-                      "topicName": "Semantic relations & knowledge",
-                      "strength": 0.029225263579958246
-                    },
-                    {
-                      "topicName": "Experimental results",
-                      "strength": 0.02704031024220817
-                    },
-                    {
-                      "topicName": "Semantic similarity measures",
-                      "strength": 0.023206076569403666
-                    }
-                  ],
-                  "index": 10
-                },
-                {
-                  "author": "Erk, Katrin; Pad&oacute;, Sebastian, ",
-                  "title": "Paraphrase Assessment in Structured Vector Space: Exploring Parameters and Datasets",
-                  "id": "W09-0208",
-                  "abstractText": "Paraphrase assessment in structured vector space: Exploring parameters and datasets Katrin Erk Sebastian Pado Department of Linguistics Department of Linguistics University of Texas at Austin Stanford University katrin.erk@mail.utexas.edu pado@stanford.edu The appropriateness of paraphrases for words depends often on context: \"grab\" can replace \"catch\" in \"catch a ball\", but not in \"catch a cold\". Structured Vector Space (svs) (Erk and Pad6, 2008) is a model that computes word meaning in context in order to assess the appropriateness of such paraphrases. This paper investigates \"best-practice\" parameter settings for svs, and it presents a method to obtain large datasets for paraphrase assessment from corpora with WSD annotation. ",
-                  "year": "2009",
-                  "pedagogicalRole": null,
-                  "pageRankScore": 4.421852E-5,
-                  "relevanceScore": 0.40801046022538723,
-                  "authorScore": 2.33,
-                  "relevantTopics": [
-                    {
-                      "topicName": "Lexical substitution",
-                      "strength": 0.40801046022538723
-                    },
-                    {
-                      "topicName": "Vector space",
-                      "strength": 0.1060301829821293
-                    },
-                    {
-                      "topicName": "Selectional preferences",
-                      "strength": 0.06765441047833816
-                    },
-                    {
-                      "topicName": "Training and testing data sets",
-                      "strength": 0.060095855919272155
-                    },
-                    {
-                      "topicName": "Computational linguistics",
-                      "strength": 0.04827085258219339
-                    },
-                    {
-                      "topicName": "Paraphrase generation",
-                      "strength": 0.04533708408329382
-                    },
-                    {
-                      "topicName": "Word sense disambiguation",
-                      "strength": 0.04290498000491635
-                    },
-                    {
-                      "topicName": "Experimental results",
-                      "strength": 0.040981358715888865
-                    },
-                    {
-                      "topicName": "Generative models & model selection",
-                      "strength": 0.03492378622482304
-                    },
-                    {
-                      "topicName": "Verb classes",
-                      "strength": 0.02896061204774662
-                    }
-                  ],
-                  "index": 11
-                }
-              ],
-              "dependentTopics": [],
-              "topicName": "Lexical substitution"
-            }
-          ],
-          "topicName": "Training and testing data sets"
-        },
-        {
-          "topic": [
-            {
-              "word": "lexical_substitution",
-              "value": 0.14589372277259827
-            },
-            {
-              "word": "target_word",
-              "value": 0.13285024464130402
-            },
-            {
-              "word": "shared_task",
-              "value": 0.08115942031145096
-            },
-            {
-              "word": "participating_systems",
-              "value": 0.0748792290687561
-            },
-            {
-              "word": "semeval-2_task",
-              "value": 0.05797101557254791
-            },
-            {
-              "word": "word_meaning",
-              "value": 0.0572463758289814
-            },
-            {
-              "word": "substitution_task",
-              "value": 0.050724636763334274
-            },
-            {
-              "word": "semeval_task",
-              "value": 0.041545893996953964
-            },
-            {
-              "word": "gold_standard",
-              "value": 0.03719806671142578
-            },
-            {
-              "word": "target_words",
-              "value": 0.03357487916946411
-            },
-            {
-              "word": "task_organizers",
-              "value": 0.032125603407621384
-            },
-            {
-              "word": "trial_data",
-              "value": 0.030676327645778656
-            },
-            {
-              "word": "meaning_context",
-              "value": 0.02995169162750244
-            },
-            {
-              "word": "submitted_systems",
-              "value": 0.02801932394504547
-            },
-            {
-              "word": "workshop_semantic",
-              "value": 0.025362318381667137
-            },
-            {
-              "word": "mccarthy_navigli",
-              "value": 0.025120772421360016
-            },
-            {
-              "word": "word_context",
-              "value": 0.02391304261982441
-            },
-            {
-              "word": "international_workshop",
-              "value": 0.023671496659517288
-            },
-            {
-              "word": "task_semeval-2",
-              "value": 0.023188406601548195
-            },
-            {
-              "word": "semantic_evaluations",
-              "value": 0.02246376872062683
-            },
-            {
-              "word": "june_association",
-              "value": 0.02246376872062683
-            }
-          ],
-          "documents": [],
           "dependentTopics": [],
-          "topicName": "Lexical substitution"
-        }
-      ],
-      "topicName": "Feature selection and classifiers in machine learning"
-    },
-    {
-      "topic": [
-        {
-          "word": "computational_linguistics",
-          "value": 0.24291282892227173
+          "topicName": "Minimum description length"
         },
-        {
-          "word": "computer_science",
-          "value": 0.131821408867836
-        },
-        {
-          "word": "language_processing",
-          "value": 0.11658398061990738
-        },
-        {
-          "word": "natural_language",
-          "value": 0.10737065970897675
-        },
-        {
-          "word": "machine_learning",
-          "value": 0.048547130078077316
-        },
-        {
-          "word": "language_technology",
-          "value": 0.04571226239204407
-        },
-        {
-          "word": "machine_translation",
-          "value": 0.042523033916950226
-        },
-        {
-          "word": "human_language",
-          "value": 0.03667611628770828
-        },
-        {
-          "word": "computational_linguists",
-          "value": 0.03082919865846634
-        },
-        {
-          "word": "artificial_intelligence",
-          "value": 0.025690998882055283
-        },
-        {
-          "word": "language_learning",
-          "value": 0.022856131196022034
-        },
-        {
-          "word": "information_retrieval",
-          "value": 0.021615875884890556
-        },
-        {
-          "word": "linguistics_students",
-          "value": 0.0164776761084795
-        },
-        {
-          "word": "cognitive_science",
-          "value": 0.01594613678753376
-        },
-        {
-          "word": "computer_scientists",
-          "value": 0.015591778792440891
-        },
-        {
-          "word": "graduate_students",
-          "value": 0.014528702944517136
-        },
-        {
-          "word": "linguistics_computer",
-          "value": 0.014351523481309414
-        },
-        {
-          "word": "field_computational",
-          "value": 0.01346562709659338
-        },
-        {
-          "word": "foreign_language",
-          "value": 0.012756910175085068
-        },
-        {
-          "word": "information_science",
-          "value": 0.012402551248669624
-        },
-        {
-          "word": "students_asked",
-          "value": 0.011339475400745869
-        }
-      ],
-      "documents": [
-        {
-          "author": "McDonald, David D.; Pustejovsky, James, ",
-          "title": "TAG's As A Grammatical Formalism For Generation",
-          "id": "P85-1012",
-          "abstractText": "Tree Adjoining Grammars, or \"TAG's\", (Joshi, Levy & Takahashi 1975; Joshi 1983; ICroch & Joshi 1985) were developed as an alternative to the standard syntactic formations that are used in theoretical analyses of language. They are attractive because they may provide just the aspects of context sensitive expressive power that actually appear in human languages while otherwise remaining context free. This paper describes how we have applied the theory of Tree Adjoining Grammars to natural language generation. We have been attracted to TAG's because their central operation—the extension of an Initial\" phrase structure tree through the inclusion, at very specifically constrained locations, of one or more \"auxiliary\" trees—corresponds directly to certain central operations of our own, performance-oriented theory. We begin by briefly describing TAG's as a formalism for phrase structure in a competence theory, and summarize the points in the theory of TAG's that are germaine to our own theory. We then consider generally the position of a grammar within the generation process, introducing our use of TAG's through a contrast with how others have used systemic grammars. This takes us to the core results of our paper: using examples from our research with well-written texts from newspapers, we walk through our TAG inspired treatments cZ raising and wh-movement, and show the correspondesias of the TAG \"adjunction\" operation and our \"attachment\" process. In the final section we discuss extensions to the theory, motivated by the way we use the operation corresponding to TAG's\" adjunction in performance. This suggests that the competence theory of TAG's can be profitably projected to structures at the morphological level as well as the present syntactic level. ",
-          "year": "1985",
-          "pedagogicalRole": null,
-          "pageRankScore": 1.4690898E-4,
-          "relevanceScore": 0.6542162840580068,
-          "authorScore": 7.5,
-          "relevantTopics": [
-            {
-              "topicName": "Computational linguistics (discipline)",
-              "strength": 0.6542162840580068
-            },
-            {
-              "topicName": "Language generation systems",
-              "strength": 0.13514679162442572
-            },
-            {
-              "topicName": "Tree-adjoining grammar",
-              "strength": 0.11193262520590413
-            },
-            {
-              "topicName": "Natural language & lexical semantics",
-              "strength": 0.049751121000695404
-            },
-            {
-              "topicName": "Noun phrases",
-              "strength": 0.015543199224154905
-            },
-            {
-              "topicName": "Rule-based parsing",
-              "strength": 0.011994860863549305
-            },
-            {
-              "topicName": "Text analysis",
-              "strength": 0.009545428560675308
-            },
-            {
-              "topicName": "Natural languages & computational linguistics",
-              "strength": 0.0095446575597872
-            },
-            {
-              "topicName": "Word sense disambiguation",
-              "strength": 3.640367700550856E-4
-            },
-            {
-              "topicName": "Experimental results",
-              "strength": 1.8238503264242603E-4
-            }
-          ],
-          "index": 12
-        },
-        {
-          "author": "Bird, Steven, ",
-          "title": "NLTK: The Natural Language Toolkit",
-          "id": "P06-4018",
-          "abstractText": "The Natural Language Toolkit is a suite of program modules, data sets and tutorials supporting research and teaching in computational linguistics and natural language processing. NLTK is written in Python and distributed under the GPL open source license. Over the past year the toolkit has been rewritten, simplifying many linguistic data structures and taking advantage of recent enhancements in the Python language. This paper reports on the simplified toolkit and explains how it is used in teaching NLP. ",
-          "year": "2006",
-          "pedagogicalRole": null,
-          "pageRankScore": 6.484066E-5,
-          "relevanceScore": 0.49298174735072753,
-          "authorScore": 5.0,
-          "relevantTopics": [
-            {
-              "topicName": "Computational linguistics (discipline)",
-              "strength": 0.49298174735072753
-            },
-            {
-              "topicName": "Part-of-speech tagging",
-              "strength": 0.13309765069697652
-            },
-            {
-              "topicName": "User interfaces",
-              "strength": 0.08503600083465274
-            },
-            {
-              "topicName": "Rule-based parsing",
-              "strength": 0.05039624713692746
-            },
-            {
-              "topicName": "Knowledge-based natural language processing",
-              "strength": 0.033830243740601965
-            },
-            {
-              "topicName": "Training and testing data sets",
-              "strength": 0.029433229838489387
-            },
-            {
-              "topicName": "Text analysis",
-              "strength": 0.029202136680510613
-            },
-            {
-              "topicName": "Natural language & lexical semantics",
-              "strength": 0.028362227698179657
-            },
-            {
-              "topicName": "Graph unification",
-              "strength": 0.026832550325400256
-            },
-            {
-              "topicName": "Computational linguistics",
-              "strength": 0.025063230185875113
-            }
-          ],
-          "index": 13
-        },
-        {
-          "author": "Liddy, Elizabeth D.; McCracken, Nancy J., ",
-          "title": "Hands-On NLP For An Interdisciplinary Audience",
-          "id": "W05-0111",
-          "abstractText": "The need for a single NLP offering for a diverse mix of graduate students (including computer scientists, information scientists, and linguists) has motivated us to develop a course that provides students with a breadth of understanding of the scope of real world applications, as well as depth of knowledge of the computational techniques on which to build in later experiences. We describe the three hands-on tasks for the course that have proven successful, namely: 1) in-class group simulations of computational processes; 2) team posters and public presentations on state-of-the-art commercial NLP applications, and; 3) team projects implementing various levels of human language processing using open-source software on large textual collections. Methods of evaluation and indicators of success are also described. ",
-          "year": "2005",
-          "pedagogicalRole": null,
-          "pageRankScore": 4.0780313E-5,
-          "relevanceScore": 0.505189599389679,
-          "authorScore": 0.0,
-          "relevantTopics": [
-            {
-              "topicName": "Computational linguistics (discipline)",
-              "strength": 0.505189599389679
-            },
-            {
-              "topicName": "E-mail corpora",
-              "strength": 0.12134637653382828
-            },
-            {
-              "topicName": "User interfaces",
-              "strength": 0.06756359575002106
-            },
-            {
-              "topicName": "Knowledge-based natural language processing",
-              "strength": 0.052936880259360136
-            },
-            {
-              "topicName": "Computational linguistics",
-              "strength": 0.04590856208056221
-            },
-            {
-              "topicName": "Part-of-speech tagging",
-              "strength": 0.03252917176651661
-            },
-            {
-              "topicName": "Text analysis",
-              "strength": 0.02087949643002652
-            },
-            {
-              "topicName": "Natural language & lexical semantics",
-              "strength": 0.02049800580463491
-            },
-            {
-              "topicName": "Training and testing data sets",
-              "strength": 0.019461310419020113
-            },
-            {
-              "topicName": "Tutorial dialogue system",
-              "strength": 0.01929635668558633
-            }
-          ],
-          "index": 14
-        }
-      ],
-      "dependentTopics": [
         {
           "topic": [
             {
-              "word": "tutorial_dialogue",
-              "value": 0.14247821271419525
+              "word": "virtual_world",
+              "value": 0.11442112177610397
             },
             {
-              "word": "tutoring_system",
-              "value": 0.08374384045600891
+              "word": "virtual_environment",
+              "value": 0.08666215091943741
             },
             {
-              "word": "intelligent_tutoring",
-              "value": 0.08071239292621613
+              "word": "adnominal_constituents",
+              "value": 0.06770480424165726
             },
             {
-              "word": "tutoring_systems",
-              "value": 0.07086017727851868
+              "word": "route_instructions",
+              "value": 0.059580229222774506
             },
             {
-              "word": "spoken_dialogue",
-              "value": 0.061765819787979126
+              "word": "semantic_map",
+              "value": 0.059580229222774506
             },
             {
-              "word": "learning_gain",
-              "value": 0.052671466022729874
+              "word": "turn_left",
+              "value": 0.05890318378806114
             },
             {
-              "word": "student_learning",
-              "value": 0.04395604506134987
+              "word": "virtual_environments",
+              "value": 0.05280974879860878
             },
             {
-              "word": "dialogue_systems",
-              "value": 0.04244031757116318
+              "word": "give_challenge",
+              "value": 0.046716317534446716
             },
             {
-              "word": "human_tutors",
-              "value": 0.03940886631608009
+              "word": "navigation_system",
+              "value": 0.04536221921443939
             },
             {
-              "word": "student_answer",
-              "value": 0.039029937237501144
+              "word": "nlg_systems",
+              "value": 0.04468517377972603
             },
             {
-              "word": "student_answers",
-              "value": 0.0378931425511837
+              "word": "route_directions",
+              "value": 0.03926878795027733
             },
             {
-              "word": "dialogue_system",
-              "value": 0.03751420974731445
+              "word": "lexical_items",
+              "value": 0.038591738790273666
             },
             {
-              "word": "why2_atlas",
-              "value": 0.032967034727334976
+              "word": "nlg_system",
+              "value": 0.03656059503555298
             },
             {
-              "word": "forbes-riley_litman",
-              "value": 0.032967034727334976
+              "word": "head_nouns",
+              "value": 0.03452945128083229
             },
             {
-              "word": "student_input",
-              "value": 0.03220916911959648
+              "word": "surgical_deed",
+              "value": 0.033175356686115265
             },
             {
-              "word": "student_turns",
-              "value": 0.03069344535470009
+              "word": "game_world",
+              "value": 0.031144211068749428
             },
             {
-              "word": "positive_feedback",
-              "value": 0.03069344535470009
+              "word": "virtual_instructor",
+              "value": 0.030467163771390915
             },
             {
-              "word": "beetle_ii",
-              "value": 0.029177719727158546
+              "word": "belief_state",
+              "value": 0.030467163771390915
             },
             {
-              "word": "learning_gains",
-              "value": 0.027283061295747757
+              "word": "instructions_virtual",
+              "value": 0.029790114611387253
             },
             {
-              "word": "student_model",
-              "value": 0.02652519941329956
+              "word": "adjectival_nouns",
+              "value": 0.029790114611387253
             },
             {
-              "word": "tutor_student",
-              "value": 0.02500947378575802
+              "word": "communication_channel",
+              "value": 0.029790114611387253
             }
           ],
           "documents": [
             {
-              "author": "Litman, Diane J.; Silliman, Scott, ",
-              "title": "ITSPOKE: An Intelligent Tutoring Spoken Dialogue System",
-              "id": "N04-3002",
-              "abstractText": "ITSPOKE is a spoken dialogue system that uses the Why2-Atlas text-based tutoring system as its “back-end”. A student first types a natural language answer to a qualitative physics problem. ITSPOKE then engages the student in a spoken dialogue to provide feedback and correct misconceptions, and to elicit more complete explanations. We are using ITSPOKE to generate an empirically-based understanding of the ramifications of adding spoken language capabilities to text-based dialogue tutors. ",
-              "year": "2004",
+              "author": "Frederking, Robert E.; Nirenburg, Sergei, ",
+              "title": "Three Heads Are Better Than One",
+              "id": "A94-1016",
+              "abstractText": "Current MT systems, whatever translation method they employ, do not reach an optimal output on free text. In part, this is due to the inherent problems of a particular method — for instance, the inability of statistics-based MT to take into account long-distance dependencies, the difficulty in achieving extremely broad coverage in knowledge-based MT systems, or the reliance of most transfer-oriented MT systems on similarities in syntactic structures of the source and the target languages. Our hypothesis is that if an MT environment can use the best results from a variety of MT systems working simultaneously on the same text, the overall quality will improve. Using this novel approach to MT in the latest version of the Pangloss MT project, we submit an input text to a battery of machine translation systems (engines), collect their (possibly, incomplete) results in a joint chart data structure and select the overall best translation using a set of simple heuristics. ",
+              "year": "1994",
               "pedagogicalRole": null,
-              "pageRankScore": 1.3335214E-4,
-              "relevanceScore": 0.6566366637278073,
-              "authorScore": 10.5,
+              "pageRankScore": 1.8371355E-4,
+              "relevanceScore": 0.45287249602934626,
+              "authorScore": 6.5,
               "relevantTopics": [
                 {
-                  "topicName": "Tutorial dialogue system",
-                  "strength": 0.6566366637278073
+                  "topicName": "Virtual world",
+                  "strength": 0.45287249602934626
                 },
                 {
-                  "topicName": "Dialogue system",
-                  "strength": 0.09607125782956442
+                  "topicName": "Parallel corpora for machine translation",
+                  "strength": 0.10748207304285179
                 },
                 {
-                  "topicName": "Speech recognition",
-                  "strength": 0.09478980923135949
+                  "topicName": "Experimental results",
+                  "strength": 0.09339370690961898
                 },
                 {
                   "topicName": "Knowledge-based natural language processing",
-                  "strength": 0.03927396820426822
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.022490251770175884
-                },
-                {
-                  "topicName": "Dialog systems & user satisfaction",
-                  "strength": 0.019496870843073097
-                },
-                {
-                  "topicName": "User interfaces",
-                  "strength": 0.015667547587028756
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.013649397029120845
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.010928636988304487
-                },
-                {
-                  "topicName": "Natural language & lexical semantics",
-                  "strength": 0.006972375246370205
-                }
-              ],
-              "index": 15
-            },
-            {
-              "author": "Litman, Diane J.; Forbes-Riley, Kate, ",
-              "title": "Annotating Student Emotional States In Spoken Tutoring Dialogues",
-              "id": "W04-2326",
-              "abstractText": "We present an annotation scheme for student emotions in tutoring dialogues. Analyses of our scheme with respect to interannotator agreement and predictive accuracy indicate that our scheme is reliable in our domain, and that our emotion labels can be predicted with a high degree of accuracy. We discuss issues concerning the implementation of emotion prediction and adaptation in the computer tutoring dialogue system we are developing. ",
-              "year": "2004",
-              "pedagogicalRole": null,
-              "pageRankScore": 7.729904E-5,
-              "relevanceScore": 0.5861433840172926,
-              "authorScore": 10.5,
-              "relevantTopics": [
-                {
-                  "topicName": "Tutorial dialogue system",
-                  "strength": 0.5861433840172926
-                },
-                {
-                  "topicName": "Annotation",
-                  "strength": 0.10098056852688078
-                },
-                {
-                  "topicName": "Dependency treebank for emotion classification",
-                  "strength": 0.07953454190143755
-                },
-                {
-                  "topicName": "Dialogue system",
-                  "strength": 0.04177537492205139
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.03934156668157312
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.02956912854255679
-                },
-                {
-                  "topicName": "Sentiment analysis",
-                  "strength": 0.029058050050817567
-                },
-                {
-                  "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.01857423964382627
-                },
-                {
-                  "topicName": "Natural language & lexical semantics",
-                  "strength": 0.017203980972743116
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.014714636181710478
-                }
-              ],
-              "index": 16
-            },
-            {
-              "author": "Forbes-Riley, Kate; Litman, Diane J., ",
-              "title": "Predicting Emotion In Spoken Dialogue From Multiple Knowledge Sources",
-              "id": "N04-1026",
-              "abstractText": "We examine the utility of multiple types of turn-level and contextual linguistic features for automatically predicting student emotions in human-human spoken tutoring dialogues. We first annotate student turns in our corpus for negative, neutral and positive emotions. We then automatically extract features representing acoustic-prosodic and other linguistic information from the speech signal and associated transcriptions. We compare the results of machine learning experiments using different feature sets to predict the annotated emotions. Our best performing feature set contains both acoustic-prosodic and other types of linguistic features, extracted from both the current turn and a context of previous student turns, and yields a prediction accuracy of 84.75%, which is a 44% relative improvement in error reduction over a baseline. Our results suggest that the intelligent tutoring spoken dialogue system we are developing can be enhanced to automatically predict and adapt to student emotions. ",
-              "year": "2004",
-              "pedagogicalRole": null,
-              "pageRankScore": 7.330861E-5,
-              "relevanceScore": 0.5272486300754969,
-              "authorScore": 10.5,
-              "relevantTopics": [
-                {
-                  "topicName": "Tutorial dialogue system",
-                  "strength": 0.5272486300754969
-                },
-                {
-                  "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.15756153200225273
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.07509931437597145
-                },
-                {
-                  "topicName": "Dependency treebank for emotion classification",
-                  "strength": 0.03285035504798769
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.032604035774395045
-                },
-                {
-                  "topicName": "Speech recognition",
-                  "strength": 0.03244555376737
-                },
-                {
-                  "topicName": "Dialogue system",
-                  "strength": 0.030755792588933725
-                },
-                {
-                  "topicName": "Intonation & cue phrases",
-                  "strength": 0.0307457521086423
-                },
-                {
-                  "topicName": "Prosodic features",
-                  "strength": 0.022321157483558604
-                },
-                {
-                  "topicName": "Annotation",
-                  "strength": 0.017712600253054645
-                }
-              ],
-              "index": 17
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Tutorial dialogue system"
-        },
-        {
-          "topic": [
-            {
-              "word": "numerical_expressions",
-              "value": 0.125
-            },
-            {
-              "word": "language_data",
-              "value": 0.08136094361543655
-            },
-            {
-              "word": "word_order",
-              "value": 0.08136094361543655
-            },
-            {
-              "word": "numerical_expression",
-              "value": 0.07988165318965912
-            },
-            {
-              "word": "language_documentation",
-              "value": 0.0665680468082428
-            },
-            {
-              "word": "world_languages",
-              "value": 0.05991124361753464
-            },
-            {
-              "word": "language_id",
-              "value": 0.05621301755309105
-            },
-            {
-              "word": "igt_instances",
-              "value": 0.04659763351082802
-            },
-            {
-              "word": "language_names",
-              "value": 0.04068047180771828
-            },
-            {
-              "word": "ratios_percentages",
-              "value": 0.037721894681453705
-            },
-            {
-              "word": "fractions_ratios",
-              "value": 0.03698224946856499
-            },
-            {
-              "word": "linguistic_data",
-              "value": 0.03402366861701012
-            },
-            {
-              "word": "language_code",
-              "value": 0.031804732978343964
-            },
-            {
-              "word": "gloss_line",
-              "value": 0.031804732978343964
-            },
-            {
-              "word": "percentages_fractions",
-              "value": 0.02958579920232296
-            },
-            {
-              "word": "lower-density_languages",
-              "value": 0.028846153989434242
-            },
-            {
-              "word": "language_profiles",
-              "value": 0.028846153989434242
-            },
-            {
-              "word": "common_sense",
-              "value": 0.027366863563656807
-            },
-            {
-              "word": "number_languages",
-              "value": 0.02662721835076809
-            },
-            {
-              "word": "endangered_languages",
-              "value": 0.025147929787635803
-            },
-            {
-              "word": "topic_change",
-              "value": 0.023668639361858368
-            }
-          ],
-          "documents": [
-            {
-              "author": "Daum&eacute;; III, Hal; Campbell, Lyle, ",
-              "title": "A Bayesian Model for Discovering Typological Implications",
-              "id": "P07-1009",
-              "abstractText": "A Bayesian Model for Discovering Typological Implications Hal Daume III Lyle Campbell School of Computing Department of Linguistics University of Utah University of Utah me@hal3.name lcampbel@hum.utah.edu A standard form of analysis for linguistic typology is the universal implication. These implications state facts about the range of extant languages, such as \"if objects come after verbs, then adjectives come after nouns.\" Such implications are typically discovered by painstaking hand analysis over a small sample of languages. We propose a computational model for assisting at this process. Our model is able to discover both well-known implications as well as some novel implications that deserve further study. ",
-              "year": "2007",
-              "pedagogicalRole": null,
-              "pageRankScore": 6.086994E-5,
-              "relevanceScore": 0.42825744185797016,
-              "authorScore": 0.0,
-              "relevantTopics": [
-                {
-                  "topicName": "Numerical expressions and world language data",
-                  "strength": 0.42825744185797016
-                },
-                {
-                  "topicName": "Gibbs sampling",
-                  "strength": 0.09855067662973041
-                },
-                {
-                  "topicName": "Generative models & model selection",
-                  "strength": 0.08617945169325199
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.06374168859873537
-                },
-                {
-                  "topicName": "Tree-adjoining grammar",
-                  "strength": 0.037791475303969806
-                },
-                {
-                  "topicName": "Phonetics & language divergence",
-                  "strength": 0.036380771464285644
-                },
-                {
-                  "topicName": "Feature selection and classifiers in machine learning",
-                  "strength": 0.028617607516787224
-                },
-                {
-                  "topicName": "Parallel corpora for machine translation",
-                  "strength": 0.028133574214425548
-                },
-                {
-                  "topicName": "Morphological analysis",
-                  "strength": 0.026732412255698685
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.02640033911053385
-                }
-              ],
-              "index": 18
-            },
-            {
-              "author": "Nitta, Yoshihiko, ",
-              "title": "Idiosyncratic Gap: A Tough Problem To Structure-Bound Machine Translation",
-              "id": "C86-1023",
-              "abstractText": "Current practical machine translation systems (MT, in short), which are designed to deal with a huge amount of document, are generally structure-bound. That is, the translation process is done based on the analysis and transformation of the structure of source sentence, not on the understanding and paraphrasing of the meaning of that. But each language has its own syntactic and semantic idiosyncrasy, and on this account, without understanding the total. meaning of source sentences it is often difficult for MT to bridge properly the idiosyncratic gap between source and target language. A somewhat new method called \"Cross Translation Test (CTT, in short)\" is presented that reveals the detail of idiosyncratic gap (IC, in short) together with the so-so satisfiable possibility of MT. It is also mentioned the usefulness of sublanguage approach to reducing the IC between source and target language. ",
-              "year": "1986",
-              "pedagogicalRole": null,
-              "pageRankScore": 5.8527734E-5,
-              "relevanceScore": 0.480561853936728,
-              "authorScore": 0.0,
-              "relevantTopics": [
-                {
-                  "topicName": "Numerical expressions and world language data",
-                  "strength": 0.480561853936728
-                },
-                {
-                  "topicName": "Parallel corpora for machine translation",
-                  "strength": 0.15532817423558337
-                },
-                {
-                  "topicName": "Noun phrases",
-                  "strength": 0.06170115357346054
+                  "strength": 0.04750280176526811
                 },
                 {
                   "topicName": "Machine translation systems",
-                  "strength": 0.061602791964986
+                  "strength": 0.045699069208667904
                 },
                 {
-                  "topicName": "Natural language & lexical semantics",
-                  "strength": 0.05541689248338543
-                },
-                {
-                  "topicName": "Japanese",
-                  "strength": 0.028887980315835234
-                },
-                {
-                  "topicName": "Knowledge-based natural language processing",
-                  "strength": 0.022625798341571295
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.0182353304141016
-                },
-                {
-                  "topicName": "Natural languages & computational linguistics",
-                  "strength": 0.01740156269060924
-                },
-                {
-                  "topicName": "Genetic algorithms & anaphora resolution",
-                  "strength": 0.012834784779482347
-                }
-              ],
-              "index": 19
-            },
-            {
-              "author": "Xia, Fei; Lewis, William H., ",
-              "title": "Multilingual Structural Projection across Interlinear Text",
-              "id": "N07-1057",
-              "abstractText": "Multilingual Structural Projection across Interlinear Text Fei Xia Department of Linguistics University of Washington Seattle, WA 98195 fxiaQu.washington.edu William D. Lewis Department of Linguistics University of Washington Seattle, WA 98195 wlewis2@u.Washington.edu This paper explores the potential for annotating and enriching data for low-density languages via the alignment and projection of syntactic structure from parsed data for resource-rich languages such as English. We seek to develop enriched resources for a large number of the world's languages, most of which have no significant digital presence. ",
-              "year": "2007",
-              "pedagogicalRole": null,
-              "pageRankScore": 4.5320387E-5,
-              "relevanceScore": 0.47062633806293463,
-              "authorScore": 3.0,
-              "relevantTopics": [
-                {
-                  "topicName": "Numerical expressions and world language data",
-                  "strength": 0.47062633806293463
-                },
-                {
-                  "topicName": "Word alignment",
-                  "strength": 0.10459950625983366
-                },
-                {
-                  "topicName": "Parallel corpora for machine translation",
-                  "strength": 0.1005304290754432
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.05148235790823631
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.047943260328591066
-                },
-                {
-                  "topicName": "Penn Treebank data for parsing",
-                  "strength": 0.036942400479592886
-                },
-                {
-                  "topicName": "User interfaces",
-                  "strength": 0.030797378898123187
-                },
-                {
-                  "topicName": "Identifying unknown words",
-                  "strength": 0.028823129734419972
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.026828142696142056
-                },
-                {
-                  "topicName": "Tree-adjoining grammar",
-                  "strength": 0.016952747667852878
-                }
-              ],
-              "index": 20
-            }
-          ],
-          "dependentTopics": [],
-          "topicName": "Numerical expressions and world language data"
-        },
-        {
-          "topic": [
-            {
-              "word": "computational_linguistics",
-              "value": 0.1963576227426529
-            },
-            {
-              "word": "association_computational",
-              "value": 0.1635761559009552
-            },
-            {
-              "word": "annual_meeting",
-              "value": 0.06539735198020935
-            },
-            {
-              "word": "international_conference",
-              "value": 0.05860927328467369
-            },
-            {
-              "word": "proceedings_ofthe",
-              "value": 0.04817880690097809
-            },
-            {
-              "word": "natural_language",
-              "value": 0.04470198601484299
-            },
-            {
-              "word": "meeting_association",
-              "value": 0.0385761596262455
-            },
-            {
-              "word": "word_prediction",
-              "value": 0.0362582765519619
-            },
-            {
-              "word": "linguistics_pages",
-              "value": 0.033774834126234055
-            },
-            {
-              "word": "proceedings_international",
-              "value": 0.03344370797276497
-            },
-            {
-              "word": "proceedings_annual",
-              "value": 0.03294701874256134
-            },
-            {
-              "word": "language_processing",
-              "value": 0.0327814556658268
-            },
-            {
-              "word": "proceedings_conference",
-              "value": 0.02947019785642624
-            },
-            {
-              "word": "empirical_methods",
-              "value": 0.026821192353963852
-            },
-            {
-              "word": "methods_natural",
-              "value": 0.026324503123760223
-            },
-            {
-              "word": "conference_computational",
-              "value": 0.02615894004702568
-            },
-            {
-              "word": "keystroke_savings",
-              "value": 0.023013245314359665
-            },
-            {
-              "word": "translation_proceedings",
-              "value": 0.023013245314359665
-            },
-            {
-              "word": "july_association",
-              "value": 0.022516556084156036
-            },
-            {
-              "word": "conference_empirical",
-              "value": 0.019536424428224564
-            },
-            {
-              "word": "acl_pages",
-              "value": 0.018543045967817307
-            }
-          ],
-          "documents": [
-            {
-              "author": "Granger, Richard H., ",
-              "title": "Scruffy Text Understanding: Design And Implementation Of 'Tolerant' Understanders",
-              "id": "P82-1035",
-              "abstractText": "Most large text-understanding systems have been designed under the assumption that the input text will be in reasonably \"neat\" form, e.g., newspaper stories and other edited texts. However, a great deal of natural language text, e.g., memos, rough dratts, conversation transcripts, etc., have features that differ significantly from \"neat\" texts, posing special problems for readers, such as misspelled words, missing words, poor syntactic construction, missing periods, etc. Our solution to these problems is to make use of expectations, based both on knowledge of surface English and on world knowledge of the situation being described. These syntactic and semantic expectations can be used to figure out unknown words from context, constrain the possible word-senses of words with multiple meanings (ambiguity), fill in missing words (ellipsis), and resolve referents (anaphora). This method of using expectations to aid the understanding of \"scruffy\" texts has been incorporated into a working computer program called NOMAD, which understands scruffy texts in the domain of Navy messages. 1.0 Introduction Consider the following (scribbled) message, left by a computer science professor on a colleague's desk: [1] Met w/chrmn agreed on changes to prposl nxt mtg 3 Feb. A good deal of informal text such as everyday messages like the one above are very ill-formed grammatically and contain misspellings, ad hoc abbreviations and lack of important punctuation such as periods between sentences. Yet people seem to easily understand such messages, and in fact most people would probably understand the above message just as readily as they would a more \"well-formed\" version: \"I met with the chairman, and we agreed on what changes had to be made to the proposal. Our next meeting will be on Feb. 3.\" This research was supported in part by the Naval Ocean Systems Center under contract N-00123-81-C-1078. No extra information seems to be conveyed by this longer version, and message-writers appear to take advantage of this fact by writing extremely terse messages such as [1], apparently counting on read-ers' ability to analyze them in spite of their messiness. If \"scruffy\" messages such as this one were only intended for a readership of one, there wouldn't be a real problem. ",
-              "year": "1982",
-              "pedagogicalRole": null,
-              "pageRankScore": 0.0011651315,
-              "relevanceScore": 0.6983780291765345,
-              "authorScore": 0.0,
-              "relevantTopics": [
-                {
-                  "topicName": "Proceedings of the ACL",
-                  "strength": 0.6983780291765345
-                },
-                {
-                  "topicName": "Natural language & lexical semantics",
-                  "strength": 0.11807710111884351
-                },
-                {
-                  "topicName": "Text analysis",
-                  "strength": 0.05403932930045239
-                },
-                {
-                  "topicName": "Identifying unknown words",
-                  "strength": 0.04513962650288197
-                },
-                {
-                  "topicName": "Affect in narrative",
-                  "strength": 0.026969849046279158
-                },
-                {
-                  "topicName": "Knowledge-based natural language processing",
-                  "strength": 0.016416131331963704
-                },
-                {
-                  "topicName": "Noun phrases",
-                  "strength": 0.0163289165774296
-                },
-                {
-                  "topicName": "Error correction",
-                  "strength": 0.014407146460978997
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.0022634002643843547
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.002176553686489278
-                }
-              ],
-              "index": 21
-            },
-            {
-              "author": "Goldstein-Stewart, Jade; Mittal, Vibhu O.; Carbonnell, Jaime G.; Kantrowitz, Mark, ",
-              "title": "Multi-Document Summarization By Sentence Extraction",
-              "id": "W00-0405",
-              "abstractText": "This paper discusses a text extraction approach to multi-document summarization that builds on single-document summarization methods by using additional, available in-, formation about the document set as a whole and the relationships between the documents. Multi-document summarization differs from single in that the issues of compression, speed, redundancy and passage selection are critical in the formation of useful summaries. Our approach addresses these issues by using domain-independent techniques based mainly on fast, statistical processing, a metric for reducing redundancy and maximizing diversity in the selected passages, and a modular framework to allow easy parameterization for different genres, corpora characteristics and user requirements. ",
-              "year": "2000",
-              "pedagogicalRole": null,
-              "pageRankScore": 9.465619E-5,
-              "relevanceScore": 0.32999530441106156,
-              "authorScore": 1.25,
-              "relevantTopics": [
-                {
-                  "topicName": "Proceedings of the ACL",
-                  "strength": 0.32999530441106156
-                },
-                {
-                  "topicName": "Multi-document summarization",
-                  "strength": 0.27533785788619514
-                },
-                {
-                  "topicName": "\"Document classification, clustering, and categorization\"",
-                  "strength": 0.09955220334738688
-                },
-                {
-                  "topicName": "Information retrieval",
-                  "strength": 0.07261616594198073
-                },
-                {
-                  "topicName": "Knowledge-based natural language processing",
-                  "strength": 0.04905551104392563
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.03814576303932507
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.026277354430511816
-                },
-                {
-                  "topicName": "Vector space",
-                  "strength": 0.01756094600162299
-                },
-                {
-                  "topicName": "Text analysis",
-                  "strength": 0.016774460902543364
-                },
-                {
-                  "topicName": "Training and testing data sets",
-                  "strength": 0.01522720246547939
-                }
-              ],
-              "index": 22
-            },
-            {
-              "author": "Ravi, Sujith; Knight, Kevin, ",
-              "title": "Attacking Decipherment Problems Optimally with Low-Order N-gram Models",
-              "id": "D08-1085",
-              "abstractText": "Attacking Decipherment Problems Optimally with Low-Order N-gram Models Sujith Ravi and Kevin Knight University of Southern California Information Sciences Institute Marina del Rey, California 90292 {sravi,knight}@isi.edu We introduce a method for solving substitution ciphers using low-order letter n-gram models. This method enforces global constraints using integer programming, and it guarantees that no decipherment key is overlooked. We carry out extensive empirical experiments showing how decipherment accuracy varies as a function of cipher length and n-gram order. We also make an empirical investigation of Shannon's (1949) theory of uncertainty in decipherment. ",
-              "year": "2008",
-              "pedagogicalRole": null,
-              "pageRankScore": 4.375868E-5,
-              "relevanceScore": 0.5625337630348385,
-              "authorScore": 15.0,
-              "relevantTopics": [
-                {
-                  "topicName": "Proceedings of the ACL",
-                  "strength": 0.5625337630348385
-                },
-                {
-                  "topicName": "Language model",
-                  "strength": 0.10205055548174757
-                },
-                {
-                  "topicName": "Objective functions",
-                  "strength": 0.0589585620158742
-                },
-                {
-                  "topicName": "Experimental results",
-                  "strength": 0.033268824995327954
-                },
-                {
-                  "topicName": "Grammar induction",
-                  "strength": 0.023445303285477295
-                },
-                {
-                  "topicName": "Computational linguistics",
-                  "strength": 0.022438599716111226
+                  "topicName": "Rule-based parsing",
+                  "strength": 0.04335083648061003
                 },
                 {
                   "topicName": "Beam search & other search algorithms",
-                  "strength": 0.019029718903581603
+                  "strength": 0.03610152581536706
                 },
                 {
-                  "topicName": "Natural languages & computational linguistics",
-                  "strength": 0.018448037821218764
+                  "topicName": "Human assessment",
+                  "strength": 0.032917035233456696
                 },
                 {
-                  "topicName": "Phonology & syllabification",
-                  "strength": 0.01838093548320238
+                  "topicName": "Identifying unknown words",
+                  "strength": 0.029033661618538136
                 },
                 {
-                  "topicName": "Generative models & model selection",
-                  "strength": 0.01466331527515767
+                  "topicName": "Text analysis",
+                  "strength": 0.020138071792617226
                 }
               ],
-              "index": 23
+              "index": 9
+            },
+            {
+              "author": "Koller, Alexander; Striegnitz, Kristina; Byron, Donna K.; Cassell, Justine; Dale, Robert; Dalzel-Job, Sara; Moore, Johanna D.; Oberlander, Jon, ",
+              "title": "Validating the web-based evaluation of NLG systems",
+              "id": "P09-2076",
+              "abstractText": "Validating the web-based evaluation of NLG systems Alexander Koller Kristina Striegnitz Donna Byron Justine Cassell Saarland U. Union College Northeastern U. Northwestern U. ller@mmci.uni-saarland.de striegnk@union.edu dbyron@ccs.neu.edu justine@northwestern.e Robert Dale Sara Dalzel-Job Jon Oberlander Johanna Moore Macquarie U. U. of Edinburgh U. of Edinburgh U. of Edinburgh Robert.Dale@mq.edu.au S . Dalzel-Job@ sms.ed.ac.uk {J.Oberlander| J .Moore}@ed.ac.uk The GIVE Challenge is a recent shared task in which NLG systems are evaluated over the Internet. ",
+              "year": "2009",
+              "pedagogicalRole": null,
+              "pageRankScore": 5.025448E-5,
+              "relevanceScore": 0.485238578311597,
+              "authorScore": 7.63,
+              "relevantTopics": [
+                {
+                  "topicName": "Virtual world",
+                  "strength": 0.485238578311597
+                },
+                {
+                  "topicName": "Human assessment",
+                  "strength": 0.19249072634741599
+                },
+                {
+                  "topicName": "Computational linguistics",
+                  "strength": 0.07666009674076474
+                },
+                {
+                  "topicName": "Natural language generation systems",
+                  "strength": 0.049772274661039465
+                },
+                {
+                  "topicName": "Dialog systems & user satisfaction",
+                  "strength": 0.047299441090217983
+                },
+                {
+                  "topicName": "Training and testing data sets",
+                  "strength": 0.03760031783415556
+                },
+                {
+                  "topicName": "Knowledge-based natural language processing",
+                  "strength": 0.027591700863296466
+                },
+                {
+                  "topicName": "Experimental results",
+                  "strength": 0.02531369504095586
+                },
+                {
+                  "topicName": "Miscellany 17",
+                  "strength": 0.014104015392149364
+                },
+                {
+                  "topicName": "Gender classification",
+                  "strength": 0.013274606912683331
+                }
+              ],
+              "index": 10
+            },
+            {
+              "author": "Byron, Donna K.; Koller, Alexander; Striegnitz, Kristina; Cassell, Justine; Dale, Robert; Moore, Johanna D.; Oberlander, Jon, ",
+              "title": "Report on the First NLG Challenge on Generating Instructions in Virtual Environments (GIVE)",
+              "id": "W09-0628",
+              "abstractText": "Report on the First NLG Challenge on Generating Instructions in Virtual Environments (GIVE) Donna Byron Northeastern University dbyron@ccs.neu.edu Alexander Koller Saarland University koller@mmci.uni-saarland.de Kristina Striegnitz Union College striegnk@union.edu ",
+              "year": "2009",
+              "pedagogicalRole": null,
+              "pageRankScore": 4.4124954E-5,
+              "relevanceScore": 0.6099420107736772,
+              "authorScore": 8.71,
+              "relevantTopics": [
+                {
+                  "topicName": "Virtual world",
+                  "strength": 0.6099420107736772
+                },
+                {
+                  "topicName": "Human assessment",
+                  "strength": 0.11720071958718409
+                },
+                {
+                  "topicName": "Computational linguistics",
+                  "strength": 0.05831119109605089
+                },
+                {
+                  "topicName": "Knowledge-based natural language processing",
+                  "strength": 0.05540228292720066
+                },
+                {
+                  "topicName": "Dialog systems & user satisfaction",
+                  "strength": 0.028358812424317256
+                },
+                {
+                  "topicName": "Natural language generation systems",
+                  "strength": 0.020790673874595437
+                },
+                {
+                  "topicName": "Miscellany 17",
+                  "strength": 0.019844932402361636
+                },
+                {
+                  "topicName": "Experimental results",
+                  "strength": 0.018670608736723632
+                },
+                {
+                  "topicName": "User interfaces",
+                  "strength": 0.017515546956130373
+                },
+                {
+                  "topicName": "Spatial referring expressions",
+                  "strength": 0.014182812767805187
+                }
+              ],
+              "index": 11
             }
           ],
           "dependentTopics": [],
-          "topicName": "Proceedings of the ACL"
+          "topicName": "Virtual world"
         }
       ],
-      "topicName": "Computational linguistics (discipline)"
+      "topicName": "Language acquisition"
     }
   ],
   "graphResponse": {
     "nodes": [
       {
-        "id": 132,
-        "label": "Tree kernel",
+        "id": 293,
+        "label": "Readability / reading level",
         "matched": false
       },
       {
-        "id": 7,
-        "label": "Tutorial dialogue system",
+        "id": 54,
+        "label": "Minimum description length",
         "matched": false
       },
       {
-        "id": 151,
-        "label": "Numerical expressions and world language data",
+        "id": 105,
+        "label": "Virtual world",
         "matched": false
       },
       {
-        "id": 104,
-        "label": "Feature selection and classifiers in machine learning",
+        "id": 267,
+        "label": "Language acquisition",
         "matched": true
-      },
-      {
-        "id": 120,
-        "label": "Proceedings of the ACL",
-        "matched": false
-      },
-      {
-        "id": 232,
-        "label": "Computational linguistics (discipline)",
-        "matched": true
-      },
-      {
-        "id": 153,
-        "label": "Training and testing data sets",
-        "matched": false
-      },
-      {
-        "id": 44,
-        "label": "Lexical substitution",
-        "matched": false
       }
     ],
     "edges": [
       {
-        "from": 104,
-        "to": 44,
-        "value": 44.0
+        "from": 267,
+        "to": 54,
+        "value": 54.0
       },
       {
-        "from": 104,
-        "to": 132,
-        "value": 132.0
+        "from": 267,
+        "to": 105,
+        "value": 105.0
       },
       {
-        "from": 104,
-        "to": 153,
-        "value": 153.0
-      },
-      {
-        "from": 153,
-        "to": 44,
-        "value": 44.0
-      },
-      {
-        "from": 232,
-        "to": 7,
-        "value": 7.0
-      },
-      {
-        "from": 232,
-        "to": 120,
-        "value": 120.0
-      },
-      {
-        "from": 232,
-        "to": 151,
-        "value": 151.0
+        "from": 267,
+        "to": 293,
+        "value": 293.0
       }
     ]
-  }
+  },
+  "baseLineDocuments": [
+    {
+      "author": "Yang, Charles D., ",
+      "title": "A Selectionist Theory Of Language Acquisition",
+      "id": "P99-1055",
+      "abstractText": "This paper argues that developmental patterns in child language be taken seriously in computational models of language acquisition, and proposes a formal theory that meets this criterion. We first present developmental facts that are problematic for statistical learning approaches which assume no prior knowledge of grammar, and for traditional learnabil-ity models which assume the learner moves from one UG-defined grammar to another. In contrast, we view language acquisition as a population of grammars associated with \"weights\", that compete in a Darwinian selectionist process. Selection is made possible by the variational properties of individual grammars; specifically, their differential compatibility with the primary linguistic data in the environment. In addition to a convergence proof, we present empirical evidence in child language development, that a learner is best modeled as multiple grammars in coexistence and competition. ",
+      "year": "1999",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.5861056845876617
+        },
+        {
+          "topicName": "Rule-based parsing",
+          "strength": 0.06359550263544957
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.04608735816925561
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.044094375696947075
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.039931142214077744
+        },
+        {
+          "topicName": "Genetic algorithms & anaphora resolution",
+          "strength": 0.024717169525345285
+        },
+        {
+          "topicName": "Natural languages & computational linguistics",
+          "strength": 0.022254646025394828
+        },
+        {
+          "topicName": "Confusion sets",
+          "strength": 0.019674379611831997
+        },
+        {
+          "topicName": "Parallel corpora for machine translation",
+          "strength": 0.017701452999750643
+        },
+        {
+          "topicName": "Generative models & model selection",
+          "strength": 0.01722359623561319
+        }
+      ],
+      "index": 0
+    },
+    {
+      "author": "Buttery, Paula, ",
+      "title": "A Quantitative Evaluation Of Naturalistic Models Of Language Acquisition; The Efficiency Of The Triggering Learning Algorithm Compared To A Categorial Grammar Learner",
+      "id": "W04-1301",
+      "abstractText": "Naturalistic theories of language acquisition assume learners to be endowed with some innate language knowledge. The purpose of this innate knowledge is to facilitate language acquisition by constraining a learner’s hypothesis space. This paper discusses a naturalistic learning system (a Categorial Grammar Learner (CGL)) that differs from previous learners (such as the Triggering Learning Algorithm (TLA) (Gibson and Wexler, 1994)) by employing a dynamic definition of the hypothesis-space which is driven by the Bayesian Incremental Parameter Setting algorithm (Briscoe, 1999). We compare the efficiency of the TLA with the CGL when acquiring an independently and identically distributed English-like language in noiseless conditions. We show that when convergence to the target grammar occurs (which is not guaranteed), the expected number of steps to convergence for the TLA is shorter than that for the CGL initialized with uniform priors. However, the CGL converges more reliably than the TLA. We discuss the trade-off of efficiency against more reliable convergence to the target grammar. ",
+      "year": "2004",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.5381193166905334
+        },
+        {
+          "topicName": "Combinatory categorial grammar",
+          "strength": 0.11142964393084803
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.07037692594176884
+        },
+        {
+          "topicName": "Rule-based parsing",
+          "strength": 0.03867087710760122
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.03758725090347298
+        },
+        {
+          "topicName": "Identifying unknown words",
+          "strength": 0.02799594790725481
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.023118635891592815
+        },
+        {
+          "topicName": "Language model",
+          "strength": 0.01968678859578733
+        },
+        {
+          "topicName": "Natural languages & computational linguistics",
+          "strength": 0.019069429387717357
+        },
+        {
+          "topicName": "Hidden Markov models",
+          "strength": 0.016475161263826473
+        }
+      ],
+      "index": 1
+    },
+    {
+      "author": "Sakas, William Gregory, ",
+      "title": "A Word-Order Database For Testing Computational Models Of Language Acquisition",
+      "id": "P03-1053",
+      "abstractText": "An investment of effort over the last two years has begun to produce a wealth of data concerning computational psycholinguistic models of syntax acquisition. The data is generated by running simulations on a recently completed database of word order patterns from over 3,000 abstract languages. This article presents the design of the database which contains sentence patterns, grammars and derivations that can be used to test acquisition models from widely divergent paradigms. The domain is generated from grammars that are linguistically motivated by current syntactic theory and the sentence patterns have been validated as psychologically/developmentally plausible by checking their frequency of occurrence in corpora of child-directed speech. A small case-study simulation is also presented. ",
+      "year": "2003",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.3920287414576951
+        },
+        {
+          "topicName": "Rule-based parsing",
+          "strength": 0.08748495413754849
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.05228015571264065
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.050681592973006694
+        },
+        {
+          "topicName": "Constraint networks",
+          "strength": 0.04470563837010977
+        },
+        {
+          "topicName": "Information extraction patterns",
+          "strength": 0.03440836341221451
+        },
+        {
+          "topicName": "Knowledge-based natural language processing",
+          "strength": 0.03353533942098462
+        },
+        {
+          "topicName": "User interfaces",
+          "strength": 0.030002637864395637
+        },
+        {
+          "topicName": "Cultural heritage & extragrammaticality",
+          "strength": 0.027512978895655592
+        },
+        {
+          "topicName": "Parallel corpora for machine translation",
+          "strength": 0.023626883049665145
+        }
+      ],
+      "index": 2
+    },
+    {
+      "author": "Clark, Alexander, ",
+      "title": "Grammatical Inference And First Language Acquisition",
+      "id": "W04-1304",
+      "abstractText": "One argument for parametric models of language has been learnability in the context of first language acquisition. The claim is made that “logical” arguments from learnability theory require non-trivial constraints on the class of languages. Initial formalisations of the problem (Gold, 1967) are however inapplicable to this particular situation. In this paper we construct an appropriate formalisation of the problem using a modern vocabulary drawn from statistical learning theory and grammatical inference and looking in detail at the relevant empirical facts. We claim that a variant of the Probably Approximately Correct (PAC) learning framework (Valiant, 1984) with positive samples only, modified so it is not completely distribution free is the appropriate choice. Some negative results derived from cryptographic problems (Kearns et al., 1994) appear to apply in this situation but the existence of algorithms with provably good performance (Ron et al., 1995) and subsequent work, shows how these negative results are not as strong as they initially appear, and that recent algorithms for learning regular languages partially satisfy our criteria. We then discuss the applicability of these results to parametric and nonparametric models. ",
+      "year": "2004",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 3.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.3835134493230021
+        },
+        {
+          "topicName": "Finite-state automata",
+          "strength": 0.10918833974337672
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.08894720314063038
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.06933245114596524
+        },
+        {
+          "topicName": "Natural languages & computational linguistics",
+          "strength": 0.05483562526536579
+        },
+        {
+          "topicName": "Context-free grammars",
+          "strength": 0.04599520919617747
+        },
+        {
+          "topicName": "Gibbs sampling",
+          "strength": 0.022399774181110377
+        },
+        {
+          "topicName": "User interfaces",
+          "strength": 0.019224746707174507
+        },
+        {
+          "topicName": "Objective functions",
+          "strength": 0.018424420646063346
+        },
+        {
+          "topicName": "Parallel corpora for machine translation",
+          "strength": 0.017633728272515553
+        }
+      ],
+      "index": 3
+    },
+    {
+      "author": "Rappoport, Ari; Sheinman, Vera, ",
+      "title": "A Second Language Acquisition Model Using Example Generalization And Concept Categories",
+      "id": "W05-0506",
+      "abstractText": "We present a computational model of acquiring a second language from example sentences. Our learning algorithms build a construction grammar language model, and generalize using form-based patterns and the learners conceptual ystem. We use a unique professional language learning corpus, and show that substantial reliable learning can be achieved even though the corpus is very small. The model is applied to assisting the authoring of Japanese language learning corpora. ",
+      "year": "2005",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 2.5,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.3679071983971715
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.07011690991701232
+        },
+        {
+          "topicName": "Generative models & model selection",
+          "strength": 0.04763005300634228
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.04360633053487866
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.04309498844635826
+        },
+        {
+          "topicName": "Knowledge-based natural language processing",
+          "strength": 0.035561191324456454
+        },
+        {
+          "topicName": "Identifying unknown words",
+          "strength": 0.03554153544983013
+        },
+        {
+          "topicName": "Computational linguistics (discipline)",
+          "strength": 0.03218448121630477
+        },
+        {
+          "topicName": "Miscellany 3",
+          "strength": 0.03217554977590255
+        },
+        {
+          "topicName": "Eye tracking",
+          "strength": 0.03077619039819496
+        }
+      ],
+      "index": 4
+    },
+    {
+      "author": "Gambell, Timothy; Yang, Charles D., ",
+      "title": "Statistics Learning And Universal Grammar: Modeling Word Segmentation",
+      "id": "W04-1307",
+      "abstractText": "Two facts about language learning are indisputable. First, only a human baby, but not her pet kitten, can learn a language. It is clear, then, that there must be some element in our biology that accounts for this unique ability. Chomsky’s Universal Grammar (UG), an innate form of knowledge specific to language, is an account of what this ability is. This position gains support from formal learning theory [1- 3], which sharpens the logical conclusion [4,5] that no (realistically efficient) learning is possible without priori restrictions on the learning space. Second, it is also clear that no matter how much of a head start the child has through UG, language is learned. Phonology, lexicon, and grammar, while governed by universal principles and constraints, do vary from language to language, and they must be learned on the basis of linguistic experience. In other words–indeed a truism –both endowment and learning contribute to language acquisition, the result of which is extremely sophisticated body of linguistic knowledge. Consequently, both must be taken in account, explicitly, in a theory of language acquisition [6,7]. Controversies arise when it comes to the relative contributions by innate knowledge and experience-based learning. ",
+      "year": "2004",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.39737788562278453
+        },
+        {
+          "topicName": "Phonology & syllabification",
+          "strength": 0.12381772355346937
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.08723310126037255
+        },
+        {
+          "topicName": "Chinese word segmentation",
+          "strength": 0.045962218559809226
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.04135534882564233
+        },
+        {
+          "topicName": "Identifying unknown words",
+          "strength": 0.04115650984969524
+        },
+        {
+          "topicName": "Minimum description length",
+          "strength": 0.03195474169196294
+        },
+        {
+          "topicName": "Training and testing data sets",
+          "strength": 0.027287314078157297
+        },
+        {
+          "topicName": "Miscellany 28",
+          "strength": 0.025961296131875287
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.023480627176808874
+        }
+      ],
+      "index": 5
+    },
+    {
+      "author": "Sahakian, Sam; Snyder, Benjamin, ",
+      "title": "Automatically Learning Measures of Child Language Development",
+      "id": "P12-2019",
+      "abstractText": "We propose a new approach for the creation of child language development metrics. A set of linguistic features is computed on child speech samples and used as input in two age prediction  experiments. In the first experiment, we learn a child-specific metric and predicts the ages at which speech samples were produced. We then learn a more general developmental  index by applying our method across children,  predicting relative temporal orderings of speech samples. In both cases we compare our results with established measures of language  development, showing improvements in age prediction performance. ",
+      "year": "2012",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 1.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.36259045036441334
+        },
+        {
+          "topicName": "Training and testing data sets",
+          "strength": 0.10363587004138688
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.06708758316116288
+        },
+        {
+          "topicName": "Oral proficiency testing",
+          "strength": 0.04791054721218402
+        },
+        {
+          "topicName": "Readability / reading level",
+          "strength": 0.04415532560044969
+        },
+        {
+          "topicName": "Feature selection and classifiers in machine learning",
+          "strength": 0.04334581324745204
+        },
+        {
+          "topicName": "Miscellany 10",
+          "strength": 0.04321256886899356
+        },
+        {
+          "topicName": "Machine translation evaluation",
+          "strength": 0.04228696739541633
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.0371201913490458
+        },
+        {
+          "topicName": "Objective functions",
+          "strength": 0.031065253391691857
+        }
+      ],
+      "index": 6
+    },
+    {
+      "author": "Briscoe, Ted, ",
+      "title": "Co-Evolution Of Language And Of The Language Acquisition Device",
+      "id": "P97-1054",
+      "abstractText": "A new account of parameter setting during grammatical acquisition is presented in terms of Generalized Categorial Grammar embedded in a default inheritance hierarchy, providing a natural partial ordering on the setting of parameters. Experiments show that several experhnentally effective learners can be defined in this framework. Evolutionary simulations suggest that a learner with default initial settings for parameters will emerge, provided that learning is memory limited and the environment of linguistic adaptation contains an appropriate language. ",
+      "year": "1997",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 13.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.42073632870420447
+        },
+        {
+          "topicName": "Rule-based parsing",
+          "strength": 0.08062671226300089
+        },
+        {
+          "topicName": "Combinatory categorial grammar",
+          "strength": 0.052493982650769655
+        },
+        {
+          "topicName": "Numerical expressions and world language data",
+          "strength": 0.0475305795989162
+        },
+        {
+          "topicName": "Human sentence processing",
+          "strength": 0.04215886478519219
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.041398362622014
+        },
+        {
+          "topicName": "Lexical rules",
+          "strength": 0.04050495370366877
+        },
+        {
+          "topicName": "Genetic algorithms & anaphora resolution",
+          "strength": 0.03885114000822188
+        },
+        {
+          "topicName": "Parallel corpora for machine translation",
+          "strength": 0.026076572932467002
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.02166538924039275
+        }
+      ],
+      "index": 7
+    },
+    {
+      "author": "Clark, Alexander; Lappin, Shalom, ",
+      "title": "Another Look at Indirect Negative Evidence",
+      "id": "W09-0904",
+      "abstractText": "Another look at indirect negative evidence Alexander Clark Shalom Lappin Department of Computer Science Department of Philosophy Royal Holloway, University of London King's College, London alexc@cs.rhul.ac.uk shalom.lappin@kcl.ac.uk Indirect negative evidence is clearly an important way for learners to constrain over-generalisation, and yet a good learning theoretic analysis has yet to be provided for this, whether in a PAC or a probabilistic identification in the limit framework. In this paper we suggest a theoretical analysis of indirect negative evidence that allows the presence of ungrammatical strings in the input and also accounts for the relationship between grammatical-ity/acceptability and probability. Given independently justified assumptions about lower bounds on the probabilities of grammatical strings, we establish that a limited number of membership queries of some strings can be probabilistically simulated. ",
+      "year": "2009",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 4.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.4661890934606924
+        },
+        {
+          "topicName": "Language model",
+          "strength": 0.09366499415570116
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.07423644431692354
+        },
+        {
+          "topicName": "Finite-state automata",
+          "strength": 0.05733498099777728
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.0527191328950879
+        },
+        {
+          "topicName": "Natural languages & computational linguistics",
+          "strength": 0.028239417010159244
+        },
+        {
+          "topicName": "Miscellany 2",
+          "strength": 0.026749826035727953
+        },
+        {
+          "topicName": "Gibbs sampling",
+          "strength": 0.025321392170672734
+        },
+        {
+          "topicName": "Generative models & model selection",
+          "strength": 0.023952752164012107
+        },
+        {
+          "topicName": "Supervised learning",
+          "strength": 0.02198340310123602
+        }
+      ],
+      "index": 8
+    },
+    {
+      "author": "Mitchener, W. Garrett, ",
+      "title": "Simulating Language Change In The Presence Of Non-Idealized Syntax",
+      "id": "W05-0502",
+      "abstractText": "Both Middle English and Old French had a syntactic property called verb-second or V2 that disappeared. In this paper describes a simulation being developed to shed light on the question of why V2 is stable in some languages, but not others. The simulation, based on a Markov chain, uses fuzzy grammars where speakers can use an arbitrary mixture of idealized grammars. Thus, it can mimic the variable syntax observed in Middle English manuscripts. The simulation supports the hypotheses that children use the topic of a sentence for word order acquisition, that acquisition takes into account the ambiguity of grammatical information available from sample sentences, and that speakers prefer to speak with more regularity than they observe in the primary linguistic data. ",
+      "year": "2005",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.38121325592298105
+        },
+        {
+          "topicName": "Hidden Markov models",
+          "strength": 0.08906121660005023
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.05852845518040652
+        },
+        {
+          "topicName": "Gibbs sampling",
+          "strength": 0.057033151674073336
+        },
+        {
+          "topicName": "Co-reference",
+          "strength": 0.05264240689155015
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.047888866003764984
+        },
+        {
+          "topicName": "Language model",
+          "strength": 0.03689120907987565
+        },
+        {
+          "topicName": "Rule-based parsing",
+          "strength": 0.03337626477841204
+        },
+        {
+          "topicName": "Speaker & hearer",
+          "strength": 0.02984456713066301
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.024729276924968787
+        }
+      ],
+      "index": 9
+    },
+    {
+      "author": "Lignos, Constantine; Yang, Charles D., ",
+      "title": "Recession Segmentation: Simpler Online Word Segmentation Using Limited Resources",
+      "id": "W10-2912",
+      "abstractText": "Recession Segmentation: Simpler Online Word Segmentation Using Limited Resources* Constantine Lignos, Charles Yang Dept. of Computer and Information Science, Dept. of Linguistics University of Pennsylvania lignos@cis.upenn.edu, charles.yang@ling.upenn.edu In this paper we present a cognitively plausible approach to word segmentation that segments in an online fashion using only local information and a lexicon of previously segmented words. Unlike popular statistical optimization techniques, the learner uses structural information of the input syllables rather than distributional cues to segment words. We develop a memory model for the learner that like a child learner does not recall previously hypothesized words perfectly. ",
+      "year": "2010",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.38057462101521045
+        },
+        {
+          "topicName": "Phonology & syllabification",
+          "strength": 0.14039904962582142
+        },
+        {
+          "topicName": "Identifying unknown words",
+          "strength": 0.0975488060578844
+        },
+        {
+          "topicName": "Lexical chains & text segmentation",
+          "strength": 0.05299494554746031
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.046998037748116415
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.04696066706070673
+        },
+        {
+          "topicName": "Training and testing data sets",
+          "strength": 0.04189779178131836
+        },
+        {
+          "topicName": "Chinese word segmentation",
+          "strength": 0.04023660856204515
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.028764251123895218
+        },
+        {
+          "topicName": "Gibbs sampling",
+          "strength": 0.01972961140159086
+        }
+      ],
+      "index": 10
+    },
+    {
+      "author": "Yang, Charles D., ",
+      "title": "A Statistical Test for Grammar",
+      "id": "W11-0604",
+      "abstractText": "A Statistical Test for Grammar Charles Yang Department of Linguistics & Computer Science Institute for Research in Cognitive Science University of Pennsylvania charles.yang@ling.upenn.edu We propose a statistical test for measuring grammatical productivity. We show that very young children's knowledge is consistent with a systematic grammar that independently combines linguistic units. To a testable extent, the usage-based approach to language and language learning, which emphasizes the role of lexically specific memorization, is inconsistent with the child language data. We also discuss the connection of this research with developments in computational and theoretical linguistics. ",
+      "year": "2011",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.4237753699619817
+        },
+        {
+          "topicName": "Sampling & Zipf's law",
+          "strength": 0.15727206241033667
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.11461815166699804
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.035670151672979336
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.03403761000603593
+        },
+        {
+          "topicName": "Morphological analysis",
+          "strength": 0.03148352531018907
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.030977644469661458
+        },
+        {
+          "topicName": "Language model",
+          "strength": 0.02235916924205438
+        },
+        {
+          "topicName": "Minimum description length",
+          "strength": 0.01658807896217569
+        },
+        {
+          "topicName": "Rule-based parsing",
+          "strength": 0.01606118298332014
+        }
+      ],
+      "index": 11
+    },
+    {
+      "author": "Pertsova, Katya, ",
+      "title": "Comparing Learners for Boolean partitions: Implications for Morphological Paradigms",
+      "id": "W09-1010",
+      "abstractText": "Comparing learners for Boolean partitions: implications for morphological paradigms * Katya Pertsova University of North Carolina, Chapel Hill pertsova@email.unc.edu In this paper, I show that a problem of learning a morphological paradigm is similar to a problem of learning a partition of the space of Boolean functions. I describe several learners that solve this problem in different ways, and compare their basic properties. ",
+      "year": "2009",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.5520699742731523
+        },
+        {
+          "topicName": "Morphological analysis",
+          "strength": 0.079616723887694
+        },
+        {
+          "topicName": "Natural languages & computational linguistics",
+          "strength": 0.07356884769087899
+        },
+        {
+          "topicName": "Morphological segmentation",
+          "strength": 0.04005137908375357
+        },
+        {
+          "topicName": "Feature selection and classifiers in machine learning",
+          "strength": 0.03606710654971429
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.030630411236865596
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.030605719477898675
+        },
+        {
+          "topicName": "Objective functions",
+          "strength": 0.025383800881219724
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.017498841087353563
+        },
+        {
+          "topicName": "Lexical semantics",
+          "strength": 0.016224314006828357
+        }
+      ],
+      "index": 12
+    },
+    {
+      "author": "Alishahi, Afra; Fazly, Afsaneh; Stevenson, Suzanne, ",
+      "title": "Fast Mapping in Word Learning: What Probabilities Tell Us",
+      "id": "W08-2108",
+      "abstractText": "Fast Mapping in Word Learning: What Probabilities Tell Us Afra Alishahi and Afsaneh Fazly and Suzanne Stevenson Department of Computer Science University of Toronto {afra,afsaneh,suzanne}@cs.toronto.edu Children can determine the meaning of a new word from hearing it used in a familiar context—an ability often referred to as fast mapping. In this paper, we study fast mapping in the context of a general probabilistic model of word learning. We use our model to simulate fast mapping experiments on children, such as referent selection and retention. The word learning model can perform these tasks through an inductive interpretation of the acquired probabilities. Our results suggest that fast mapping occurs as a natural consequence of learning more words, and provides explanations for the (occasionally contradictory) child experimental data. ",
+      "year": "2008",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 3.67,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.5153466027961352
+        },
+        {
+          "topicName": "Identifying unknown words",
+          "strength": 0.07183947880190573
+        },
+        {
+          "topicName": "Generative models & model selection",
+          "strength": 0.07101694374292655
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.054476127191374256
+        },
+        {
+          "topicName": "Training and testing data sets",
+          "strength": 0.047701146916110077
+        },
+        {
+          "topicName": "Spatial referring expressions",
+          "strength": 0.043217020279325676
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.03707213028335711
+        },
+        {
+          "topicName": "Language model",
+          "strength": 0.030562601679284724
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.029482615386695134
+        },
+        {
+          "topicName": "Word alignment",
+          "strength": 0.017455028731367814
+        }
+      ],
+      "index": 13
+    },
+    {
+      "author": "Villavicencio, Aline, ",
+      "title": "The Acquisition Of Word Order By A Computational Learning System",
+      "id": "W00-0743",
+      "abstractText": "The purpose of this work is to investigate the process of grammatical acquisition from data. We are using a computational learning system that is composed of a Universal Grammar with associated parameters, and a learning algorithm, following the Principles and Parameters Theory. The Universal Grammar is implemented as a Unification-Based Generalised Cat-egorial Grammar, embedded in a default inheritance network of lexical types. The learning algorithm receives input from a corpus annotated with logical forms and sets the parameters based on this input. This framework is used as basis to investigate several aspects of language acquisition. In this paper we are concentrating on the acquisition of word order for different learners. The results obtained show the different learners having a similar performance and converging towards the target grammar given the input data available, regardless of their starting points. It also shows how the amount of noise present in the input data affects the speed of convergence of the learners towards the target. ",
+      "year": "2000",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 2.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.47647586080278753
+        },
+        {
+          "topicName": "Lexical rules",
+          "strength": 0.08180477182633711
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.05055107353825456
+        },
+        {
+          "topicName": "Combinatory categorial grammar",
+          "strength": 0.047813903276381665
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.04696775774520582
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.039582571127186134
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.031006502205957815
+        },
+        {
+          "topicName": "Training and testing data sets",
+          "strength": 0.028859539528160682
+        },
+        {
+          "topicName": "Language model",
+          "strength": 0.025017122835553803
+        },
+        {
+          "topicName": "Feature structures",
+          "strength": 0.02445042851938708
+        }
+      ],
+      "index": 14
+    },
+    {
+      "author": "Matusevych, Yevgen; Alishahi, Afra; Backus, Ad, ",
+      "title": "Computational simulations of second language construction learning",
+      "id": "W13-2606",
+      "abstractText": "There are few computational models of second  language acquisition (SLA). At the same time, many questions in the field of SLA remain  unanswered. In particular, SLA patterns are difficult to study due to the large amount of variation between human learners. We present a computational model of second language construction learning that allows manipulating specific parameters such as age of onset and amount of exposure. We use the model to study general developmental patterns of SLA and two specific effects sometimes found in empirical studies: construction priming and a facilitatory effect of skewed frequencies in the input. Our simulations replicate the expected SLA patterns as well as the two effects. Our model can be used in further studies of various SLA phenomena. ",
+      "year": "2013",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 0.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.38067074495097725
+        },
+        {
+          "topicName": "Verb classes",
+          "strength": 0.12228854507409681
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.07394091159878931
+        },
+        {
+          "topicName": "Natural language & lexical semantics",
+          "strength": 0.04335376769531785
+        },
+        {
+          "topicName": "Human sentence processing",
+          "strength": 0.035868767483561464
+        },
+        {
+          "topicName": "Training and testing data sets",
+          "strength": 0.028256835223347623
+        },
+        {
+          "topicName": "Information extraction patterns",
+          "strength": 0.027731367938249495
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.026152397879316558
+        },
+        {
+          "topicName": "Semantic role labeling",
+          "strength": 0.025689280679404538
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.025480188395570657
+        }
+      ],
+      "index": 15
+    },
+    {
+      "author": "Wilkens, Rodrigo; Villavicencio, Aline, ",
+      "title": "I say have you say tem: profiling verbs in children data in English and Portuguese",
+      "id": "W12-0910",
+      "abstractText": "In this paper we present a profile of verb usage  across ages in child-produced sentences in English and Portuguese. We examine in particular lexical and syntactic characteristics  of verbs and find common trends in these languages as children?s ages increase, such as the prominence of general and poly-semic verbs, as well as divergences such as the proportion of subject dropping. We also find a correlation between the age of acquisition  and the number of complements of a  verb for English. ",
+      "year": "2012",
+      "pedagogicalRole": null,
+      "pageRankScore": 0.0,
+      "relevanceScore": 0.0,
+      "authorScore": 1.0,
+      "relevantTopics": [
+        {
+          "topicName": "Language acquisition",
+          "strength": 0.36023861171595445
+        },
+        {
+          "topicName": "Verb classes",
+          "strength": 0.16360330283799085
+        },
+        {
+          "topicName": "Computational linguistics",
+          "strength": 0.12785597102833285
+        },
+        {
+          "topicName": "Parallel corpora for machine translation",
+          "strength": 0.06331001945779385
+        },
+        {
+          "topicName": "Noun phrases",
+          "strength": 0.05635905459582074
+        },
+        {
+          "topicName": "Gold standard",
+          "strength": 0.04816802181756711
+        },
+        {
+          "topicName": "Experimental results",
+          "strength": 0.04567341995968043
+        },
+        {
+          "topicName": "Annotation",
+          "strength": 0.02715263149837978
+        },
+        {
+          "topicName": "Proceedings of the ACL",
+          "strength": 0.01707547337141899
+        },
+        {
+          "topicName": "Human assessment",
+          "strength": 0.015118749715778682
+        }
+      ],
+      "index": 16
+    }
+  ]
 }

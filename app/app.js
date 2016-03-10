@@ -30,6 +30,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
 
         $scope.$watch('selectedOrder', function () {
             $scope.selectedOrderOption = $scope.getOrder();
+            $scope.filteredDocuments = $scope.filterDocuments();
             $scope.stats = $scope.calculateStats();
             paginationService.setCurrentPage('__default', 1);
         });
@@ -119,6 +120,11 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         };
 
         $scope.filterDocuments = function () {
+            if ($scope.selectedOrder == 'pageRankScore') {
+                return R.map(function (document) {
+                    return {document: document, topic: []}
+                }, $scope.baselineDocuments)
+            }
             return R.chain(function (topic) {
                 return R.map(function (document) {
                     return {document: document, topic: topic.topic}
@@ -194,6 +200,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             $scope.result = data;
             $scope.keyword = data['keyword'];
             $scope.graphResponse = data['graphResponse'];
+            $scope.baselineDocuments = data['baseLineDocuments'];
             $scope.matchedTopics = setSelection(data['matchTopics'], false);
             $scope.allTopicsLength = $scope.countNodes($scope.matchedTopics);
             $scope.isSelectAll = true;
