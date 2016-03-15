@@ -179,8 +179,23 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }, Infinity, $scope.filteredDocuments);
             return {max: max, min: min}
         };
-        function addColor(nodes) {
+
+        function groupWords(words, n) {
+            groups = [];
+            for (var i = 0; i < words.length; i = i + n) {
+                groups.push(words.slice(i, i + n))
+            }
+            return R.reduce(function (result, group) {
+                return result + group.join(" ") + "\n"
+            }, "", groups);
+        }
+
+        function processNodes(nodes) {
             return R.map(function (node) {
+                var words = node.label.split(" ");
+                if (node.label.length > 10 && words.length > 3) {
+                    node.label = groupWords(words, 3)
+                }
                 if (node.matched) {
                     node.color = '#26a69a';
                 }
@@ -209,7 +224,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             (function initgraph() {
 
                 var container = document.getElementById('mynetwork');
-                $scope.nodes = new vis.DataSet(addColor($scope.graphResponse.nodes));
+                $scope.nodes = new vis.DataSet(processNodes($scope.graphResponse.nodes));
                 $scope.edges = new vis.DataSet(addArrow($scope.graphResponse.edges));
                 var data = {
                     nodes: $scope.nodes,
