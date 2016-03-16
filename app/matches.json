@@ -99,6 +99,7 @@
           "pageRankScore": 5.2213963E-5,
           "relevanceScore": 0.5861056845876617,
           "authorScore": 0.0,
+          "readabilityScore": 14.333048731628114,
           "relevantTopics": [
             {
               "topicName": "Language acquisition",
@@ -153,6 +154,7 @@
           "pageRankScore": 3.229716E-5,
           "relevanceScore": 0.5381193166905334,
           "authorScore": 0.0,
+          "readabilityScore": 13.991390579220194,
           "relevantTopics": [
             {
               "topicName": "Language acquisition",
@@ -207,6 +209,7 @@
           "pageRankScore": 2.6263626E-5,
           "relevanceScore": 0.3835134493230021,
           "authorScore": 3.0,
+          "readabilityScore": 13.570849034104462,
           "relevantTopics": [
             {
               "topicName": "Language acquisition",
@@ -351,6 +354,7 @@
               "pageRankScore": 1.7574191E-4,
               "relevanceScore": 0.4046125042554952,
               "authorScore": 1.5,
+              "readabilityScore": 12.04453361870954,
               "relevantTopics": [
                 {
                   "topicName": "Readability / reading level",
@@ -405,6 +409,7 @@
               "pageRankScore": 7.1899354E-5,
               "relevanceScore": 0.4026567289785623,
               "authorScore": 1.5,
+              "readabilityScore": 11.63668690133628,
               "relevantTopics": [
                 {
                   "topicName": "Readability / reading level",
@@ -459,6 +464,7 @@
               "pageRankScore": 4.2211104E-5,
               "relevanceScore": 0.4116914227938045,
               "authorScore": 2.0,
+              "readabilityScore": 10.80916232641821,
               "relevantTopics": [
                 {
                   "topicName": "Readability / reading level",
@@ -605,6 +611,7 @@
               "pageRankScore": 3.122403E-4,
               "relevanceScore": 0.38582696493651625,
               "authorScore": 0.0,
+              "readabilityScore": 15.146401758876852,
               "relevantTopics": [
                 {
                   "topicName": "Minimum description length",
@@ -659,6 +666,7 @@
               "pageRankScore": 1.8889048E-4,
               "relevanceScore": 0.5187811828403327,
               "authorScore": 7.0,
+              "readabilityScore": 12.930214622924158,
               "relevantTopics": [
                 {
                   "topicName": "Minimum description length",
@@ -713,6 +721,7 @@
               "pageRankScore": 5.4952958E-5,
               "relevanceScore": 0.4047843184844305,
               "authorScore": 3.5,
+              "readabilityScore": 11.119013008941248,
               "relevantTopics": [
                 {
                   "topicName": "Minimum description length",
@@ -859,6 +868,7 @@
               "pageRankScore": 1.8371355E-4,
               "relevanceScore": 0.45287249602934626,
               "authorScore": 6.5,
+              "readabilityScore": 13.008581780538304,
               "relevantTopics": [
                 {
                   "topicName": "Virtual world",
@@ -913,6 +923,7 @@
               "pageRankScore": 5.025448E-5,
               "relevanceScore": 0.485238578311597,
               "authorScore": 7.63,
+              "readabilityScore": 7.659688898107046,
               "relevantTopics": [
                 {
                   "topicName": "Virtual world",
@@ -967,6 +978,7 @@
               "pageRankScore": 4.4124954E-5,
               "relevanceScore": 0.6099420107736772,
               "authorScore": 8.71,
+              "readabilityScore": 7.877894945153102,
               "relevantTopics": [
                 {
                   "topicName": "Virtual world",
@@ -1071,6 +1083,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1125,6 +1138,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1179,6 +1193,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1233,6 +1248,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 3.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1287,6 +1303,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 2.5,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1341,6 +1358,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1395,6 +1413,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 1.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1449,6 +1468,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 13.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1503,6 +1523,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 4.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1557,6 +1578,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1611,6 +1633,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1665,6 +1688,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1719,6 +1743,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1773,6 +1798,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 3.67,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1827,6 +1853,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 2.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1881,6 +1908,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 0.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",
@@ -1935,6 +1963,7 @@
       "pageRankScore": 0.0,
       "relevanceScore": 0.0,
       "authorScore": 1.0,
+      "readabilityScore": 0.0,
       "relevantTopics": [
         {
           "topicName": "Language acquisition",

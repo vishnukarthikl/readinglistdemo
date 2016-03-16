@@ -23,9 +23,14 @@
                  ng-if="documentInfo.document.authorScore || documentInfo.document.relevanceScore || documentInfo.document.pageRankScore">
                 Scores
             </div>
+            <div ng-show="documentInfo.document.readabilityScore">
+                <span>
+                    Readability: <span class="document-author">{{documentInfo.document.readabilityScore==0?'-':(""+documentInfo.document.readabilityScore).substring(0, 6)}}</span>
+                </span>
+            </div>
             <div ng-show="documentInfo.document.authorScore">
                 <span>
-                    Author: <span class="document-author">{{documentInfo.document.authorScore==0?'-':documentInfo.document.authorScore}}</span>
+                    Author reputation: <span class="document-author">{{documentInfo.document.authorScore==0?'-':documentInfo.document.authorScore}}</span>
                 </span>
             </div>
             <div ng-show="documentInfo.document.relevanceScore">
