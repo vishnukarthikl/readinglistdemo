@@ -67,12 +67,13 @@
     </div>
     <hr/>
     <div class="row">
-        <div ng-show="hideGraph" class="btn white-text pull-right" ng-click="hideGraph=false">
+        <div ng-show="hideGraph" class="btn white-text pull-right" ng-click="showGraph()"
+             ng-disabled="disableButtons">
             <i>Graph</i>
             <i class="material-icons">swap_horiz</i>
         </div>
         <div ng-show="hideTopics" class="btn white-text pull-left"
-             ng-click="hideTopics=false">
+             ng-click="showTopics()" ng-disabled="disableButtons">
             <i>Topics</i>
             <i class="material-icons">swap_horiz</i>
         </div>
@@ -130,6 +131,14 @@
                                 </option>
                             </select>
                             <label>Sort documents by </label>
+                        </div>
+                        <div><label>Show documents based on</label>
+                            <div ng-repeat="option in documentOrderOptions">
+                                <label> {{option.name}}
+                                    <input type="radio" ng-model="selectedOrder"
+                                           value="{{option.field}}"/>
+                                </label>
+                            </div>
                         </div>
                     </div>
                     <div ng-if="filteredDocuments.length == 0" class="text-info">

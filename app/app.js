@@ -7,6 +7,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.hideTopics = true;
         $scope.hideTGraph = false;
         $scope.topics = 3;
+        $scope.disableButtons = false;
 
         $http.get('topic_terms.json').success(function (data) {
             $scope.topicTerms = R.map(function (term) {
@@ -30,6 +31,13 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
 
         $scope.$watch('selectedOrder', function () {
             $scope.selectedOrderOption = $scope.getOrder();
+            if ($scope.selectedOrderOption.field == 'pageRankScore') {
+                $scope.hideGraph = true;
+                $scope.hideTopics = true;
+                $scope.disableButtons = true;
+            } else {
+                $scope.disableButtons = false;
+            }
             $scope.filteredDocuments = $scope.filterDocuments();
             $scope.stats = $scope.calculateStats();
             paginationService.setCurrentPage('__default', 1);
@@ -52,6 +60,18 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             $scope.selectedTerms = R.filter(function (x) {
                 return x != term
             }, $scope.selectedTerms)
+        };
+
+        $scope.showTopics = function () {
+            if (!$scope.disableButtons) {
+                $scope.hideTopics = false
+            }
+        };
+
+        $scope.showGraph = function () {
+            if (!$scope.disableButtons) {
+                $scope.hideGraph = false
+            }
         };
 
         $scope.$watch('isSelectAll', function (newVal) {
