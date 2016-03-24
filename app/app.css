@@ -72,8 +72,9 @@ treecontrol.tree-light li .tree-selected {
     color: black;
 }
 
-#query_button {
+.query-container-item {
     margin-top: 25px;
+    margin-left:10px;
 }
 
 .modal {

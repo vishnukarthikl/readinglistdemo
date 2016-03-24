@@ -26,17 +26,19 @@
     <div class="row query-container">
         <div class="form-group">
             <div class="input-field col s4 offset-l3">
-                <angucomplete-alt id="query"
-                                  pause="100"
-                                  selected-object="selectedTerm"
-                                  local-data="topicTerms"
-                                  search-fields="term"
-                                  title-field="term"
-                                  minlength="3"
-                                  match-class="highlight"
-                                  clear-selected="true"
-                                  input-class="form-control input-lg center-align"></angucomplete-alt>
-                <label for="query">Query</label>
+                <div>
+                    <angucomplete-alt id="query"
+                                      pause="100"
+                                      selected-object="selectedTerm"
+                                      local-data="topicTerms"
+                                      search-fields="term"
+                                      title-field="term"
+                                      minlength="3"
+                                      match-class="highlight"
+                                      clear-selected="true"
+                                      input-class="form-control input-lg center-align"></angucomplete-alt>
+                    <label for="query">Query</label>
+                </div>
                 <div>
                     <input type="radio" ng-model="topics" value="3"
                            id="beginner">
@@ -56,13 +58,27 @@
 
                     </span>
                 </div>
-            </div>
-            <div class="input-group col-md-5">
-                <button class="btn btn-lg" id="query_button" type="button" ng-click="fetchResult()">
-                    <i class="material-icons">search</i>
-                </button>
+
 
             </div>
+            <div class="input-group col-md-5">
+                <button class="btn btn-lg query-container-item" type="button" ng-click="fetchResult()">
+                    <i class="material-icons">search</i>
+                </button>
+            </div>
+            <div ng-show="loading" class="preloader-wrapper small active query-container-item">
+                    <div class="spinner-layer spinner-green-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
     <hr/>
@@ -131,14 +147,6 @@
                                 </option>
                             </select>
                             <label>Sort documents by </label>
-                        </div>
-                        <div><label>Show documents based on</label>
-                            <div ng-repeat="option in documentOrderOptions">
-                                <label> {{option.name}}
-                                    <input type="radio" ng-model="selectedOrder"
-                                           value="{{option.field}}"/>
-                                </label>
-                            </div>
                         </div>
                     </div>
                     <div ng-if="filteredDocuments.length == 0" class="text-info">

@@ -8,6 +8,7 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.hideTGraph = false;
         $scope.topics = 3;
         $scope.disableButtons = false;
+        $scope.loading = false;
 
         $http.get('topic_terms.json').success(function (data) {
             $scope.topicTerms = R.map(function (term) {
@@ -26,6 +27,22 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             multiSelection: true,
             injectClasses: {
                 "li": "topic-li"
+            }
+        };
+
+        $scope.fetchResult = function () {
+            $scope.loading = true;
+        };
+        $scope.change_complexity = function (complexity) {
+            if (complexity == 'beginner') {
+                $scope.topics = 5;
+                $scope.documents = 2;
+            } else if (complexity == 'intermediate') {
+                $scope.topics = 4;
+                $scope.documents = 3;
+            } else {
+                $scope.topics = 3;
+                $scope.documents = 5;
             }
         };
 
@@ -272,12 +289,16 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
                     }
                 };
                 var network = new vis.Network(container, data, options);
+
+                function topicsMatch(topicName, label) {
+                    return label != null && topicName == label.split("\n").join(" ").trim();
+                }
+
                 network.on('click', function (properties) {
                     var topicData = $scope.nodes.get(properties.nodes[0]);
                     R.forEach(function (document) {
-                        document.highlight = document.topic.topicName == topicData.label;
+                        document.highlight = topicsMatch(document.topic.topicName, topicData.label);
                     }, $scope.filteredDocuments);
-                    console.log($scope.filteredDocuments);
                     $scope.$apply();
                 });
 
