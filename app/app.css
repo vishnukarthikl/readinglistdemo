@@ -74,7 +74,7 @@ treecontrol.tree-light li .tree-selected {
 
 .query-container-item {
     margin-top: 25px;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
 .modal {
@@ -236,7 +236,7 @@ treecontrol.tree-light li .tree-selected {
 
 .document-container {
     margin-top: -20px;
-    padding-top:5px;
+    padding-top: 5px;
 }
 
 #mynetwork {
@@ -246,4 +246,18 @@ treecontrol.tree-light li .tree-selected {
 .document-highlight {
     background-color: #dddddd;
     height: 100%;
+}
+
+.node-legend {
+    border-radius: 50%;
+    min-height: 20px;
+    min-width: 20px;
+}
+
+.matched-topic {
+    background-color: #26a69a;
+}
+
+.dependent-topic {
+    background-color: #95c1fe;
 }

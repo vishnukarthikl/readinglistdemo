@@ -67,18 +67,18 @@
                 </button>
             </div>
             <div ng-show="loading" class="preloader-wrapper small active query-container-item">
-                    <div class="spinner-layer spinner-green-only">
-                        <div class="circle-clipper left">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="gap-patch">
-                            <div class="circle"></div>
-                        </div>
-                        <div class="circle-clipper right">
-                            <div class="circle"></div>
-                        </div>
+                <div class="spinner-layer spinner-green-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
                     </div>
                 </div>
+            </div>
         </div>
     </div>
     <hr/>
@@ -133,6 +133,17 @@
                     <p id="mynetwork">
 
                     </p>
+                    <div class="row">
+
+                        <div class="pull-left node-legend matched-topic">
+                        </div>
+                        <div>&nbsp; Matched Topic</div>
+                        <br/>
+                        <div class="pull-left node-legend dependent-topic">
+                        </div>
+                        <div>&nbsp; Dependent Topic</div>
+
+                    </div>
                 </div>
 
             </div>
@@ -142,10 +153,9 @@
                     <div class="row">
                         <div class="input-field col s4">
                             <select id="documentOrder" name="documentOrder" material-select ng-model="selectedOrder">
-                                <option ng-repeat="option in documentOrderOptions" value="{{option.field}}">
-                                    {{option.name}}
-                                </option>
+                                <option ng-repeat="option in documentOrderOptions" value="{{option.field}}">{{option.name}}</option>
                             </select>
+
                             <label>Sort documents by </label>
                         </div>
                     </div>
