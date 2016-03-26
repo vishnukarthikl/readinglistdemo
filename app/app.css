@@ -235,8 +235,20 @@ treecontrol.tree-light li .tree-selected {
 }
 
 .document-container {
-    margin-top: -20px;
+    margin-top: -15px;
     padding-top: 5px;
+    background-color: #fff;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    display: block;
+}
+
+.less-shadow {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.document-li {
+    margin-left: 20px;
 }
 
 #mynetwork {
@@ -244,7 +256,7 @@ treecontrol.tree-light li .tree-selected {
 }
 
 .document-highlight {
-    background-color: #dddddd;
+    background-color: #bbdefb;
     height: 100%;
 }
 
@@ -260,4 +272,59 @@ treecontrol.tree-light li .tree-selected {
 
 .dependent-topic {
     background-color: #95c1fe;
+}
+
+.custom-counter {
+
+    list-style-type: none;
+}
+
+.custom-counter li {
+    counter-increment: step-counter;
+    margin-top: 20px;
+}
+
+.custom-counter li::before {
+    content: counter(step-counter);
+    position: absolute;
+    margin-right: 5px;
+    margin-top: 10px;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+ol[dnd-list],
+ol[dnd-list] > li {
+    position: relative;
+}
+
+ol[dnd-list] {
+    min-height: 42px;
+    padding-left: 0;
+}
+
+ol[dnd-list] .dndDraggingSource {
+    display: none;
+}
+
+ol[dnd-list] .dndPlaceholder {
+    display: block;
+    min-height: 100px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    background-color: #e0e0e0;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+ol .dndDragging {
+    transform: rotate(.75deg);
+    -moz-transform: rotate(.75deg);
+    -webkit-transform: rotate(.75deg);
 }

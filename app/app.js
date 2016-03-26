@@ -1,5 +1,5 @@
-angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucomplete-alt', 'angularUtils.directives.dirPagination'])
-    .controller('ReadingListCtrl', ['$scope', '$http', 'paginationService', function ReadingListCtrl($scope, $http, paginationService) {
+angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucomplete-alt', 'dndLists'])
+    .controller('ReadingListCtrl', ['$scope', '$http', function ReadingListCtrl($scope, $http) {
         $scope.selectedTopics = [];
         $scope.expandedNodes = [];
         $scope.selectedTerms = [];
@@ -9,6 +9,20 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         $scope.topics = 3;
         $scope.disableButtons = false;
         $scope.loading = false;
+
+        Array.prototype.move = function (from, to) {
+            this.splice(to, 0, this.splice(from, 1)[0]);
+        };
+
+        $scope.documentInserted = function (item, toIndex) {
+            console.log(toIndex);
+            var fromIndex = R.findIndex(function (document) {
+                    return document.document.title == item.document.title
+                },
+                $scope.filteredDocuments);
+            $scope.filteredDocuments.move(fromIndex, toIndex);
+            return true;
+        };
 
         $http.get('topic_terms.json').success(function (data) {
             $scope.topicTerms = R.map(function (term) {
@@ -57,13 +71,11 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
             }
             $scope.filteredDocuments = $scope.filterDocuments();
             $scope.stats = $scope.calculateStats();
-            paginationService.setCurrentPage('__default', 1);
         });
 
         $scope.$watch('selectedTopics', function () {
             $scope.filteredDocuments = $scope.filterDocuments();
             $scope.stats = $scope.calculateStats();
-            paginationService.setCurrentPage('__default', 1);
         }, true);
 
         $scope.$watch('selectedTerm', function (term) {
@@ -243,7 +255,9 @@ angular.module('app', ['treeControl', 'ui.bootstrap', 'ui.materialize', 'angucom
         function addArrow(edges) {
             return R.map(function (edge) {
                 edge.arrows = {middle: {scaleFactor: 1.2}};
+                edge.length = edge.value;
                 edge.value = undefined;
+
                 return edge;
             }, edges)
         }
