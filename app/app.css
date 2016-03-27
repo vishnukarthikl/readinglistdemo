@@ -328,3 +328,10 @@ ol .dndDragging {
     -moz-transform: rotate(.75deg);
     -webkit-transform: rotate(.75deg);
 }
+
+.handle {
+    cursor: move;
+    position: absolute;
+    top: 50%;
+    left: -7px;
+}
